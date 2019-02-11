@@ -1,0 +1,66 @@
+{
+  "name": "quarkly elements",
+  "description": "quarkly elements",
+  "author": "Eddort",
+  "user": "Eddort",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch",
+    "test:lint": "eslint . --ignore-path .gitignore"
+  },
+  "main": "dist-modules",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-jest": "^22.4.1",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.13",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "catalog": "^3.4.0",
+    "chai": "^4.1.2",
+    "cross-env": "^5.1.3",
+    "del-cli": "^1.1.0",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "eslint": "^4.18.2",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "gh-pages": "^1.1.0",
+    "git-prepush-hook": "^1.0.2",
+    "jest": "^22.4.2",
+    "purecss": "^1.0.0",
+    "react": "^16.2.0",
+    "react-addons-test-utils": "^15.6.2",
+    "react-dom": "^16.2.0",
+    "react-github-corner": "^2.1.0",
+    "rimraf": "^2.6.2",
+    "sync-exec": "^0.6.2",
+    "webpack": "^3.10.0"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "moduleFileExtensions": [
+      "js",
+      "jsx"
+    ],
+    "moduleDirectories": [
+      "node_modules",
+      "packages"
+    ]
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "boilerplate"
+  ],
+  "license": "MIT",
+  "pre-push": [
+    "test"
+  ]
+}
