@@ -1,17 +1,4 @@
-export const elementDict = {
-  href: ['image', ''],
-};
-
-const cssDict = {
-  link: {
-    href: ['button', 'image'],
-    key: 'href',
-    getValue(val) {
-      return val + 1;
-    },
-    default: 'http://quarkly.space',
-  },
-};
+import cssDict from './cssDict';
 
 export const mapProps = (dict, element, props) =>
   Object.keys(props).reduce((acc, propKey) => {
