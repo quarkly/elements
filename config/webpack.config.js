@@ -1,10 +1,14 @@
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+const path = require('path');
 
 const OUTPUT_DIR = 'build';
+const CLIENT_DIR = 'client';
 
 module.exports = {
-  entry: './src/index.js',
+  entry: {
+    client: `./src/${CLIENT_DIR}`
+  },
   module: {
     rules: [
       {
@@ -24,7 +28,7 @@ module.exports = {
     new CleanWebpackPlugin([OUTPUT_DIR])
   ],
   output: {
-    path: `${__dirname}/build`,
+    path: path.resolve(__dirname, `../${OUTPUT_DIR}`),
     publicPath: '/',
     filename: '[name].js'
   }
