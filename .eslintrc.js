@@ -1,5 +1,5 @@
 module.exports = {
-  "extends": "airbnb",
+  "extends": ["airbnb", 'plugin:prettier/recommended'],
   "parser": "babel-eslint",
   "env": {
     "browser": true,
@@ -13,7 +13,6 @@ module.exports = {
     "react"
   ],
   "rules": {
-    "comma-dangle": ["error", "never"],
     "global-require": 0,
     "prefer-arrow-callback": 0,
     "func-names": 0,
