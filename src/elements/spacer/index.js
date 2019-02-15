@@ -9,6 +9,7 @@ const styles = (/* theme */) => ({
     height: props.size || '20px',
   }),
 });
+
 class Spacer extends Component {
   render() {
     const { classes } = this.props;
@@ -17,7 +18,7 @@ class Spacer extends Component {
 }
 
 Spacer.propTypes = {
-  classes: PropTypes.string.isRequired,
+  classes: PropTypes.object.isRequired,
 };
 
 export default injectSheet(styles)(Spacer);

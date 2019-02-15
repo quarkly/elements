@@ -13,6 +13,7 @@ module.exports = {
     "react"
   ],
   "rules": {
+    "react/forbid-prop-types": 0,
     "global-require": 0,
     "prefer-arrow-callback": 0,
     "func-names": 0,
