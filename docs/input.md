@@ -55,11 +55,11 @@
 
 - HeaderWeight — Насыщенность заголовка поля. Принимает одно из значений: "100, 200, 300, 400, 500, 600, 700, 800, 900, bold, bolder, lighter, normal".
 
-- MaterialStyle — Поля ввода оформленные границей снизу
+- MaterialStyle — Поля ввода оформленные границей снизу (Material Design Style). Свитчер.
 
-- ShowPlaceholderAfterClick
-- FontSize
-- FontFamily
-- LetterSpacing
-- FontStyle
-- FontWeight
+- ShowPlaceholderAfterClick — Оставлять плейсхолдер после клика в поле. Свитчер.
+- FontSize — Размер шрифта в поле ввода. Принимает цифру
+- FontFamily — Гарнитура шрифта в поле ввода Принимает один из подключенных шрифтов
+- LetterSpacing — Межбуквенный интервал шрифта в поле ввода. Принимает цифру.
+- FontStyle — Стиль шрифта в поле ввода. Принимает одно из значений: normal, italic, oblique
+- FontWeight — Насыщенность шрифта в поле ввода. Принимает одно из значений: 
