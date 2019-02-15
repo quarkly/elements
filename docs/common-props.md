@@ -40,3 +40,5 @@
 - shadowSize
 - shadowColor
 - shadowOpacity
+- children
+- id
