@@ -1,41 +1,42 @@
-Универсальные или общие пропсы участвуют в различных элементах. И размещаются в отдельной вкладке.
+# Универсальные или общие пропсы  
+Участвуют в различных элементах. И размещаются в отдельной вкладке.
 
 
-href
-targetBlank
-title
-showOnDevices
-height
-minHeight
-maxHeight
-width
-minWidth
-maxWidth
-zIndex
-positionFixed
-positionAbsolute
-top
-right
-left
-bottom
-hAlign
-vAlign
-сolor
-opacity
-marginHorizontal
-marginVertical
-marginTop
-marginRight
-marginBottom
-marginLeft
-paddingHorizontal
-paddingVertical
-paddingTop
-paddingRight
-paddingBottom
-paddingLeft
-bgColor
-shadow
-shadowSize
-shadowColor
-shadowOpacity
+- href
+- targetBlank
+- title
+- showOnDevices
+- height
+- minHeight
+- maxHeight
+- width
+- minWidth
+- maxWidth
+- zIndex
+- positionFixed
+- positionAbsolute
+- top
+- right
+- left
+- bottom
+- hAlign
+- vAlign
+- сolor
+- opacity
+- marginHorizontal
+- marginVertical
+- marginTop
+- marginRight
+- marginBottom
+- marginLeft
+- paddingHorizontal
+- paddingVertical
+- paddingTop
+- paddingRight
+- paddingBottom
+- paddingLeft
+- bgColor
+- shadow
+- shadowSize
+- shadowColor
+- shadowOpacity
