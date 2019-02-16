@@ -24,18 +24,20 @@
 - сolor
 - opacity
    - hoverOpacity
-- marginHorizontal
-- marginVertical
-- marginTop
-- marginRight
-- marginBottom
-- marginLeft
-- paddingHorizontal
-- paddingVertical
-- paddingTop
-- paddingRight
-- paddingBottom
-- paddingLeft
+- margin
+   - marginHorizontal
+   - marginVertical
+   - marginTop
+   - marginRight
+   - marginBottom
+   - marginLeft
+- padding
+   - paddingHorizontal
+   - paddingVertical
+   - paddingTop
+   - paddingRight
+   - paddingBottom
+   - paddingLeft
 - bgColor
    - hoverbgColor
 - shadow
