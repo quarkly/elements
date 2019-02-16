@@ -2,27 +2,36 @@
 Используется как самостоятельный элемент, и в составе сложных элементов.
 
 Универсальные пропсы:
-- href
-- showOnDevices
-- paddingHorizontal
-- vAlign
-- hAlign
-- targetBlank
 - children
    - text
    - icon
-- id
+- href
+   - targetBlank
+- showOnDevices
+- vAlign
+- hAlign
 - bgColor
    - hoverBgColor
 - height
+   - minHeight
+   - maxHeight
 - width
    - minWidth
    - maxWidth
-- paddingTop
-- paddingRight
-- paddingBottom
-- paddingLeft
-- paddingHorizontal
+- margin
+   - marginHorizontal
+   - marginVertical
+   - marginTop
+   - marginRight
+   - marginBottom
+   - marginLeft
+- padding
+   - paddingHorizontal
+   - paddingVertical
+   - paddingTop
+   - paddingRight
+   - paddingBottom
+   - paddingLeft
 - opacity
    - hoverOpacity
 - shadow
@@ -32,6 +41,7 @@
    - hoverShadowSize
    - hoverShadowOpacity
    - hoverShadowColor
+- id
 
 
 Персональные пропсы:
