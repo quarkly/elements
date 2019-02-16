@@ -36,6 +36,7 @@
 - paddingBottom
 - paddingLeft
 - bgColor
+   - hoverbgColor
 - shadow
    - shadowSize
    - shadowOpacity
