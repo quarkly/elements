@@ -37,8 +37,11 @@
 - paddingLeft
 - bgColor
 - shadow
-- shadowSize
-- shadowColor
-- shadowOpacity
+   - shadowSize
+   - shadowOpacity
+   - shadowColor
+   - hoverShadowSize
+   - hoverShadowOpacity
+   - hoverShadowColor
 - children
 - id
