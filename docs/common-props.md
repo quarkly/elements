@@ -7,11 +7,11 @@
 - title
 - showOnDevices
 - height
-- minHeight
-- maxHeight
+   - minHeight
+   - maxHeight
 - width
-- minWidth
-- maxWidth
+   - minWidth
+   - maxWidth
 - zIndex
 - positionFixed
 - positionAbsolute
