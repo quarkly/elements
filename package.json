@@ -65,6 +65,9 @@
   "dependencies": {
     "@material-ui/core": "^3.9.2",
     "react": "^16.8.1",
-    "react-dom": "^16.8.1"
+    "react-dom": "^16.8.1",
+    "styled-components": "latest",
+    "styled-jss": "^2.2.3",
+    "styled-system": "latest"
   }
 }
