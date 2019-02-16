@@ -23,6 +23,7 @@
 - vAlign
 - сolor
 - opacity
+   - hoverOpacity
 - marginHorizontal
 - marginVertical
 - marginTop
