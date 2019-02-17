@@ -23,8 +23,10 @@ export default {
   },
   spacers: {
     primary: {
+      height: '120px',
       backgroundColor: 'yellow',
       '&:hover': {
+        height: '80px',
         backgroundColor: 'black',
       },
     },

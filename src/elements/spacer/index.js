@@ -1,9 +1,6 @@
 import React from 'react';
-import { height, variant } from 'styled-system';
 import injectSheet from 'react-jss';
-
-const themed = key => theme => theme[key];
-const spacers = variant({ key: 'spacers' });
+import { withDefault, themed, variant } from '../helper';
 
 const styles = theme => ({
   spacer: props => {
@@ -11,16 +8,16 @@ const styles = theme => ({
       flex: '1 1 auto',
       height: '20px',
       ...themed('Spacer')(theme),
-      ...spacers({ theme, ...props }),
-      ...height(props),
+      ...variant('spacers')({ theme, ...props }),
+      ...withDefault(props),
     };
   },
 });
 
 const Spacer = ({ classes }) => <div className={classes.spacer} />;
 
-Spacer.propTypes = {
-  ...height.propTypes,
-};
+// Spacer.propTypes = {
+//   ...height.propTypes,
+// };
 
 export default injectSheet(styles)(Spacer);
