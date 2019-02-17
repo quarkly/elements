@@ -16,13 +16,14 @@ export default {
   },
   Spacer: {
     backgroundColor: 'black',
+    height: '33px',
     '&:hover': {
-      backgroundColor: 'red',
+      backgroundColor: 'green',
     },
   },
   spacers: {
     primary: {
-      color: 'white',
+      backgroundColor: 'yellow',
       '&:hover': {
         backgroundColor: 'black',
       },

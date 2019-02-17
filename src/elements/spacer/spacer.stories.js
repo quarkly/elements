@@ -11,7 +11,7 @@ stories
   .add('default', () => (
     <Theme>
       <Button />
-      <Spacer variant="primary" />
+      <Spacer height="11px" variant="primary" />
       <Button />
     </Theme>
   ))
