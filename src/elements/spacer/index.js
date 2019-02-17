@@ -1,24 +1,37 @@
-import React, { Component } from 'react';
-import injectSheet from 'react-jss';
-import PropTypes from 'prop-types';
+import React from 'react';
+import { height, variant } from 'styled-system';
+import injectSheet, { jss } from 'react-jss';
+import { merge } from 'lodash';
+console.log(jss.version);
+const themed = key => theme => theme[key];
+const spacers = variant({ key: 'spacers' });
 
-const styles = (/* theme */) => ({
-  // TODO theme
-  spacer: props => ({
-    flex: '1 1 auto',
-    height: props.size || '20px',
-  }),
+const tess = () => ({
+  backgroundColor: 'red',
+  '&:hover': {
+    backgroundColor: 'blue',
+  },
 });
 
-class Spacer extends Component {
-  render() {
-    const { classes } = this.props;
-    return <div className={classes.spacer} />;
-  }
-}
+const styles = theme => ({
+  spacer: props => {
+    const css = {
+      flex: console.log(theme, props) || '1 1 auto',
+      height: '20px',
+      ...height(props),
+      // ...themed('Spacer')(theme),
+      // ...tess(),
+      // ...spacers(theme),
+    };
+    console.log(merge(css, themed('Spacer')(theme), spacers(theme)))
+    return merge(css, spacers(theme));
+  },
+});
+
+const Spacer = ({ classes }) => <div className={classes.spacer} />;
 
 Spacer.propTypes = {
-  classes: PropTypes.object.isRequired,
+  ...height.propTypes,
 };
 
 export default injectSheet(styles)(Spacer);

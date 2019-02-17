@@ -1,25 +1,26 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import { withKnobs, text } from '@storybook/addon-knobs';
 import Spacer from './index';
+import Theme from '../theme';
 
 const Button = () => <button>Hello</button>;
-const theme = createMuiTheme();
 const stories = storiesOf('Spacer', module);
 stories.addDecorator(withKnobs);
 stories
   .add('default', () => (
-    <MuiThemeProvider theme={theme}>
+    <Theme>
       <Button />
-      <Spacer />
+      <Spacer variant="primary" />
       <Button />
-    </MuiThemeProvider>
+    </Theme>
   ))
   .add('100px', () => (
-    <MuiThemeProvider theme={theme}>
+    <Theme>
       <Button />
-      <Spacer size={text('size', '100px')} />
+      <Spacer height={text('height', '100px')} />
+      sss
+      <Spacer height="10px" />
       <Button />
-    </MuiThemeProvider>
+    </Theme>
   ));
