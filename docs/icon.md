@@ -1,6 +1,28 @@
 # Элемент icon  
 Иконка, используется как отдельно так и в составе сложных элементов.
 
+**styled-system Универсальные пропсы**
+- alignSelf
+- justifySelf
+- color
+- opacity
+- href
+   - targetBlank   
+- zIndex
+- position
+   - top
+   - right
+   - bottom
+   - left
+- id
+
+**styled-system Персональные пропсы**
+- size — размер иконки. Принимает цифру которая задает высоту и ширину контейнера с иконкой
+
+- src — ссылка на источник иконки. Принимает строку с url.
+
+
+-----
 Универсальные пропсы:
 - hAlign
 - vAlign
