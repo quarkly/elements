@@ -11,6 +11,10 @@
 - alignSelf
 - justifySelf
 - position
+   - top
+   - right
+   - bottom
+   - left
 - bg
 - height
 - minHeight
