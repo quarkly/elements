@@ -1,6 +1,47 @@
 # Элемент image  
 Изображение, используется как отдельно так и в составе сложных элементов.
 
+**styled-system Универсальные пропсы**
+- href
+- targetBlank
+- title
+- p
+- pt
+- pr
+- pb
+- pl
+- px
+- py
+- justifySelf
+- alignSelf
+- width
+- height
+- position
+   - top
+   - right
+   - bottom
+   - left
+- zIndex
+- border
+   - borderSize
+   - borderTop
+   - borderRight
+   - borderBottom
+   - borderLeft
+   - borderRadius
+   - borderColor
+- opacity
+- id
+
+**styled-system Персональные пропсы**
+- ratio
+
+- alt - альтернативный текст, когда изображение не загрузилось. Принимает строку
+
+
+
+-----
+
 Универсальные пропсы:
 - link
 - href
