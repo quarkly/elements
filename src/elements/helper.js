@@ -42,9 +42,18 @@ export const card = [
   'borderRadius',
 ];
 
+export const image = [
+  'background',
+  'backgroundImage',
+  'backgroundPosition',
+  'backgroundRepeat',
+  'backgroundSize',
+];
+
 export const settings = {
   defaults,
   card,
+  image,
 };
 
 export const includeWith = (key, props) => {
