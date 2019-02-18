@@ -1,6 +1,58 @@
 # Элемент button  
 Используется как самостоятельный элемент, и в составе сложных элементов.
 
+
+**styled-system Универсальные пропсы**
+- children
+   - text
+   - icon
+- href
+   - targetBlank
+- alignSelf
+- justifySelf
+- bg
+- height
+- minHeight
+- maxHeight
+- width
+- minWidth
+- maxWidth
+- m
+- mt
+- mr
+- mb
+- ml
+- mx
+- my
+- p
+- pt
+- pr
+- pb
+- pl
+- px
+- py
+- opacity
+- boxShadow
+- id
+
+
+**styled-system Персональные пропсы**
+- variant - Вариация кнопки. Принимает одно из значений заданных в теме.
+- border - Рамка у кнопки. Свитчер.
+   - borderSize
+   - borderTop
+   - borderRight
+   - borderBottom
+   - borderLeft
+   - borderSize - Размер рамки. Принимает цифру.
+   - borderRadius - Радиус скругления углов. Принимает цифру.
+   - borderColor - Цвет рамки. Принимает строку.
+- size - размер кнопки. Принимает одно из значений заданных в теме (small, medium, large).
+
+
+
+
+----
 Универсальные пропсы:
 - children
    - text
@@ -54,5 +106,4 @@
    - hoverBorderSize - Размер рамки при наведении курсора. Принимает цифру.
 - size - размер кнопки. Принимает одно из значений заданных в теме (small, medium, large).
 - hoverTransition - Плавное изменение вида при наведении курсора. Свитчер.
-- 
    
