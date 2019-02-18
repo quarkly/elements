@@ -1,6 +1,40 @@
 # Элемент text  
 Текст, используется как отдельно так и в составе сложных элементов.  
 
+**styled-system Универсальные пропсы**
+- color
+- boxShadow
+- opacity
+- overflow
+- m
+- mt
+- mr
+- mb
+- ml
+- mx
+- my
+- p
+- pt
+- pr
+- pb
+- pl
+- px
+- py
+- bg
+- id
+
+**styled-system Персональные пропсы**
+- textStyle
+- fontFamily
+- textAlign
+- lineHeight
+- fontWeight
+- fontStyle
+- letterSpacing
+- fontSize
+
+
+------
 Универсальные пропсы:
 - color
 - shadow
