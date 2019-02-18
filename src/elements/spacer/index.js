@@ -1,6 +1,6 @@
 import React from 'react';
 import injectSheet from 'react-jss';
-import { withDefault, themed, variant } from '../helper';
+import { includeWith, themed, variant } from '../helper';
 
 const styles = theme => ({
   spacer: props => {
@@ -9,7 +9,7 @@ const styles = theme => ({
       height: '20px',
       ...themed('Spacer')(theme),
       ...variant('spacers')({ theme, ...props }),
-      ...withDefault(props),
+      ...includeWith('defaults', props),
     };
   },
 });

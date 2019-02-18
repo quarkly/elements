@@ -5,7 +5,6 @@ export const themed = key => theme => theme[key];
 export const variant = key => styled.variant({ key });
 
 export const defaults = [
-  'height',
   'bgColor',
   'color',
   'space',
@@ -15,10 +14,42 @@ export const defaults = [
   'flex',
   'order',
   'alignSelf',
+  'display',
+  'maxWidth',
+  'minWidth',
+  'height',
+  'maxHeight',
+  'minHeight',
+  'sizeWidth',
+  'sizeHeight',
+  'size',
+  'position',
+  'zIndex',
+  'top',
+  'right',
+  'bottom',
+  'left',
 ];
 
-export const withDefault = props => {
-  return defaults.reduce((acc, attr) => {
+export const card = [
+  'border',
+  'borderTop',
+  'borderRight',
+  'borderBottom',
+  'borderLeft',
+  'borders',
+  'borderColor',
+  'borderRadius',
+];
+
+export const settings = {
+  defaults,
+  card,
+};
+
+export const includeWith = (key, props) => {
+  const values = settings[key];
+  return values.reduce((acc, attr) => {
     if (!styled[attr]) {
       return acc;
     }

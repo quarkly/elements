@@ -21,6 +21,9 @@ export default {
       backgroundColor: 'green',
     },
   },
+  Card: {
+    backgroundColor: 'tomato',
+  },
   spacers: {
     primary: {
       height: '120px',
