@@ -2,14 +2,15 @@
 Разделитель используется для разделения сущностей.
 
 
-styled-system Универсальные пропсы:
+**styled-system Универсальные пропсы**
 - opacity
 - bg
 - width
 - height
 - justifySelf
+- id
 
-styled-system Персональные пропсы:
+**styled-system Персональные пропсы**
 - variant — стилевая вариация разделителя. Может принимать одно из значений: flat, gradient, short   
 
 
