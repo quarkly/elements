@@ -8,6 +8,7 @@
 - width
 - height
 - justifySelf
+- display
 - id
 
 **styled-system Персональные пропсы**
