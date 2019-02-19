@@ -2,15 +2,15 @@
 Видео может быть отдельным элементом или фоном для блока.
 
 **styled-system Универсальные пропсы**
+- height
 - boxShadow
-- href
-- zIndex
 - position
    - top
    - right
    - bottom
    - left
-- height
+- zIndex
+- href
 - id
 
 **styled-system Персональные пропсы**
