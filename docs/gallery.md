@@ -6,15 +6,6 @@
     - card - Карточка в качестве элемента галереи
     - image - Изображение в качестве элемента галереи
     - video - Видео в качестве элемента галереи
-- height
-   - minHeight
-   - maxHeight
-- width
-   - minWidth
-   - maxWidth
-- id
-- bg
-- display
 - m
 - mt
 - mr
@@ -29,6 +20,18 @@
 - pl
 - px
 - py
+- bg
+- display
+- width
+   - minWidth
+   - maxWidth
+- height
+   - minHeight
+   - maxHeight
+- justifySelf
+- alignSelf
+- id
+
 
 **styled-system Персональные пропсы**
 - variation - Вид галереи.
