@@ -2,17 +2,6 @@
 Текст, используется как отдельно так и в составе сложных элементов.  
 
 **styled-system Универсальные пропсы**
-- color
-- boxShadow
-- opacity
-- overflow
-- m
-- mt
-- mr
-- mb
-- ml
-- mx
-- my
 - p
 - pt
 - pr
@@ -20,18 +9,29 @@
 - pl
 - px
 - py
+- m
+- mt
+- mr
+- mb
+- ml
+- mx
+- my
+- color
 - bg
+- boxShadow
+- opacity
+- overflow
 - id
 
 **styled-system Персональные пропсы**
-- textStyle
+- fontSize
 - fontFamily
 - textAlign
 - lineHeight
 - fontWeight
 - fontStyle
 - letterSpacing
-- fontSize
+
 
 
 ------
