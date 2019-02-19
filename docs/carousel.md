@@ -5,19 +5,16 @@
 - children  
     - card - Карточка в качестве элемента карусели
     - image - Изображение в качестве элемента карусели
+    - video - Видео в качестве элемента карусели
 - height
-- minHeight
-- maxHeight
+   - minHeight
+   - maxHeight
 - width
-- minWidth
-- maxWidth
-- zIndex
-- position
-   - top
-   - right
-   - bottom
-   - left
+   - minWidth
+   - maxWidth
 - id
+- display
+
 
 
 **styled-system Персональные пропсы**
