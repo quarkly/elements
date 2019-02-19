@@ -1,9 +1,9 @@
 {
-  "name": "qelements",
+  "name": "@quarkly/elements",
   "description": "quarkly elements",
   "author": "Eddort",
   "user": "Eddort",
-  "version": "0.0.1",
+  "version": "0.0.1-4",
   "scripts": {
     "storybook": "start-storybook -p 9001 -c .storybook",
     "build": "webpack --config ./config/webpack.config.js",
@@ -12,9 +12,10 @@
     "test:watch": "jest --watch",
     "test:lint": "eslint . --ignore-path .gitignore"
   },
-  "main": "build",
+  "main": "build/elements.js",
   "devDependencies": {
     "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-export-default-from": "^7.2.0",
     "@babel/preset-env": "^7.3.1",
     "@babel/preset-react": "^7.0.0",
     "@storybook/addon-knobs": "^4.1.11",
@@ -64,9 +65,10 @@
   ],
   "dependencies": {
     "@material-ui/core": "^3.9.2",
+    "lodash": "latest",
     "react": "^16.8.1",
+    "react-color-square": "^1.0.1",
     "react-dom": "^16.8.1",
-    "styled-system": "latest",
-    "lodash": "latest"
+    "styled-system": "latest"
   }
 }

@@ -3,33 +3,43 @@ const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const path = require('path');
 
 const OUTPUT_DIR = 'build';
-const CLIENT_DIR = 'client';
+// const CLIENT_DIR = 'client';
 
 module.exports = {
   entry: {
-    client: `./src/${CLIENT_DIR}`
+    elements: `./src/elements`,
+  },
+  output: {
+    path: path.resolve(__dirname, `../${OUTPUT_DIR}`),
+    publicPath: '/',
+    filename: '[name].js',
+    libraryTarget: 'commonjs2',
   },
   module: {
     rules: [
       {
         test: /\.(js|jsx)$/,
+        include: path.resolve(__dirname, '../src'),
         exclude: /node_modules/,
-        use: ['babel-loader']
-      }
-    ]
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['@babel/preset-env'],
+          },
+        },
+      },
+    ],
   },
   resolve: {
-    extensions: ['*', '.js', '.jsx']
+    extensions: ['*', '.js', '.jsx'],
   },
   plugins: [
     new UglifyJsPlugin({
-      sourceMap: true
+      sourceMap: true,
     }),
-    new CleanWebpackPlugin([OUTPUT_DIR])
+    new CleanWebpackPlugin([OUTPUT_DIR]),
   ],
-  output: {
-    path: path.resolve(__dirname, `../${OUTPUT_DIR}`),
-    publicPath: '/',
-    filename: '[name].js'
-  }
+  externals: {
+    react: 'commonjs react',
+  },
 };
