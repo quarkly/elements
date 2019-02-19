@@ -6,16 +6,30 @@
     - card - Карточка в качестве элемента карусели
     - image - Изображение в качестве элемента карусели
     - video - Видео в качестве элемента карусели
-- height
-   - minHeight
-   - maxHeight
+- p
+- pt
+- pr
+- pb
+- pl
+- px
+- py
+- m
+- mt
+- mr
+- mb
+- ml
+- mx
+- my
+- display
 - width
    - minWidth
    - maxWidth
+- height
+   - minHeight
+   - maxHeight
 - alignSelf
 - justifySelf
 - id
-- display
 
 
 
