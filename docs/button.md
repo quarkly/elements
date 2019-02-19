@@ -6,31 +6,6 @@
 - children
    - text
    - icon
-- href
-   - targetBlank
-- alignSelf
-- justifySelf
-- display
-- zIndex
-- position
-   - top
-   - right
-   - bottom
-   - left
-- bg
-- height
-   - minHeight
-   - maxHeight
-- width
-   - minWidth
-   - maxWidth
-- m
-- mt
-- mr
-- mb
-- ml
-- mx
-- my
 - p
 - pt
 - pr
@@ -38,13 +13,23 @@
 - pl
 - px
 - py
-- opacity
-- boxShadow
-- id
-
-
-**styled-system Персональные пропсы**
-- variant - Вариация кнопки. Принимает одно из значений заданных в теме.
+- m
+- mt
+- mr
+- mb
+- ml
+- mx
+- my
+- bg
+- display
+- height
+   - minHeight
+   - maxHeight
+- width
+   - minWidth
+   - maxWidth
+- alignSelf
+- justifySelf
 - border - Рамка у кнопки. Свитчер.
    - borderSize
    - borderTop
@@ -54,6 +39,21 @@
    - borderSize - Размер рамки. Принимает цифру.
    - borderRadius - Радиус скругления углов. Принимает цифру.
    - borderColor - Цвет рамки. Принимает строку.
+- opacity
+- boxShadow
+- position
+   - top
+   - right
+   - bottom
+   - left
+- zIndex
+- href
+   - targetBlank
+- id
+
+
+**styled-system Персональные пропсы**
+- variant - Вариация кнопки. Принимает одно из значений заданных в теме.
 - size - размер кнопки. Принимает одно из значений заданных в теме (small, medium, large).
 
 
