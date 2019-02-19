@@ -2,26 +2,6 @@
 Иконка, используется как отдельно так и в составе сложных элементов.
 
 **styled-system Универсальные пропсы**
-- alignSelf
-- justifySelf
-- color
-- opacity
-- display
-- href
-   - targetBlank   
-- zIndex
-- position
-   - top
-   - right
-   - bottom
-   - left
-- m
-- mt
-- mr
-- mb
-- ml
-- mx
-- my
 - p
 - pt
 - pr
@@ -29,8 +9,28 @@
 - pl
 - px
 - py
+- m
+- mt
+- mr
+- mb
+- ml
+- mx
+- my
+- color
 - bg
+- display
+- alignSelf
+- justifySelf
+- opacity
 - boxShadow
+- position
+   - top
+   - right
+   - bottom
+   - left
+- zIndex
+- href
+   - targetBlank   
 - id
 
 
