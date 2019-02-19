@@ -12,6 +12,8 @@
 - width
    - minWidth
    - maxWidth
+- alignSelf
+- justifySelf
 - id
 - display
 
