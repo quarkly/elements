@@ -20,7 +20,7 @@
 
 
 **styled-system Персональные пропсы**
-- variation - Вид карусели. Принимает один из вариантов: classic theme, with captions
+- variation - - Вариация кнопки. Принимает одно из значений заданных в теме. Например, classic theme или with captions
 
 - autoplay - Автоматическая смена слайдов в карусели. Свитчер
 
