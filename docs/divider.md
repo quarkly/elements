@@ -3,12 +3,12 @@
 
 
 **styled-system Универсальные пропсы**
-- opacity
 - bg
 - width
 - height
-- justifySelf
 - display
+- justifySelf
+- opacity
 - id
 
 **styled-system Персональные пропсы**
