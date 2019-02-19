@@ -6,6 +6,7 @@
 - justifySelf
 - color
 - opacity
+- display
 - href
    - targetBlank   
 - zIndex
@@ -14,7 +15,24 @@
    - right
    - bottom
    - left
+- m
+- mt
+- mr
+- mb
+- ml
+- mx
+- my
+- p
+- pt
+- pr
+- pb
+- pl
+- px
+- py
+- bg
+- boxShadow
 - id
+
 
 **styled-system Персональные пропсы**
 - size — размер иконки. Принимает цифру которая задает высоту и ширину контейнера с иконкой
