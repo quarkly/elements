@@ -10,6 +10,8 @@
    - targetBlank
 - alignSelf
 - justifySelf
+- display
+- zIndex
 - position
    - top
    - right
@@ -17,11 +19,11 @@
    - left
 - bg
 - height
-- minHeight
-- maxHeight
+   - minHeight
+   - maxHeight
 - width
-- minWidth
-- maxWidth
+   - minWidth
+   - maxWidth
 - m
 - mt
 - mr
