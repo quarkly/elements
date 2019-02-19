@@ -2,15 +2,15 @@
 Карта используется для лучшей навигации. Может быть отдельным элементом, так и частью составного. 
 
 **styled-system Универсальные пропсы**
-- zIndex
+- height
+- width
+- ratio
 - position
    - top
    - right
    - bottom
    - left
-- height
-- width
-- ratio
+- zIndex
 - id  
   
 **styled-system Персональные пропсы**
