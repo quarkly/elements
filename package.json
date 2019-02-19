@@ -66,6 +66,8 @@
   "dependencies": {
     "@material-ui/core": "^3.9.2",
     "lodash": "latest",
+    "nuka-carousel": "^4.4.8",
+    "qslot": "0.0.5",
     "react": "^16.8.1",
     "react-color-square": "^1.0.1",
     "react-dom": "^16.8.1",
