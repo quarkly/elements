@@ -2,26 +2,58 @@
 Инпуты используются как часть формы, для передачи данных пользователя.
 
 **styled-system Универсальные пропсы**
-- zIndex
 - children
    - text 
-- id
+- p
+- pt
+- pr
+- pb
+- pl
+- px
+- py
+- m
+- mt
+- mr
+- mb
+- ml
+- mx
+- my
+- width
+   - minWidth
+   - maxWidth
+- height
+   - minHeight
+   - maxHeight
+- fontSize
 - color
-- FontColor — Цвет шрифта поля. Принимает строку.
 - bg — Цвет фона поля. Принимает строку.
+- fontFamily
+- textAlign
+- lineHeight
+- fontWeight
+- fontStyle
+- letterSpacing
+- display
+- zIndex
+- justifySelf
+- alignSelf
 - border
+   - borderRadius — Толщина рамки поля. Принимает цифру.
    - borderColor — Цвет рамки поля. Принимает цифру.
    - borderSize — Толщина рамки поля. Принимает цифру.
    - borderTop
    - borderRight
    - borderBottom
    - borderLeft
-   - borderRadius — Толщина рамки поля. Принимает цифру.
-- fontSize
-- fontFamily
-- letterSpacing
-- fontStyle
-- fontWeight
+- opacity
+- overflow
+- position
+   - top
+   - right
+   - bottom
+   - left
+- zIndex
+- id
 
 
 **styled-system Персональные пропсы**
