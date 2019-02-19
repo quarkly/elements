@@ -2,9 +2,6 @@
 Изображение, используется как отдельно так и в составе сложных элементов.
 
 **styled-system Универсальные пропсы**
-- href
-- targetBlank
-- title
 - p
 - pt
 - pr
@@ -12,16 +9,18 @@
 - pl
 - px
 - py
-- justifySelf
-- alignSelf
+- m
+- mt
+- mr
+- mb
+- ml
+- mx
+- my
+- display
 - width
 - height
-- position
-   - top
-   - right
-   - bottom
-   - left
-- zIndex
+- justifySelf
+- alignSelf
 - border
    - borderSize
    - borderTop
@@ -31,6 +30,15 @@
    - borderRadius
    - borderColor
 - opacity
+- position
+   - top
+   - right
+   - bottom
+   - left
+- zIndex
+- href
+- targetBlank
+- title
 - id
 
 **styled-system Персональные пропсы**
