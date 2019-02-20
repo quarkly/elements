@@ -1,20 +1,46 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { withKnobs, text } from '@storybook/addon-knobs';
+import ReactDOMServer from 'react-dom/server';
+import { hasCSSTOMSupport } from 'jss';
+import { JssProvider, SheetsRegistry, jss, sheets } from 'react-jss';
+import Card from '../card';
 import Image from './index';
 import Theme from '../theme';
 
-const Button = () => <button>Hello</button>;
+console.log(jss.version);
+const sheetsRegistry = new SheetsRegistry();
+const App = () => (
+  <JssProvider registry={sheetsRegistry}>
+    <Theme>
+      <Card bg={['blue', 'red']} p={[1, 200, 55]} bg={['green', 'blue', 'red']}/>
+      {/* <Image
+        src="https://picsum.photos/500"
+        p={[1, 200, 55]}
+        height={[222, 333, 444]}
+        display={['block', 'none', 'block']}
+        variant="primary"
+      /> */}
+    </Theme>
+  </JssProvider>
+);
+const render = () => {
+  console.log(ReactDOMServer.renderToString);
+  const aap = ReactDOMServer.renderToString(<App />);
+  console.log(sheetsRegistry, sheetsRegistry.toString(), aap, sheets);
+};
+const Button = props => <button {...props}>Hello</button>;
 const stories = storiesOf('Image', module);
 stories.addDecorator(withKnobs);
 stories
   .add('default', () => (
     <Theme>
-      <Button />
+      <Card  p={[1, 200, 55]} bg={['green', 'blue', 'red']}/>
+      <Button onClick={render} />
       <Image
         src="https://picsum.photos/500"
         p={[1, 200, 55]}
-        display={['block', 'none', 'block']}
+        bg={['red', 'blue', 'yellow']}
         variant="primary"
       />
       <Button />

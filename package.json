@@ -3,7 +3,7 @@
   "description": "quarkly elements",
   "author": "Eddort",
   "user": "Eddort",
-  "version": "0.0.1-5",
+  "version": "0.0.1-7",
   "scripts": {
     "storybook": "start-storybook -p 9001 -c .storybook",
     "build": "webpack --config ./config/webpack.config.js",
@@ -70,7 +70,7 @@
     "qslot": "0.0.5",
     "react": "^16.8.1",
     "react-color-square": "^1.0.1",
-    "react-dom": "^16.8.1",
+    "react-dom": "^16.8.2",
     "styled-system": "latest"
   }
 }

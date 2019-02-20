@@ -1,5 +1,5 @@
 import * as styled from 'styled-system';
-
+import {merge} from 'lodash'
 export const themed = key => theme => theme[key];
 
 export const variant = key => styled.variant({ key });
@@ -62,7 +62,8 @@ export const includeWith = (key, props) => {
     if (!styled[attr]) {
       return acc;
     }
-    Object.assign(acc, styled[attr](props));
+    console.log(styled[attr](props))
+    merge(acc, styled[attr](props));
     return acc;
   }, {});
 };
