@@ -16,8 +16,4 @@ const styles = (theme) => ({
 
 const Card = ({ classes }) => <div className={classes.card} />;
 
-// Spacer.propTypes = {
-//   ...height.propTypes,
-// };
-
 export default injectSheet(styles)(Card);

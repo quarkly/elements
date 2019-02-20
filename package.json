@@ -3,7 +3,7 @@
   "description": "quarkly elements",
   "author": "Eddort",
   "user": "Eddort",
-  "version": "0.0.1-9",
+  "version": "0.0.1-10",
   "scripts": {
     "storybook": "start-storybook -p 9001 -c .storybook",
     "build": "webpack --config ./config/webpack.config.js",
@@ -64,13 +64,12 @@
     "test"
   ],
   "dependencies": {
-    "@material-ui/core": "^3.9.2",
     "lodash": "latest",
-    "nuka-carousel": "^4.4.8",
     "qslot": "0.0.5",
     "react": "^16.8.1",
-    "react-color-square": "^1.0.1",
     "react-dom": "^16.8.2",
+    "react-slick": "^0.23.2",
+    "slick-carousel": "^1.8.1",
     "styled-system": "latest"
   }
 }
