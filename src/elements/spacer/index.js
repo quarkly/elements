@@ -1,6 +1,6 @@
 import React from 'react';
 import injectSheet from 'react-jss';
-import { includeWith, themed, variant } from '../helper';
+import { includeWith, themed, variant, className } from '../helper';
 
 const styles = theme => ({
   spacer: props => {
@@ -14,7 +14,7 @@ const styles = theme => ({
   },
 });
 
-const Spacer = ({ classes }) => <div className={classes.spacer} />;
+const Spacer = ({ classes }) => <div className={className('spacer', props)} />;
 
 // Spacer.propTypes = {
 //   ...height.propTypes,

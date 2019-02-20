@@ -8,7 +8,7 @@ const stories = storiesOf('Carousel', module);
 stories.addDecorator(withKnobs);
 stories.add('default', () => (
   <Theme>
-    <Carousel bg={['red', 'green', 'blue']}>
+    <Carousel className={'ssssss'} bg={['red', 'green', 'blue']}>
       <p>Hello from slider</p>
       <img src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide1" />
       <img src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide2" />

@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import injectSheet from 'react-jss';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { includeWith, themed, variant } from '../helper';
+import { includeWith, themed, variant, className } from '../helper';
 
 const styles = (theme) => ({
   carousel(props) {
@@ -20,7 +20,7 @@ class Carousel extends React.Component {
   render() {
     const { children } = this.props;
     return (
-      <Slider {...this.props} className={this.props.classes.carousel}>
+      <Slider {...this.props} className={className('carousel', this.props)}>
         {children}
       </Slider>
     );

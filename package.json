@@ -64,6 +64,7 @@
     "test"
   ],
   "dependencies": {
+    "classnames": "^2.2.6",
     "lodash": "latest",
     "qslot": "0.0.5",
     "react": "^16.8.1",

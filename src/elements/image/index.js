@@ -1,6 +1,6 @@
 import React from 'react';
 import injectSheet from 'react-jss';
-import { includeWith, themed, variant } from '../helper';
+import { includeWith, themed, variant, className } from '../helper';
 
 const styles = theme => ({
   image: props => {
@@ -13,7 +13,7 @@ const styles = theme => ({
   },
 });
 
-const Image = props => <img {...props} className={props.classes.image} />;
+const Image = props => <img {...props} className={className('image', props)} />;
 
 // Spacer.propTypes = {
 //   ...height.propTypes,

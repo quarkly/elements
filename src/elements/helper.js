@@ -1,5 +1,6 @@
 import * as styled from 'styled-system';
-import {merge} from 'lodash'
+import { merge } from 'lodash';
+import classNames from 'classnames';
 export const themed = key => theme => theme[key];
 
 export const variant = key => styled.variant({ key });
@@ -67,6 +68,8 @@ export const includeWith = (key, props) => {
     return acc;
   }, {});
 };
+// класс для jss + класс из пропсов
+export const className = (name, props) => classNames(props.classes[name], props.className)
 
 const allStyles = [
   'space',
