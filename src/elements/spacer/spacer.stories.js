@@ -11,7 +11,7 @@ stories
   .add('default', () => (
     <Theme>
       <Button />
-      <Spacer p={[122, 20, 55]} display={['block', 'none', 'block']} variant="primary" />
+      <Spacer p={[1222, 20, 55]} bg={['green', 'red', 'blue']}/>
       <Button />
     </Theme>
   ))

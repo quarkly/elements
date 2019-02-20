@@ -14,13 +14,13 @@ const App = () => (
   <JssProvider registry={sheetsRegistry}>
     <Theme>
       <Card bg={['blue', 'red']} p={[1, 200, 55]} bg={['green', 'blue', 'red']}/>
-      {/* <Image
+      <Image
         src="https://picsum.photos/500"
         p={[1, 200, 55]}
         height={[222, 333, 444]}
         display={['block', 'none', 'block']}
         variant="primary"
-      /> */}
+      />
     </Theme>
   </JssProvider>
 );
