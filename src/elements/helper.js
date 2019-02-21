@@ -51,13 +51,32 @@ export const image = [
   'backgroundSize',
 ];
 
+export const hovered = [
+  'bgHover',
+  'colorHover',
+]
+
 export const settings = {
   defaults,
   card,
   image,
+  hovered,
 };
 
+styled.bgHover = styled.style({
+  prop: 'bgHover',
+  cssProperty: 'backgroundColor',
+  key: 'colors',
+});
+
+styled.colorHover = styled.style({
+  prop: 'colorHover',
+  cssProperty: 'color',
+  key: 'colors',
+});
+
 export const includeWith = (key, props) => {
+  console.log(key, settings)
   const values = settings[key];
   return values.reduce((acc, attr) => {
     if (!styled[attr]) {

@@ -11,6 +11,9 @@ const styles = (theme) => ({
       ...themed('Carousel')(theme),
       ...variant('carousels')({ theme, ...props }),
       ...includeWith('defaults', props),
+      '&:hover': {
+        ...includeWith('hovered', props)
+      }
     };
     return css;
   },
