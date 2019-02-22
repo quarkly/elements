@@ -17,11 +17,7 @@ export default {
     large: '0 0 24px rgba(0, 0, 0, .125)',
   },
   Spacer: {
-    backgroundColor: 'black',
-    height: '33px',
-    '&:hover': {
-      backgroundColor: 'green',
-    },
+    height: '20px',
   },
   Card: {
     backgroundColor: 'tomato',
@@ -40,13 +36,11 @@ export default {
     }
   },
   spacers: {
-    primary: {
-      height: '120px',
-      backgroundColor: 'yellow',
-      '&:hover': {
-        height: '80px',
-        backgroundColor: 'black',
-      },
+    big: {
+      height: '120px'
+    },
+    small: {
+      height: '10px'
     },
   },
 };
