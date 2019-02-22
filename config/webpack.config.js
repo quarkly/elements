@@ -7,7 +7,7 @@ const OUTPUT_DIR = 'build';
 
 module.exports = {
   entry: {
-    elements: `./src/elements`,
+    elements: `./src/index.js`,
   },
   output: {
     path: path.resolve(__dirname, `../${OUTPUT_DIR}`),
