@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import injectSheet from 'react-jss';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { includeWith, themed, variant, className } from '../helper';
+import { includeWith, themed, variant, className } from '../styled';
 import { Provider } from '../quark'
 
 const styles = (theme) => ({

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import injectSheet from 'react-jss';
-import { includeWith, themed, variant, className } from '../helper';
+import { includeWith, themed, variant, className } from '../styled';
 import { asQuark } from '../quark'
 
 const styles = (theme) => ({

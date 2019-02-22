@@ -1,6 +1,6 @@
 import React from 'react';
 import injectSheet from 'react-jss';
-import { includeWith, themed, variant, className } from '../helper';
+import { includeWith, themed, variant, className } from '../styled';
 
 const styles = theme => ({
   image: props => {
