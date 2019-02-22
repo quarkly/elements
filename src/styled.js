@@ -1,6 +1,9 @@
-import * as styled from 'styled-system';
+import * as styledSystem from 'styled-system';
 import { merge } from 'lodash';
 import classNames from 'classnames';
+
+const styled = styledSystem;
+
 export const themed = key => theme => theme[key];
 
 export const variant = key => styled.variant({ key });
