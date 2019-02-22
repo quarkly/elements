@@ -19,8 +19,16 @@ export default {
   Spacer: {
     height: '20px',
   },
+  Image: {
+    width: '100%'
+  },
   Card: {
-    backgroundColor: 'tomato',
+    backgroundColor: '#FFFFFF',
+    borderRadius: '4px',
+    border: "1px solid #D2D9DD",
+    'box-sizing': "border-box",
+    width: '400px',
+    'min-height': '500px'
   },
   Button: {
     width: '88px',

@@ -1,26 +1,28 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { withKnobs, text } from '@storybook/addon-knobs';
+import { withKnobs } from '@storybook/addon-knobs';
 import Card from './index';
 import Theme from '../theme';
+import Image from '../image';
+import Text from '../text';
+import Button from '../button';
 
-const Button = () => <button>Hello</button>;
 const stories = storiesOf('Card', module);
+
 stories.addDecorator(withKnobs);
+
 stories
-  .add('default', () => (
+  .add('empty', () => (
     <Theme>
-      <Button />
-      <Card p={[1, 200, 55]} display={['block', 'none', 'block']} variant="primary" />
-      <Button />
+      <Card/>
     </Theme>
   ))
-  .add('100px', () => (
+  .add('with content', () => (
     <Theme>
-      <Button />
-      <Card height={text('height', '100px')}> привет</Card>
-      sss
-      <Card height={[100, 20, 30]} />
-      <Button />
+      <Card>
+        <Image src="https://picsum.photos/200"></Image>
+        <Text p="10px">Some text</Text>
+        <Button m="10px">Click</Button>
+      </Card>
     </Theme>
   ));
