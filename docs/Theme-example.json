@@ -31,5 +31,23 @@
       "flat": {},
       "contur": {}
     }
+  },
+  "carousel": {
+    "variant": {
+      "simple": {},
+      "with captures": {}
+    }
+  },
+  "card": {
+    "variant": {
+      "simple": {},
+      "full-width": {}
+    }
+  },
+  "image": {
+    "variant": {
+      "simple": {},
+      "full-width": {}
+    }
   }
 }
