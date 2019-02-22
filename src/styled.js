@@ -79,13 +79,11 @@ styled.colorHover = styled.style({
 });
 
 export const includeWith = (key, props) => {
-  console.log(key, settings)
   const values = settings[key];
   return values.reduce((acc, attr) => {
     if (!styled[attr]) {
       return acc;
     }
-    console.log(styled[attr](props))
     merge(acc, styled[attr](props));
     return acc;
   }, {});

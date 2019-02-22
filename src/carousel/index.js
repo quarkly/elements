@@ -1,8 +1,8 @@
 import React from 'react';
 import Slider from "react-slick";
 import injectSheet from 'react-jss';
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
 import { includeWith, themed, variant, className } from '../styled';
 import { Provider } from '../quark'
 
@@ -37,7 +37,7 @@ class Carousel extends React.Component {
           }
         }
       }}>
-        <Slider ref={slider => this.slider = slider} {...this.props} className={className('carousel', this.props)}>
+        <Slider ref={slider => this.slider = slider} arrows={false} {...this.props} className={className('carousel', this.props)}>
           {children}
         </Slider>
       </Provider>

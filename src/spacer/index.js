@@ -14,7 +14,7 @@ const styles = theme => ({
   },
 });
 
-const Spacer = ({ classes }) => <div className={className('spacer', props)} />;
+const Spacer = (props) => <div className={className('spacer', props)} />;
 
 // Spacer.propTypes = {
 //   ...height.propTypes,
