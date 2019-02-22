@@ -28,7 +28,7 @@
   },
   "button": {
     "variant": {
-      "flat": {},
+      "rounded": {},
       "contur": {}
     }
   },
@@ -48,6 +48,19 @@
     "variant": {
       "simple": {},
       "full-width": {}
+    }
+  },
+  "text": {
+    "variant": {
+      "simple": {},
+      "full-width": {}
+    }
+  },
+  "spacer": {
+    "variant": {
+      "big": {},
+      "medium": {},
+      "small": {}
     }
   }
 }
