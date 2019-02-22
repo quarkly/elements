@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 import injectSheet from 'react-jss';
 import { includeWith, themed, variant, className } from '../helper';
+import { asQuark } from '../quark'
 
 const styles = (theme) => ({
   button(props) {
@@ -14,6 +15,18 @@ const styles = (theme) => ({
   },
 })
 
-const Button = (props) => <button {...props} className={className('button', props)} />
+const qStateDefault = {
+  btnClick: () => {}
+}
 
-export default injectSheet(styles)(Button);
+class Button extends Component {
+  render() {
+    const { props } = this;
+    const qState = props.qState || qStateDefault;
+    return (
+      <button {...props} onClick={qState.btnClick.bind(null, props)} className={className('button', props)} />
+    )
+  }
+}
+
+export default injectSheet(styles)(asQuark(Button));

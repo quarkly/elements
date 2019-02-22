@@ -8,7 +8,7 @@ export function asQuark(Component) {
     return function ConnectedComponent(props) {
       return (
         <QuarkContext.Consumer>
-          {qState => <Component {...props} qState={qState}/>}
+          {qState => console.log(qState) || <Component {...props} qState={qState}/>}
         </QuarkContext.Consumer>
       );
     }
