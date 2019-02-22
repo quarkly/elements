@@ -3,10 +3,10 @@ import injectSheet from 'react-jss';
 import { includeWith, themed, variant, className } from '../styled';
 
 const styles = (theme) => ({
-  card(props) {
+  text(props) {
     const css = {
-      ...themed('Card')(theme),
-      ...variant('cards')({ theme, ...props }),
+      ...themed('Text')(theme),
+      ...variant('texts')({ theme, ...props }),
       ...includeWith('defaults', props),
       ...includeWith('card', props),
     };
@@ -14,6 +14,6 @@ const styles = (theme) => ({
   },
 })
 
-const Card = (props) => <div className={className('card', props)}>{props.children}</div>
+const Text = (props) => <p className={className('text', props)}>{props.children}</p>
 
-export default injectSheet(styles)(Card);
+export default injectSheet(styles)(Text);
