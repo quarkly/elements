@@ -20,7 +20,7 @@ stories
   .add('with content', () => (
     <Theme>
       <Card>
-        <Image src="https://picsum.photos/200"></Image>
+        <Image height="200px" src="https://picsum.photos/200"></Image>
         <Text p="10px">Some text</Text>
         <Button m="10px">Click</Button>
       </Card>

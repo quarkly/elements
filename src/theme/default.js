@@ -28,7 +28,7 @@ export default {
     border: "1px solid #D2D9DD",
     'box-sizing': "border-box",
     width: '400px',
-    'min-height': '500px'
+    'min-height': '300px'
   },
   Button: {
     width: '88px',
