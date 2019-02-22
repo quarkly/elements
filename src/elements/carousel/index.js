@@ -26,8 +26,15 @@ class Carousel extends React.Component {
     return (
       <Provider value={{
         btnClick: (prop) => {
-          console.log(prop)
-          this.slider.slickNext();
+          if (!prop || !prop.controls) {
+            return
+          }
+          if (prop.controls === 'left') {
+            this.slider.slickPrev();
+          }
+          if (prop.controls === 'right') {
+            this.slider.slickNext();
+          }
         }
       }}>
         <Slider ref={slider => this.slider = slider} {...this.props} className={className('carousel', this.props)}>

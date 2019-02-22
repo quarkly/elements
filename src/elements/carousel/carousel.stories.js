@@ -11,8 +11,8 @@ stories.add('default', () => (
   <Theme>
     <Carousel dots bgHover={['red', 'yellow', 'tomato']} className={'ssssss'} bg={['lightgray', 'green', 'blue']}>
       <p>Hello from slider</p>
-      <Button>ssssssss</Button>
-      <Button>ssssssss</Button>
+      <Button controls="right">ssssssss</Button>
+      <Button controls="left">ssssssss</Button>
       <Button>ssssssss</Button>
       <Button>ssssssss</Button>
       <Button>ssssssss</Button>
