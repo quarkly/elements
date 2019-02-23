@@ -14,13 +14,13 @@ stories.addDecorator(withKnobs);
 stories
   .add('empty', () => (
     <Theme>
-      <Card/>
+      <Card />
     </Theme>
   ))
   .add('with content', () => (
     <Theme>
       <Card>
-        <Image height="200px" src="https://picsum.photos/200"></Image>
+        <Image height="200px" src="https://picsum.photos/200" />
         <Text p="10px">Some text</Text>
         <Button m="10px">Click</Button>
       </Card>

@@ -12,7 +12,7 @@ stories
   .add('default', () => (
     <Theme>
       Content
-      <Spacer/>
+      <Spacer />
       Content
     </Theme>
   ))

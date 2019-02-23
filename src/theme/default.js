@@ -5,7 +5,7 @@ export default {
     blue: '#07c',
     lightgray: '#f6f6ff',
     primary: '#2973B7',
-    effect: '#248DE0'
+    effect: '#248DE0',
   },
   space: [0, 4, 8, 16, 32, 64, 128, 256],
   fonts: {
@@ -20,15 +20,15 @@ export default {
     height: '20px',
   },
   Image: {
-    width: '100%'
+    width: '100%',
   },
   Card: {
     backgroundColor: '#FFFFFF',
     borderRadius: '4px',
-    border: "1px solid #D2D9DD",
-    'box-sizing': "border-box",
+    border: '1px solid #D2D9DD',
+    'box-sizing': 'border-box',
     width: '400px',
-    'min-height': '300px'
+    'min-height': '300px',
   },
   Button: {
     width: '88px',
@@ -41,14 +41,14 @@ export default {
     },
     '&:hover': {
       backgroundColor: '#248DE0',
-    }
+    },
   },
   spacers: {
     big: {
-      height: '120px'
+      height: '120px',
     },
     small: {
-      height: '10px'
+      height: '10px',
     },
   },
 };

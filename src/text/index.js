@@ -2,7 +2,7 @@ import React from 'react';
 import injectSheet from 'react-jss';
 import { includeWith, themed, variant, className } from '../styled';
 
-const styles = (theme) => ({
+const styles = theme => ({
   text(props) {
     const css = {
       ...themed('Text')(theme),
@@ -12,8 +12,8 @@ const styles = (theme) => ({
     };
     return css;
   },
-})
+});
 
-const Text = (props) => <p className={className('text', props)}>{props.children}</p>
+const Text = props => <p className={className('text', props)}>{props.children}</p>;
 
 export default injectSheet(styles)(Text);

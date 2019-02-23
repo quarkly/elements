@@ -1,12 +1,11 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { withKnobs, text } from '@storybook/addon-knobs';
+import { withKnobs } from '@storybook/addon-knobs';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 import Carousel from './index';
 import Theme from '../theme';
-import Button from '../button'
-
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import Button from '../button';
 
 const stories = storiesOf('Carousel', module);
 
@@ -14,7 +13,11 @@ stories.addDecorator(withKnobs);
 
 stories.add('default', () => (
   <Theme>
-    <Carousel dots bgHover={['red', 'yellow', 'tomato']} className={'ssssss'} bg={['lightgray', 'green', 'blue']}>
+    <Carousel
+      dots
+      bgHover={['red', 'yellow', 'tomato']}
+      className={'ssssss'}
+      bg={['lightgray', 'green', 'blue']}>
       <Button controls="right">right</Button>
       <Button controls="left">left</Button>
       <img src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide1" />

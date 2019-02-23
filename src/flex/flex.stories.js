@@ -12,13 +12,16 @@ const stories = storiesOf('Flex', module);
 
 stories.addDecorator(withKnobs);
 
-stories
-  .add('with card', () => (
-    <Theme>
-      <Card>
-        <Image height="200px" src="https://picsum.photos/200"></Image>
-        <Text p="10px">Some text</Text>
-        <Flex alignItems="center" justifyContent="center"><Button m="10px">Click</Button><Button m="10px">Click</Button><Button m="10px">Click</Button></Flex>
-      </Card>
-    </Theme>
-  ));
+stories.add('with card', () => (
+  <Theme>
+    <Card>
+      <Image height="200px" src="https://picsum.photos/200" />
+      <Text p="10px">Some text</Text>
+      <Flex alignItems="center" justifyContent="center">
+        <Button m="10px">Click</Button>
+        <Button m="10px">Click</Button>
+        <Button m="10px">Click</Button>
+      </Flex>
+    </Card>
+  </Theme>
+));

@@ -2,7 +2,7 @@ import React from 'react';
 import injectSheet from 'react-jss';
 import { includeWith, themed, variant, className } from '../styled';
 
-const styles = (theme) => ({
+const styles = theme => ({
   flex(props) {
     const css = {
       display: 'flex',
@@ -13,8 +13,8 @@ const styles = (theme) => ({
     };
     return css;
   },
-})
+});
 
-const Card = (props) => <div className={className('flex', props)}>{props.children}</div>
+const Card = props => <div className={className('flex', props)}>{props.children}</div>;
 
 export default injectSheet(styles)(Card);

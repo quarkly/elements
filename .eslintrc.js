@@ -25,6 +25,12 @@ module.exports = {
     "react/sort-comp": 0,
     "react/no-multi-comp": 0,
     "react/require-extension": 0,
-    "react/prefer-stateless-function": 0
+    "react/prefer-stateless-function": 0,
+    "react/prop-types": 0,
+    "react/jsx-no-bind": 0,
+    "react/jsx-closing-bracket-location": 0,
+    "jsx-a11y/alt-text": 0,
+    "react/jsx-curly-brace-presence" : 0,
+    "no-return-assign": 0
   }
 };
