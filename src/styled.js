@@ -59,11 +59,19 @@ export const hovered = [
   'colorHover',
 ]
 
+export const flex = [
+  'flexWrap',
+  'flexDirection',
+  'alignItems',
+  'justifyContent',
+]
+
 export const settings = {
   defaults,
   card,
   image,
   hovered,
+  flex,
 };
 
 styled.bgHover = styled.style({
