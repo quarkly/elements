@@ -1,62 +1,13 @@
 import * as styledSystem from 'styled-system';
 import { merge } from 'lodash';
 import classNames from 'classnames';
+import { defaults, card, image, hovered, flex } from './defaults';
 
 const styled = styledSystem;
 
 export const themed = key => theme => theme[key];
 
 export const variant = key => styled.variant({ key });
-
-export const defaults = [
-  'bgColor',
-  'color',
-  'space',
-  'width',
-  'fontSize',
-  'color',
-  'flex',
-  'order',
-  'alignSelf',
-  'display',
-  'maxWidth',
-  'minWidth',
-  'height',
-  'maxHeight',
-  'minHeight',
-  'sizeWidth',
-  'sizeHeight',
-  'size',
-  'position',
-  'zIndex',
-  'top',
-  'right',
-  'bottom',
-  'left',
-];
-
-export const card = [
-  'border',
-  'borderTop',
-  'borderRight',
-  'borderBottom',
-  'borderLeft',
-  'borders',
-  'borderColor',
-  'borderRadius',
-];
-
-export const image = [
-  'background',
-  'backgroundImage',
-  'backgroundPosition',
-  'backgroundRepeat',
-  'backgroundSize',
-];
-
-export const hovered = ['bgHover', 'colorHover'];
-
-export const flex = ['flexWrap', 'flexDirection', 'alignItems', 'justifyContent'];
 
 export const settings = {
   defaults,
