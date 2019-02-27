@@ -37,6 +37,8 @@ export const card = [
   'borderRadius',
 ];
 
+export const button = ['fontWeight', 'borders', 'borderColor', 'borderRadius', 'buttonStyle'];
+
 export const image = [
   'background',
   'backgroundImage',

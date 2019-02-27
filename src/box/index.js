@@ -5,7 +5,7 @@ export default styled('div')(
   {
     boxSizing: 'border-box',
   },
-  ...includeWith('defaults'),
   themed('Box'),
   variant('boxes'),
+  ...includeWith('defaults'),
 );

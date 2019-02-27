@@ -1,5 +1,4 @@
 import * as styledSystem from 'styled-system';
-import { merge } from 'lodash';
 import classNames from 'classnames';
 import { defaults, card, image, hovered, flex } from './defaults';
 
