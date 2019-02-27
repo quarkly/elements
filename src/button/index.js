@@ -4,7 +4,7 @@ import Box from '../box';
 import { includeWith, themed, variant } from '../styled';
 import { asQuark } from '../quark';
 
-export const BaseButton = styled(Box)(
+const BaseButton = styled(Box)(
   {
     appearance: 'none',
     display: 'inline-block',
