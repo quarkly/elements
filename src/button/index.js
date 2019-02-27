@@ -1,10 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
-import Box from '../box';
 import { includeWith, themed, variant } from '../styled';
 import { asQuark } from '../quark';
 
-const BaseButton = styled(Box)(
+const BaseButton = styled('div')(
   {
     appearance: 'none',
     display: 'inline-block',
@@ -15,6 +14,7 @@ const BaseButton = styled(Box)(
   },
   themed('Button'),
   variant('buttons'),
+  ...includeWith('defaults'),
   ...includeWith('button'),
 );
 

@@ -1,5 +1,8 @@
 import styled from 'styled-components';
 import { includeWith } from '../styled';
-import Box from '../box';
 
-export default styled(Box)(...includeWith('flex'));
+export default styled('div')(
+  { display: 'flex' },
+  ...includeWith('flex'),
+  ...includeWith('defaults'),
+);

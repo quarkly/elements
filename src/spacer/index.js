@@ -1,7 +1,6 @@
 import styled from 'styled-components';
-import { includeWith, themed, variant } from '../styled';
-import Box from '../box';
+import { themed, variant, includeWith } from '../styled';
 
-const Spacer = styled(Box)(themed('Spacer'), variant('spacers'), ...includeWith('spacer'));
+const Spacer = styled('div')(themed('Spacer'), variant('spacers'), ...includeWith('defaults'));
 
 export default Spacer;

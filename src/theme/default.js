@@ -43,10 +43,6 @@ export default {
       backgroundColor: '#248DE0',
     },
   },
-  Box: {
-    backgroundColor: 'blue',
-    height: '200px',
-  },
   spacers: {
     big: {
       height: '120px',
