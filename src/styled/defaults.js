@@ -1,6 +1,5 @@
 export const defaults = [
   'bgColor',
-  'color',
   'space',
   'width',
   'fontSize',

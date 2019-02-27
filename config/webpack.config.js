@@ -67,6 +67,7 @@ module.exports = {
     new CleanWebpackPlugin([OUTPUT_DIR]),
   ],
   externals: {
-    react: 'commonjs react',
+    'styled-components': 'styled-components',
+    react: 'react',
   },
 };
