@@ -1,6 +1,6 @@
 import * as styledSystem from 'styled-system';
 import classNames from 'classnames';
-import { defaults, card, image, hovered, flex } from './defaults';
+import { defaults, card, image, hovered, flex, button } from './defaults';
 
 const styled = styledSystem;
 
@@ -14,6 +14,7 @@ export const settings = {
   image,
   hovered,
   flex,
+  button,
 };
 
 styled.bgHover = styled.style({

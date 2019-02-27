@@ -11,6 +11,7 @@ const BaseButton = styled(Box)(
     textAlign: 'center',
     lineHeight: 'inherit',
     textDecoration: 'none',
+    cursor: 'pointer',
   },
   themed('Button'),
   variant('buttons'),
@@ -22,7 +23,7 @@ const qStateDefault = {
 };
 const Button = props => {
   const qState = props.qState || qStateDefault;
-  return <BaseButton {...props} onClick={qState.btnClick.bind(null, props)} />;
+  return <BaseButton as="button" {...props} onClick={qState.btnClick.bind(null, props)} />;
 };
 
 export default asQuark(Button);
