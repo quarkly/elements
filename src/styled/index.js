@@ -5,7 +5,7 @@ import { defaults, card, image, hovered, flex } from './defaults';
 
 const styled = styledSystem;
 
-export const themed = key => theme => theme[key];
+export const themed = key => props => props.theme[key];
 
 export const variant = key => styled.variant({ key });
 
@@ -29,15 +29,15 @@ styled.colorHover = styled.style({
   key: 'colors',
 });
 
-export const includeWith = (key, props) => {
+export const includeWith = key => {
   const values = settings[key];
   return values.reduce((acc, attr) => {
     if (!styled[attr]) {
       return acc;
     }
-    merge(acc, styled[attr](props));
+    acc.push(styled[attr]);
     return acc;
-  }, {});
+  }, []);
 };
 // класс для jss + класс из пропсов
 export const className = (name, props) => classNames(props.classes[name], props.className);
