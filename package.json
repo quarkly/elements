@@ -41,7 +41,6 @@
     "jest": "^22.4.2",
     "prettier": "1.16.4",
     "prop-types": "^15.7.2",
-    "react-jss": "10.0.0-alpha.10",
     "style-loader": "^0.23.1",
     "uglifyjs-webpack-plugin": "^2.1.1",
     "url-loader": "^1.1.2",
@@ -75,6 +74,7 @@
     "react-dom": "^16.8.2",
     "react-slick": "^0.23.2",
     "slick-carousel": "^1.8.1",
-    "styled-system": "latest"
+    "styled-system": "latest",
+    "styled-components": "4.1.3"
   }
 }
