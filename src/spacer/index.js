@@ -1,23 +1,7 @@
-import React from 'react';
-import injectSheet from 'react-jss';
-import { includeWith, themed, variant, className } from '../styled';
+import styled from 'styled-components';
+import { includeWith, themed, variant } from '../styled';
+import Box from '../box';
 
-const styles = theme => ({
-  spacer: props => {
-    return {
-      flex: '1 1 auto',
-      height: '20px',
-      ...themed('Spacer')(theme),
-      ...variant('spacers')({ theme, ...props }),
-      ...includeWith('defaults', props),
-    };
-  },
-});
+const Spacer = styled(Box)(themed('Spacer'), variant('spacers'), ...includeWith('spacer'));
 
-const Spacer = props => <div className={className('spacer', props)} />;
-
-// Spacer.propTypes = {
-//   ...height.propTypes,
-// };
-
-export default injectSheet(styles)(Spacer);
+export default Spacer;

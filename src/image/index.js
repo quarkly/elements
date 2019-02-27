@@ -1,22 +1,11 @@
-import React from 'react';
-import injectSheet from 'react-jss';
-import { includeWith, themed, variant, className } from '../styled';
+import styled from 'styled-components';
+import { includeWith, themed, variant } from '../styled';
+import Box from '../box';
 
-const styles = theme => ({
-  image: props => {
-    return {
-      ...themed('Image')(theme),
-      ...variant('images')({ theme, ...props }),
-      ...includeWith('defaults', props),
-      ...includeWith('image', props),
-    };
-  },
-});
+const Image = styled(Box)(themed('Image'), variant('images'), ...includeWith('image'));
 
-const Image = props => <img {...props} className={className('image', props)} />;
+Image.defaultProps = {
+  as: 'img',
+};
 
-// Spacer.propTypes = {
-//   ...height.propTypes,
-// };
-
-export default injectSheet(styles)(Image);
+export default Image;

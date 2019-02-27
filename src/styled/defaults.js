@@ -50,3 +50,5 @@ export const image = [
 export const hovered = ['bgHover', 'colorHover'];
 
 export const flex = ['flexWrap', 'flexDirection', 'alignItems', 'justifyContent'];
+
+export const text = ['fontFamily', 'fontWeight', 'textAlign', 'lineHeight', 'letterSpacing'];
