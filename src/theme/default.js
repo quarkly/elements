@@ -19,6 +19,11 @@ export default {
   Spacer: {
     height: '20px',
   },
+  Hr: {
+    backgroundColor: 'lightgrey',
+    height: '1px',
+    width: '100%',
+  },
   Image: {
     width: '100%',
   },
@@ -59,10 +64,6 @@ export default {
       backgroundColor: '#2973B7',
       color: '#FFFFFF',
     },
-    '&:hover': {
-      backgroundColor: '#2973B7',
-      color: '#FFFFFF',
-    },
     '&:focus': {
       boxShadow: '0 0 0 0.2rem rgba(38,143,255,.5)',
       color: '#FFFFFF',
@@ -91,6 +92,14 @@ export default {
     },
     small: {
       height: '10px',
+    },
+  },
+  hrs: {
+    wide: {
+      width: '250px',
+    },
+    narrow: {
+      width: '100px',
     },
   },
 };

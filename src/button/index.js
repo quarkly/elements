@@ -17,6 +17,7 @@ const BaseButton = styled('div')(
   variant('buttons'),
   ...includeWith('defaults'),
   ...includeWith('button'),
+  ...includeWith('hovered'),
 );
 
 const qStateDefault = {

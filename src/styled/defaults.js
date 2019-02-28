@@ -37,7 +37,27 @@ export const card = [
   'borderRadius',
 ];
 
-export const button = ['fontWeight', 'borders', 'borderColor', 'borderRadius', 'buttonStyle'];
+export const button = [
+  'border',
+  'borderTop',
+  'borderRight',
+  'borderBottom',
+  'borderLeft',
+  'borders',
+  'borderWidth',
+  'borderColor',
+  'borderRadius',
+  'buttonStyle',
+  'background',
+  'backgroundImage',
+  'backgroundPosition',
+  'backgroundRepeat',
+  'backgroundSize',
+  'alignSelf',
+  'justifySelf',
+  'opacity',
+  'overflow',
+];
 
 export const image = [
   'background',
@@ -52,6 +72,8 @@ export const hovered = ['bgHover', 'colorHover'];
 export const flex = ['flexWrap', 'flexDirection', 'alignItems', 'justifyContent'];
 
 export const text = ['fontFamily', 'fontWeight', 'textAlign', 'lineHeight', 'letterSpacing'];
+
+export const hr = ['bgColor', 'width', 'height', 'display', 'opacity'];
 
 export const all = [
   'space',

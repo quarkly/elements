@@ -9,7 +9,7 @@ const stories = storiesOf('Block', module);
 
 stories.addDecorator(withKnobs);
 
-stories.add('with theme', () => (
+stories.add('default', () => (
   <Theme>
     <Block />
   </Theme>
@@ -19,29 +19,164 @@ stories.add('with props', () => (
   <Theme>
     <Block
       p={text('p', '20px', 'Core')}
-      pt={text('pt', ' ', 'Core')}
-      pr={text('pr', ' ', 'Core')}
-      pb={text('pb', ' ', 'Core')}
-      pl={text('pl', ' ', 'Core')}
-      px={text('px', ' ', 'Core')}
-      py={text('py', ' ', 'Core')}
+      pt={text('pt', '', 'Core')}
+      pr={text('pr', '', 'Core')}
+      pb={text('pb', '', 'Core')}
+      pl={text('pl', '', 'Core')}
+      px={text('px', '', 'Core')}
+      py={text('py', '', 'Core')}
       m={text('m', '20px', 'Core')}
-      mt={text('mt', ' ', 'Core')}
-      mr={text('mr', ' ', 'Core')}
-      mb={text('mb', ' ', 'Core')}
-      ml={text('ml', ' ', 'Core')}
-      mx={text('mx', ' ', 'Core')}
-      my={text('my', ' ', 'Core')}
-      bg={color('color', 'lightslategrey', 'Core')}
-      display={text('display', 'block', 'Layout')}
-      size={text('size', ' ', 'Layout')}
+      mt={text('mt', '', 'Core')}
+      mr={text('mr', '', 'Core')}
+      mb={text('mb', '', 'Core')}
+      ml={text('ml', '', 'Core')}
+      mx={text('mx', '', 'Core')}
+      my={text('my', '', 'Core')}
+      bg={color('bg', 'lightslategrey', 'Core')}
+      display={select(
+        'display',
+        {
+          block: 'block',
+          flex: 'flex',
+          inline: 'inline',
+          'inline-block': 'inline-block',
+          grid: 'grid',
+          none: 'none',
+        },
+        'block',
+      )}
+      size={text('size', '', 'Layout')}
       width={text('width', '300px', 'Layout')}
-      minWidth={text('minWidth', ' ', 'Layout')}
-      maxWidth={text('maxWidth', ' ', 'Layout')}
+      minWidth={text('minWidth', '', 'Layout')}
+      maxWidth={text('maxWidth', '', 'Layout')}
       height={text('height', '300px', 'Layout')}
-      minHeight={text('minHeight', ' ', 'Layout')}
-      maxHeight={text('maxHeight', ' ', 'Layout')}
-      background={text('background', ' ', 'Background')}
+      minHeight={text('minHeight', '', 'Layout')}
+      maxHeight={text('maxHeight', '', 'Layout')}
+      alignItems={select(
+        'align-items',
+        {
+          'flex-start': 'flex-start',
+          'flex-end': 'flex-end',
+          center: 'center',
+          baseline: 'baseline',
+          stretch: 'stretch',
+        },
+        'stretch',
+        'Flexbox',
+      )}
+      justifyContent={select(
+        'justifyContent',
+        {
+          'flex-start': 'flex-start',
+          'flex-end': 'flex-end',
+          center: 'center',
+          'space-between': 'space-between',
+          'space-around': 'space-around',
+          'space-evenly': 'space-evenly',
+        },
+        'flex-start',
+        'Flexbox',
+      )}
+      flexWrap={select(
+        'flexWrap',
+        {
+          nowrap: 'nowrap',
+          wrap: 'wrap',
+          'wrap-reverse': 'wrap-reverse',
+        },
+        'nowrap',
+        'Flexbox',
+      )}
+      flexDirection={select(
+        'flexDirection',
+        {
+          row: 'row',
+          'row-reverse': 'row-reverse',
+          column: 'column',
+          'column-reverse': 'column-reverse',
+        },
+        'row',
+        'Flexbox',
+      )}
+      flex={text('flex', '', 'Flexbox')}
+      alignContent={select(
+        {
+          'flex-start': 'flex-start',
+          'flex-end': 'flex-end',
+          center: 'center',
+          'space-between': 'space-between',
+          'space-around': 'space-around',
+          'space-evenly': 'space-evenly',
+          stretch: 'stretch',
+        },
+        'flex-start',
+        'Flexbox',
+      )}
+      justifyItems={select(
+        'justifyItems',
+        {
+          stretch: 'stretch',
+          center: 'center',
+          start: 'start',
+          end: 'end',
+          baseline: 'baseline',
+          inherit: 'inherit',
+        },
+        'stretch',
+        'Flexbox',
+      )}
+      justifySelf={select(
+        'justifySelf',
+        {
+          'flex-start': 'flex-start',
+          'flex-end': 'flex-end',
+          center: 'center',
+          'space-between': 'space-between',
+          'space-around': 'space-around',
+          'space-evenly': 'space-evenly',
+        },
+        'flex-start',
+        'Flexbox',
+      )}
+      alignSelf={select(
+        'alignSelf',
+        {
+          auto: 'auto',
+          'flex-start': 'flex-start',
+          'flex-end': 'flex-end',
+          center: 'center',
+          baseline: 'baseline',
+          stretch: 'stretch',
+        },
+        'flex-start',
+        'Flexbox',
+      )}
+      order={number('order', '', 'Flexbox')}
+      flexBasis={text('flexBasis', '', 'Flexbox')}
+      gridGap={text('gridGap', '', 'Grid')}
+      gridRowGap={text('gridRowGap', '', 'Grid')}
+      gridColumnGap={text('gridColumnGap', '', 'Grid')}
+      gridColumn={text('gridColumn', '', 'Grid')}
+      gridRow={text('gridRow', '', 'Grid')}
+      gridArea={text('gridArea', '', 'Grid')}
+      gridAutoFlow={select(
+        'gridAutoFlow',
+        {
+          row: 'row',
+          column: 'column',
+          dense: 'dense',
+          'row dense': 'row dense',
+          'column dense': 'column dense',
+        },
+        'row',
+        'Grid',
+      )}
+      gridAutoRows={text('gridAutoRows', '', 'Grid')}
+      gridAutoColumns={text('gridAutoColumns', '', 'Grid')}
+      gridTemplateRows={text('gridTemplateRows', '', 'Grid')}
+      gridTemplateColumns={text('gridTemplateColumns', '', 'Grid')}
+      gridTemplateAreas={text('gridTemplateAreas', '', 'Grid')}
+      background={text('background', '', 'Background')}
       backgroundImage={text('backgroundImage', 'url()', 'Background')}
       backgroundSize={select(
         'backgroundSize',
@@ -84,48 +219,58 @@ stories.add('with props', () => (
         'no-repeat',
         'Background',
       )}
-      border={text('border', ' ', 'Misc')}
-      borderTop={text('borderTop', ' ', 'Misc')}
-      borderRight={text('borderRight', ' ', 'Misc')}
-      borderBottom={text('borderBottom', ' ', 'Misc')}
-      borderLeft={text('borderLeft', ' ', 'Misc')}
-      borderWidth={text('borderWidth', ' ', 'Misc')}
+      border={text('border', '', 'Misc')}
+      borderTop={text('borderTop', '', 'Misc')}
+      borderRight={text('borderRight', '', 'Misc')}
+      borderBottom={text('borderBottom', '', 'Misc')}
+      borderLeft={text('borderLeft', '', 'Misc')}
+      borderWidth={text('borderWidth', '', 'Misc')}
       borderStyle={select(
         'borderStyle',
         {
           none: 'none',
-          hidden: 'hidden',
-          dotted: 'dotted',
-          dashed: 'dashed',
-          double: 'double',
           solid: 'solid',
+          hidden: 'hidden',
+          dashed: 'dashed',
+          dotted: 'dotted',
+          double: 'double',
         },
         'solid',
         'Misc',
       )}
-      borderColor={color('borderColor', ' ', 'Misc')}
-      borderRadius={text('borderRadius', ' ', 'Misc')}
-      boxShadow={text('boxShadow', ' ', 'Misc')}
-      opacity={number('opacity', ' ', 'Misc')}
+      borderColor={color('borderColor', '', 'Misc')}
+      borderRadius={text('borderRadius', '', 'Misc')}
+      boxShadow={text('boxShadow', '', 'Misc')}
+      opacity={number('opacity', '', 'Misc')}
       overflow={select(
         'overflow',
         {
           visible: 'visible',
           hidden: 'hidden',
           scroll: 'scroll',
-          dashed: 'dashed',
           auto: 'auto',
           inherit: 'inherit',
         },
         'visible',
         'Misc',
       )}
-      position={text('position', ' ', 'Position')}
-      zIndex={text('zIndex', ' ', 'Position')}
-      top={text('top', ' ', 'Position')}
-      right={text('right', ' ', 'Position')}
-      bottom={text('bottom', ' ', 'Position')}
-      left={text('left', ' ', 'Position')}>
+      position={select(
+        'position',
+        {
+          absolute: 'absolute',
+          fixed: 'fixed',
+          relative: 'relative',
+          static: 'static',
+          inherit: 'inherit',
+        },
+        'static',
+        'Position',
+      )}
+      zIndex={text('zIndex', '', 'Position')}
+      top={text('top', '', 'Position')}
+      right={text('right', '', 'Position')}
+      bottom={text('bottom', '', 'Position')}
+      left={text('left', '', 'Position')}>
       <Box width="100px" height="100px" color="black" />
     </Block>
   </Theme>
