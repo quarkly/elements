@@ -3,16 +3,18 @@
   "description": "quarkly elements",
   "author": "Eddort",
   "user": "Eddort",
-  "version": "0.0.2-6",
+  "version": "0.0.3",
   "scripts": {
     "storybook": "start-storybook -p 9001 -c .storybook",
-    "build": "webpack --mode production --config ./config/webpack.config.js",
+    "build:elements": "webpack --mode production --config ./config/webpack.config.js",
+    "build:hydrate": "webpack --mode production --config ./config/hydrate.config.js",
+    "build": "npm run build:elements && npm run build:hydrate",
     "test": "jest",
     "test:coverage": "jest --coverage",
     "test:watch": "jest --watch",
     "test:lint": "eslint . --ignore-path .gitignore"
   },
-  "main": "build/elements.js",
+  "main": "build",
   "peerDependencies": {
     "styled-components": "4.1.3"
   },

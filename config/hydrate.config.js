@@ -1,4 +1,3 @@
-const CleanWebpackPlugin = require('clean-webpack-plugin');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const path = require('path');
 
@@ -7,7 +6,7 @@ const OUTPUT_DIR = 'build';
 
 module.exports = {
   entry: {
-    index: `./src/index.js`,
+    hydrate: `./src/hydrate/index.js`,
   },
   output: {
     path: path.resolve(__dirname, `../${OUTPUT_DIR}`),
@@ -64,10 +63,10 @@ module.exports = {
     new UglifyJsPlugin({
       sourceMap: true,
     }),
-    new CleanWebpackPlugin([OUTPUT_DIR]),
   ],
-  externals: {
-    'styled-components': 'styled-components',
-    react: 'react',
-  },
+  //   externals: {
+  //     react: 'React',
+  //     'react-dom': 'ReactDOM',
+  //     '@quarkly/elements': 'window["@quarkly/elements"]',
+  //   },
 };
