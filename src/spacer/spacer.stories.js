@@ -18,9 +18,9 @@ stories
   ))
   .add('variants', () => (
     <Theme>
-      Content
+      Big
       <Spacer variant="big" />
-      Content
+      Small
       <Spacer variant="small" />
       Content
     </Theme>
@@ -29,6 +29,27 @@ stories
     <Theme>
       Content
       <Spacer height={text('height', '100px')} />
+      Content
+    </Theme>
+  ))
+  .add('50vh', () => (
+    <Theme>
+      Content
+      <Spacer height={text('height', '50vh')} />
+      Content
+    </Theme>
+  ))
+  .add('25%', () => (
+    <Theme>
+      Content
+      <Spacer height={text('height', '25%')} />
+      Content
+    </Theme>
+  ))
+  .add('10rem', () => (
+    <Theme>
+      Content
+      <Spacer height={text('height', '10rem')} />
       Content
     </Theme>
   ));
