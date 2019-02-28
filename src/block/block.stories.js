@@ -44,6 +44,7 @@ stories.add('with props', () => (
           none: 'none',
         },
         'block',
+        'Layout',
       )}
       size={text('size', '', 'Layout')}
       width={text('width', '300px', 'Layout')}

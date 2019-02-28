@@ -12,7 +12,7 @@ const stories = storiesOf('Card', module);
 stories.addDecorator(withKnobs);
 
 stories
-  .add('empty', () => (
+  .add('default', () => (
     <Theme>
       <Card />
     </Theme>
@@ -20,7 +20,7 @@ stories
   .add('with content', () => (
     <Theme>
       <Card>
-        <Image height="200px" src="https://picsum.photos/200" />
+        <Image height="200px" src="https://picsum.photos/200" backgroundSize="contain" />
         <Text p="10px">Some text</Text>
         <Button m="10px">Click</Button>
       </Card>

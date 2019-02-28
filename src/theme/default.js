@@ -94,6 +94,20 @@ export default {
       height: '10px',
     },
   },
+  images: {
+    fluid: {
+      'max-width': '100%',
+      height: 'auto',
+    },
+    thumb: {
+      border: '1px solid #dee2e6',
+      'border-radius': '4px',
+      width: '200px',
+      height: '200px',
+      backgroundColor: '#fff',
+      padding: '4px',
+    },
+  },
   hrs: {
     wide: {
       width: '250px',
