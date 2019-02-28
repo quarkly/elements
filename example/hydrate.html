@@ -8,5 +8,15 @@
   <body>
     <div id="root"></div>
   </body>
-  <script src="https://unpkg.com/@quarkly/elements@0.0.3/build/hydrate.js"></script>
+  <script>window.qApp = function __App(staticDeps) {
+    return React.createElement(Theme, null, React.createElement(Card, {
+      bg: "red",
+      slottype: "Card",
+      quarkinfo: {
+        "line": 1,
+        "column": 1
+      }
+    }));
+  }</script>
+  <script src="https://unpkg.com/@quarkly/elements@0.0.3-2/build/hydrate.js"></script>
 </html>

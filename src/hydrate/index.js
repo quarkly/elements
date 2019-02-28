@@ -1,10 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Card, Theme } from '../index';
+import * as elements from '../index';
 
-const Hello = () => (
-  <Theme>
-    <Card>Hello</Card>
-  </Theme>
-);
-ReactDOM.render(<Hello />, document.getElementById('root'));
+Object.assign(window, { React, ...elements });
+const app = window.qApp;
+ReactDOM.hydrate(app(), document.getElementById('root'));

@@ -3,7 +3,7 @@
   "description": "quarkly elements",
   "author": "Eddort",
   "user": "Eddort",
-  "version": "0.0.3",
+  "version": "0.0.3-3",
   "scripts": {
     "storybook": "start-storybook -p 9001 -c .storybook",
     "build:elements": "webpack --mode production --config ./config/webpack.config.js",
