@@ -48,15 +48,13 @@ stories.add('with props', () => (
       mx={text('mx', '', 'Core')}
       my={text('my', '', 'Core')}
       src={text('src', 'https://picsum.photos/500', 'Core')}
-      bg={color('bg', ['red', 'blue', 'yellow'], 'Core')}
+      bg={text('bg', ['red', 'blue', 'yellow'], 'Core')}
       display={select(
         'display',
         {
           block: 'block',
-          flex: 'flex',
           inline: 'inline',
           'inline-block': 'inline-block',
-          grid: 'grid',
           none: 'none',
         },
         'block',
