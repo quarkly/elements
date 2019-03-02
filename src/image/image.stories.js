@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { withKnobs, text, color, select, number } from '@storybook/addon-knobs';
+import { withKnobs, text, color, select, number, array } from '@storybook/addon-knobs';
 import Image from './index';
 import Theme from '../theme';
 
@@ -12,7 +12,7 @@ stories.add('adaptive', () => (
   <Theme>
     <Image
       src={text('src', 'https://picsum.photos/500', 'Core')}
-      p={text('p', [5, 10, 55], 'Core')}
+      p={array('p', [5, 10, 55], 'Core')}
       bg={['red', 'blue', 'yellow']}
       height="400px"
       width="500px"
@@ -48,7 +48,7 @@ stories.add('with props', () => (
       mx={text('mx', '', 'Core')}
       my={text('my', '', 'Core')}
       src={text('src', 'https://picsum.photos/500', 'Core')}
-      bg={text('bg', ['red', 'blue', 'yellow'], 'Core')}
+      bg={array('bg', ['red', 'blue', 'yellow'], 'red', 'Core')}
       display={select(
         'display',
         {

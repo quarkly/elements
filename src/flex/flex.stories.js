@@ -14,15 +14,7 @@ stories.addDecorator(withKnobs);
 
 stories.add('default', () => (
   <Theme>
-    <Card>
-      <Image height="200px" src="https://picsum.photos/200" />
-      <Text p="10px">Some text</Text>
-      <Flex alignItems="center" justifyContent="center">
-        <Button m="10px">Click</Button>
-        <Button m="10px">Click</Button>
-        <Button m="10px">Click</Button>
-      </Flex>
-    </Card>
+    <Card />
   </Theme>
 ));
 
@@ -56,7 +48,7 @@ stories.add('with props', () => (
       ml={text('ml', '', 'Core')}
       mx={text('mx', '', 'Core')}
       my={text('my', '', 'Core')}
-      bg={color('bg', 'lightslategrey', 'Core')}
+      bg={array('bg', ['lightslategrey'], 'Core')}
       display={select(
         'display',
         {
@@ -121,6 +113,7 @@ stories.add('with props', () => (
       )}
       flex={text('flex', '', 'Flexbox')}
       alignContent={select(
+        'alignContent',
         {
           'flex-start': 'flex-start',
           'flex-end': 'flex-end',

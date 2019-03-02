@@ -100,6 +100,7 @@ stories.add('with props', () => (
       )}
       flex={text('flex', '', 'Flexbox')}
       alignContent={select(
+        'alignContent',
         {
           'flex-start': 'flex-start',
           'flex-end': 'flex-end',
