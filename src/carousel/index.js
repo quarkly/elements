@@ -2,8 +2,10 @@ import React from 'react';
 import Slider from 'react-slick';
 import { Provider } from '../quark';
 import Box from '../box';
+import styled from 'styled-components';
+import { includeWith, themed, variant } from '../styled';
 
-class Carousel extends React.Component {
+export default class Carousel extends React.Component {
   render() {
     const { children } = this.props;
     return (
@@ -30,5 +32,3 @@ class Carousel extends React.Component {
     );
   }
 }
-
-export default Carousel;
