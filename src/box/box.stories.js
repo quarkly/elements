@@ -3,6 +3,7 @@ import { storiesOf } from '@storybook/react';
 import { withKnobs, number, text, select, color } from '@storybook/addon-knobs';
 import Box from './index';
 import Theme from '../theme';
+import Text from '../text';
 
 const stories = storiesOf('Box', module);
 
@@ -17,21 +18,21 @@ stories.add('default', () => (
 stories.add('with props', () => (
   <Theme>
     <Box
-      p={text('p', '', 'Core')}
-      pt={text('pt', '', 'Core')}
-      pr={text('pr', '', 'Core')}
-      pb={text('pb', '', 'Core')}
-      pl={text('pl', '', 'Core')}
+      p={text('p', '20px', 'Core')}
+      paddingTop={text('paddingTop', '', 'Core')}
+      paddingRight={text('paddingRight', '', 'Core')}
+      paddingBottom={text('paddingBottom', '', 'Core')}
+      paddingLeft={text('paddingLeft', '', 'Core')}
       px={text('px', '', 'Core')}
       py={text('py', '', 'Core')}
-      m={text('m', '', 'Core')}
-      mt={text('mt', '', 'Core')}
-      mr={text('mr', '', 'Core')}
-      mb={text('mb', '', 'Core')}
-      ml={text('ml', '', 'Core')}
+      m={text('m', '20px', 'Core')}
+      marginTop={text('marginTop', '', 'Core')}
+      marginRight={text('marginRight', '', 'Core')}
+      marginBottom={text('marginBottom', '', 'Core')}
+      marginLeft={text('marginLeft', '', 'Core')}
       mx={text('mx', '', 'Core')}
       my={text('my', '', 'Core')}
-      bg={color('bg', '', 'Core')}
+      bg={color('bg', 'lightslategrey', 'Core')}
       display={select(
         'display',
         {
@@ -45,7 +46,7 @@ stories.add('with props', () => (
         'block',
         'Layout',
       )}
-      size={text('size', '', 'Layout')}
+      size={text('size', '300px', 'Layout')}
       width={text('width', '100%', 'Layout')}
       minWidth={text('minWidth', '', 'Layout')}
       maxWidth={text('maxWidth', '', 'Layout')}
@@ -152,7 +153,7 @@ stories.add('with props', () => (
         'flex-start',
         'Flexbox',
       )}
-      order={number('order', '', 'Flexbox')}
+      order={number('order', '', '{0}', 'Flexbox')}
       flexBasis={text('flexBasis', '', 'Flexbox')}
       gridGap={text('gridGap', '', 'Grid')}
       gridRowGap={text('gridRowGap', '', 'Grid')}
@@ -242,7 +243,7 @@ stories.add('with props', () => (
       borderColor={color('borderColor', '', 'Misc')}
       borderRadius={text('borderRadius', '', 'Misc')}
       boxShadow={text('boxShadow', '', 'Misc')}
-      opacity={number('opacity', '', 'Misc')}
+      opacity={number('opacity', '', '{1}', 'Misc')}
       overflow={select(
         'overflow',
         {
@@ -271,7 +272,10 @@ stories.add('with props', () => (
       top={text('top', '', 'Position')}
       right={text('right', '', 'Position')}
       bottom={text('bottom', '', 'Position')}
-      left={text('left', '', 'Position')}
-    />
+      left={text('left', '', 'Position')}>
+      <Text variant="h2" color="black">
+        Text
+      </Text>
+    </Box>
   </Theme>
 ));

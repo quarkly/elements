@@ -20,13 +20,30 @@ stories.add('default', () => (
 
 stories.add('with card', () => (
   <Theme>
-    <Card>
-      <Image height="200px" src="https://picsum.photos/200" />
-      <Text p="10px">Some text</Text>
-      <Flex alignItems="center" justifyContent="center">
-        <Button m="10px">Click</Button>
-        <Button m="10px">Click</Button>
-        <Button m="10px">Click</Button>
+    <Card variant="vertical">
+      <Flex
+        minHeight="200px"
+        backgroundSize="cover"
+        width="100%"
+        backgroundPosition="center center"
+        backgroundImage="url(https://images.unsplash.com/photo-1477005264461-b0e201668d92?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)"
+      />
+      <Flex flexDirection="column" p="20px" pb="32px" alignItems="flex-start">
+        <Text variant="h3" m="0">
+          {text('Heading', 'The Moon', 'Data')}
+        </Text>
+        <Text variant="base">
+          {text(
+            'Paragraph',
+            'The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.',
+            'Data',
+          )}
+        </Text>
+        <Flex>
+          <Button mr="18px">{text('Label', 'First', 'Data')}</Button>
+          <Button mr="18px">{text('Label', 'Second', 'Data')}</Button>
+          <Button>{text('Label', 'Third', 'Data')}</Button>
+        </Flex>
       </Flex>
     </Card>
   </Theme>
@@ -34,18 +51,18 @@ stories.add('with card', () => (
 stories.add('with props', () => (
   <Theme>
     <Flex
-      p={text('p', '20px', 'Core')}
-      pt={text('pt', '', 'Core')}
-      pr={text('pr', '', 'Core')}
-      pb={text('pb', '', 'Core')}
-      pl={text('pl', '', 'Core')}
+      p={text('p', '', 'Core')}
+      paddingTop={text('paddingTop', '', 'Core')}
+      paddingRight={text('paddingRight', '', 'Core')}
+      paddingBottom={text('paddingBottom', '', 'Core')}
+      paddingLeft={text('paddingLeft', '', 'Core')}
       px={text('px', '', 'Core')}
       py={text('py', '', 'Core')}
-      m={text('m', '20px', 'Core')}
-      mt={text('mt', '', 'Core')}
-      mr={text('mr', '', 'Core')}
-      mb={text('mb', '', 'Core')}
-      ml={text('ml', '', 'Core')}
+      m={text('m', '', 'Core')}
+      marginTop={text('marginTop', '', 'Core')}
+      marginRight={text('marginRight', '', 'Core')}
+      marginBottom={text('marginBottom', '', 'Core')}
+      marginLeft={text('marginLeft', '', 'Core')}
       mx={text('mx', '', 'Core')}
       my={text('my', '', 'Core')}
       bg={array('bg', ['lightslategrey'], 'Core')}
@@ -165,7 +182,7 @@ stories.add('with props', () => (
         'flex-start',
         'Flexbox',
       )}
-      order={number('order', '', 'Flexbox')}
+      order={number('order', '', '{0}', 'Flexbox')}
       flexBasis={text('flexBasis', '', 'Flexbox')}
       background={text('background', '', 'Background')}
       backgroundImage={text('backgroundImage', 'url()', 'Background')}
@@ -232,7 +249,7 @@ stories.add('with props', () => (
       borderColor={color('borderColor', '', 'Misc')}
       borderRadius={text('borderRadius', '', 'Misc')}
       boxShadow={text('boxShadow', '', 'Misc')}
-      opacity={number('opacity', '', 'Misc')}
+      opacity={number('opacity', '', '{1}', 'Misc')}
       overflow={select(
         'overflow',
         {
@@ -261,7 +278,10 @@ stories.add('with props', () => (
       top={text('top', '', 'Position')}
       right={text('right', '', 'Position')}
       bottom={text('bottom', '', 'Position')}
-      left={text('left', '', 'Position')}
-    />
+      left={text('left', '', 'Position')}>
+      <Text variant="h2" color="black">
+        Text
+      </Text>
+    </Flex>
   </Theme>
 ));

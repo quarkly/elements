@@ -64,17 +64,17 @@ stories.add('with props', () => (
       color={color('color', 'black', 'Core')}
       bg={color('bg', '', 'Core')}
       p={text('p', '', 'Core')}
-      pt={text('pt', '', 'Core')}
-      pr={text('pr', '', 'Core')}
-      pb={text('pb', '', 'Core')}
-      pl={text('pl', '', 'Core')}
+      paddingTop={text('paddingTop', '', 'Core')}
+      paddingRight={text('paddingRight', '', 'Core')}
+      paddingBottom={text('paddingBottom', '', 'Core')}
+      paddingLeft={text('paddingLeft', '', 'Core')}
       px={text('px', '', 'Core')}
       py={text('py', '', 'Core')}
       m={text('m', '', 'Core')}
-      mt={text('mt', '', 'Core')}
-      mr={text('mr', '', 'Core')}
-      mb={text('mb', '', 'Core')}
-      ml={text('ml', '', 'Core')}
+      marginTop={text('marginTop', '', 'Core')}
+      marginRight={text('marginRight', '', 'Core')}
+      marginBottom={text('marginBottom', '', 'Core')}
+      marginLeft={text('marginLeft', '', 'Core')}
       mx={text('mx', '', 'Core')}
       my={text('my', '', 'Core')}
       fontSize={text('fontSize', '', 'Typography')}
@@ -85,7 +85,7 @@ stories.add('with props', () => (
       fontStyle={text('fontStyle', '', 'Typography')}
       letterSpacing={text('letterSpacing', '', 'Typography')}
       boxShadow={text('boxShadow', '', 'Misc')}
-      order={number('order', '', 'Flexbox')}
+      order={number('order', '', '{0}', 'Flexbox')}
       alignSelf={select(
         'alignSelf',
         {
@@ -97,7 +97,7 @@ stories.add('with props', () => (
           stretch: 'stretch',
         },
         'flex-start',
-        'Layout',
+        'Flexbox',
       )}
       justifySelf={select(
         'justifySelf',
@@ -110,9 +110,9 @@ stories.add('with props', () => (
           'space-evenly': 'space-evenly',
         },
         'flex-start',
-        'Layout',
+        'Flexbox',
       )}
-      opacity={number('opacity', '', 'Misc')}
+      opacity={number('opacity', '', '{1}', 'Misc')}
       overflow={select(
         'overflow',
         {

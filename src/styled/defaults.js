@@ -53,6 +53,7 @@ export const button = [
   'backgroundPosition',
   'backgroundRepeat',
   'backgroundSize',
+  'order',
   'alignSelf',
   'justifySelf',
   'opacity',

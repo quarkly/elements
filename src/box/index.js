@@ -7,5 +7,5 @@ export default styled('div')(
   },
   themed('Box'),
   variant('boxes'),
-  ...includeWith('defaults'),
+  ...includeWith('box'),
 );

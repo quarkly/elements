@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { withKnobs, number, text, color, array, select } from '@storybook/addon-knobs';
 import Block from './index';
-import Box from '../box';
+import Text from '../text';
 import Theme from '../theme';
 
 const stories = storiesOf('Block', module);
@@ -19,17 +19,17 @@ stories.add('with props', () => (
   <Theme>
     <Block
       p={text('p', '20px', 'Core')}
-      pt={text('pt', '', 'Core')}
-      pr={text('pr', '', 'Core')}
-      pb={text('pb', '', 'Core')}
-      pl={text('pl', '', 'Core')}
+      paddingTop={text('paddingTop', '', 'Core')}
+      paddingRight={text('paddingRight', '', 'Core')}
+      paddingBottom={text('paddingBottom', '', 'Core')}
+      paddingLeft={text('paddingLeft', '', 'Core')}
       px={text('px', '', 'Core')}
       py={text('py', '', 'Core')}
       m={text('m', '20px', 'Core')}
-      mt={text('mt', '', 'Core')}
-      mr={text('mr', '', 'Core')}
-      mb={text('mb', '', 'Core')}
-      ml={text('ml', '', 'Core')}
+      marginTop={text('marginTop', '', 'Core')}
+      marginRight={text('marginRight', '', 'Core')}
+      marginBottom={text('marginBottom', '', 'Core')}
+      marginLeft={text('marginLeft', '', 'Core')}
       mx={text('mx', '', 'Core')}
       my={text('my', '', 'Core')}
       bg={color('bg', 'lightslategrey', 'Core')}
@@ -153,7 +153,7 @@ stories.add('with props', () => (
         'flex-start',
         'Flexbox',
       )}
-      order={number('order', '', 'Flexbox')}
+      order={number('order', '', '{0}', 'Flexbox')}
       flexBasis={text('flexBasis', '', 'Flexbox')}
       gridGap={text('gridGap', '', 'Grid')}
       gridRowGap={text('gridRowGap', '', 'Grid')}
@@ -243,7 +243,7 @@ stories.add('with props', () => (
       borderColor={color('borderColor', '', 'Misc')}
       borderRadius={text('borderRadius', '', 'Misc')}
       boxShadow={text('boxShadow', '', 'Misc')}
-      opacity={number('opacity', '', 'Misc')}
+      opacity={number('opacity', '', '{1}', 'Misc')}
       overflow={select(
         'overflow',
         {
@@ -273,7 +273,9 @@ stories.add('with props', () => (
       right={text('right', '', 'Position')}
       bottom={text('bottom', '', 'Position')}
       left={text('left', '', 'Position')}>
-      <Box width="100px" height="100px" color="black" />
+      <Text variant="h2" color="black">
+        Text
+      </Text>
     </Block>
   </Theme>
 ));

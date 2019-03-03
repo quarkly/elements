@@ -40,8 +40,8 @@ stories
           },
           'block',
         )}
-        opacity={number('opacity', ' ')}
-        order={number('order', '', 'Flexbox')}
+        opacity={number('opacity', '', '{1}', 'Misc')}
+        order={number('order', '', '{0}', 'Flexbox')}
         alignSelf={select(
           'alignSelf',
           {
@@ -53,7 +53,7 @@ stories
             stretch: 'stretch',
           },
           'flex-start',
-          'Layout',
+          'Flexbox',
         )}
         justifySelf={select(
           'justifySelf',
@@ -66,7 +66,7 @@ stories
             'space-evenly': 'space-evenly',
           },
           'flex-start',
-          'Layout',
+          'Flexbox',
         )}
       />
       Content

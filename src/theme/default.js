@@ -45,6 +45,7 @@ export default {
     'min-height': '300px',
     justifyContent: 'flex-start',
     alignItems: 'stretch',
+    overflow: 'auto',
   },
   cards: {
     vertical: {},
