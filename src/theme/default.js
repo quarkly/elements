@@ -43,6 +43,17 @@ export default {
     'box-sizing': 'border-box',
     width: '400px',
     'min-height': '300px',
+    justifyContent: 'flex-start',
+    alignItems: 'stretch',
+  },
+  cards: {
+    vertical: {},
+    horizontal: {
+      display: 'flex',
+      'min-height': '100px',
+      'min-width': '200px',
+      width: 'auto',
+    },
   },
   Button: {
     borderRadius: '4px',

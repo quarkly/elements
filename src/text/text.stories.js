@@ -85,6 +85,33 @@ stories.add('with props', () => (
       fontStyle={text('fontStyle', '', 'Typography')}
       letterSpacing={text('letterSpacing', '', 'Typography')}
       boxShadow={text('boxShadow', '', 'Misc')}
+      order={number('order', '', 'Flexbox')}
+      alignSelf={select(
+        'alignSelf',
+        {
+          auto: 'auto',
+          'flex-start': 'flex-start',
+          'flex-end': 'flex-end',
+          center: 'center',
+          baseline: 'baseline',
+          stretch: 'stretch',
+        },
+        'flex-start',
+        'Layout',
+      )}
+      justifySelf={select(
+        'justifySelf',
+        {
+          'flex-start': 'flex-start',
+          'flex-end': 'flex-end',
+          center: 'center',
+          'space-between': 'space-between',
+          'space-around': 'space-around',
+          'space-evenly': 'space-evenly',
+        },
+        'flex-start',
+        'Layout',
+      )}
       opacity={number('opacity', '', 'Misc')}
       overflow={select(
         'overflow',

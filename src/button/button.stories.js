@@ -47,6 +47,7 @@ stories.add('with props', () => (
         height={text('height', '', 'Layout')}
         minHeight={text('minHeight', '', 'Layout')}
         maxHeight={text('maxHeight', '', 'Layout')}
+        order={number('order', '', 'Flexbox')}
         alignSelf={select(
           'alignSelf',
           {

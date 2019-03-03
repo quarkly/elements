@@ -41,6 +41,33 @@ stories
           'block',
         )}
         opacity={number('opacity', ' ')}
+        order={number('order', '', 'Flexbox')}
+        alignSelf={select(
+          'alignSelf',
+          {
+            auto: 'auto',
+            'flex-start': 'flex-start',
+            'flex-end': 'flex-end',
+            center: 'center',
+            baseline: 'baseline',
+            stretch: 'stretch',
+          },
+          'flex-start',
+          'Layout',
+        )}
+        justifySelf={select(
+          'justifySelf',
+          {
+            'flex-start': 'flex-start',
+            'flex-end': 'flex-end',
+            center: 'center',
+            'space-between': 'space-between',
+            'space-around': 'space-around',
+            'space-evenly': 'space-evenly',
+          },
+          'flex-start',
+          'Layout',
+        )}
       />
       Content
     </Theme>
