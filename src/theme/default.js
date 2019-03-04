@@ -32,10 +32,9 @@ export default {
     width: '100%',
     height: '100vh',
   },
-  Box: {
-    width: '100%',
-    height: '100vh',
-  },
+  Box: {},
+  Flex: {},
+  Grid: {},
   Card: {
     backgroundColor: '#FFFFFF',
     borderRadius: '4px',
