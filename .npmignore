@@ -3,4 +3,7 @@ dist/
 tests/
 src/
 .*
-
+docs/
+.storybook/
+config/
+example/

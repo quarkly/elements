@@ -1,11 +1,10 @@
 import * as styledSystem from 'styled-system';
-import { merge } from 'lodash';
 import classNames from 'classnames';
-import { defaults, card, image, hovered, flex } from './defaults';
+import { defaults, card, image, hovered, flex, button, text } from './defaults';
 
 const styled = styledSystem;
 
-export const themed = key => theme => theme[key];
+export const themed = key => props => props.theme[key];
 
 export const variant = key => styled.variant({ key });
 
@@ -15,6 +14,8 @@ export const settings = {
   image,
   hovered,
   flex,
+  button,
+  text,
 };
 
 styled.bgHover = styled.style({
@@ -29,15 +30,15 @@ styled.colorHover = styled.style({
   key: 'colors',
 });
 
-export const includeWith = (key, props) => {
+export const includeWith = key => {
   const values = settings[key];
   return values.reduce((acc, attr) => {
     if (!styled[attr]) {
       return acc;
     }
-    merge(acc, styled[attr](props));
+    acc.push(styled[attr]);
     return acc;
-  }, {});
+  }, []);
 };
 // класс для jss + класс из пропсов
 export const className = (name, props) => classNames(props.classes[name], props.className);

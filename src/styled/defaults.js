@@ -1,6 +1,5 @@
 export const defaults = [
   'bgColor',
-  'color',
   'space',
   'width',
   'fontSize',
@@ -37,6 +36,8 @@ export const card = [
   'borderRadius',
 ];
 
+export const button = ['fontWeight', 'borders', 'borderColor', 'borderRadius', 'buttonStyle'];
+
 export const image = [
   'background',
   'backgroundImage',
@@ -48,3 +49,5 @@ export const image = [
 export const hovered = ['bgHover', 'colorHover'];
 
 export const flex = ['flexWrap', 'flexDirection', 'alignItems', 'justifyContent'];
+
+export const text = ['fontFamily', 'fontWeight', 'textAlign', 'lineHeight', 'letterSpacing'];

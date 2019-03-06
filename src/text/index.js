@@ -1,19 +1,15 @@
-import React from 'react';
-import injectSheet from 'react-jss';
-import { includeWith, themed, variant, className } from '../styled';
+import styled from 'styled-components';
+import { includeWith, themed, variant } from '../styled';
 
-const styles = theme => ({
-  text(props) {
-    const css = {
-      ...themed('Text')(theme),
-      ...variant('texts')({ theme, ...props }),
-      ...includeWith('defaults', props),
-      ...includeWith('card', props),
-    };
-    return css;
-  },
-});
+const Text = styled('div')(
+  themed('Text'),
+  variant('texts'),
+  ...includeWith('defaults'),
+  ...includeWith('text'),
+);
 
-const Text = props => <p className={className('text', props)}>{props.children}</p>;
+Text.defaultProps = {
+  as: 'p',
+};
 
-export default injectSheet(styles)(Text);
+export default Text;

@@ -1,36 +1,29 @@
-import React, { Component } from 'react';
-import injectSheet from 'react-jss';
-import { includeWith, themed, variant, className } from '../styled';
+import React from 'react';
+import styled from 'styled-components';
+import { includeWith, themed, variant } from '../styled';
 import { asQuark } from '../quark';
 
-const styles = theme => ({
-  button(props) {
-    const css = {
-      ...themed('Button')(theme),
-      ...variant('buttons')({ theme, ...props }),
-      ...includeWith('defaults', props),
-      ...includeWith('card', props),
-    };
-    return css;
+const BaseButton = styled('div')(
+  {
+    appearance: 'none',
+    display: 'inline-block',
+    textAlign: 'center',
+    lineHeight: 'inherit',
+    textDecoration: 'none',
+    cursor: 'pointer',
   },
-});
+  themed('Button'),
+  variant('buttons'),
+  ...includeWith('defaults'),
+  ...includeWith('button'),
+);
 
 const qStateDefault = {
   btnClick: () => {},
 };
+const Button = props => {
+  const qState = props.qState || qStateDefault;
+  return <BaseButton as="button" {...props} onClick={qState.btnClick.bind(null, props)} />;
+};
 
-class Button extends Component {
-  render() {
-    const { props } = this;
-    const qState = props.qState || qStateDefault;
-    return (
-      <button
-        {...props}
-        onClick={qState.btnClick.bind(null, props)}
-        className={className('button', props)}
-      />
-    );
-  }
-}
-
-export default injectSheet(styles)(asQuark(Button));
+export default asQuark(Button);

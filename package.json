@@ -3,16 +3,21 @@
   "description": "quarkly elements",
   "author": "Eddort",
   "user": "Eddort",
-  "version": "0.0.1-13",
+  "version": "0.0.3-5",
   "scripts": {
     "storybook": "start-storybook -p 9001 -c .storybook",
-    "build": "webpack --mode production --config ./config/webpack.config.js",
+    "build:elements": "webpack --mode production --config ./config/webpack.config.js",
+    "build:hydrate": "webpack --mode production --config ./config/hydrate.config.js",
+    "build": "npm run build:elements && npm run build:hydrate",
     "test": "jest",
     "test:coverage": "jest --coverage",
     "test:watch": "jest --watch",
     "test:lint": "eslint . --ignore-path .gitignore"
   },
-  "main": "build/elements.js",
+  "main": "build",
+  "peerDependencies": {
+    "styled-components": "4.1.3"
+  },
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@babel/plugin-proposal-export-default-from": "^7.2.0",
@@ -41,12 +46,12 @@
     "jest": "^22.4.2",
     "prettier": "1.16.4",
     "prop-types": "^15.7.2",
-    "react-jss": "10.0.0-alpha.10",
     "style-loader": "^0.23.1",
     "uglifyjs-webpack-plugin": "^2.1.1",
     "url-loader": "^1.1.2",
     "webpack": "^4.29.3",
-    "webpack-cli": "^3.2.3"
+    "webpack-cli": "^3.2.3",
+    "styled-components": "4.1.3"
   },
   "jest": {
     "collectCoverage": true,

@@ -2,8 +2,10 @@ import styled from 'styled-components';
 import { includeWith, themed, variant } from '../styled';
 
 export default styled('div')(
-  themed('Card'),
-  variant('cards'),
+  {
+    boxSizing: 'border-box',
+  },
+  themed('Box'),
+  variant('boxes'),
   ...includeWith('defaults'),
-  ...includeWith('card'),
 );
