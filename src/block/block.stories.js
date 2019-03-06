@@ -1,78 +1,49 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { withKnobs, number, text, color, array, select } from '@storybook/addon-knobs';
-import Card from '../card';
-import Theme from '../theme';
-import Image from '../image';
+import Block from './index';
 import Text from '../text';
-import Button from '../button';
-import Flex from './index';
+import Theme from '../theme';
 
-const stories = storiesOf('Flex', module);
+const stories = storiesOf('Block', module);
 
 stories.addDecorator(withKnobs);
 
 stories.add('default', () => (
   <Theme>
-    <Flex />
+    <Block />
   </Theme>
 ));
 
-stories.add('with card', () => (
-  <Theme>
-    <Card variant="vertical">
-      <Flex
-        minHeight="200px"
-        backgroundSize="cover"
-        width="100%"
-        backgroundPosition="center center"
-        backgroundImage="url(https://images.unsplash.com/photo-1477005264461-b0e201668d92?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)"
-      />
-      <Flex flexDirection="column" p="20px" pb="32px" alignItems="flex-start">
-        <Text variant="h3" m="0">
-          {text('Heading', 'The Moon', 'Data')}
-        </Text>
-        <Text variant="base">
-          {text(
-            'Paragraph',
-            'The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.',
-            'Data',
-          )}
-        </Text>
-        <Flex>
-          <Button mr="18px">{text('Label', 'First', 'Data')}</Button>
-          <Button mr="18px">{text('Label', 'Second', 'Data')}</Button>
-          <Button>{text('Label', 'Third', 'Data')}</Button>
-        </Flex>
-      </Flex>
-    </Card>
-  </Theme>
-));
 stories.add('with props', () => (
   <Theme>
-    <Flex
-      p={text('p', '', 'Core')}
+    <Block
+      p={text('p', '20px', 'Core')}
       paddingTop={text('paddingTop', '', 'Core')}
       paddingRight={text('paddingRight', '', 'Core')}
       paddingBottom={text('paddingBottom', '', 'Core')}
       paddingLeft={text('paddingLeft', '', 'Core')}
       px={text('px', '', 'Core')}
       py={text('py', '', 'Core')}
-      m={text('m', '', 'Core')}
+      m={text('m', '20px', 'Core')}
       marginTop={text('marginTop', '', 'Core')}
       marginRight={text('marginRight', '', 'Core')}
       marginBottom={text('marginBottom', '', 'Core')}
       marginLeft={text('marginLeft', '', 'Core')}
       mx={text('mx', '', 'Core')}
       my={text('my', '', 'Core')}
-      bg={array('bg', ['lightslategrey'], 'Core')}
+      bg={color('bg', 'lightslategrey', 'Core')}
       display={select(
         'display',
         {
+          block: 'block',
           flex: 'flex',
+          inline: 'inline',
+          'inline-block': 'inline-block',
+          grid: 'grid',
           none: 'none',
         },
-        'flex',
+        'block',
         'Layout',
       )}
       size={text('size', '', 'Layout')}
@@ -184,6 +155,29 @@ stories.add('with props', () => (
       )}
       order={number('order', '', '{0}', 'Flexbox')}
       flexBasis={text('flexBasis', '', 'Flexbox')}
+      gridGap={text('gridGap', '', 'Grid')}
+      gridRowGap={text('gridRowGap', '', 'Grid')}
+      gridColumnGap={text('gridColumnGap', '', 'Grid')}
+      gridColumn={text('gridColumn', '', 'Grid')}
+      gridRow={text('gridRow', '', 'Grid')}
+      gridArea={text('gridArea', '', 'Grid')}
+      gridAutoFlow={select(
+        'gridAutoFlow',
+        {
+          row: 'row',
+          column: 'column',
+          dense: 'dense',
+          'row dense': 'row dense',
+          'column dense': 'column dense',
+        },
+        'row',
+        'Grid',
+      )}
+      gridAutoRows={text('gridAutoRows', '', 'Grid')}
+      gridAutoColumns={text('gridAutoColumns', '', 'Grid')}
+      gridTemplateRows={text('gridTemplateRows', '', 'Grid')}
+      gridTemplateColumns={text('gridTemplateColumns', '', 'Grid')}
+      gridTemplateAreas={text('gridTemplateAreas', '', 'Grid')}
       background={text('background', '', 'Background')}
       backgroundImage={text('backgroundImage', 'url()', 'Background')}
       backgroundSize={select(
@@ -280,8 +274,8 @@ stories.add('with props', () => (
       bottom={text('bottom', '', 'Position')}
       left={text('left', '', 'Position')}>
       <Text variant="h2" color="black">
-        {text('Text', 'Text', 'Data')}
+        Text
       </Text>
-    </Flex>
+    </Block>
   </Theme>
 ));

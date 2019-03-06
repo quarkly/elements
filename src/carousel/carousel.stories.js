@@ -1,11 +1,14 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { withKnobs } from '@storybook/addon-knobs';
+import { withKnobs, number, text, select, color, boolean } from '@storybook/addon-knobs';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Carousel from './index';
 import Theme from '../theme';
+import Block from '../block';
 import Button from '../button';
+import Image from '../image';
+import Flex from '../flex';
 
 const stories = storiesOf('Carousel', module);
 
@@ -13,19 +16,77 @@ stories.addDecorator(withKnobs);
 
 stories.add('default', () => (
   <Theme>
+    <Carousel dots height={'400px'} bg={'black'}>
+      <Image
+        src="https://www.jpl.nasa.gov/images/mars/20160421/PIA00407-16.jpg"
+        variant="fluid"
+        height="400px"
+      />
+      <Image
+        src="https://photojournal.jpl.nasa.gov/jpeg/PIA18182.jpg"
+        variant="fluid"
+        height="400px"
+      />
+      <Image
+        src="https://www.jpl.nasa.gov/images/cassini/20160408/PIA11141-16.jpg"
+        variant="fluid"
+        height="400px"
+      />
+    </Carousel>
+  </Theme>
+));
+stories.add('with props', () => (
+  <Theme>
     <Carousel
-      dots
-      bgHover={['red', 'yellow', 'tomato']}
-      className={'ssssss'}
-      bg={['lightgray', 'green', 'blue']}>
-      <Button controls="right">right</Button>
-      <Button controls="left">left</Button>
-      <img src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide1" />
-      <img src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide2" />
-      <img src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide3" />
-      <img src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide4" />
-      <img src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide5" />
-      <img src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide6" />
+      dots={boolean('dots', true, 'Core')}
+      p={text('p', '', 'Core')}
+      paddingTop={text('paddingTop', '', 'Core')}
+      paddingRight={text('paddingRight', '', 'Core')}
+      paddingBottom={text('paddingBottom', '', 'Core')}
+      paddingLeft={text('paddingLeft', '', 'Core')}
+      px={text('px', '', 'Core')}
+      py={text('py', '', 'Core')}
+      m={text('m', '', 'Core')}
+      marginTop={text('marginTop', '', 'Core')}
+      marginRight={text('marginRight', '', 'Core')}
+      marginBottom={text('marginBottom', '', 'Core')}
+      marginLeft={text('marginLeft', '', 'Core')}
+      mx={text('mx', '', 'Core')}
+      my={text('my', '', 'Core')}
+      bg={color('bg', 'white', 'Core')}
+      display={select(
+        'display',
+        {
+          block: 'block',
+          inline: 'inline',
+          'inline-block': 'inline-block',
+          none: 'none',
+        },
+        'block',
+        'Layout',
+      )}
+      size={text('size', '', 'Layout')}
+      width={text('width', '', 'Layout')}
+      minWidth={text('minWidth', '', 'Layout')}
+      maxWidth={text('maxWidth', '', 'Layout')}
+      height={text('height', '', 'Layout')}
+      minHeight={text('minHeight', '', 'Layout')}
+      maxHeight={text('maxHeight', '', 'Layout')}>
+      <Image
+        src="https://www.jpl.nasa.gov/images/mars/20160421/PIA00407-16.jpg"
+        variant="fluid"
+        height="400px"
+      />
+      <Image
+        src="https://photojournal.jpl.nasa.gov/jpeg/PIA18182.jpg"
+        variant="fluid"
+        height="400px"
+      />
+      <Image
+        src="https://www.jpl.nasa.gov/images/cassini/20160408/PIA11141-16.jpg"
+        variant="fluid"
+        height="400px"
+      />
     </Carousel>
   </Theme>
 ));

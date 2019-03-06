@@ -3,54 +3,158 @@ import { storiesOf } from '@storybook/react';
 import { withKnobs, number, text, color, array, select } from '@storybook/addon-knobs';
 import Card from '../card';
 import Theme from '../theme';
-import Image from '../image';
 import Text from '../text';
+import Image from '../image';
 import Button from '../button';
-import Flex from './index';
+import Box from '../box';
+import Grid from './index';
 
-const stories = storiesOf('Flex', module);
+const stories = storiesOf('Grid', module);
 
 stories.addDecorator(withKnobs);
 
 stories.add('default', () => (
   <Theme>
-    <Flex />
+    <Grid />
   </Theme>
 ));
 
-stories.add('with card', () => (
+stories.add('with image', () => (
   <Theme>
-    <Card variant="vertical">
-      <Flex
-        minHeight="200px"
-        backgroundSize="cover"
-        width="100%"
-        backgroundPosition="center center"
-        backgroundImage="url(https://images.unsplash.com/photo-1477005264461-b0e201668d92?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)"
-      />
-      <Flex flexDirection="column" p="20px" pb="32px" alignItems="flex-start">
-        <Text variant="h3" m="0">
-          {text('Heading', 'The Moon', 'Data')}
-        </Text>
-        <Text variant="base">
-          {text(
-            'Paragraph',
-            'The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.',
-            'Data',
-          )}
-        </Text>
-        <Flex>
-          <Button mr="18px">{text('Label', 'First', 'Data')}</Button>
-          <Button mr="18px">{text('Label', 'Second', 'Data')}</Button>
-          <Button>{text('Label', 'Third', 'Data')}</Button>
-        </Flex>
-      </Flex>
-    </Card>
+    <Grid
+      gridTemplateColumns="2fr 1fr 2fr"
+      gridColumnGap="12px"
+      gridRowGap="12px"
+      gridAutoRows="minmax(100px, auto)"
+      alignItems="stretch">
+      <Image src="https://www.jpl.nasa.gov/images/mars/20160421/PIA00407-16.jpg" />
+      <Image src="https://photojournal.jpl.nasa.gov/jpeg/PIA18182.jpg" />
+      <Image src="https://www.jpl.nasa.gov/images/cassini/20160408/PIA11141-16.jpg" />
+      <Image src="https://cdn.mos.cms.futurecdn.net/DfcnU8Z2yeyrYLmsRCKtDH.jpg" />
+      <Image src="https://solarsystem.nasa.gov/system/downloadable_items/1193_pluto_natural_color_20150714_detail.jpg" />
+      <Image src="https://solarsystem.nasa.gov/system/resources/detail_files/771_PIA16853.jpg" />
+    </Grid>
   </Theme>
 ));
+stories.add('with boxes', () => (
+  <Theme>
+    <Grid
+      gridTemplateColumns="repeat(3, 1fr)"
+      gridColumnGap="12px"
+      gridRowGap="12px"
+      gridAutoRows="minmax(100px, auto)">
+      <Box bg="darkgrey" p="12px">
+        <Text variant="h2">
+          Although we will never watch two suns rise and fall from the perspective of our own
+          planet, like Luke Skywalker on Tatooine in the iconic scene from "Star Wars: A New Hope,"
+          there's a newly discovered planet where aliens might do so.
+        </Text>
+      </Box>
+      <Box bg="lightgrey" />
+      <Box bg="darkgrey" />
+      <Box bg="darkgrey" />
+      <Grid gridTemplateColumns="repeat(2, 1fr)" gridColumnGap="12px" gridRowGap="12px">
+        <Box bg="darkgrey" />
+        <Box bg="darkgrey" />
+        <Box bg="darkgrey" />
+        <Box bg="darkgrey" />
+      </Grid>
+      <Box bg="darkgrey" />
+      <Box bg="lightgrey" />
+      <Box bg="darkgrey" />
+      <Box bg="darkgrey" />
+    </Grid>
+  </Theme>
+));
+
+stories.add('with cards', () => (
+  <Theme>
+    <Grid gridTemplateColumns="repeat(3, 1fr)" justifyItems="center">
+      <Card variant="vertical">
+        <Grid
+          minHeight="200px"
+          backgroundSize="cover"
+          width="100%"
+          backgroundPosition="center center"
+          backgroundImage="url(https://images.unsplash.com/photo-1477005264461-b0e201668d92?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)"
+        />
+        <Grid p="20px" pb="32px" alignItems="start">
+          <Text variant="h3" m="0">
+            {text('Heading', 'The Moon', 'Data')}
+          </Text>
+          <Text variant="base">
+            {text(
+              'Paragraph',
+              'The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.',
+              'Data',
+            )}
+          </Text>
+          <Grid>
+            <Button justifySelf="start" mr="18px">
+              {text('Label', 'First', 'Data')}
+            </Button>
+          </Grid>
+        </Grid>
+      </Card>
+      <Card variant="vertical">
+        <Grid
+          minHeight="200px"
+          backgroundSize="cover"
+          width="100%"
+          backgroundPosition="center center"
+          backgroundImage="url(https://images.unsplash.com/photo-1477005264461-b0e201668d92?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)"
+        />
+        <Grid p="20px" pb="32px" alignItems="start">
+          <Text variant="h3" m="0">
+            {text('Heading', 'The Moon', 'Data')}
+          </Text>
+          <Text variant="base">
+            {text(
+              'Paragraph',
+              'The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.',
+              'Data',
+            )}
+          </Text>
+          <Grid>
+            <Button mr="18px" justifySelf="stretch">
+              {text('Label', 'First', 'Data')}
+            </Button>
+          </Grid>
+        </Grid>
+      </Card>
+      <Card variant="vertical">
+        <Grid
+          minHeight="200px"
+          backgroundSize="cover"
+          width="100%"
+          backgroundPosition="center center"
+          backgroundImage="url(https://images.unsplash.com/photo-1477005264461-b0e201668d92?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)"
+        />
+        <Grid p="20px" pb="32px" alignItems="start">
+          <Text variant="h3" m="0">
+            {text('Heading', 'The Moon', 'Data')}
+          </Text>
+          <Text variant="base">
+            {text(
+              'Paragraph',
+              'The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.',
+              'Data',
+            )}
+          </Text>
+          <Grid>
+            <Button justifySelf="end" mr="18px">
+              {text('Label', 'First', 'Data')}
+            </Button>
+          </Grid>
+        </Grid>
+      </Card>
+    </Grid>
+  </Theme>
+));
+
 stories.add('with props', () => (
   <Theme>
-    <Flex
+    <Grid
       p={text('p', '', 'Core')}
       paddingTop={text('paddingTop', '', 'Core')}
       paddingRight={text('paddingRight', '', 'Core')}
@@ -282,6 +386,6 @@ stories.add('with props', () => (
       <Text variant="h2" color="black">
         {text('Text', 'Text', 'Data')}
       </Text>
-    </Flex>
+    </Grid>
   </Theme>
 ));

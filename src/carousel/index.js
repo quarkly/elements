@@ -2,33 +2,35 @@ import React from 'react';
 import Slider from 'react-slick';
 import { Provider } from '../quark';
 import Box from '../box';
+import styled from 'styled-components';
+import { includeWith, themed, variant } from '../styled';
 
-class Carousel extends React.Component {
+export default class Carousel extends React.Component {
   render() {
     const { children } = this.props;
     return (
-      <Provider
-        value={{
-          btnClick: prop => {
-            if (!prop || !prop.controls) {
-              return;
-            }
-            if (prop.controls === 'left') {
-              this.slider.slickPrev();
-            }
-            if (prop.controls === 'right') {
-              this.slider.slickNext();
-            }
-          },
-        }}>
-        <Box {...this.props}>
-          <Slider ref={slider => (this.slider = slider)} arrows={false} {...this.props}>
-            {children}
-          </Slider>
-        </Box>
-      </Provider>
+      <Box>
+        <Provider
+          value={{
+            btnClick: prop => {
+              if (!prop || !prop.controls) {
+                return;
+              }
+              if (prop.controls === 'left') {
+                this.slider.slickPrev();
+              }
+              if (prop.controls === 'right') {
+                this.slider.slickNext();
+              }
+            },
+          }}>
+          <Box {...this.props}>
+            <Slider ref={slider => (this.slider = slider)} arrows={false} {...this.props}>
+              {children}
+            </Slider>
+          </Box>
+        </Provider>
+      </Box>
     );
   }
 }
-
-export default Carousel;

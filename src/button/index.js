@@ -5,17 +5,19 @@ import { asQuark } from '../quark';
 
 const BaseButton = styled('div')(
   {
-    appearance: 'none',
-    display: 'inline-block',
-    textAlign: 'center',
-    lineHeight: 'inherit',
-    textDecoration: 'none',
+    appearance: 'button',
     cursor: 'pointer',
+    overflow: 'visible',
+    outline: '0',
+    verticalAlign: 'middle',
+    userSelect: 'none',
+    textRendering: 'auto',
   },
   themed('Button'),
   variant('buttons'),
   ...includeWith('defaults'),
   ...includeWith('button'),
+  ...includeWith('hovered'),
 );
 
 const qStateDefault = {
