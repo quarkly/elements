@@ -1,0 +1,74 @@
+import styled, { css } from 'styled-components';
+
+const colors = props => props.color || 'black';
+
+const tooltipArrowTop = props =>
+  props.top &&
+  css`
+    bottom: 0;
+    width: 100%;
+    &::before {
+      top: 0.4rem;
+      left: calc(50% - 0.35rem);
+      border-width: 0.4rem 0.4rem 0;
+      border-top-color: ${colors(props)};
+    }
+  `;
+
+const tooltipArrowBottom = props =>
+  props.bottom &&
+  css`
+    top: 0;
+    width: 100%;
+    &::before {
+      bottom: 0.4rem;
+      left: calc(50% - 0.35rem);
+      border-width: 0 0.4rem 0.4rem;
+      border-bottom-color: ${colors(props)};
+    }
+  `;
+
+const tooltipArrowRight = props =>
+  props.right &&
+  css`
+    width: 0.4rem;
+    left: 0;
+    height: 100%;
+    &::before {
+      right: 0;
+      top: calc(50% - 0.35rem);
+      border-width: 0.4rem 0.4rem 0.4rem 0;
+      border-right-color: ${colors(props)};
+    }
+  `;
+
+const tooltipArrowLeft = props =>
+  props.left &&
+  css`
+    width: 0.4rem;
+    right: 0;
+    height: 100%;
+    &::before {
+      left: 0;
+      top: calc(50% - 0.35rem);
+      border-width: 0.4rem 0 0.4rem 0.4rem;
+      border-left-color: ${colors(props)};
+    }
+  `;
+
+export default styled.div`
+  position: absolute;
+  display: block;
+  width: 0.8rem;
+  height: 0.4rem;
+  &::before {
+    position: absolute;
+    content: '';
+    border-color: transparent;
+    border-style: solid;
+  }
+  ${tooltipArrowTop};
+  ${tooltipArrowRight};
+  ${tooltipArrowBottom};
+  ${tooltipArrowLeft};
+`;
