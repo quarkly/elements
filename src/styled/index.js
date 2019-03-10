@@ -1,8 +1,8 @@
 import * as styledSystem from 'styled-system';
 import classNames from 'classnames';
-import { defaults, card, image, hovered, flex, button, text, box, hr } from './defaults';
+import { defaults, card, image, hovered, flex, button, text, box, hr, arrow } from './defaults';
 
-const styled = styledSystem;
+export const styled = styledSystem;
 
 export const themed = key => props => props.theme[key];
 
@@ -18,6 +18,7 @@ export const settings = {
   text,
   box,
   hr,
+  arrow,
 };
 
 styled.bgHover = styled.style({
@@ -29,6 +30,11 @@ styled.bgHover = styled.style({
 styled.colorHover = styled.style({
   prop: 'colorHover',
   cssProperty: 'color',
+  key: 'colors',
+});
+styled.arrowColor = styled.style({
+  prop: 'arrowColor',
+  cssProperty: 'borderColor',
   key: 'colors',
 });
 

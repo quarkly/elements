@@ -38,7 +38,7 @@ export default class Elem extends Component {
           {({ ref }) => React.cloneElement(children, getChildProps({ ref, ctx: this }))}
         </Reference>
         {!this.state.hidden && (
-          <Popper placement={place} {...otherProps}>
+          <Popper placement={place}>
             {({ ref, style, placement, arrowProps }) => (
               <Tooltip
                 {...otherProps}
@@ -48,7 +48,7 @@ export default class Elem extends Component {
                 data-placement={placement}>
                 {props.title}
                 <Arrow
-                  color={arrowColor}
+                  arrowColor={arrowColor || otherProps.bg}
                   placement={placement}
                   ref={arrowProps.ref}
                   style={arrowProps.style}

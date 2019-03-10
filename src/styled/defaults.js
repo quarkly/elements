@@ -76,6 +76,8 @@ export const text = ['fontFamily', 'fontWeight', 'textAlign', 'lineHeight', 'let
 
 export const hr = ['bgColor', 'width', 'height', 'display', 'opacity'];
 
+export const arrow = ['arrowColor'];
+
 export const all = [
   'space',
   'width',

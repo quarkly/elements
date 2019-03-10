@@ -12,7 +12,7 @@ stories.addDecorator(withKnobs);
 stories.add('default', () => (
   <Theme>
     <div>
-      <Tooltip place="right" color="red" arrowColor="blue" bg="blue" title="hello from popover">
+      <Tooltip place="left" bg="indigo" title="hello from popover">
         <Button>Click me</Button>
       </Tooltip>
     </div>
@@ -22,13 +22,7 @@ stories.add('default', () => (
 stories.add('hidden', () => (
   <Theme>
     <div>
-      <Tooltip
-        place="left"
-        color="red"
-        arrowColor="blue"
-        bg="blue"
-        title="hello from popover"
-        hidden>
+      <Tooltip place="bottom" color="red" arrowColor="blue" bg="blue" title="hello from popover">
         <Button m={'500px'}>Click me</Button>
       </Tooltip>
     </div>
