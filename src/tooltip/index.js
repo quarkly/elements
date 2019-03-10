@@ -1,56 +1,40 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { Manager, Reference, Popper } from 'react-popper';
+import Arrow from './arrow';
 import Tooltip from './tooltip';
-import TooltipArrow from './arrow';
-import TooltipInner from './inner';
 // import { Tooltip, TooltipArrow, TooltipInner } from '../';
 // import { includeWith, themed, variant } from '../styled';
 
-// const ToolTipBox = styled('div')(
-//   {
-//     boxSizing: 'border-box',
-//   },
-//   themed('Tooltip'),
-//   variant('tooltips'),
-//   ...includeWith('box'),
-// );
+const getChildProps = ({ ref }) => ({
+  ref,
+});
 
-export default class Tool extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      top: 0,
-      left: 0,
-      hidden: true,
-    };
-  }
-
-  handleTooltip(ev, hidden) {
-    this.setState({
-      top: ev.target.offsetTop,
-      left: ev.target.offsetLeft + ev.target.offsetWidth,
-      hidden,
-    });
-  }
+export default class Elem extends Component {
+  onRootRef = ref => {
+    this.childrenRef = ref;
+  };
 
   render() {
-    const { top, left, hidden } = this.state;
-    const { children, title } = this.props;
+    const { props } = this;
     return (
-      <div
-        onMouseEnter={ev => this.handleTooltip(ev, false)}
-        onMouseLeave={ev => this.handleTooltip(ev, true)}>
-        <div>{children}</div>
-        <Tooltip
-          hidden={hidden}
-          style={{
-            top: `${top}px`,
-            left: `${left}px`,
-          }}
-          right>
-          <TooltipArrow bottom />
-          <TooltipInner bottom>{title}</TooltipInner>
-        </Tooltip>
-      </div>
+      <Manager>
+        <Reference>
+          {({ ref }) => React.cloneElement(props.children, getChildProps({ ref }))}
+        </Reference>
+        <Popper placement="bottom">
+          {({ ref, style, placement, arrowProps }) => (
+            <Tooltip placement={placement} ref={ref} style={style} data-placement={placement}>
+              {props.title}
+              <Arrow
+                placement={placement}
+                ref={arrowProps.ref}
+                style={arrowProps.style}
+                data-placement={placement}
+              />
+            </Tooltip>
+          )}
+        </Popper>
+      </Manager>
     );
   }
 }

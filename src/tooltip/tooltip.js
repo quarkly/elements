@@ -1,15 +1,30 @@
 import styled, { css } from 'styled-components';
 
-const padding = props =>
-  props.left || props.right
-    ? css`
-        padding: 0px 0px 0px 5px;
-      `
-    : css`
-        padding: 0 20px 20px 0;
-      `;
+const tooltipTop = props =>
+  props.placement === 'top' &&
+  css`
+    margin-bottom: 5px;
+  `;
 
-const opacity = props =>
+const tooltipBottom = props =>
+  props.placement === 'bottom' &&
+  css`
+    margin-top: 5px;
+  `;
+
+const tooltipRight = props =>
+  props.placement === 'right' &&
+  css`
+    margin-left: 5px;
+  `;
+
+const tooltipLeft = props =>
+  props.placement === 'left' &&
+  css`
+    margin-right: 5px;
+  `;
+
+const hide = props =>
   props.hidden
     ? css`
         display: none;
@@ -19,25 +34,15 @@ const opacity = props =>
       `;
 
 export default styled.div`
-  position: absolute;
-  z-index: 1070;
-  display: block;
-  margin: null;
-  font-family: 'Mono';
-  font-style: normal;
-  font-weight: 22;
-  line-height: 1.5;
-  text-align: left;
-  text-decoration: none;
-  text-shadow: none;
-  text-transform: none;
-  letter-spacing: normal;
-  word-break: normal;
-  word-spacing: normal;
-  white-space: normal;
-  line-break: auto;
-  font-size: 20px;
-  word-wrap: break-word;
-  ${props => padding(props)};
-  ${props => opacity(props)};
+  background: #222;
+  color: white;
+  width: 150px;
+  border-radius: 2px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  ${tooltipTop}
+  ${tooltipBottom}
+  ${tooltipRight}
+  ${tooltipLeft}
+  ${hide}
 `;

@@ -1,72 +1,55 @@
 import styled, { css } from 'styled-components';
 
-const colors = props => props.color || 'black';
-
 const tooltipArrowTop = props =>
-  props.top &&
+  props.placement === 'top' &&
   css`
-    bottom: 0;
-    width: 100%;
-    &::before {
-      top: 0.4rem;
-      left: calc(50% - 0.35rem);
-      border-width: 0.4rem 0.4rem 0;
-      border-top-color: ${colors(props)};
-    }
+    border-width: 5px 5px 0 5px;
+    border-color: #222 transparent transparent transparent;
+    bottom: -5px;
+    left: calc(50% - 5px);
+    margin-top: 0;
+    margin-bottom: 0;
   `;
 
 const tooltipArrowBottom = props =>
-  props.bottom &&
+  props.placement === 'bottom' &&
   css`
-    top: 0;
-    width: 100%;
-    &::before {
-      bottom: 0.4rem;
-      left: calc(50% - 0.35rem);
-      border-width: 0 0.4rem 0.4rem;
-      border-bottom-color: ${colors(props)};
-    }
+    border-width: 0 5px 5px 5px;
+    border-color: transparent transparent #222 transparent;
+    top: -5px;
+    left: calc(50% - 5px);
+    margin-top: 0;
+    margin-bottom: 0;
   `;
 
 const tooltipArrowRight = props =>
-  props.right &&
+  props.placement === 'right' &&
   css`
-    width: 0.4rem;
-    left: 0;
-    height: 100%;
-    &::before {
-      right: 0;
-      top: calc(50% - 0.35rem);
-      border-width: 0.4rem 0.4rem 0.4rem 0;
-      border-right-color: ${colors(props)};
-    }
+    border-width: 5px 5px 5px 0;
+    border-color: transparent #222 transparent transparent;
+    left: -5px;
+    top: calc(50% - 5px);
+    margin-left: 0;
+    margin-right: 0;
   `;
 
 const tooltipArrowLeft = props =>
-  props.left &&
+  props.placement === 'left' &&
   css`
-    width: 0.4rem;
-    right: 0;
-    height: 100%;
-    &::before {
-      left: 0;
-      top: calc(50% - 0.35rem);
-      border-width: 0.4rem 0 0.4rem 0.4rem;
-      border-left-color: ${colors(props)};
-    }
+    border-width: 5px 0 5px 5px;
+    border-color: transparent transparent transparent #222;
+    right: -5px;
+    top: calc(50% - 5px);
+    margin-left: 0;
+    margin-right: 0;
   `;
 
 export default styled.div`
+  width: 0;
+  height: 0;
+  border-style: solid;
   position: absolute;
-  display: block;
-  width: 0.8rem;
-  height: 0.4rem;
-  &::before {
-    position: absolute;
-    content: '';
-    border-color: transparent;
-    border-style: solid;
-  }
+  margin: 5px;
   ${tooltipArrowTop};
   ${tooltipArrowRight};
   ${tooltipArrowBottom};
