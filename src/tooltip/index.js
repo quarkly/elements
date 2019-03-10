@@ -1,5 +1,4 @@
 import React from 'react';
-import styled from 'styled-components';
 import Tooltip from './tooltip';
 import TooltipArrow from './arrow';
 import TooltipInner from './inner';
@@ -48,8 +47,8 @@ export default class Tool extends React.Component {
             left: `${left}px`,
           }}
           right>
-          <TooltipArrow right />
-          <TooltipInner right>{title}</TooltipInner>
+          <TooltipArrow bottom />
+          <TooltipInner bottom>{title}</TooltipInner>
         </Tooltip>
       </div>
     );

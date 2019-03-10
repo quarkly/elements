@@ -23,9 +23,11 @@ const BaseButton = styled('div')(
 const qStateDefault = {
   btnClick: () => {},
 };
-const Button = props => {
+const Button = React.forwardRef((props, ref) => {
   const qState = props.qState || qStateDefault;
-  return <BaseButton as="button" {...props} onClick={qState.btnClick.bind(null, props)} />;
-};
+  return (
+    <BaseButton as="button" {...props} ref={ref} onClick={qState.btnClick.bind(null, props)} />
+  );
+});
 
 export default asQuark(Button);
