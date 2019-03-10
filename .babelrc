@@ -1,8 +1,5 @@
 {
-  "presets": [
-    "@babel/preset-env",
-    "@babel/preset-react"
-  ],
+  "presets": ["@babel/preset-env", "@babel/preset-react"],
   "plugins": [
     "syntax-dynamic-import",
     [
@@ -10,6 +7,7 @@
       {
         "mode": "wrap"
       }
-    ]
+    ],
+    "@babel/plugin-proposal-class-properties"
   ]
 }
