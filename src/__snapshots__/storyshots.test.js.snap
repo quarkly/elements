@@ -102,11 +102,11 @@ exports[`Storyshots Card with content horizontal 1`] = `
   className="sc-ifAKCX hlsfWv"
 >
   <div
-    className="sc-bZQynM jOHGnn"
+    className="sc-EHOje imbWnI"
     width="100%"
   />
   <div
-    className="sc-bZQynM kVkAiO"
+    className="sc-EHOje krwelt"
   >
     <p
       className="sc-bwzfXH bElqAL"
@@ -133,11 +133,11 @@ exports[`Storyshots Card with content vertical 1`] = `
   className="sc-ifAKCX jjkobi"
 >
   <div
-    className="sc-bZQynM bVzddp"
+    className="sc-EHOje enDnAu"
     width="100%"
   />
   <div
-    className="sc-bZQynM ksgnrK"
+    className="sc-EHOje eGmfCu"
   >
     <p
       className="sc-bwzfXH bElqAL"
@@ -171,11 +171,11 @@ exports[`Storyshots Card with props 1`] = `
   width=""
 >
   <div
-    className="sc-bZQynM bVzddp"
+    className="sc-EHOje enDnAu"
     width="100%"
   />
   <div
-    className="sc-bZQynM ksgnrK"
+    className="sc-EHOje eGmfCu"
   >
     <p
       className="sc-bwzfXH bElqAL"
@@ -253,7 +253,7 @@ exports[`Storyshots Carousel default 1`] = `
           >
             <div>
               <img
-                className="sc-EHOje buCUQd"
+                className="sc-bZQynM MrWCD"
                 height="400px"
                 src="https://www.jpl.nasa.gov/images/cassini/20160408/PIA11141-16.jpg"
                 style={
@@ -281,7 +281,7 @@ exports[`Storyshots Carousel default 1`] = `
           >
             <div>
               <img
-                className="sc-EHOje buCUQd"
+                className="sc-bZQynM MrWCD"
                 height="400px"
                 src="https://www.jpl.nasa.gov/images/mars/20160421/PIA00407-16.jpg"
                 style={
@@ -309,7 +309,7 @@ exports[`Storyshots Carousel default 1`] = `
           >
             <div>
               <img
-                className="sc-EHOje buCUQd"
+                className="sc-bZQynM MrWCD"
                 height="400px"
                 src="https://photojournal.jpl.nasa.gov/jpeg/PIA18182.jpg"
                 style={
@@ -337,7 +337,7 @@ exports[`Storyshots Carousel default 1`] = `
           >
             <div>
               <img
-                className="sc-EHOje buCUQd"
+                className="sc-bZQynM MrWCD"
                 height="400px"
                 src="https://www.jpl.nasa.gov/images/cassini/20160408/PIA11141-16.jpg"
                 style={
@@ -364,7 +364,7 @@ exports[`Storyshots Carousel default 1`] = `
           >
             <div>
               <img
-                className="sc-EHOje buCUQd"
+                className="sc-bZQynM MrWCD"
                 height="400px"
                 src="https://www.jpl.nasa.gov/images/mars/20160421/PIA00407-16.jpg"
                 style={
@@ -391,7 +391,7 @@ exports[`Storyshots Carousel default 1`] = `
           >
             <div>
               <img
-                className="sc-EHOje buCUQd"
+                className="sc-bZQynM MrWCD"
                 height="400px"
                 src="https://photojournal.jpl.nasa.gov/jpeg/PIA18182.jpg"
                 style={
@@ -418,7 +418,7 @@ exports[`Storyshots Carousel default 1`] = `
           >
             <div>
               <img
-                className="sc-EHOje buCUQd"
+                className="sc-bZQynM MrWCD"
                 height="400px"
                 src="https://www.jpl.nasa.gov/images/cassini/20160408/PIA11141-16.jpg"
                 style={
@@ -536,7 +536,7 @@ exports[`Storyshots Carousel with props 1`] = `
           >
             <div>
               <img
-                className="sc-EHOje buCUQd"
+                className="sc-bZQynM MrWCD"
                 height="400px"
                 src="https://www.jpl.nasa.gov/images/cassini/20160408/PIA11141-16.jpg"
                 style={
@@ -564,7 +564,7 @@ exports[`Storyshots Carousel with props 1`] = `
           >
             <div>
               <img
-                className="sc-EHOje buCUQd"
+                className="sc-bZQynM MrWCD"
                 height="400px"
                 src="https://www.jpl.nasa.gov/images/mars/20160421/PIA00407-16.jpg"
                 style={
@@ -592,7 +592,7 @@ exports[`Storyshots Carousel with props 1`] = `
           >
             <div>
               <img
-                className="sc-EHOje buCUQd"
+                className="sc-bZQynM MrWCD"
                 height="400px"
                 src="https://photojournal.jpl.nasa.gov/jpeg/PIA18182.jpg"
                 style={
@@ -620,7 +620,7 @@ exports[`Storyshots Carousel with props 1`] = `
           >
             <div>
               <img
-                className="sc-EHOje buCUQd"
+                className="sc-bZQynM MrWCD"
                 height="400px"
                 src="https://www.jpl.nasa.gov/images/cassini/20160408/PIA11141-16.jpg"
                 style={
@@ -647,7 +647,7 @@ exports[`Storyshots Carousel with props 1`] = `
           >
             <div>
               <img
-                className="sc-EHOje buCUQd"
+                className="sc-bZQynM MrWCD"
                 height="400px"
                 src="https://www.jpl.nasa.gov/images/mars/20160421/PIA00407-16.jpg"
                 style={
@@ -674,7 +674,7 @@ exports[`Storyshots Carousel with props 1`] = `
           >
             <div>
               <img
-                className="sc-EHOje buCUQd"
+                className="sc-bZQynM MrWCD"
                 height="400px"
                 src="https://photojournal.jpl.nasa.gov/jpeg/PIA18182.jpg"
                 style={
@@ -701,7 +701,7 @@ exports[`Storyshots Carousel with props 1`] = `
           >
             <div>
               <img
-                className="sc-EHOje buCUQd"
+                className="sc-bZQynM MrWCD"
                 height="400px"
                 src="https://www.jpl.nasa.gov/images/cassini/20160408/PIA11141-16.jpg"
                 style={
@@ -762,7 +762,7 @@ exports[`Storyshots Carousel with props 1`] = `
 
 exports[`Storyshots Flex default 1`] = `
 <div
-  className="sc-bZQynM dRcWGJ"
+  className="sc-EHOje ZgWUm"
 />
 `;
 
@@ -771,11 +771,11 @@ exports[`Storyshots Flex with card 1`] = `
   className="sc-ifAKCX jjkobi"
 >
   <div
-    className="sc-bZQynM bVzddp"
+    className="sc-EHOje enDnAu"
     width="100%"
   />
   <div
-    className="sc-bZQynM ksgnrK"
+    className="sc-EHOje eGmfCu"
   >
     <p
       className="sc-bwzfXH bElqAL"
@@ -788,7 +788,7 @@ exports[`Storyshots Flex with card 1`] = `
       The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.
     </p>
     <div
-      className="sc-bZQynM dRcWGJ"
+      className="sc-EHOje ZgWUm"
     >
       <button
         className="sc-bxivhb gROFed"
@@ -815,7 +815,7 @@ exports[`Storyshots Flex with card 1`] = `
 
 exports[`Storyshots Flex with props 1`] = `
 <div
-  className="sc-bZQynM iLtxzb"
+  className="sc-EHOje cRvjEa"
   display="flex"
   height="300px"
   opacity=""
@@ -849,7 +849,7 @@ exports[`Storyshots Grid with boxes 1`] = `
     <p
       className="sc-bwzfXH elQhDH"
     >
-      Although we will never watch two suns rise and fall from the perspective of our own planet, like Luke Skywalker on Tatooine in the iconic scene from "Star Wars: A New Hope," there's a newly discovered planet where aliens might do so.
+      Although we will never watch two suns rise and fall from the perspective of our own planet, like Luke Skywalker on Tatooine in the iconic scene from Star Wars: A New Hope, theres a newly discovered planet where aliens might do so.
     </p>
   </div>
   <div
@@ -1000,27 +1000,27 @@ exports[`Storyshots Grid with image 1`] = `
   className="sc-gzVnrw eMDpkn"
 >
   <img
-    className="sc-EHOje dHoqiQ"
+    className="sc-bZQynM bQVwYU"
     src="https://www.jpl.nasa.gov/images/mars/20160421/PIA00407-16.jpg"
   />
   <img
-    className="sc-EHOje dHoqiQ"
+    className="sc-bZQynM bQVwYU"
     src="https://photojournal.jpl.nasa.gov/jpeg/PIA18182.jpg"
   />
   <img
-    className="sc-EHOje dHoqiQ"
+    className="sc-bZQynM bQVwYU"
     src="https://www.jpl.nasa.gov/images/cassini/20160408/PIA11141-16.jpg"
   />
   <img
-    className="sc-EHOje dHoqiQ"
+    className="sc-bZQynM bQVwYU"
     src="https://cdn.mos.cms.futurecdn.net/DfcnU8Z2yeyrYLmsRCKtDH.jpg"
   />
   <img
-    className="sc-EHOje dHoqiQ"
+    className="sc-bZQynM bQVwYU"
     src="https://solarsystem.nasa.gov/system/downloadable_items/1193_pluto_natural_color_20150714_detail.jpg"
   />
   <img
-    className="sc-EHOje dHoqiQ"
+    className="sc-bZQynM bQVwYU"
     src="https://solarsystem.nasa.gov/system/resources/detail_files/771_PIA16853.jpg"
   />
 </div>
@@ -1087,7 +1087,7 @@ Array [
 
 exports[`Storyshots Image adaptive 1`] = `
 <img
-  className="sc-EHOje gMEBIx"
+  className="sc-bZQynM htKFFG"
   height="400px"
   src="https://picsum.photos/500"
   width="500px"
@@ -1096,21 +1096,21 @@ exports[`Storyshots Image adaptive 1`] = `
 
 exports[`Storyshots Image fluid 1`] = `
 <img
-  className="sc-EHOje llBjFr"
+  className="sc-bZQynM cwdfuR"
   src="https://picsum.photos/1800"
 />
 `;
 
 exports[`Storyshots Image thumb 1`] = `
 <img
-  className="sc-EHOje bMJiBX"
+  className="sc-bZQynM itTeq"
   src="https://picsum.photos/500"
 />
 `;
 
 exports[`Storyshots Image with props 1`] = `
 <img
-  className="sc-EHOje ekcSxr"
+  className="sc-bZQynM fJUhkc"
   display="block"
   height="500px"
   opacity=""
