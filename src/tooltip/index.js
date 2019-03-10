@@ -16,11 +16,11 @@ export default class Elem extends Component {
 
   render() {
     const { props } = this;
-    const { children, ...otherProps } = props;
+    const { children, place = 'right', ...otherProps } = props;
     return (
       <Manager>
         <Reference>{({ ref }) => React.cloneElement(children, getChildProps({ ref }))}</Reference>
-        <Popper placement="bottom">
+        <Popper placement={place}>
           {({ ref, style, placement, arrowProps }) => (
             <Tooltip
               {...otherProps}
