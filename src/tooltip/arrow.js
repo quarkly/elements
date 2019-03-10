@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components';
+import { includeWith, themed, variant } from '../styled';
 
 const tooltipArrowTop = props =>
   props.placement === 'top' &&
@@ -50,6 +51,9 @@ export default styled.div`
   border-style: solid;
   position: absolute;
   margin: 5px;
+  ${includeWith('defaults')}
+  ${themed('Tooltip')}
+  ${variant('tooltips')}
   ${tooltipArrowTop};
   ${tooltipArrowRight};
   ${tooltipArrowBottom};
