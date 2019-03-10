@@ -58,17 +58,6 @@
     "webpack": "^4.29.3",
     "webpack-cli": "^3.2.3"
   },
-  "jest": {
-    "collectCoverage": true,
-    "moduleFileExtensions": [
-      "js",
-      "jsx"
-    ],
-    "moduleDirectories": [
-      "node_modules",
-      "packages"
-    ]
-  },
   "keywords": [
     "react",
     "quarkly"
