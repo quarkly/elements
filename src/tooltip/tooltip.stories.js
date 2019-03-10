@@ -12,7 +12,7 @@ stories.addDecorator(withKnobs);
 stories.add('default', () => (
   <Theme>
     <div>
-      <Tooltip place="left" color="red" title="hello from popover">
+      <Tooltip place="left" color="red" arrowColor="blue" bg="blue" title="hello from popover">
         <Button m={'500px'}>Click me</Button>
       </Tooltip>
     </div>

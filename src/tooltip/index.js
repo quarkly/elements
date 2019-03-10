@@ -16,7 +16,7 @@ export default class Elem extends Component {
 
   render() {
     const { props } = this;
-    const { children, place = 'right', ...otherProps } = props;
+    const { children, place = 'right', arrowColor, ...otherProps } = props;
     return (
       <Manager>
         <Reference>{({ ref }) => React.cloneElement(children, getChildProps({ ref }))}</Reference>
@@ -30,7 +30,7 @@ export default class Elem extends Component {
               data-placement={placement}>
               {props.title}
               <Arrow
-                {...otherProps}
+                color={arrowColor}
                 placement={placement}
                 ref={arrowProps.ref}
                 style={arrowProps.style}
