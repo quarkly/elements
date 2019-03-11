@@ -7,3 +7,4 @@ docs/
 .storybook/
 config/
 example/
+.DS_Store

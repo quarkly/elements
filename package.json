@@ -27,6 +27,7 @@
     "@storybook/addon-knobs": "latest",
     "@storybook/addon-storyshots": "latest",
     "@storybook/react": "latest",
+    "@storybook/theming": "^5.0.1",
     "babel-eslint": "^10.0.1",
     "babel-jest": "^24.3.1",
     "babel-loader": "^8.0.5",
