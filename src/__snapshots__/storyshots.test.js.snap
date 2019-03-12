@@ -1330,10 +1330,29 @@ exports[`Storyshots Tooltip default 1`] = `
 </div>
 `;
 
+exports[`Storyshots Tooltip empty 1`] = `
+<div>
+  
+</div>
+`;
+
 exports[`Storyshots Tooltip hidden 1`] = `
 <div>
   <button
-    className="sc-bxivhb AlUpg"
+    className="sc-bxivhb fzNOWg"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    Click me
+  </button>
+</div>
+`;
+
+exports[`Storyshots Tooltip top 1`] = `
+<div>
+  <button
+    className="sc-bxivhb fzNOWg"
     onClick={[Function]}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
