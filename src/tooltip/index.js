@@ -32,7 +32,7 @@ export default class Elem extends Component {
   render() {
     const { props } = this;
     const { children, place = 'right', arrowColor, ...otherProps } = props;
-    return (
+    return children ? (
       <Manager>
         <Reference>
           {({ ref }) => React.cloneElement(children, getChildProps({ ref, ctx: this }))}
@@ -59,6 +59,8 @@ export default class Elem extends Component {
           </Popper>
         )}
       </Manager>
+    ) : (
+      ''
     );
   }
 }

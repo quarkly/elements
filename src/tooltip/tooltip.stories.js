@@ -19,11 +19,29 @@ stories.add('default', () => (
   </Theme>
 ));
 
+stories.add('empty', () => (
+  <Theme>
+    <div>
+      <Tooltip place="left" bg="indigo" title="hello from popover" />
+    </div>
+  </Theme>
+));
+
 stories.add('hidden', () => (
   <Theme>
     <div>
       <Tooltip place="bottom" color="red" arrowColor="blue" bg="blue" title="hello from popover">
-        <Button m={'500px'}>Click me</Button>
+        <Button m={'200px'}>Click me</Button>
+      </Tooltip>
+    </div>
+  </Theme>
+));
+
+stories.add('top', () => (
+  <Theme>
+    <div>
+      <Tooltip hidden={false} place="top" bg={['indigo', 'red']} title="hello from popover">
+        <Button m={'200px'}>Click me</Button>
       </Tooltip>
     </div>
   </Theme>
