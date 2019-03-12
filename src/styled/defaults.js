@@ -78,6 +78,8 @@ export const hr = ['bgColor', 'width', 'height', 'display', 'opacity'];
 
 export const arrow = ['arrowColor'];
 
+export const icon = ['fontSize', 'color'];
+
 export const all = [
   'space',
   'width',

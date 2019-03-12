@@ -1,25 +1,12 @@
 import * as styledSystem from 'styled-system';
 import classNames from 'classnames';
-import { defaults, card, image, hovered, flex, button, text, box, hr, arrow } from './defaults';
+import * as settings from './defaults';
 
 export const styled = styledSystem;
 
 export const themed = key => props => props.theme[key];
 
 export const variant = key => styled.variant({ key });
-
-export const settings = {
-  defaults,
-  card,
-  image,
-  hovered,
-  flex,
-  button,
-  text,
-  box,
-  hr,
-  arrow,
-};
 
 styled.bgHover = styled.style({
   prop: 'bgHover',
