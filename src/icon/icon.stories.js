@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { withKnobs } from '@storybook/addon-knobs';
+import { withKnobs, text } from '@storybook/addon-knobs';
 import Icon from './index';
 import Theme from '../theme';
 
@@ -10,6 +10,16 @@ stories.addDecorator(withKnobs);
 
 stories.add('default', () => (
   <Theme>
-    <Icon name="FaBeer" color={['red', 'green', 'blue']} fontSize="300px" />
+    <Icon name="fa/FaBeer" color={['red', 'green', 'blue']} fontSize="300px" />
+  </Theme>
+));
+
+stories.add('icon as prop', () => (
+  <Theme>
+    <Icon
+      name={text('name', 'fa/FaFolder', 'fa/Folder')}
+      color={['red', 'green', 'blue']}
+      fontSize="300px"
+    />
   </Theme>
 ));
