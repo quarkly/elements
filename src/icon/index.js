@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import styled from 'styled-components';
 import { includeWith, themed, variant } from '../styled';
 
@@ -32,19 +32,33 @@ const getIcon = async str => {
   return lib[name];
 };
 
-export default props => {
-  const { name, ...other } = props;
-  const [Icon, setIcon] = React.useState(null);
-  React.useEffect(() => {
-    try {
-      const fetchData = async () => {
-        const ico = await getIcon(name);
-        setIcon(ico);
-      };
-      fetchData();
-    } catch (e) {
-      console.log(e);
+export default class AsyncComponent extends Component {
+  state = {
+    component: null,
+  };
+  componentDidMount() {
+    const { name } = this.props;
+    getIcon(name).then(cmp => {
+      this.setState({ component: cmp });
+    });
+  }
+  componentDidUpdate(prevProps) {
+    if (prevProps === this.props) {
+      return false;
     }
-  }, name);
-  return Icon ? <Box {...other}>{Icon}</Box> : <Box />;
-};
+    const { name } = this.props;
+    getIcon(name).then(cmp => {
+      this.setState({ component: cmp });
+    });
+  }
+
+  render() {
+    const { name, ...other } = this.props;
+    const C = this.state.component;
+    return C ? (
+      <Box {...other}>
+        <C />
+      </Box>
+    ) : null;
+  }
+}
