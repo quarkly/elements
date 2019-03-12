@@ -1085,6 +1085,39 @@ Array [
 ]
 `;
 
+exports[`Storyshots Icon default 1`] = `
+<span
+  className="sc-dnqmqq crzHCY"
+  color={
+    Array [
+      "red",
+      "green",
+      "blue",
+    ]
+  }
+  fontSize="300px"
+>
+  <svg
+    fill="currentColor"
+    height="1em"
+    stroke="currentColor"
+    strokeWidth="0"
+    style={
+      Object {
+        "color": undefined,
+      }
+    }
+    viewBox="0 0 448 512"
+    width="1em"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M368 96h-48V56c0-13.255-10.745-24-24-24H24C10.745 32 0 42.745 0 56v400c0 13.255 10.745 24 24 24h272c13.255 0 24-10.745 24-24v-42.11l80.606-35.977C429.396 365.063 448 336.388 448 304.86V176c0-44.112-35.888-80-80-80zm16 208.86a16.018 16.018 0 0 1-9.479 14.611L320 343.805V160h48c8.822 0 16 7.178 16 16v128.86zM208 384c-8.836 0-16-7.164-16-16V144c0-8.836 7.164-16 16-16s16 7.164 16 16v224c0 8.836-7.164 16-16 16zm-96 0c-8.836 0-16-7.164-16-16V144c0-8.836 7.164-16 16-16s16 7.164 16 16v224c0 8.836-7.164 16-16 16z"
+    />
+  </svg>
+</span>
+`;
+
 exports[`Storyshots Image adaptive 1`] = `
 <img
   className="sc-bZQynM htKFFG"
@@ -1124,7 +1157,7 @@ exports[`Storyshots Spacer 10rem 1`] = `
 Array [
   "Content",
   <div
-    className="sc-dnqmqq bQIUzu"
+    className="sc-iwsKbI eEnuco"
     height="10rem"
   />,
   "Content",
@@ -1135,7 +1168,7 @@ exports[`Storyshots Spacer 25% 1`] = `
 Array [
   "Content",
   <div
-    className="sc-dnqmqq cOwNYR"
+    className="sc-iwsKbI gRWAgC"
     height="25%"
   />,
   "Content",
@@ -1146,7 +1179,7 @@ exports[`Storyshots Spacer 50vh 1`] = `
 Array [
   "Content",
   <div
-    className="sc-dnqmqq djmIZl"
+    className="sc-iwsKbI hvtyrz"
     height="50vh"
   />,
   "Content",
@@ -1157,7 +1190,7 @@ exports[`Storyshots Spacer 100px 1`] = `
 Array [
   "Content",
   <div
-    className="sc-dnqmqq eHpnCK"
+    className="sc-iwsKbI dmPUpA"
     height="100px"
   />,
   "Content",
@@ -1168,7 +1201,7 @@ exports[`Storyshots Spacer default 1`] = `
 Array [
   "Content",
   <div
-    className="sc-dnqmqq dNtVOH"
+    className="sc-iwsKbI gwvKVJ"
   />,
   "Content",
 ]
@@ -1178,11 +1211,11 @@ exports[`Storyshots Spacer variants 1`] = `
 Array [
   "Big",
   <div
-    className="sc-dnqmqq eAQKIX"
+    className="sc-iwsKbI dBHGaJ"
   />,
   "Small",
   <div
-    className="sc-dnqmqq jfJKYs"
+    className="sc-iwsKbI edObQM"
   />,
   "Content",
 ]
