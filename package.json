@@ -3,7 +3,7 @@
   "description": "quarkly elements",
   "author": "Eddort",
   "user": "Eddort",
-  "version": "0.0.8-3",
+  "version": "0.0.8-4",
   "scripts": {
     "storybook": "start-storybook -p 9001 -c .storybook",
     "build:elements": "webpack --mode production --config ./config/webpack.config.js",
@@ -76,6 +76,7 @@
     "react-dom": "^16.8.2",
     "react-slick": "^0.23.2",
     "slick-carousel": "^1.8.1",
-    "styled-system": "latest"
+    "styled-system": "latest",
+    "swipejs": "^2.2.14"
   }
 }
