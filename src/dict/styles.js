@@ -4,46 +4,60 @@ export const styledProps = {
   // margin
   m: {
     description: 'margin - внешний отступ',
+    alias: 'space',
   },
   mt: {
     description: 'margin-top - ',
+    alias: 'space',
   },
   mr: {
     description: 'margin-right - ',
+    alias: 'space',
   },
   mb: {
     description: 'margin-bottom - ',
+    alias: 'space',
   },
   ml: {
     description: 'margin-left - ',
+    alias: 'space',
   },
   mx: {
     description: 'margin x-axis - ',
+    alias: 'space',
   },
   my: {
     description: 'margin y-axis - ',
+    alias: 'space',
   },
   // padding
   p: {
     description: 'padding - ',
+    alias: 'space',
   },
   pt: {
     description: 'padding-top - ',
+    alias: 'space',
   },
   pr: {
     description: 'padding-right - ',
+    alias: 'space',
   },
   pb: {
     description: 'padding-bottom - ',
+    alias: 'space',
   },
   pl: {
     description: 'padding-left - ',
+    alias: 'space',
   },
   px: {
     description: 'padding x-axis - ',
+    alias: 'space',
   },
   py: {
     description: 'padding y-axis - ',
+    alias: 'space',
   },
   width: {
     description: 'width - ширина элемента.',
@@ -127,6 +141,28 @@ export const styledProps = {
   buttonStyle: { description: 'TODO' },
 };
 
+const findAsAlias = key => {
+  return Object.keys(styledProps).reduce((acc, prop) => {
+    if (styledProps[prop].alias === key) {
+      acc[prop] = styledProps[prop];
+    }
+    return acc;
+  }, {});
+};
+
+const findProp = key => {
+  if (styledProps[key]) {
+    return { [key]: styledProps[key] };
+  }
+  return findAsAlias(key);
+};
 export const styledPackToDict = () => {
-  console.log(styledPacks);
+  const packs = Object.keys(styledPacks);
+  return packs.reduce((acc, pack) => {
+    acc[pack] = styledPacks[pack].reduce((accum, key) => {
+      Object.assign(accum, findProp(key));
+      return accum;
+    }, {});
+    return acc;
+  }, {});
 };
