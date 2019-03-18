@@ -1,6 +1,6 @@
 export default {
   props: {
-    styles: ['defaults', 'button', 'hovered'],
+    styles: ['defaults'],
     actions: [],
     attributes: {
       variant: {
@@ -9,5 +9,5 @@ export default {
       },
     },
   },
-  description: 'Элемент Button.',
+  description: 'TODO.',
 };
