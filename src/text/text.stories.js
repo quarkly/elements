@@ -79,10 +79,47 @@ stories.add('with props', () => (
       my={text('my', '', 'Core')}
       fontSize={text('fontSize', '', 'Typography')}
       fontFamily={text('fontFamily', '', 'Typography')}
-      textAlign={text('fontFamily', '', 'Typography')}
+      textAlign={select(
+        'textAlign',
+        {
+          center: 'center',
+          justify: 'justify',
+          left: 'left',
+          right: 'right',
+        },
+        'left',
+        'Typography',
+      )}
       lineHeight={text('lineHeight', '', 'Typography')}
-      fontWeight={text('fontWeight', '', 'Typography')}
-      fontStyle={text('fontStyle', '', 'Typography')}
+      fontWeight={select(
+        'fontWeight',
+        {
+          bold: 'bold',
+          bolder: 'bolder',
+          lighter: 'lighter',
+          normal: 'normal',
+          100: '100',
+          200: '200',
+          300: '300',
+          400: '400',
+          500: '500',
+          600: '600',
+          700: '700',
+          800: '800',
+          900: '900',
+        },
+        'normal',
+        'Typography',
+      )}
+      fontStyle={select(
+        'fontStyle',
+        {
+          normal: 'normal',
+          italic: 'italic',
+        },
+        'normal',
+        'Typography',
+      )}
       letterSpacing={text('letterSpacing', '', 'Typography')}
       boxShadow={text('boxShadow', '', 'Misc')}
       order={number('order', '', '{0}', 'Flexbox')}

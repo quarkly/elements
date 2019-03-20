@@ -6,6 +6,8 @@ export default {
     lightgray: '#f6f6ff',
     primary: '#2973B7',
     effect: '#248DE0',
+    link: '#007bff',
+    'link-hover': '#0056b3',
   },
   space: [0, 4, 8, 16, 32, 64, 128, 256],
   fonts: {
@@ -35,6 +37,22 @@ export default {
   Box: {},
   Flex: {},
   Grid: {},
+  Link: {
+    fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto"',
+    fontStyle: 'normal',
+    fontWeight: 'normal',
+    lineHeight: '24px',
+    fontSize: '16px',
+    color: '#007bff',
+  },
+  Text: {
+    fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto"',
+    fontStyle: 'normal',
+    fontWeight: 'normal',
+    lineHeight: '24px',
+    fontSize: '16px',
+    color: 'black',
+  },
   Card: {
     backgroundColor: '#FFFFFF',
     borderRadius: '4px',
@@ -79,6 +97,15 @@ export default {
     '&:focus': {
       boxShadow: '0 0 0 0.2rem rgba(38,143,255,.5)',
       color: '#FFFFFF',
+    },
+  },
+  links: {
+    underlined: {
+      '&:hover': {
+        cursor: 'pointer',
+        textDecoration: 'underline',
+        color: '#0056b3',
+      },
     },
   },
   buttons: {
