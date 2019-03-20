@@ -7,3 +7,7 @@ docs/
 .storybook/
 config/
 example/
+.DS_Store
+coverage/
+.jest
+jest.config.js

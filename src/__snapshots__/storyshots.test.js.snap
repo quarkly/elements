@@ -1,0 +1,1396 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Block default 1`] = `
+<div
+  className="sc-bdVaJa kNDmrE"
+/>
+`;
+
+exports[`Storyshots Block with props 1`] = `
+<div
+  className="sc-bdVaJa hPWQTg"
+  display="block"
+  height="300px"
+  opacity=""
+  order=""
+  overflow="visible"
+  size=""
+  width="300px"
+>
+  <p
+    className="sc-bwzfXH cxhyOY"
+    color="black"
+  >
+    Text
+  </p>
+</div>
+`;
+
+exports[`Storyshots Box default 1`] = `
+<div
+  className="sc-htpNat bCjqUz"
+/>
+`;
+
+exports[`Storyshots Box with props 1`] = `
+<div
+  className="sc-htpNat kCUgjR"
+  display="block"
+  height="100vh"
+  opacity=""
+  order=""
+  overflow="visible"
+  size="300px"
+  width="100%"
+>
+  <p
+    className="sc-bwzfXH cxhyOY"
+    color="black"
+  >
+    Text
+  </p>
+</div>
+`;
+
+exports[`Storyshots Button default 1`] = `
+<button
+  className="sc-bxivhb gUvowr"
+  onClick={[Function]}
+>
+  Default
+</button>
+`;
+
+exports[`Storyshots Button outline 1`] = `
+<button
+  className="sc-bxivhb foPBUm"
+  onClick={[Function]}
+>
+  Outline
+</button>
+`;
+
+exports[`Storyshots Button with props 1`] = `
+<div
+  className="sc-bdVaJa iuUqrI"
+  display="flex"
+>
+  <button
+    className="sc-bxivhb VZhTL"
+    display="block"
+    height=""
+    onClick={[Function]}
+    opacity=""
+    order=""
+    overflow="visible"
+    size=""
+    width=""
+  >
+    With Props
+  </button>
+</div>
+`;
+
+exports[`Storyshots Card default 1`] = `
+<div
+  className="sc-ifAKCX jjkobi"
+/>
+`;
+
+exports[`Storyshots Card with content horizontal 1`] = `
+<div
+  className="sc-ifAKCX hlsfWv"
+>
+  <div
+    className="sc-EHOje imbWnI"
+    width="100%"
+  />
+  <div
+    className="sc-EHOje krwelt"
+  >
+    <p
+      className="sc-bwzfXH bElqAL"
+    >
+      The Moon
+    </p>
+    <p
+      className="sc-bwzfXH cokOUe"
+    >
+      The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.
+    </p>
+    <button
+      className="sc-bxivhb gUvowr"
+      onClick={[Function]}
+    >
+      Read more
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Card with content vertical 1`] = `
+<div
+  className="sc-ifAKCX jjkobi"
+>
+  <div
+    className="sc-EHOje enDnAu"
+    width="100%"
+  />
+  <div
+    className="sc-EHOje eGmfCu"
+  >
+    <p
+      className="sc-bwzfXH bElqAL"
+    >
+      The Moon
+    </p>
+    <p
+      className="sc-bwzfXH cokOUe"
+    >
+      The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.
+    </p>
+    <button
+      className="sc-bxivhb gUvowr"
+      onClick={[Function]}
+    >
+      Read more
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Card with props 1`] = `
+<div
+  className="sc-ifAKCX AgXCk"
+  display="block"
+  height=""
+  opacity=""
+  order=""
+  overflow="auto"
+  size=""
+  width=""
+>
+  <div
+    className="sc-EHOje enDnAu"
+    width="100%"
+  />
+  <div
+    className="sc-EHOje eGmfCu"
+  >
+    <p
+      className="sc-bwzfXH bElqAL"
+    >
+      The Moon
+    </p>
+    <p
+      className="sc-bwzfXH cokOUe"
+    >
+      The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.
+    </p>
+    <button
+      className="sc-bxivhb gUvowr"
+      onClick={[Function]}
+    >
+      Read more
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Carousel default 1`] = `
+<div
+  className="sc-htpNat bCjqUz"
+>
+  <div
+    className="sc-htpNat bcALIq"
+    height="400px"
+  >
+    <div
+      className="slick-slider slick-initialized"
+      dir="ltr"
+    >
+      <div
+        className="slick-list"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={null}
+        onMouseMove={null}
+        onMouseUp={[Function]}
+        onTouchCancel={null}
+        onTouchEnd={[Function]}
+        onTouchMove={null}
+        onTouchStart={[Function]}
+        style={Object {}}
+      >
+        <div
+          className="slick-track"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
+          style={
+            Object {
+              "WebkitTransform": "translate3d(0px, 0px, 0px)",
+              "WebkitTransition": "",
+              "msTransform": "translateX(0px)",
+              "opacity": 1,
+              "transform": "translate3d(0px, 0px, 0px)",
+              "transition": "",
+            }
+          }
+        >
+          <div
+            aria-hidden={true}
+            className="slick-slide slick-cloned"
+            data-index={-1}
+            onClick={[Function]}
+            style={
+              Object {
+                "width": 0,
+              }
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="sc-bZQynM MrWCD"
+                height="400px"
+                src="https://www.jpl.nasa.gov/images/cassini/20160408/PIA11141-16.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
+          </div>
+          <div
+            aria-hidden={false}
+            className="slick-slide slick-active slick-current"
+            data-index={0}
+            onClick={[Function]}
+            style={
+              Object {
+                "outline": "none",
+                "width": 0,
+              }
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="sc-bZQynM MrWCD"
+                height="400px"
+                src="https://www.jpl.nasa.gov/images/mars/20160421/PIA00407-16.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
+          </div>
+          <div
+            aria-hidden={true}
+            className="slick-slide"
+            data-index={1}
+            onClick={[Function]}
+            style={
+              Object {
+                "outline": "none",
+                "width": 0,
+              }
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="sc-bZQynM MrWCD"
+                height="400px"
+                src="https://photojournal.jpl.nasa.gov/jpeg/PIA18182.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
+          </div>
+          <div
+            aria-hidden={true}
+            className="slick-slide"
+            data-index={2}
+            onClick={[Function]}
+            style={
+              Object {
+                "outline": "none",
+                "width": 0,
+              }
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="sc-bZQynM MrWCD"
+                height="400px"
+                src="https://www.jpl.nasa.gov/images/cassini/20160408/PIA11141-16.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
+          </div>
+          <div
+            aria-hidden={true}
+            className="slick-slide slick-cloned"
+            data-index={3}
+            onClick={[Function]}
+            style={
+              Object {
+                "width": 0,
+              }
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="sc-bZQynM MrWCD"
+                height="400px"
+                src="https://www.jpl.nasa.gov/images/mars/20160421/PIA00407-16.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
+          </div>
+          <div
+            aria-hidden={true}
+            className="slick-slide slick-cloned"
+            data-index={4}
+            onClick={[Function]}
+            style={
+              Object {
+                "width": 0,
+              }
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="sc-bZQynM MrWCD"
+                height="400px"
+                src="https://photojournal.jpl.nasa.gov/jpeg/PIA18182.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
+          </div>
+          <div
+            aria-hidden={true}
+            className="slick-slide slick-cloned"
+            data-index={5}
+            onClick={[Function]}
+            style={
+              Object {
+                "width": 0,
+              }
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="sc-bZQynM MrWCD"
+                height="400px"
+                src="https://www.jpl.nasa.gov/images/cassini/20160408/PIA11141-16.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul
+        className="slick-dots"
+        onMouseEnter={null}
+        onMouseLeave={null}
+        onMouseOver={null}
+        style={
+          Object {
+            "display": "block",
+          }
+        }
+      >
+        <li
+          className="slick-active"
+        >
+          <button
+            onClick={[Function]}
+          >
+            1
+          </button>
+        </li>
+        <li
+          className=""
+        >
+          <button
+            onClick={[Function]}
+          >
+            2
+          </button>
+        </li>
+        <li
+          className=""
+        >
+          <button
+            onClick={[Function]}
+          >
+            3
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Carousel with props 1`] = `
+<div
+  className="sc-htpNat bCjqUz"
+>
+  <div
+    className="sc-htpNat dDDQGS"
+    display="block"
+    height=""
+    size=""
+    width=""
+  >
+    <div
+      className="slick-slider slick-initialized"
+      dir="ltr"
+    >
+      <div
+        className="slick-list"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={null}
+        onMouseMove={null}
+        onMouseUp={[Function]}
+        onTouchCancel={null}
+        onTouchEnd={[Function]}
+        onTouchMove={null}
+        onTouchStart={[Function]}
+        style={Object {}}
+      >
+        <div
+          className="slick-track"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
+          style={
+            Object {
+              "WebkitTransform": "translate3d(0px, 0px, 0px)",
+              "WebkitTransition": "",
+              "msTransform": "translateX(0px)",
+              "opacity": 1,
+              "transform": "translate3d(0px, 0px, 0px)",
+              "transition": "",
+            }
+          }
+        >
+          <div
+            aria-hidden={true}
+            className="slick-slide slick-cloned"
+            data-index={-1}
+            onClick={[Function]}
+            style={
+              Object {
+                "width": 0,
+              }
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="sc-bZQynM MrWCD"
+                height="400px"
+                src="https://www.jpl.nasa.gov/images/cassini/20160408/PIA11141-16.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
+          </div>
+          <div
+            aria-hidden={false}
+            className="slick-slide slick-active slick-current"
+            data-index={0}
+            onClick={[Function]}
+            style={
+              Object {
+                "outline": "none",
+                "width": 0,
+              }
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="sc-bZQynM MrWCD"
+                height="400px"
+                src="https://www.jpl.nasa.gov/images/mars/20160421/PIA00407-16.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
+          </div>
+          <div
+            aria-hidden={true}
+            className="slick-slide"
+            data-index={1}
+            onClick={[Function]}
+            style={
+              Object {
+                "outline": "none",
+                "width": 0,
+              }
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="sc-bZQynM MrWCD"
+                height="400px"
+                src="https://photojournal.jpl.nasa.gov/jpeg/PIA18182.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
+          </div>
+          <div
+            aria-hidden={true}
+            className="slick-slide"
+            data-index={2}
+            onClick={[Function]}
+            style={
+              Object {
+                "outline": "none",
+                "width": 0,
+              }
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="sc-bZQynM MrWCD"
+                height="400px"
+                src="https://www.jpl.nasa.gov/images/cassini/20160408/PIA11141-16.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
+          </div>
+          <div
+            aria-hidden={true}
+            className="slick-slide slick-cloned"
+            data-index={3}
+            onClick={[Function]}
+            style={
+              Object {
+                "width": 0,
+              }
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="sc-bZQynM MrWCD"
+                height="400px"
+                src="https://www.jpl.nasa.gov/images/mars/20160421/PIA00407-16.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
+          </div>
+          <div
+            aria-hidden={true}
+            className="slick-slide slick-cloned"
+            data-index={4}
+            onClick={[Function]}
+            style={
+              Object {
+                "width": 0,
+              }
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="sc-bZQynM MrWCD"
+                height="400px"
+                src="https://photojournal.jpl.nasa.gov/jpeg/PIA18182.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
+          </div>
+          <div
+            aria-hidden={true}
+            className="slick-slide slick-cloned"
+            data-index={5}
+            onClick={[Function]}
+            style={
+              Object {
+                "width": 0,
+              }
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="sc-bZQynM MrWCD"
+                height="400px"
+                src="https://www.jpl.nasa.gov/images/cassini/20160408/PIA11141-16.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul
+        className="slick-dots"
+        onMouseEnter={null}
+        onMouseLeave={null}
+        onMouseOver={null}
+        style={
+          Object {
+            "display": "block",
+          }
+        }
+      >
+        <li
+          className="slick-active"
+        >
+          <button
+            onClick={[Function]}
+          >
+            1
+          </button>
+        </li>
+        <li
+          className=""
+        >
+          <button
+            onClick={[Function]}
+          >
+            2
+          </button>
+        </li>
+        <li
+          className=""
+        >
+          <button
+            onClick={[Function]}
+          >
+            3
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Flex default 1`] = `
+<div
+  className="sc-EHOje ZgWUm"
+/>
+`;
+
+exports[`Storyshots Flex with card 1`] = `
+<div
+  className="sc-ifAKCX jjkobi"
+>
+  <div
+    className="sc-EHOje enDnAu"
+    width="100%"
+  />
+  <div
+    className="sc-EHOje eGmfCu"
+  >
+    <p
+      className="sc-bwzfXH bElqAL"
+    >
+      The Moon
+    </p>
+    <p
+      className="sc-bwzfXH cokOUe"
+    >
+      The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.
+    </p>
+    <div
+      className="sc-EHOje ZgWUm"
+    >
+      <button
+        className="sc-bxivhb gROFed"
+        onClick={[Function]}
+      >
+        First
+      </button>
+      <button
+        className="sc-bxivhb gROFed"
+        onClick={[Function]}
+      >
+        Second
+      </button>
+      <button
+        className="sc-bxivhb gUvowr"
+        onClick={[Function]}
+      >
+        Third
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Flex with props 1`] = `
+<div
+  className="sc-EHOje cRvjEa"
+  display="flex"
+  height="300px"
+  opacity=""
+  order=""
+  overflow="visible"
+  size=""
+  width="300px"
+>
+  <p
+    className="sc-bwzfXH cxhyOY"
+    color="black"
+  >
+    Text
+  </p>
+</div>
+`;
+
+exports[`Storyshots Grid default 1`] = `
+<div
+  className="sc-gzVnrw dAhgrE"
+/>
+`;
+
+exports[`Storyshots Grid with boxes 1`] = `
+<div
+  className="sc-gzVnrw SeKZY"
+>
+  <div
+    className="sc-htpNat iUFEMe"
+  >
+    <p
+      className="sc-bwzfXH elQhDH"
+    >
+      Although we will never watch two suns rise and fall from the perspective of our own planet, like Luke Skywalker on Tatooine in the iconic scene from Star Wars: A New Hope, theres a newly discovered planet where aliens might do so.
+    </p>
+  </div>
+  <div
+    className="sc-htpNat koosHr"
+  />
+  <div
+    className="sc-htpNat bDeUha"
+  />
+  <div
+    className="sc-htpNat bDeUha"
+  />
+  <div
+    className="sc-gzVnrw hfznUU"
+  >
+    <div
+      className="sc-htpNat bDeUha"
+    />
+    <div
+      className="sc-htpNat bDeUha"
+    />
+    <div
+      className="sc-htpNat bDeUha"
+    />
+    <div
+      className="sc-htpNat bDeUha"
+    />
+  </div>
+  <div
+    className="sc-htpNat bDeUha"
+  />
+  <div
+    className="sc-htpNat koosHr"
+  />
+  <div
+    className="sc-htpNat bDeUha"
+  />
+  <div
+    className="sc-htpNat bDeUha"
+  />
+</div>
+`;
+
+exports[`Storyshots Grid with cards 1`] = `
+<div
+  className="sc-gzVnrw ijaOjP"
+>
+  <div
+    className="sc-ifAKCX jjkobi"
+  >
+    <div
+      className="sc-gzVnrw cYTfyG"
+      width="100%"
+    />
+    <div
+      className="sc-gzVnrw iYthWk"
+    >
+      <p
+        className="sc-bwzfXH bElqAL"
+      >
+        The Moon
+      </p>
+      <p
+        className="sc-bwzfXH cokOUe"
+      >
+        The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.
+      </p>
+      <div
+        className="sc-gzVnrw dAhgrE"
+      >
+        <button
+          className="sc-bxivhb yHmzj"
+          onClick={[Function]}
+        >
+          First
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-ifAKCX jjkobi"
+  >
+    <div
+      className="sc-gzVnrw cYTfyG"
+      width="100%"
+    />
+    <div
+      className="sc-gzVnrw iYthWk"
+    >
+      <p
+        className="sc-bwzfXH bElqAL"
+      >
+        The Moon
+      </p>
+      <p
+        className="sc-bwzfXH cokOUe"
+      >
+        The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.
+      </p>
+      <div
+        className="sc-gzVnrw dAhgrE"
+      >
+        <button
+          className="sc-bxivhb bYUbLa"
+          onClick={[Function]}
+        >
+          First
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-ifAKCX jjkobi"
+  >
+    <div
+      className="sc-gzVnrw cYTfyG"
+      width="100%"
+    />
+    <div
+      className="sc-gzVnrw iYthWk"
+    >
+      <p
+        className="sc-bwzfXH bElqAL"
+      >
+        The Moon
+      </p>
+      <p
+        className="sc-bwzfXH cokOUe"
+      >
+        The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.
+      </p>
+      <div
+        className="sc-gzVnrw dAhgrE"
+      >
+        <button
+          className="sc-bxivhb hqspnL"
+          onClick={[Function]}
+        >
+          First
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Grid with image 1`] = `
+<div
+  className="sc-gzVnrw eMDpkn"
+>
+  <img
+    className="sc-bZQynM bQVwYU"
+    src="https://www.jpl.nasa.gov/images/mars/20160421/PIA00407-16.jpg"
+  />
+  <img
+    className="sc-bZQynM bQVwYU"
+    src="https://photojournal.jpl.nasa.gov/jpeg/PIA18182.jpg"
+  />
+  <img
+    className="sc-bZQynM bQVwYU"
+    src="https://www.jpl.nasa.gov/images/cassini/20160408/PIA11141-16.jpg"
+  />
+  <img
+    className="sc-bZQynM bQVwYU"
+    src="https://cdn.mos.cms.futurecdn.net/DfcnU8Z2yeyrYLmsRCKtDH.jpg"
+  />
+  <img
+    className="sc-bZQynM bQVwYU"
+    src="https://solarsystem.nasa.gov/system/downloadable_items/1193_pluto_natural_color_20150714_detail.jpg"
+  />
+  <img
+    className="sc-bZQynM bQVwYU"
+    src="https://solarsystem.nasa.gov/system/resources/detail_files/771_PIA16853.jpg"
+  />
+</div>
+`;
+
+exports[`Storyshots Grid with props 1`] = `
+<div
+  className="sc-gzVnrw hFhqFS"
+  display="flex"
+  height="300px"
+  opacity=""
+  order=""
+  overflow="visible"
+  size=""
+  width="300px"
+>
+  <p
+    className="sc-bwzfXH cxhyOY"
+    color="black"
+  >
+    Text
+  </p>
+</div>
+`;
+
+exports[`Storyshots Hr default 1`] = `
+Array [
+  "Content",
+  <div
+    className="sc-htoDjs jKTAkO"
+  />,
+  "Content",
+]
+`;
+
+exports[`Storyshots Hr variants 1`] = `
+Array [
+  "Big",
+  <div
+    className="sc-htoDjs cFbkbi"
+  />,
+  "Small",
+  <div
+    className="sc-htoDjs cbkHAy"
+  />,
+  "Content",
+]
+`;
+
+exports[`Storyshots Hr with props 1`] = `
+Array [
+  "Content",
+  <div
+    className="sc-htoDjs dfYexN"
+    display="block"
+    height="1px"
+    opacity=""
+    order=""
+    width="100px"
+  />,
+  "Content",
+]
+`;
+
+exports[`Storyshots Icon default 1`] = `
+<span
+  className="sc-dnqmqq crzHCY"
+  color={
+    Array [
+      "red",
+      "green",
+      "blue",
+    ]
+  }
+  fontSize="300px"
+>
+  <svg
+    fill="currentColor"
+    height="1em"
+    stroke="currentColor"
+    strokeWidth="0"
+    style={
+      Object {
+        "color": undefined,
+      }
+    }
+    viewBox="0 0 448 512"
+    width="1em"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M368 96h-48V56c0-13.255-10.745-24-24-24H24C10.745 32 0 42.745 0 56v400c0 13.255 10.745 24 24 24h272c13.255 0 24-10.745 24-24v-42.11l80.606-35.977C429.396 365.063 448 336.388 448 304.86V176c0-44.112-35.888-80-80-80zm16 208.86a16.018 16.018 0 0 1-9.479 14.611L320 343.805V160h48c8.822 0 16 7.178 16 16v128.86zM208 384c-8.836 0-16-7.164-16-16V144c0-8.836 7.164-16 16-16s16 7.164 16 16v224c0 8.836-7.164 16-16 16zm-96 0c-8.836 0-16-7.164-16-16V144c0-8.836 7.164-16 16-16s16 7.164 16 16v224c0 8.836-7.164 16-16 16z"
+    />
+  </svg>
+</span>
+`;
+
+exports[`Storyshots Image adaptive 1`] = `
+<img
+  className="sc-bZQynM htKFFG"
+  height="400px"
+  src="https://picsum.photos/500"
+  width="500px"
+/>
+`;
+
+exports[`Storyshots Image fluid 1`] = `
+<img
+  className="sc-bZQynM cwdfuR"
+  src="https://picsum.photos/1800"
+/>
+`;
+
+exports[`Storyshots Image thumb 1`] = `
+<img
+  className="sc-bZQynM itTeq"
+  src="https://picsum.photos/500"
+/>
+`;
+
+exports[`Storyshots Image with props 1`] = `
+<img
+  className="sc-bZQynM fJUhkc"
+  display="block"
+  height="500px"
+  opacity=""
+  order=""
+  src="https://picsum.photos/500"
+  width="400px"
+/>
+`;
+
+exports[`Storyshots Spacer 10rem 1`] = `
+Array [
+  "Content",
+  <div
+    className="sc-iwsKbI eEnuco"
+    height="10rem"
+  />,
+  "Content",
+]
+`;
+
+exports[`Storyshots Spacer 25% 1`] = `
+Array [
+  "Content",
+  <div
+    className="sc-iwsKbI gRWAgC"
+    height="25%"
+  />,
+  "Content",
+]
+`;
+
+exports[`Storyshots Spacer 50vh 1`] = `
+Array [
+  "Content",
+  <div
+    className="sc-iwsKbI hvtyrz"
+    height="50vh"
+  />,
+  "Content",
+]
+`;
+
+exports[`Storyshots Spacer 100px 1`] = `
+Array [
+  "Content",
+  <div
+    className="sc-iwsKbI dmPUpA"
+    height="100px"
+  />,
+  "Content",
+]
+`;
+
+exports[`Storyshots Spacer default 1`] = `
+Array [
+  "Content",
+  <div
+    className="sc-iwsKbI gwvKVJ"
+  />,
+  "Content",
+]
+`;
+
+exports[`Storyshots Spacer variants 1`] = `
+Array [
+  "Big",
+  <div
+    className="sc-iwsKbI dBHGaJ"
+  />,
+  "Small",
+  <div
+    className="sc-iwsKbI edObQM"
+  />,
+  "Content",
+]
+`;
+
+exports[`Storyshots Text adaptive 1`] = `
+<p
+  className="sc-bwzfXH dVSpiX"
+  color={
+    Array [
+      "black",
+      "gray",
+      "lightgrey",
+    ]
+  }
+  fontSize={
+    Array [
+      "36px",
+      "54px",
+      "72px",
+    ]
+  }
+>
+  Display1
+</p>
+`;
+
+exports[`Storyshots Text default 1`] = `
+<p
+  className="sc-bwzfXH cokOUe"
+>
+  Base text
+</p>
+`;
+
+exports[`Storyshots Text variants 1`] = `
+Array [
+  <p
+    className="sc-bwzfXH jkrvgP"
+  >
+    Display1
+  </p>,
+  <p
+    className="sc-bwzfXH tzHqR"
+  >
+    Display2
+  </p>,
+  <p
+    className="sc-bwzfXH laoVYr"
+  >
+    Display3
+  </p>,
+  <p
+    className="sc-bwzfXH gteyOB"
+  >
+    Display4
+  </p>,
+  <p
+    className="sc-bwzfXH imqcRA"
+  >
+    Heading1
+  </p>,
+  <p
+    className="sc-bwzfXH elQhDH"
+  >
+    Heading2
+  </p>,
+  <p
+    className="sc-bwzfXH iQfHOk"
+  >
+    Heading3
+  </p>,
+  <p
+    className="sc-bwzfXH jrYtnI"
+  >
+    Heading4
+  </p>,
+  <p
+    className="sc-bwzfXH bPqEIl"
+  >
+    Heading5
+  </p>,
+  <p
+    className="sc-bwzfXH iMSvyN"
+  >
+    Heading6
+  </p>,
+  <p
+    className="sc-bwzfXH feOnzw"
+  >
+    Lead paragraph
+  </p>,
+  <p
+    className="sc-bwzfXH cokOUe"
+  >
+    Base text
+  </p>,
+]
+`;
+
+exports[`Storyshots Text with props 1`] = `
+<p
+  className="sc-bwzfXH eRaVtO"
+  color="black"
+  fontFamily=""
+  fontSize=""
+  fontStyle=""
+  fontWeight=""
+  letterSpacing=""
+  opacity=""
+  order=""
+  overflow="visible"
+>
+  Some text...
+</p>
+`;
+
+exports[`Storyshots Theme with di 1`] = `
+Array [
+  <button
+    className="sc-bxivhb jwvIgx"
+    onClick={[Function]}
+  >
+    default
+  </button>,
+  <button
+    className="sc-bxivhb jwvIgx"
+    onClick={[Function]}
+  >
+    primary
+  </button>,
+]
+`;
+
+exports[`Storyshots Tooltip default 1`] = `
+<div>
+  <button
+    className="sc-bxivhb gUvowr"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    Click me
+  </button>
+</div>
+`;
+
+exports[`Storyshots Tooltip empty 1`] = `
+<div>
+  
+</div>
+`;
+
+exports[`Storyshots Tooltip hidden 1`] = `
+<div>
+  <button
+    className="sc-bxivhb fzNOWg"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    Click me
+  </button>
+</div>
+`;
+
+exports[`Storyshots Tooltip top 1`] = `
+<div>
+  <button
+    className="sc-bxivhb fzNOWg"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    Click me
+  </button>
+</div>
+`;

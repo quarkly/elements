@@ -46,8 +46,8 @@ stories.add('with boxes', () => (
       <Box bg="darkgrey" p="12px">
         <Text variant="h2">
           Although we will never watch two suns rise and fall from the perspective of our own
-          planet, like Luke Skywalker on Tatooine in the iconic scene from "Star Wars: A New Hope,"
-          there's a newly discovered planet where aliens might do so.
+          planet, like Luke Skywalker on Tatooine in the iconic scene from Star Wars: A New Hope,
+          theres a newly discovered planet where aliens might do so.
         </Text>
       </Box>
       <Box bg="lightgrey" />

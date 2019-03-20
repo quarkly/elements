@@ -1,14 +1,12 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { withKnobs, number, text, select, color, boolean } from '@storybook/addon-knobs';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+import { withKnobs, text, select, color, boolean } from '@storybook/addon-knobs';
 import Carousel from './index';
 import Theme from '../theme';
-import Block from '../block';
-import Button from '../button';
 import Image from '../image';
-import Flex from '../flex';
+
+// import 'slick-carousel/slick/slick.css';
+// import 'slick-carousel/slick/slick-theme.css';
 
 const stories = storiesOf('Carousel', module);
 

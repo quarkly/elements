@@ -3,7 +3,6 @@ import { storiesOf } from '@storybook/react';
 import { withKnobs, number, text, color, array, select } from '@storybook/addon-knobs';
 import Card from '../card';
 import Theme from '../theme';
-import Image from '../image';
 import Text from '../text';
 import Button from '../button';
 import Flex from './index';
