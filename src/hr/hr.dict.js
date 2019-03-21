@@ -9,5 +9,5 @@ export default {
       },
     },
   },
-  description: 'Элемент hr',
+  description: 'Элемент hr — разделительная линия',
 };
