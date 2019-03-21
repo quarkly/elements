@@ -8,5 +8,5 @@ export default {
       },
     },
   },
-  description: 'Элемент theme',
+  description: 'Элемент theme – задает тему для вложенных элементов',
 };
