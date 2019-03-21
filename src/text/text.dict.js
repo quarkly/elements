@@ -9,5 +9,5 @@ export default {
       },
     },
   },
-  description: 'Элемент text',
+  description: 'Элемент text — текст в различных вариантах: параграф, заголовок... ',
 };
