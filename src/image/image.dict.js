@@ -7,7 +7,11 @@ export default {
         handler: 'text',
         type: String,
       },
+      src: {
+        handler: 'text',
+        type: String,
+      },
     },
   },
-  description: 'Элемент Image',
+  description: 'Элемент image — изображение',
 };
