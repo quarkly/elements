@@ -9,5 +9,5 @@ export default {
       },
     },
   },
-  description: 'Элемент Grid',
+  description: 'Элемент grid — контейнер с display: grid;',
 };
