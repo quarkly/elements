@@ -9,5 +9,5 @@ export default {
       },
     },
   },
-  description: 'Элемент Block',
+  description: 'Элемент block — контейнер на всю ширину и высоту экрана',
 };
