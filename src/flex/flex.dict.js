@@ -9,5 +9,5 @@ export default {
       },
     },
   },
-  description: 'Элемент Flex',
+  description: 'Элемент flex — контейнер с display: flex;',
 };
