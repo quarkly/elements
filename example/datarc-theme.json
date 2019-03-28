@@ -1,5 +1,5 @@
 {
-  "breakpoints": ["40em", "52em", "64em"],
+  "breakpoints": ["0", "576px", "768px", "992px", "1200px"],
   "fontSizes": [12, 14, 16, 20, 24, 32, 48, 64],
   "colors": {
     "blue": "#07c",
@@ -35,6 +35,8 @@
   "blocks": {
     "split": {
       "position": "relative",
+      "display": "flex",
+      "alignItems": "center",
       "&::before": {
         "position": "absolute",
         "content": "\"\"",
@@ -54,7 +56,29 @@
         "height": "100%",
         "background": "url(https://colorlib.com/etc/datarc/img/studio-bg.jpg) no-repeat center center/cover",
         "zIndex": 1
-      }
+      },
+      "@mediaScreenAnd(min-width:768px)": {
+      "&::before": {
+        "display": "none",
+      },
+      "&::after": {
+        "display": "none",
+      },
+    },
+    "container": {
+      "width": "100%",
+      "paddingRight": "15px",
+      "paddingLeft": "15px",
+      "marginRight": "auto",
+      "marginLeft": "auto",
+      "height": "auto"
+    },
+    "bgimage": {
+      "background-position": "center center",
+      "position": "relative",
+      "display": "flex",
+      "flexDirection": "row",
+      "justifyContent": "center"
     }
   },
   "Box": {},
@@ -72,10 +96,72 @@
     "overflow": "auto"
   },
   "cards": {
+    "price": {
+      "borderRadius": "0",
+      "margin-bottom": "20px",
+      "padding-bottom": "30px",
+      "margin-right": "20px",
+      "border": "0px",
+      "max-width": "300px",
+      "cursor": "pointer"
+    },
+    "testimonial": {
+      "borderRadius": "0",
+      "margin-bottom": "20px",
+      "padding-bottom": "30px",
+      "margin-right": "20px",
+      "border": "0px",
+      "max-width": "320px",
+      "min-width": "220px",
+      "width": "auto"
+    },
+    "article": {
+      "borderRadius": "0",
+      "margin-bottom": "20px",
+      "padding-bottom": "30px",
+      "margin-right": "20px",
+      "border": "0px",
+      "max-width": "260px",
+      "min-width": "220px",
+      "width": "auto"
+    },
+    "personas": {
+      "borderRadius": "0",
+      "margin-bottom": "20px",
+      "padding-bottom": "30px",
+      "margin-right": "20px",
+      "border": "0px",
+      "max-width": "220px",
+      "cursor": "pointer"
+    },
+    "features": {
+      "borderRadius": "0",
+      "margin-bottom": "20px",
+      "padding-bottom": "30px",
+      "margin-right": "20px",
+      "border": "0px",
+      "max-width": "300px",
+    },
     "hovergreen": {
+      "user-select": "none",
+      "cursor": "pointer",
+      "border-radius": "0",
+      "margin-bottom": "20px",
+      "padding-bottom": "30px",
+      "margin-left": "10px",
+      "margin-right": "10px",
+      "border-bottom": "2px solid #00ff8c",
+      "padding-top": "30px",
+      "max-width": "240px",
       "&:hover": {
         "backgroundColor": "#00FF8C",
-        "color": "#FFFFFF"
+        "color": "#FFFFFF",
+        "border": "1px solid #00FF8C",
+        "div": {
+          "p": {
+            "color": "white"
+          }
+        }
       }
     },
     "vertical": {},
@@ -117,6 +203,27 @@
       "backgroundColor": "transparent",
       "color": "#248DE0",
       "borderRadius": "20px",
+      "&:hover": {
+        "backgroundColor": "#00ff8c",
+        "color": "#FFFFFF",
+        "boxShadow": "0 10px 20px 0 rgba(60,64,143,.2)"
+      },
+      "&:focus": {
+        "color": "#00ff8c"
+      },
+      "&:focus:hover": {
+        "color": "#FFFFFF"
+      }
+    },
+    "outlinefill": {
+      "backgroundColor": "transparent",
+      "color": "#248DE0",
+      "borderRadius": "20px",
+      "border": "1px solid #00ff8c",
+      "padding-top": "12px",
+      "padding-bottom": "12px",
+      "padding-right": "40px",
+      "padding-left": "40px",
       "&:hover": {
         "backgroundColor": "#00ff8c",
         "color": "#FFFFFF",
