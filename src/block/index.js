@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { includeWith, themed, variant } from '../styled';
 
-export default styled('div')(
+export default styled('section')(
   {
     boxSizing: 'border-box',
   },
