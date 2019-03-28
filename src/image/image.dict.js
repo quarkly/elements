@@ -6,10 +6,12 @@ export default {
       variant: {
         handler: 'text',
         type: String,
+        category: 'Основное',
       },
       src: {
         handler: 'text',
         type: String,
+        category: 'Основное',
       },
     },
   },
