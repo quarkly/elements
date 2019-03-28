@@ -31,6 +31,9 @@ module.exports = {
     "react/jsx-closing-bracket-location": 0,
     "jsx-a11y/alt-text": 0,
     "react/jsx-curly-brace-presence" : 0,
-    "no-return-assign": 0
+    "no-return-assign": 0,
+    "react/no-find-dom-node": 0,
+    "no-param-reassign": 0,
+    "consistent-return": 0
   }
 };

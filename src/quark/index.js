@@ -5,11 +5,11 @@ const QuarkContext = React.createContext();
 export const { Provider } = QuarkContext;
 
 export function asQuark(Component) {
-  return function ConnectedComponent(props) {
+  return React.forwardRef((props, ref) => {
     return (
       <QuarkContext.Consumer>
-        {qState => <Component {...props} qState={qState} />}
+        {qState => <Component {...props} ref={ref} qState={qState} />}
       </QuarkContext.Consumer>
     );
-  };
+  });
 }

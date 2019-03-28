@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { withKnobs, number, text, color, array, select } from '@storybook/addon-knobs';
+import { withKnobs, number, text, color, select } from '@storybook/addon-knobs';
 import Block from './index';
 import Text from '../text';
 import Theme from '../theme';
