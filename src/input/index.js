@@ -1,4 +1,32 @@
 import React, { Component } from 'react';
+import styled from 'styled-components';
+import { includeWith, themed, variant } from '../styled';
+
+const BaseInput = styled('input')(
+  {
+    boxSizing: 'border-box',
+    backgroundColor: '#353535',
+    height: '23px',
+    color: '#cccccc',
+    paddingLeft: '12px',
+    paddingTop: '0px',
+    paddingRight: '12px',
+    paddingBottom: '2px',
+    outline: 'none',
+    lineHeight: '15px',
+    border: '1px solid transparent',
+    '&:hover': {
+      border: '1px solid #555',
+    },
+    '&:focus': {
+      border: '1px solid #29B6F6',
+    },
+  },
+  themed('Input'),
+  variant('inputs'),
+  ...includeWith('defaults'),
+  ...includeWith('hovered'),
+);
 
 class Input extends Component {
   constructor(props) {
@@ -20,7 +48,12 @@ class Input extends Component {
   render() {
     const { onChange, value, ...other } = this.props;
     return (
-      <Container onChange={this.handleTextChange.bind(this)} value={this.state.text} {...other} />
+      <BaseInput
+        as="input"
+        onChange={this.handleTextChange.bind(this)}
+        value={this.state.text}
+        {...other}
+      />
     );
   }
 
