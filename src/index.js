@@ -10,6 +10,8 @@ export { default as Hr } from './hr';
 export { default as Grid } from './grid';
 export { default as Box } from './box';
 export { default as Block } from './block';
+export { default as List } from './list';
+export { default as Link } from './link';
 export { default as Tooltip } from './tooltip';
 // export { default as Icon } from './icon';
 export * from './quark';

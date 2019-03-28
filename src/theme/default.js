@@ -21,6 +21,9 @@ export default {
   Spacer: {
     height: '20px',
   },
+  List: {
+    height: '20px',
+  },
   Hr: {
     backgroundColor: 'lightgrey',
     height: '1px',
@@ -44,6 +47,12 @@ export default {
     lineHeight: '24px',
     fontSize: '16px',
     color: '#007bff',
+    cursor: 'pointer',
+    '&:hover': {
+      backgroundColor: 'transparent',
+      color: '#0056b3',
+      textDecoration: 'underline',
+    },
   },
   Text: {
     fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto"',
@@ -108,6 +117,7 @@ export default {
       },
     },
   },
+  lists: {},
   buttons: {
     outline: {
       borderColor: '#248DE0',
