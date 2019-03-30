@@ -16,7 +16,7 @@ stories.add('default', () => (
   <Theme>
     <Tabs width="100px" bg="blue">
       <Box role="tabnav">
-        <Button bg="red" bgHover="green" className="ss">
+        <Button hoverBg={["red", "green"]} hoverColor="blue" className="ss">
           111
         </Button>
         <Button>222</Button>

@@ -1,19 +1,16 @@
 import React from 'react';
 import styled from 'styled-components';
-import { includeWith, themed, variant } from '../styled';
+import { includeWith, themed, variant, withEffect } from '../styled';
 import { asQuark } from '../quark';
 
 const hovered = includeWith('hovered');
 const withEffects = props => {
   return {
-    '&:hover': hovered.reduce((acc, ef) => {
-      Object.assign(acc, ef.call(null, props));
-      return acc;
-    }, {}),
-    '&.active': hovered.reduce((acc, ef) => {
-      Object.assign(acc, ef.call(null, props));
-      return acc;
-    }, {}),
+    '&:hover': {
+      '@media screen and (min-width: 40em)': {
+        backgroundColor: 'red'
+      }
+    },
   };
 };
 
@@ -32,6 +29,7 @@ const BaseButton = styled('div')(
   ...includeWith('defaults'),
   ...includeWith('button'),
   withEffects,
+  // ...props => withEffect(':hover', 'hover', () => true)(props),
 );
 
 const qStateDefault = {
