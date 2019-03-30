@@ -3,6 +3,20 @@ import styled from 'styled-components';
 import { includeWith, themed, variant } from '../styled';
 import { asQuark } from '../quark';
 
+const hovered = includeWith('hovered');
+const withEffects = props => {
+  return {
+    '&:hover': hovered.reduce((acc, ef) => {
+      Object.assign(acc, ef.call(null, props));
+      return acc;
+    }, {}),
+    '&.active': hovered.reduce((acc, ef) => {
+      Object.assign(acc, ef.call(null, props));
+      return acc;
+    }, {}),
+  };
+};
+
 const BaseButton = styled('div')(
   {
     appearance: 'button',
@@ -17,7 +31,7 @@ const BaseButton = styled('div')(
   variant('buttons'),
   ...includeWith('defaults'),
   ...includeWith('button'),
-  ...includeWith('hovered'),
+  withEffects,
 );
 
 const qStateDefault = {
@@ -26,7 +40,7 @@ const qStateDefault = {
 const Button = React.forwardRef((props, ref) => {
   const qState = props.qState || qStateDefault;
   return (
-    <BaseButton as="button" {...props} ref={ref} onClick={qState.btnClick.bind(null, props)} />
+    <BaseButton as="button" onClick={qState.btnClick.bind(null, props)} {...props} ref={ref} />
   );
 });
 
