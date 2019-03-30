@@ -28,7 +28,6 @@ styled.arrowColor = styled.style({
 const firstUpper = string => string.charAt(0).toUpperCase() + string.slice(1);
 const firstLower = string => string.charAt(0).toLowerCase() + string.slice(1);
 
-console.log(styled);
 export const includeWith = key => {
   const values = settings[key];
   return values.reduce((acc, attr) => {
@@ -107,24 +106,26 @@ export const withEffect = (key, name, verify, pack = 'defaults') => {
     if (!verify(props)) {
       return [];
     }
-    console.log(effectMap);
     const actualProps = Object.keys(props).filter(prop => effectMap[prop]);
-    console.log(actualProps);
     if (!actualProps.length) {
       return [];
     }
     const styledProps = actualProps.map(prop => toStyledProp(name, prop));
     const styles = styledProps.reduce((acc, prop, i) => {
-      acc.push({
-        [$key]: styled[toModuleName(prop)].call(null, {
-          [prop]: props[actualProps[i]],
-          theme: props.theme,
-        }),
+      const style = styled[toModuleName(prop)].call(null, {
+        [prop]: props[actualProps[i]],
+        theme: props.theme,
       });
+
+      if (style instanceof Array) {
+        Object.assign(acc, ...style);
+      } else {
+        Object.assign(acc, style);
+      }
+
       return acc;
-    }, []);
-    console.log(styles);
-    return styles;
+    }, {});
+    return { [$key]: { ...styles } };
   };
 };
 

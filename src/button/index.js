@@ -3,17 +3,6 @@ import styled from 'styled-components';
 import { includeWith, themed, variant, withEffect } from '../styled';
 import { asQuark } from '../quark';
 
-const hovered = includeWith('hovered');
-const withEffects = props => {
-  return {
-    '&:hover': {
-      '@media screen and (min-width: 40em)': {
-        backgroundColor: 'red'
-      }
-    },
-  };
-};
-
 const BaseButton = styled('div')(
   {
     appearance: 'button',
@@ -28,8 +17,8 @@ const BaseButton = styled('div')(
   variant('buttons'),
   ...includeWith('defaults'),
   ...includeWith('button'),
-  withEffects,
-  // ...props => withEffect(':hover', 'hover', () => true)(props),
+  withEffect(':hover', 'hover', () => true),
+  withEffect('.active', 'active', props => props.className.includes('active')),
 );
 
 const qStateDefault = {

@@ -16,12 +16,12 @@ stories.add('default', () => (
   <Theme>
     <Tabs width="100px" bg="blue">
       <Box role="tabnav">
-        <Button hoverBg={["red", "green"]} hoverColor="blue" className="ss">
+        <Button hoverBg={["red", "yellow"]} activeBg="tomato" hoverColor="blue" className="ss">
           111
         </Button>
-        <Button>222</Button>
-        <Button>333</Button>
-        <Button>444</Button>
+        <Button activeBg="tomato">222</Button>
+        <Button activeBg="tomato">333</Button>
+        <Button activeBg="tomato">444</Button>
       </Box>
       <Text role="tabs">
         <Text>tab1</Text>
