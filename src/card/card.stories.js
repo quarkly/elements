@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { withKnobs, text, color, select, number } from '@storybook/addon-knobs';
 import Card from './index';
-import Theme from '../theme';
+import Theme from '../storyModules/theme';
 import Text from '../text';
 import Flex from '../flex';
 import Button from '../button';
@@ -13,7 +13,7 @@ stories.addDecorator(withKnobs);
 
 stories
   .add('default', () => (
-    <Theme>
+    <Theme name="constructor">
       <Card />
     </Theme>
   ))
