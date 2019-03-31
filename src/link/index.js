@@ -1,10 +1,16 @@
 import styled from 'styled-components';
 import { includeWith, themed, variant } from '../styled';
 
-export default styled('a')(
-  {
-  },
+const Link = styled('div')(
   themed('Link'),
   variant('links'),
-  ...includeWith('default, text, hovered'),
+  ...includeWith('default'),
+  ...includeWith('text'),
+  ...includeWith('hovered'),
 );
+
+Link.defaultProps = {
+  as: 'a',
+};
+
+export default Link;

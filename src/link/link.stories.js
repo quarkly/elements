@@ -2,7 +2,6 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { withKnobs, number, text, color, select } from '@storybook/addon-knobs';
 import Link from './index';
-import Text from '../text';
 import Theme from '../theme';
 
 const stories = storiesOf('Link', module);
@@ -11,7 +10,7 @@ stories.addDecorator(withKnobs);
 
 stories.add('default', () => (
   <Theme>
-    <Link />
+    <Link href="https://quarkly.space/" />
   </Theme>
 ));
 
