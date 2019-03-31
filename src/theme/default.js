@@ -62,6 +62,11 @@ export default {
     fontSize: '16px',
     color: 'black',
   },
+  Tabs: {
+    width: '100%',
+    display: 'flex',
+    flexDirection: 'column',
+  },
   Card: {
     backgroundColor: '#FFFFFF',
     borderRadius: '4px',
@@ -118,6 +123,7 @@ export default {
     },
   },
   lists: {},
+  tabs: {},
   buttons: {
     outline: {
       borderColor: '#248DE0',

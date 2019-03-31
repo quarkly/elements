@@ -55,6 +55,11 @@
       "width": "auto"
     }
   },
+  "Tabs": {
+    "width": "100%",
+    "display": "flex",
+    "flexDirection": "column"
+  },
   "Button": {
     "borderRadius": "4px",
     "backgroundColor": "#248DE0",
@@ -95,6 +100,47 @@
       "&:focus:hover": {
         "color": "#FFFFFF"
       }
+    },
+    "tab": {
+      "height": "100%",
+      "backgroundColor": "transparent",
+      "color": "#CCCCCC",
+      "border": "2px solid transparent",
+      "borderLeft": "0",
+      "borderRight": "0",
+      "borderRadius": "0",
+      "paddingRight": "9px",
+      "paddingLeft": "9px",
+      "&:hover": {
+        "backgroundColor": "#3E3E3E",
+        "color": "#CCCCCC"
+      },
+      "&:focus": {
+        "backgroundColor": "#3E3E3E",
+        "boxShadow": "none",
+        "color": "white"
+      },
+      "&:active": {
+        "color": "white",
+        "borderBottom": "2px solid white",
+        "backgroundColor": "transparent"
+      }
+    }
+  },
+  "boxes": {
+    "tabnav": {
+      "backgroundColor": "#353535",
+      "height": "38px",
+      "paddingLeft": "12px",
+      "paddingRight": "12px"
+    },
+    "tabcontent": {
+      "paddingTop": "18px",
+      "paddingRight": "16px",
+      "paddingLeft": "16px",
+      "paddingBottom": "36px",
+      "height": "200px",
+      "overflow": "auto"
     }
   },
   "texts": {

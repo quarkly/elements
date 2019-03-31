@@ -23,6 +23,15 @@ export const defaults = [
   'bottom',
   'left',
   'boxShadow',
+  'border',
+  'borderTop',
+  'borderRight',
+  'borderBottom',
+  'borderLeft',
+  'borders',
+  'borderWidth',
+  'borderColor',
+  'borderRadius',
 ];
 
 export const card = [

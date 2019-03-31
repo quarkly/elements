@@ -3,32 +3,94 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { withKnobs } from '@storybook/addon-knobs';
 import Tabs from './index';
-import Theme from '../theme';
+import Theme from '../storyModules/theme';
 import Text from '../text';
 import Box from '../box';
+import Block from '../block';
 import Button from '../button';
 
 const stories = storiesOf('Tabs', module);
 
 stories.addDecorator(withKnobs);
 
-stories.add('default', () => (
-  <Theme>
-    <Tabs width="100px" bg="blue">
-      <Box role="tabnav">
-        <Button hoverBg={["red", "yellow"]} activeBg="tomato" hoverColor="blue" className="ss">
-          111
-        </Button>
-        <Button activeBg="tomato">222</Button>
-        <Button activeBg="tomato">333</Button>
-        <Button activeBg="tomato">444</Button>
-      </Box>
-      <Text role="tabs">
-        <Text>tab1</Text>
-        <Text>tab13</Text>
-        <Text>tab14</Text>
-        <Text>tab15</Text>
-      </Text>
-    </Tabs>
-  </Theme>
+stories.add('constructor', () => (
+  <Block bg="#252526">
+    <Theme name="constructor">
+      <Tabs>
+        <Box role="tabnav" variant="tabnav">
+          <Button variant="tab" activeColor="white" activeBorderBottom="2px solid white">
+            Основное
+          </Button>
+          <Button variant="tab" activeColor="white" activeBorderBottom="2px solid white">
+            Лэйаут
+          </Button>
+          <Button variant="tab" activeColor="white" activeBorderBottom="2px solid white">
+            Отступы
+          </Button>
+          <Button variant="tab" activeColor="white" activeBorderBottom="2px solid white">
+            Flex
+          </Button>
+          <Button variant="tab" activeColor="white" activeBorderBottom="2px solid white">
+            Grid
+          </Button>
+          <Button variant="tab" activeColor="white" activeBorderBottom="2px solid white">
+            Фон
+          </Button>
+          <Button variant="tab" activeColor="white" activeBorderBottom="2px solid white">
+            Разное
+          </Button>
+          <Button variant="tab" activeColor="white" activeBorderBottom="2px solid white">
+            Позиция
+          </Button>
+        </Box>
+        <Box role="tabs" variant="tabcontent">
+          <Box display="flex" flexDirection="column" justifyContent="center">
+            <Text color="white" variant="h1">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+              mollit anim id est laborum.
+            </Text>
+          </Box>
+          <Box display="flex" justifyContent="center">
+            <Text color="white" variant="base">
+              Содержимое категории Лэйаут
+            </Text>
+          </Box>
+          <Box display="flex" justifyContent="center">
+            <Text color="white" variant="base">
+              Содержимое категории Отступы
+            </Text>
+          </Box>
+          <Box display="flex" justifyContent="center">
+            <Text color="white" variant="base">
+              Содержимое категории Flex
+            </Text>
+          </Box>
+          <Box display="flex" justifyContent="center">
+            <Text color="white" variant="base">
+              Содержимое категории Grid
+            </Text>
+          </Box>
+          <Box display="flex" justifyContent="center">
+            <Text color="white" variant="base">
+              Содержимое категории Фон
+            </Text>
+          </Box>
+          <Box display="flex" justifyContent="center">
+            <Text color="white" variant="base">
+              Содержимое категории Разное
+            </Text>
+          </Box>
+          <Box display="flex" justifyContent="center">
+            <Text color="white" variant="base">
+              Содержимое категории Позиция
+            </Text>
+          </Box>
+        </Box>
+      </Tabs>
+    </Theme>
+  </Block>
 ));
