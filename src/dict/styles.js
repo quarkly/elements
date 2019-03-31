@@ -85,8 +85,9 @@ export const styledProps = {
     description: 'color - цвет текста',
     category: 'Типографика',
   },
-  bgColor: {
+  bg: {
     description: 'background-color - цвет фона',
+    alias: 'bgColor',
     category: 'Фон',
   },
   color: {
