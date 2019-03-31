@@ -3,6 +3,7 @@ import { storiesOf } from '@storybook/react';
 import { withKnobs, number, text, color, select } from '@storybook/addon-knobs';
 import Link from './index';
 import Theme from '../theme';
+import Text from '../text';
 
 const stories = storiesOf('Link', module);
 
@@ -10,14 +11,24 @@ stories.addDecorator(withKnobs);
 
 stories.add('default', () => (
   <Theme>
-    <Link href="/" />
+    <Link href="https://quarkly.space/">{text('Value', 'Quarkly', 'Data')}</Link>
+  </Theme>
+));
+
+stories.add('with text', () => (
+  <Theme>
+    <Link href="https://quarkly.space/" color="#007bff">
+      <Text variant="h1" color="#007bff" hoverColor="#0056b3">
+        {text('Value', 'Quarkly', 'Data')}
+      </Text>
+    </Link>
   </Theme>
 ));
 
 stories.add('with props', () => (
   <Theme>
     <Link
-      href={text('href', '', 'Core')}
+      href={text('href', 'https://quarkly.space/', 'Core')}
       name={text('name', '', 'Core')}
       target={select(
         'target',
@@ -34,23 +45,14 @@ stories.add('with props', () => (
       variant={select(
         'variant',
         {
-          display1: 'display1',
-          display2: 'display2',
-          display3: 'display3',
-          display4: 'display4',
-          h1: 'h1',
-          h2: 'h2',
-          h3: 'h3',
-          h4: 'h4',
-          h5: 'h5',
-          h6: 'h6',
-          lead: 'lead',
-          base: 'base',
+          underlined: 'underlined',
+          hoverUnderlined: 'hoverUnderlined',
+          nonUnderlined: 'nonUnderlined',
         },
-        'base',
+        'underlined',
         'Core',
       )}
-      color={color('color', 'black', 'Core')}
+      color={color('color', '#007bff', 'Core')}
       bg={color('bg', '', 'Core')}
       p={text('p', '', 'Core')}
       paddingTop={text('paddingTop', '', 'Core')}

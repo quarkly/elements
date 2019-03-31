@@ -22,7 +22,11 @@ export default {
     height: '20px',
   },
   List: {
-    height: '20px',
+    margin: '0',
+    padding: '0',
+    li: {
+      listStyleType: 'none',
+    },
   },
   Hr: {
     backgroundColor: 'lightgrey',
@@ -116,13 +120,36 @@ export default {
   links: {
     underlined: {
       '&:hover': {
-        cursor: 'pointer',
         textDecoration: 'underline',
         color: '#0056b3',
       },
     },
+    hoverUnderlined: {
+      textDecoration: 'none',
+      '&:hover': {
+        textDecoration: 'underline',
+        color: '#0056b3',
+      },
+    },
+    nonUnderlined: {
+      textDecoration: 'none',
+      '&:hover': {
+        cursor: 'pointer',
+        textDecoration: 'none',
+        color: '#0056b3',
+      },
+    },
   },
-  lists: {},
+  lists: {
+    horizontal: {
+      display: 'flex',
+      flexDirection: 'row',
+    },
+    vertical: {
+      display: 'flex',
+      flexDirection: 'column',
+    },
+  },
   tabs: {},
   buttons: {
     outline: {
