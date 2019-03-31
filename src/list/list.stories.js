@@ -11,13 +11,13 @@ stories.addDecorator(withKnobs);
 
 stories.add('default', () => (
   <Theme>
-    <Block />
+    <List />
   </Theme>
 ));
 
 stories.add('with props', () => (
   <Theme>
-    <Block
+    <List
       p={text('p', '20px', 'Core')}
       paddingTop={text('paddingTop', '', 'Core')}
       paddingRight={text('paddingRight', '', 'Core')}
@@ -276,6 +276,6 @@ stories.add('with props', () => (
       <Text variant="h2" color="black">
         Text
       </Text>
-    </Block>
+    </List>
   </Theme>
 ));

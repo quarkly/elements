@@ -7,5 +7,6 @@ export default styled('ul')(
   },
   themed('List'),
   variant('lists'),
-  ...includeWith('default, text'),
+  ...includeWith('defaults'),
+  ...includeWith('text'),
 );
