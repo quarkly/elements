@@ -1142,19 +1142,21 @@ exports[`Storyshots Input white 1`] = `
 exports[`Storyshots Link default 1`] = `
 <a
   className="sc-iwsKbI cTpSRt"
-  href="/"
-/>
+  href="https://quarkly.space/"
+>
+  Quarkly
+</a>
 `;
 
 exports[`Storyshots Link with props 1`] = `
 <a
-  className="sc-iwsKbI jcjBRM"
-  color="black"
+  className="sc-iwsKbI iEIcXY"
+  color="#007bff"
   fontFamily=""
   fontSize=""
   fontStyle="normal"
   fontWeight="normal"
-  href=""
+  href="https://quarkly.space/"
   letterSpacing=""
   name=""
   opacity=""
@@ -1167,29 +1169,102 @@ exports[`Storyshots Link with props 1`] = `
 </a>
 `;
 
+exports[`Storyshots Link with text 1`] = `
+<a
+  className="sc-iwsKbI kLzvHa"
+  color="#007bff"
+  href="https://quarkly.space/"
+>
+  <p
+    className="sc-bwzfXH gRNkxV"
+    color="#007bff"
+  >
+    Quarkly
+  </p>
+</a>
+`;
+
 exports[`Storyshots List default 1`] = `
 <ul
-  className="sc-gZMcBi kWAVrN"
-/>
+  className="sc-gZMcBi iCsCvF"
+>
+  <li>
+    <p
+      className="sc-bwzfXH cokOUe"
+    >
+      Item 1
+    </p>
+  </li>
+  <li>
+    <p
+      className="sc-bwzfXH cokOUe"
+    >
+      Item 2
+    </p>
+  </li>
+  <li>
+    <p
+      className="sc-bwzfXH cokOUe"
+    >
+      Item 3
+    </p>
+  </li>
+</ul>
+`;
+
+exports[`Storyshots List horizontal 1`] = `
+<ul
+  className="sc-gZMcBi iCsCvF"
+>
+  <li>
+    <p
+      className="sc-bwzfXH cokOUe"
+    >
+      Item 1
+    </p>
+  </li>
+  <li>
+    <p
+      className="sc-bwzfXH cokOUe"
+    >
+      Item 2
+    </p>
+  </li>
+  <li>
+    <p
+      className="sc-bwzfXH cokOUe"
+    >
+      Item 3
+    </p>
+  </li>
+</ul>
 `;
 
 exports[`Storyshots List with props 1`] = `
 <ul
-  className="sc-gZMcBi dXOfgH"
-  display="block"
-  height="300px"
-  opacity=""
-  order=""
-  overflow="visible"
-  size=""
-  width="300px"
+  className="sc-gZMcBi iCsCvF"
 >
-  <p
-    className="sc-bwzfXH eGaMJv"
-    color="black"
-  >
-    Text
-  </p>
+  <li>
+    <p
+      className="sc-bwzfXH cokOUe"
+    >
+      Item 1
+    </p>
+  </li>
+  <li>
+    <p
+      className="sc-bwzfXH cokOUe"
+    >
+      Item 2
+    </p>
+  </li>
+  <li>
+    <p
+      className="sc-bwzfXH cokOUe"
+    >
+      Item 3
+    </p>
+  </li>
 </ul>
 `;
 
