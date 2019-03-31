@@ -1,7 +1,8 @@
+import React from 'react';
 import styled from 'styled-components';
 import { includeWith, themed, variant } from '../styled';
 
-export default styled('ul')(
+const Ul = styled('ul')(
   {
     boxSizing: 'border-box',
   },
@@ -10,3 +11,15 @@ export default styled('ul')(
   ...includeWith('defaults'),
   ...includeWith('text'),
 );
+
+const List = ({ children }) => {
+  return (
+    <Ul>
+      {React.Children.map(children, (child, i) => {
+        return <li key={i}>{child}</li>;
+      })}
+    </Ul>
+  );
+};
+
+export default List;

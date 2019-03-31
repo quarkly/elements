@@ -11,13 +11,35 @@ stories.addDecorator(withKnobs);
 
 stories.add('default', () => (
   <Theme>
-    <List />
+    <List>
+      <Text>Item 1</Text>
+      <Text>Item 2</Text>
+      <Text>Item 3</Text>
+    </List>
+  </Theme>
+));
+stories.add('horizontal', () => (
+  <Theme>
+    <List variant="horizontal">
+      <Text>Item 1</Text>
+      <Text>Item 2</Text>
+      <Text>Item 3</Text>
+    </List>
   </Theme>
 ));
 
 stories.add('with props', () => (
   <Theme>
     <List
+      variant={select(
+        'variant',
+        {
+          horizontal: 'horizontal',
+          vertical: 'vertical',
+        },
+        'vertical',
+        'Core',
+      )}
       p={text('p', '20px', 'Core')}
       paddingTop={text('paddingTop', '', 'Core')}
       paddingRight={text('paddingRight', '', 'Core')}
@@ -273,9 +295,9 @@ stories.add('with props', () => (
       right={text('right', '', 'Position')}
       bottom={text('bottom', '', 'Position')}
       left={text('left', '', 'Position')}>
-      <Text variant="h2" color="black">
-        Text
-      </Text>
+      <Text>Item 1</Text>
+      <Text>Item 2</Text>
+      <Text>Item 3</Text>
     </List>
   </Theme>
 ));
