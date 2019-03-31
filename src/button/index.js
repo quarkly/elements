@@ -12,13 +12,14 @@ const BaseButton = styled('div')(
     verticalAlign: 'middle',
     userSelect: 'none',
     textRendering: 'auto',
+    boxSizing: 'border-box',
   },
   themed('Button'),
   variant('buttons'),
   ...includeWith('defaults'),
   ...includeWith('button'),
   withEffect(':hover', 'hover', () => true),
-  withEffect('.active', 'active', props => props.className.includes('active')),
+  withEffect('.active', 'active', props => props.className && props.className.includes('active')),
 );
 
 const qStateDefault = {
