@@ -1,13 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Block default 1`] = `
-<div
+<section
   className="sc-bdVaJa kNDmrE"
 />
 `;
 
 exports[`Storyshots Block with props 1`] = `
-<div
+<section
   className="sc-bdVaJa hPWQTg"
   display="block"
   height="300px"
@@ -18,12 +18,12 @@ exports[`Storyshots Block with props 1`] = `
   width="300px"
 >
   <p
-    className="sc-bwzfXH cxhyOY"
+    className="sc-bwzfXH eGaMJv"
     color="black"
   >
     Text
   </p>
-</div>
+</section>
 `;
 
 exports[`Storyshots Box default 1`] = `
@@ -44,7 +44,7 @@ exports[`Storyshots Box with props 1`] = `
   width="100%"
 >
   <p
-    className="sc-bwzfXH cxhyOY"
+    className="sc-bwzfXH eGaMJv"
     color="black"
   >
     Text
@@ -54,7 +54,7 @@ exports[`Storyshots Box with props 1`] = `
 
 exports[`Storyshots Button default 1`] = `
 <button
-  className="sc-bxivhb gUvowr"
+  className="sc-bxivhb KIirr"
   onClick={[Function]}
 >
   Default
@@ -63,7 +63,7 @@ exports[`Storyshots Button default 1`] = `
 
 exports[`Storyshots Button outline 1`] = `
 <button
-  className="sc-bxivhb foPBUm"
+  className="sc-bxivhb kEvVkH"
   onClick={[Function]}
 >
   Outline
@@ -71,12 +71,12 @@ exports[`Storyshots Button outline 1`] = `
 `;
 
 exports[`Storyshots Button with props 1`] = `
-<div
+<section
   className="sc-bdVaJa iuUqrI"
   display="flex"
 >
   <button
-    className="sc-bxivhb VZhTL"
+    className="sc-bxivhb kQIOXz"
     display="block"
     height=""
     onClick={[Function]}
@@ -88,12 +88,12 @@ exports[`Storyshots Button with props 1`] = `
   >
     With Props
   </button>
-</div>
+</section>
 `;
 
 exports[`Storyshots Card default 1`] = `
 <div
-  className="sc-ifAKCX jjkobi"
+  className="sc-ifAKCX gJHtEF"
 />
 `;
 
@@ -109,17 +109,17 @@ exports[`Storyshots Card with content horizontal 1`] = `
     className="sc-EHOje krwelt"
   >
     <p
-      className="sc-bwzfXH bElqAL"
+      className="sc-bwzfXH IvFAP"
     >
       The Moon
     </p>
     <p
-      className="sc-bwzfXH cokOUe"
+      className="sc-bwzfXH cfCdyf"
     >
       The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.
     </p>
     <button
-      className="sc-bxivhb gUvowr"
+      className="sc-bxivhb KIirr"
       onClick={[Function]}
     >
       Read more
@@ -140,17 +140,17 @@ exports[`Storyshots Card with content vertical 1`] = `
     className="sc-EHOje eGmfCu"
   >
     <p
-      className="sc-bwzfXH bElqAL"
+      className="sc-bwzfXH IvFAP"
     >
       The Moon
     </p>
     <p
-      className="sc-bwzfXH cokOUe"
+      className="sc-bwzfXH cfCdyf"
     >
       The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.
     </p>
     <button
-      className="sc-bxivhb gUvowr"
+      className="sc-bxivhb KIirr"
       onClick={[Function]}
     >
       Read more
@@ -178,17 +178,17 @@ exports[`Storyshots Card with props 1`] = `
     className="sc-EHOje eGmfCu"
   >
     <p
-      className="sc-bwzfXH bElqAL"
+      className="sc-bwzfXH IvFAP"
     >
       The Moon
     </p>
     <p
-      className="sc-bwzfXH cokOUe"
+      className="sc-bwzfXH cfCdyf"
     >
       The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.
     </p>
     <button
-      className="sc-bxivhb gUvowr"
+      className="sc-bxivhb KIirr"
       onClick={[Function]}
     >
       Read more
@@ -778,12 +778,12 @@ exports[`Storyshots Flex with card 1`] = `
     className="sc-EHOje eGmfCu"
   >
     <p
-      className="sc-bwzfXH bElqAL"
+      className="sc-bwzfXH IvFAP"
     >
       The Moon
     </p>
     <p
-      className="sc-bwzfXH cokOUe"
+      className="sc-bwzfXH cfCdyf"
     >
       The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.
     </p>
@@ -791,19 +791,19 @@ exports[`Storyshots Flex with card 1`] = `
       className="sc-EHOje ZgWUm"
     >
       <button
-        className="sc-bxivhb gROFed"
+        className="sc-bxivhb jSsEvS"
         onClick={[Function]}
       >
         First
       </button>
       <button
-        className="sc-bxivhb gROFed"
+        className="sc-bxivhb jSsEvS"
         onClick={[Function]}
       >
         Second
       </button>
       <button
-        className="sc-bxivhb gUvowr"
+        className="sc-bxivhb KIirr"
         onClick={[Function]}
       >
         Third
@@ -825,7 +825,7 @@ exports[`Storyshots Flex with props 1`] = `
   width="300px"
 >
   <p
-    className="sc-bwzfXH cxhyOY"
+    className="sc-bwzfXH eGaMJv"
     color="black"
   >
     Text
@@ -847,7 +847,7 @@ exports[`Storyshots Grid with boxes 1`] = `
     className="sc-htpNat iUFEMe"
   >
     <p
-      className="sc-bwzfXH elQhDH"
+      className="sc-bwzfXH ckhCRh"
     >
       Although we will never watch two suns rise and fall from the perspective of our own planet, like Luke Skywalker on Tatooine in the iconic scene from Star Wars: A New Hope, theres a newly discovered planet where aliens might do so.
     </p>
@@ -907,12 +907,12 @@ exports[`Storyshots Grid with cards 1`] = `
       className="sc-gzVnrw iYthWk"
     >
       <p
-        className="sc-bwzfXH bElqAL"
+        className="sc-bwzfXH IvFAP"
       >
         The Moon
       </p>
       <p
-        className="sc-bwzfXH cokOUe"
+        className="sc-bwzfXH cfCdyf"
       >
         The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.
       </p>
@@ -920,7 +920,7 @@ exports[`Storyshots Grid with cards 1`] = `
         className="sc-gzVnrw dAhgrE"
       >
         <button
-          className="sc-bxivhb yHmzj"
+          className="sc-bxivhb TxZMR"
           onClick={[Function]}
         >
           First
@@ -939,12 +939,12 @@ exports[`Storyshots Grid with cards 1`] = `
       className="sc-gzVnrw iYthWk"
     >
       <p
-        className="sc-bwzfXH bElqAL"
+        className="sc-bwzfXH IvFAP"
       >
         The Moon
       </p>
       <p
-        className="sc-bwzfXH cokOUe"
+        className="sc-bwzfXH cfCdyf"
       >
         The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.
       </p>
@@ -952,7 +952,7 @@ exports[`Storyshots Grid with cards 1`] = `
         className="sc-gzVnrw dAhgrE"
       >
         <button
-          className="sc-bxivhb bYUbLa"
+          className="sc-bxivhb gqLGyR"
           onClick={[Function]}
         >
           First
@@ -971,12 +971,12 @@ exports[`Storyshots Grid with cards 1`] = `
       className="sc-gzVnrw iYthWk"
     >
       <p
-        className="sc-bwzfXH bElqAL"
+        className="sc-bwzfXH IvFAP"
       >
         The Moon
       </p>
       <p
-        className="sc-bwzfXH cokOUe"
+        className="sc-bwzfXH cfCdyf"
       >
         The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.
       </p>
@@ -984,7 +984,7 @@ exports[`Storyshots Grid with cards 1`] = `
         className="sc-gzVnrw dAhgrE"
       >
         <button
-          className="sc-bxivhb hqspnL"
+          className="sc-bxivhb iTIccW"
           onClick={[Function]}
         >
           First
@@ -1038,7 +1038,7 @@ exports[`Storyshots Grid with props 1`] = `
   width="300px"
 >
   <p
-    className="sc-bwzfXH cxhyOY"
+    className="sc-bwzfXH eGaMJv"
     color="black"
   >
     Text
@@ -1085,39 +1085,6 @@ Array [
 ]
 `;
 
-exports[`Storyshots Icon default 1`] = `
-<span
-  className="sc-dnqmqq crzHCY"
-  color={
-    Array [
-      "red",
-      "green",
-      "blue",
-    ]
-  }
-  fontSize="300px"
->
-  <svg
-    fill="currentColor"
-    height="1em"
-    stroke="currentColor"
-    strokeWidth="0"
-    style={
-      Object {
-        "color": undefined,
-      }
-    }
-    viewBox="0 0 448 512"
-    width="1em"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <path
-      d="M368 96h-48V56c0-13.255-10.745-24-24-24H24C10.745 32 0 42.745 0 56v400c0 13.255 10.745 24 24 24h272c13.255 0 24-10.745 24-24v-42.11l80.606-35.977C429.396 365.063 448 336.388 448 304.86V176c0-44.112-35.888-80-80-80zm16 208.86a16.018 16.018 0 0 1-9.479 14.611L320 343.805V160h48c8.822 0 16 7.178 16 16v128.86zM208 384c-8.836 0-16-7.164-16-16V144c0-8.836 7.164-16 16-16s16 7.164 16 16v224c0 8.836-7.164 16-16 16zm-96 0c-8.836 0-16-7.164-16-16V144c0-8.836 7.164-16 16-16s16 7.164 16 16v224c0 8.836-7.164 16-16 16z"
-    />
-  </svg>
-</span>
-`;
-
 exports[`Storyshots Image adaptive 1`] = `
 <img
   className="sc-bZQynM htKFFG"
@@ -1143,7 +1110,7 @@ exports[`Storyshots Image thumb 1`] = `
 
 exports[`Storyshots Image with props 1`] = `
 <img
-  className="sc-bZQynM fJUhkc"
+  className="sc-bZQynM jCWoZG"
   display="block"
   height="500px"
   opacity=""
@@ -1153,11 +1120,84 @@ exports[`Storyshots Image with props 1`] = `
 />
 `;
 
+exports[`Storyshots Input basic 1`] = `
+<section
+  className="sc-bdVaJa hAPwRN"
+  display="flex"
+>
+  <input
+    className="sc-dnqmqq iDoEii"
+    onChange={[Function]}
+  />
+</section>
+`;
+
+exports[`Storyshots Input white 1`] = `
+<input
+  className="sc-dnqmqq iDoEii"
+  onChange={[Function]}
+/>
+`;
+
+exports[`Storyshots Link default 1`] = `
+<a
+  className="sc-iwsKbI cTpSRt"
+  href="/"
+/>
+`;
+
+exports[`Storyshots Link with props 1`] = `
+<a
+  className="sc-iwsKbI jcjBRM"
+  color="black"
+  fontFamily=""
+  fontSize=""
+  fontStyle="normal"
+  fontWeight="normal"
+  href=""
+  letterSpacing=""
+  name=""
+  opacity=""
+  order=""
+  overflow="visible"
+  target="_self"
+  title=""
+>
+  Some text...
+</a>
+`;
+
+exports[`Storyshots List default 1`] = `
+<ul
+  className="sc-gZMcBi kWAVrN"
+/>
+`;
+
+exports[`Storyshots List with props 1`] = `
+<ul
+  className="sc-gZMcBi dXOfgH"
+  display="block"
+  height="300px"
+  opacity=""
+  order=""
+  overflow="visible"
+  size=""
+  width="300px"
+>
+  <p
+    className="sc-bwzfXH eGaMJv"
+    color="black"
+  >
+    Text
+  </p>
+</ul>
+`;
+
 exports[`Storyshots Spacer 10rem 1`] = `
 Array [
   "Content",
   <div
-    className="sc-iwsKbI eEnuco"
+    className="sc-gqjmRU cLLjZH"
     height="10rem"
   />,
   "Content",
@@ -1168,7 +1208,7 @@ exports[`Storyshots Spacer 25% 1`] = `
 Array [
   "Content",
   <div
-    className="sc-iwsKbI gRWAgC"
+    className="sc-gqjmRU gXhPiz"
     height="25%"
   />,
   "Content",
@@ -1179,7 +1219,7 @@ exports[`Storyshots Spacer 50vh 1`] = `
 Array [
   "Content",
   <div
-    className="sc-iwsKbI hvtyrz"
+    className="sc-gqjmRU dOcBKT"
     height="50vh"
   />,
   "Content",
@@ -1190,8 +1230,25 @@ exports[`Storyshots Spacer 100px 1`] = `
 Array [
   "Content",
   <div
-    className="sc-iwsKbI dmPUpA"
+    className="sc-gqjmRU kMqfyR"
     height="100px"
+  />,
+  "Content",
+]
+`;
+
+exports[`Storyshots Spacer adaptive 1`] = `
+Array [
+  "Content",
+  <div
+    className="sc-gqjmRU gCVXqp"
+    height={
+      Array [
+        "100px",
+        "200px",
+        "400px",
+      ]
+    }
   />,
   "Content",
 ]
@@ -1201,7 +1258,7 @@ exports[`Storyshots Spacer default 1`] = `
 Array [
   "Content",
   <div
-    className="sc-iwsKbI gwvKVJ"
+    className="sc-gqjmRU TPTGF"
   />,
   "Content",
 ]
@@ -1211,19 +1268,208 @@ exports[`Storyshots Spacer variants 1`] = `
 Array [
   "Big",
   <div
-    className="sc-iwsKbI dBHGaJ"
+    className="sc-gqjmRU ckwPmy"
   />,
   "Small",
   <div
-    className="sc-iwsKbI edObQM"
+    className="sc-gqjmRU dHNAZp"
   />,
   "Content",
 ]
 `;
 
+exports[`Storyshots Tabs constructor 1`] = `
+<section
+  className="sc-bdVaJa dBWXII"
+>
+  <div
+    className="sc-jTzLTM kvhWzP"
+  >
+    <div
+      className="sc-htpNat jgNNCZ"
+      role="tabnav"
+    >
+      <button
+        className="active sc-bxivhb fIBsYc"
+        onClick={[Function]}
+      >
+        Основное
+      </button>
+      <button
+        className="sc-bxivhb ddwoJH"
+        onClick={[Function]}
+      >
+        Лэйаут
+      </button>
+      <button
+        className="sc-bxivhb ddwoJH"
+        onClick={[Function]}
+      >
+        Отступы
+      </button>
+      <button
+        className="sc-bxivhb ddwoJH"
+        onClick={[Function]}
+      >
+        Flex
+      </button>
+      <button
+        className="sc-bxivhb ddwoJH"
+        onClick={[Function]}
+      >
+        Grid
+      </button>
+      <button
+        className="sc-bxivhb ddwoJH"
+        onClick={[Function]}
+      >
+        Фон
+      </button>
+      <button
+        className="sc-bxivhb ddwoJH"
+        onClick={[Function]}
+      >
+        Разное
+      </button>
+      <button
+        className="sc-bxivhb ddwoJH"
+        onClick={[Function]}
+      >
+        Позиция
+      </button>
+    </div>
+    <div
+      className="sc-htpNat eKoCuq"
+      role="tabs"
+    >
+      <div
+        className="sc-VigVT cxhBLs"
+      >
+        <div
+          className="sc-htpNat fCgLVN"
+          display="flex"
+        >
+          <p
+            className="sc-bwzfXH fHfGto"
+            color="white"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+      </div>
+      <div
+        className="sc-VigVT iyEYjY"
+      >
+        <div
+          className="sc-htpNat gmnqRV"
+          display="flex"
+        >
+          <p
+            className="sc-bwzfXH EuPJX"
+            color="white"
+          >
+            Содержимое категории Лэйаут
+          </p>
+        </div>
+      </div>
+      <div
+        className="sc-VigVT iyEYjY"
+      >
+        <div
+          className="sc-htpNat gmnqRV"
+          display="flex"
+        >
+          <p
+            className="sc-bwzfXH EuPJX"
+            color="white"
+          >
+            Содержимое категории Отступы
+          </p>
+        </div>
+      </div>
+      <div
+        className="sc-VigVT iyEYjY"
+      >
+        <div
+          className="sc-htpNat gmnqRV"
+          display="flex"
+        >
+          <p
+            className="sc-bwzfXH EuPJX"
+            color="white"
+          >
+            Содержимое категории Flex
+          </p>
+        </div>
+      </div>
+      <div
+        className="sc-VigVT iyEYjY"
+      >
+        <div
+          className="sc-htpNat gmnqRV"
+          display="flex"
+        >
+          <p
+            className="sc-bwzfXH EuPJX"
+            color="white"
+          >
+            Содержимое категории Grid
+          </p>
+        </div>
+      </div>
+      <div
+        className="sc-VigVT iyEYjY"
+      >
+        <div
+          className="sc-htpNat gmnqRV"
+          display="flex"
+        >
+          <p
+            className="sc-bwzfXH EuPJX"
+            color="white"
+          >
+            Содержимое категории Фон
+          </p>
+        </div>
+      </div>
+      <div
+        className="sc-VigVT iyEYjY"
+      >
+        <div
+          className="sc-htpNat gmnqRV"
+          display="flex"
+        >
+          <p
+            className="sc-bwzfXH EuPJX"
+            color="white"
+          >
+            Содержимое категории Разное
+          </p>
+        </div>
+      </div>
+      <div
+        className="sc-VigVT iyEYjY"
+      >
+        <div
+          className="sc-htpNat gmnqRV"
+          display="flex"
+        >
+          <p
+            className="sc-bwzfXH EuPJX"
+            color="white"
+          >
+            Содержимое категории Позиция
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;
+
 exports[`Storyshots Text adaptive 1`] = `
 <p
-  className="sc-bwzfXH dVSpiX"
+  className="sc-bwzfXH dwaOiO"
   color={
     Array [
       "black",
@@ -1245,7 +1491,7 @@ exports[`Storyshots Text adaptive 1`] = `
 
 exports[`Storyshots Text default 1`] = `
 <p
-  className="sc-bwzfXH cokOUe"
+  className="sc-bwzfXH cfCdyf"
 >
   Base text
 </p>
@@ -1254,62 +1500,62 @@ exports[`Storyshots Text default 1`] = `
 exports[`Storyshots Text variants 1`] = `
 Array [
   <p
-    className="sc-bwzfXH jkrvgP"
+    className="sc-bwzfXH ccDxDc"
   >
     Display1
   </p>,
   <p
-    className="sc-bwzfXH tzHqR"
+    className="sc-bwzfXH iXiRaq"
   >
     Display2
   </p>,
   <p
-    className="sc-bwzfXH laoVYr"
+    className="sc-bwzfXH jINxTD"
   >
     Display3
   </p>,
   <p
-    className="sc-bwzfXH gteyOB"
+    className="sc-bwzfXH kquLJc"
   >
     Display4
   </p>,
   <p
-    className="sc-bwzfXH imqcRA"
+    className="sc-bwzfXH cfbxbm"
   >
     Heading1
   </p>,
   <p
-    className="sc-bwzfXH elQhDH"
+    className="sc-bwzfXH ckhCRh"
   >
     Heading2
   </p>,
   <p
-    className="sc-bwzfXH iQfHOk"
+    className="sc-bwzfXH fNFKJa"
   >
     Heading3
   </p>,
   <p
-    className="sc-bwzfXH jrYtnI"
+    className="sc-bwzfXH kGhikM"
   >
     Heading4
   </p>,
   <p
-    className="sc-bwzfXH bPqEIl"
+    className="sc-bwzfXH eqbYrj"
   >
     Heading5
   </p>,
   <p
-    className="sc-bwzfXH iMSvyN"
+    className="sc-bwzfXH fcJQjl"
   >
     Heading6
   </p>,
   <p
-    className="sc-bwzfXH feOnzw"
+    className="sc-bwzfXH ekzwKU"
   >
     Lead paragraph
   </p>,
   <p
-    className="sc-bwzfXH cokOUe"
+    className="sc-bwzfXH cfCdyf"
   >
     Base text
   </p>,
@@ -1318,12 +1564,12 @@ Array [
 
 exports[`Storyshots Text with props 1`] = `
 <p
-  className="sc-bwzfXH eRaVtO"
+  className="sc-bwzfXH dzFepw"
   color="black"
   fontFamily=""
   fontSize=""
-  fontStyle=""
-  fontWeight=""
+  fontStyle="normal"
+  fontWeight="normal"
   letterSpacing=""
   opacity=""
   order=""
@@ -1336,13 +1582,13 @@ exports[`Storyshots Text with props 1`] = `
 exports[`Storyshots Theme with di 1`] = `
 Array [
   <button
-    className="sc-bxivhb jwvIgx"
+    className="sc-bxivhb gGIZFk"
     onClick={[Function]}
   >
     default
   </button>,
   <button
-    className="sc-bxivhb jwvIgx"
+    className="sc-bxivhb gGIZFk"
     onClick={[Function]}
   >
     primary
@@ -1353,7 +1599,7 @@ Array [
 exports[`Storyshots Tooltip default 1`] = `
 <div>
   <button
-    className="sc-bxivhb gUvowr"
+    className="sc-bxivhb KIirr"
     onClick={[Function]}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
@@ -1372,7 +1618,7 @@ exports[`Storyshots Tooltip empty 1`] = `
 exports[`Storyshots Tooltip hidden 1`] = `
 <div>
   <button
-    className="sc-bxivhb fzNOWg"
+    className="sc-bxivhb hbvGOM"
     onClick={[Function]}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
@@ -1385,7 +1631,7 @@ exports[`Storyshots Tooltip hidden 1`] = `
 exports[`Storyshots Tooltip top 1`] = `
 <div>
   <button
-    className="sc-bxivhb fzNOWg"
+    className="sc-bxivhb hbvGOM"
     onClick={[Function]}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}

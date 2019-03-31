@@ -26,6 +26,31 @@ const loadElementDicts = () => {
     return acc;
   }, {});
 };
+
+const makeCategoriesFromStyled = dict => {
+  const DEFAULT_CATEGORY = 'Разное';
+  const categories = {};
+  Object.values(dict).forEach(pack => {
+    Object.values(pack).forEach(value => {
+      categories[value.category || DEFAULT_CATEGORY] = true;
+    });
+  });
+  return categories;
+};
+
+const makeCategoriesFromElementsDict = dict => {
+  const DEFAULT_CATEGORY = 'Основное';
+  const categories = {};
+  Object.values(dict).forEach(pack => {
+    Object.values(pack).forEach(value => {
+      Object.values(value.attributes || {}).forEach(attr => {
+        categories[attr.category || DEFAULT_CATEGORY] = true;
+      });
+    });
+  });
+  return categories;
+};
+
 // const ready = Object.keys(elementsDict).reduce((acc, element) => {
 //     // console.log(element);
 //     const stylesElement = elementsDict[element].props.styles;
@@ -41,7 +66,16 @@ const loadElementDicts = () => {
 const makeDict = () => {
   const styledDict = styledPackToDict();
   const elementsDict = loadElementDicts();
-  writeFileSync('./build/dict.json', JSON.stringify({ styledDict, elementsDict }));
+  const styledCategories = makeCategoriesFromStyled(styledDict);
+  const elementCategories = makeCategoriesFromElementsDict(elementsDict);
+  writeFileSync(
+    './build/dict.json',
+    JSON.stringify({
+      styledDict,
+      elementsDict,
+      categories: { ...styledCategories, ...elementCategories },
+    }),
+  );
   console.log('dict create'); // eslint-disable-line
 };
 
