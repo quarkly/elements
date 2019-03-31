@@ -2,6 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 import { includeWith, themed, variant } from '../styled';
 
+const ENAME = 'LIST';
+const uid = name => `${ENAME}${name}`;
+
 const Ul = styled('ul')(
   {
     boxSizing: 'border-box',
@@ -16,7 +19,7 @@ const List = ({ children }) => {
   return (
     <Ul>
       {React.Children.map(children, (child, i) => {
-        return <li key={i}>{child}</li>;
+        return <li key={uid(i)}>{child}</li>;
       })}
     </Ul>
   );
