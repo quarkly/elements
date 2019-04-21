@@ -1,47 +1,36 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { withKnobs, text, color, select, number } from '@storybook/addon-knobs';
-import Text from './index';
+import { withKnobs, number, text, color, select } from '@storybook/addon-knobs';
+import Link from './index';
 import Theme from '../theme';
 
-const stories = storiesOf('Text', module);
+const stories = storiesOf('Link', module);
 
 stories.addDecorator(withKnobs);
 
 stories.add('default', () => (
   <Theme>
-    <Text variant="base">Base text</Text>
+    <Link href="/" />
   </Theme>
 ));
-stories.add('adaptive', () => (
-  <Theme>
-    <Text
-      variant="display1"
-      fontSize={['36px', '54px', '72px']}
-      color={['black', 'gray', 'lightgrey']}>
-      Display1
-    </Text>
-  </Theme>
-));
-stories.add('variants', () => (
-  <Theme>
-    <Text variant="display1">Display1</Text>
-    <Text variant="display2">Display2</Text>
-    <Text variant="display3">Display3</Text>
-    <Text variant="display4">Display4</Text>
-    <Text variant="h1">Heading1</Text>
-    <Text variant="h2">Heading2</Text>
-    <Text variant="h3">Heading3</Text>
-    <Text variant="h4">Heading4</Text>
-    <Text variant="h5">Heading5</Text>
-    <Text variant="h6">Heading6</Text>
-    <Text variant="lead">Lead paragraph</Text>
-    <Text variant="base">Base text</Text>
-  </Theme>
-));
+
 stories.add('with props', () => (
   <Theme>
-    <Text
+    <Link
+      href={text('href', '', 'Core')}
+      name={text('name', '', 'Core')}
+      target={select(
+        'target',
+        {
+          _blank: '_blank',
+          _self: '_self',
+          _parent: '_parent',
+          _top: '_top',
+        },
+        '_self',
+        'Core',
+      )}
+      title={text('title', '', 'Core')}
       variant={select(
         'variant',
         {
@@ -180,6 +169,6 @@ stories.add('with props', () => (
       bottom={text('bottom', '', 'Position')}
       left={text('left', '', 'Position')}>
       {text('Value', 'Some text...', 'Data')}
-    </Text>
+    </Link>
   </Theme>
 ));

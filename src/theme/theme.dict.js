@@ -5,6 +5,7 @@ export default {
       name: {
         handler: 'text',
         type: String,
+        category: 'Основное',
       },
     },
   },

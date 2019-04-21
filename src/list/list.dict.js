@@ -1,6 +1,6 @@
 export default {
   props: {
-    styles: ['box'],
+    styles: ['defaults', 'button', 'hovered'],
     actions: [],
     attributes: {
       variant: {
@@ -10,5 +10,5 @@ export default {
       },
     },
   },
-  description: 'Элемент flex — контейнер с display: flex;',
+  description: 'Элемент list — список, который состоит из сущностей одного порядка',
 };

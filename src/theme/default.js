@@ -6,6 +6,8 @@ export default {
     lightgray: '#f6f6ff',
     primary: '#2973B7',
     effect: '#248DE0',
+    link: '#007bff',
+    'link-hover': '#0056b3',
   },
   space: [0, 4, 8, 16, 32, 64, 128, 256],
   fonts: {
@@ -17,6 +19,9 @@ export default {
     large: '0 0 24px rgba(0, 0, 0, .125)',
   },
   Spacer: {
+    height: '20px',
+  },
+  List: {
     height: '20px',
   },
   Hr: {
@@ -35,6 +40,33 @@ export default {
   Box: {},
   Flex: {},
   Grid: {},
+  Link: {
+    fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto"',
+    fontStyle: 'normal',
+    fontWeight: 'normal',
+    lineHeight: '24px',
+    fontSize: '16px',
+    color: '#007bff',
+    cursor: 'pointer',
+    '&:hover': {
+      backgroundColor: 'transparent',
+      color: '#0056b3',
+      textDecoration: 'underline',
+    },
+  },
+  Text: {
+    fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto"',
+    fontStyle: 'normal',
+    fontWeight: 'normal',
+    lineHeight: '24px',
+    fontSize: '16px',
+    color: 'black',
+  },
+  Tabs: {
+    width: '100%',
+    display: 'flex',
+    flexDirection: 'column',
+  },
   Card: {
     backgroundColor: '#FFFFFF',
     borderRadius: '4px',
@@ -81,6 +113,17 @@ export default {
       color: '#FFFFFF',
     },
   },
+  links: {
+    underlined: {
+      '&:hover': {
+        cursor: 'pointer',
+        textDecoration: 'underline',
+        color: '#0056b3',
+      },
+    },
+  },
+  lists: {},
+  tabs: {},
   buttons: {
     outline: {
       borderColor: '#248DE0',

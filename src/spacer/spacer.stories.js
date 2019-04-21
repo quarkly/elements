@@ -16,6 +16,13 @@ stories
       Content
     </Theme>
   ))
+  .add('adaptive', () => (
+    <Theme>
+      Content
+      <Spacer height={['100px', '200px', '400px']} />
+      Content
+    </Theme>
+  ))
   .add('variants', () => (
     <Theme>
       Big
