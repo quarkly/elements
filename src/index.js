@@ -15,5 +15,7 @@ export { default as List } from './list';
 export { default as Link } from './link';
 export { default as Input } from './input';
 export { default as Tooltip } from './tooltip';
+export { default as Select } from './select';
+export { default as Option } from './option';
 // export { default as Icon } from './icon';
 export * from './quark';
