@@ -1,10 +1,8 @@
 import elementary from '@quarkly/elementary';
 
-export const rules = ['backgroundColor', 'width', 'height', 'display', 'opacity'];
-
 const Hr = elementary.div({
   name: 'Hr',
-  rules,
+  rules: ['backgroundColor', 'width', 'height', 'display', 'opacity'],
   variant: 'hrs',
 });
 
