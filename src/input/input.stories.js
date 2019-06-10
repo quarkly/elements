@@ -21,3 +21,8 @@ stories.add('white', () => (
     <Input />
   </Theme>
 ));
+stories.add('focus', () => (
+  <Theme>
+    <Input focusBgc="red" />
+  </Theme>
+));

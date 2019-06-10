@@ -1,33 +1,16 @@
 /* eslint-disable react/no-did-mount-set-state */
 import React, { Component } from 'react';
-import styled from 'styled-components';
-import { includeWith, themed, variant } from '../styled';
+import elementary from '@quarkly/elementary';
 
-const BaseInput = styled('input')(
-  {
-    boxSizing: 'border-box',
-    backgroundColor: '#353535',
-    height: '23px',
-    color: '#cccccc',
-    paddingLeft: '12px',
-    paddingTop: '0px',
-    paddingRight: '12px',
-    paddingBottom: '2px',
-    outline: 'none',
-    lineHeight: '15px',
-    border: '1px solid transparent',
-    '&:hover': {
-      border: '1px solid #555',
-    },
-    '&:focus': {
-      border: '1px solid #29B6F6',
-    },
+const BaseInput = elementary.input({
+  name: 'Input',
+  variant: 'inputs',
+  effects: {
+    hover: ':hover',
+    focus: ':focus',
+    active: ':active',
   },
-  themed('Input'),
-  variant('inputs'),
-  ...includeWith('defaults'),
-  ...includeWith('hovered'),
-);
+});
 
 class Input extends Component {
   constructor(props) {
@@ -49,12 +32,7 @@ class Input extends Component {
   render() {
     const { onChange, value, ...other } = this.props;
     return (
-      <BaseInput
-        as="input"
-        onChange={this.handleTextChange.bind(this)}
-        value={this.state.text}
-        {...other}
-      />
+      <BaseInput onChange={this.handleTextChange.bind(this)} value={this.state.text} {...other} />
     );
   }
 
@@ -75,5 +53,7 @@ class Input extends Component {
     this.props.onChange(text);
   };
 }
+
+Input.propTypes = BaseInput.propTypes;
 
 export default Input;

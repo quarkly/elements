@@ -91,6 +91,25 @@ export default {
       width: 'auto',
     },
   },
+  Input: {
+    boxSizing: 'border-box',
+    backgroundColor: '#353535',
+    height: '23px',
+    color: '#cccccc',
+    paddingLeft: '12px',
+    paddingTop: '0px',
+    paddingRight: '12px',
+    paddingBottom: '2px',
+    outline: 'none',
+    lineHeight: '15px',
+    border: '1px solid transparent',
+    '&:hover': {
+      border: '1px solid #555',
+    },
+    '&:focus': {
+      border: '1px solid #29B6F6',
+    },
+  },
   Button: {
     borderRadius: '4px',
     backgroundColor: '#248DE0',
