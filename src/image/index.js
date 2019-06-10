@@ -1,15 +1,11 @@
-import styled from 'styled-components';
-import { includeWith, themed, variant } from '../styled';
+import elementary from '@quarkly/elementary';
 
-const Image = styled('div')(
-  themed('Image'),
-  variant('images'),
-  ...includeWith('defaults'),
-  ...includeWith('image'),
-);
-
-Image.defaultProps = {
-  as: 'img',
-};
+const Image = elementary.img({
+  name: 'Image',
+  variant: 'images',
+  effects: {
+    hover: ':hover',
+  },
+});
 
 export default Image;
