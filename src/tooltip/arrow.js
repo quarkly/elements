@@ -1,5 +1,5 @@
-import styled, { css } from 'styled-components';
-import { includeWith } from '../styled';
+import { css } from 'styled-components';
+import elementary from '@quarkly/elementary';
 
 const tooltipArrowTop = props =>
   props.placement === 'top' &&
@@ -53,15 +53,21 @@ const tooltipArrowLeft = props =>
     margin-right: 0;
   `;
 
-export default styled.div`
-  width: 0;
-  height: 0;
-  border-style: solid;
-  position: absolute;
-  margin: 5px;
-  ${includeWith('arrow')}
-  ${tooltipArrowTop};
-  ${tooltipArrowRight};
-  ${tooltipArrowBottom};
-  ${tooltipArrowLeft};
-`;
+const Arrow = elementary.div(
+  {
+    styles: ['color'],
+  },
+  {
+    width: 0,
+    height: 0,
+    'border-style': 'solid',
+    position: 'absolute',
+    margin: '5px',
+  },
+  tooltipArrowTop,
+  tooltipArrowRight,
+  tooltipArrowBottom,
+  tooltipArrowLeft,
+);
+
+export default Arrow;
