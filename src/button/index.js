@@ -10,7 +10,7 @@ const BaseButton = elementary.button(
       hover: ':hover',
       active: '.active',
     },
-    rules: [
+    styles: [
       'border',
       'borderTop',
       'borderRight',
