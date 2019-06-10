@@ -28,13 +28,15 @@ exports[`Storyshots Block with props 1`] = `
 
 exports[`Storyshots Box default 1`] = `
 <div
-  className="sc-htpNat bCjqUz"
+  className="sc-htpNat bdCMgu"
+  height="200px"
+  width="300px"
 />
 `;
 
 exports[`Storyshots Box with props 1`] = `
 <div
-  className="sc-htpNat kCUgjR"
+  className="sc-htpNat iXRSeO"
   display="block"
   height="100vh"
   opacity=""
@@ -199,10 +201,10 @@ exports[`Storyshots Card with props 1`] = `
 
 exports[`Storyshots Carousel default 1`] = `
 <div
-  className="sc-htpNat bCjqUz"
+  className="sc-htpNat dIELUv"
 >
   <div
-    className="sc-htpNat bcALIq"
+    className="sc-htpNat dladRg"
     height="400px"
   >
     <div
@@ -479,10 +481,10 @@ exports[`Storyshots Carousel default 1`] = `
 
 exports[`Storyshots Carousel with props 1`] = `
 <div
-  className="sc-htpNat bCjqUz"
+  className="sc-htpNat dIELUv"
 >
   <div
-    className="sc-htpNat dDDQGS"
+    className="sc-htpNat itsFI"
     display="block"
     height=""
     size=""
@@ -844,7 +846,7 @@ exports[`Storyshots Grid with boxes 1`] = `
   className="sc-gzVnrw SeKZY"
 >
   <div
-    className="sc-htpNat iUFEMe"
+    className="sc-htpNat cXiSzu"
   >
     <p
       className="sc-bwzfXH ckhCRh"
@@ -853,41 +855,41 @@ exports[`Storyshots Grid with boxes 1`] = `
     </p>
   </div>
   <div
-    className="sc-htpNat koosHr"
+    className="sc-htpNat doUMgF"
   />
   <div
-    className="sc-htpNat bDeUha"
+    className="sc-htpNat bxcYBK"
   />
   <div
-    className="sc-htpNat bDeUha"
+    className="sc-htpNat bxcYBK"
   />
   <div
     className="sc-gzVnrw hfznUU"
   >
     <div
-      className="sc-htpNat bDeUha"
+      className="sc-htpNat bxcYBK"
     />
     <div
-      className="sc-htpNat bDeUha"
+      className="sc-htpNat bxcYBK"
     />
     <div
-      className="sc-htpNat bDeUha"
+      className="sc-htpNat bxcYBK"
     />
     <div
-      className="sc-htpNat bDeUha"
+      className="sc-htpNat bxcYBK"
     />
   </div>
   <div
-    className="sc-htpNat bDeUha"
+    className="sc-htpNat bxcYBK"
   />
   <div
-    className="sc-htpNat koosHr"
+    className="sc-htpNat doUMgF"
   />
   <div
-    className="sc-htpNat bDeUha"
+    className="sc-htpNat bxcYBK"
   />
   <div
-    className="sc-htpNat bDeUha"
+    className="sc-htpNat bxcYBK"
   />
 </div>
 `;
@@ -1050,7 +1052,7 @@ exports[`Storyshots Hr default 1`] = `
 Array [
   "Content",
   <div
-    className="sc-bdVaJa bDWFJH"
+    className="sc-htoDjs jKTAkO"
   />,
   "Content",
 ]
@@ -1060,11 +1062,11 @@ exports[`Storyshots Hr variants 1`] = `
 Array [
   "Big",
   <div
-    className="sc-bdVaJa bDWFJH"
+    className="sc-htoDjs cFbkbi"
   />,
   "Small",
   <div
-    className="sc-bdVaJa bDWFJH"
+    className="sc-htoDjs cbkHAy"
   />,
   "Content",
 ]
@@ -1074,7 +1076,7 @@ exports[`Storyshots Hr with props 1`] = `
 Array [
   "Content",
   <div
-    className="sc-bdVaJa kzvzls"
+    className="sc-htoDjs RUNeF"
     display="block"
     height="1px"
     opacity=""
@@ -1126,7 +1128,7 @@ exports[`Storyshots Input basic 1`] = `
   display="flex"
 >
   <input
-    className="sc-htoDjs cguTAS"
+    className="sc-dnqmqq iDoEii"
     onChange={[Function]}
   />
 </section>
@@ -1134,14 +1136,14 @@ exports[`Storyshots Input basic 1`] = `
 
 exports[`Storyshots Input white 1`] = `
 <input
-  className="sc-htoDjs cguTAS"
+  className="sc-dnqmqq iDoEii"
   onChange={[Function]}
 />
 `;
 
 exports[`Storyshots Link default 1`] = `
 <a
-  className="sc-dnqmqq fUkrsL"
+  className="sc-iwsKbI cTpSRt"
   href="https://quarkly.space/"
 >
   Quarkly
@@ -1150,7 +1152,7 @@ exports[`Storyshots Link default 1`] = `
 
 exports[`Storyshots Link with props 1`] = `
 <a
-  className="sc-dnqmqq cVzPki"
+  className="sc-iwsKbI iEIcXY"
   color="#007bff"
   fontFamily=""
   fontSize=""
@@ -1171,7 +1173,7 @@ exports[`Storyshots Link with props 1`] = `
 
 exports[`Storyshots Link with text 1`] = `
 <a
-  className="sc-dnqmqq kzhIoj"
+  className="sc-iwsKbI kLzvHa"
   color="#007bff"
   href="https://quarkly.space/"
 >
@@ -1186,7 +1188,7 @@ exports[`Storyshots Link with text 1`] = `
 
 exports[`Storyshots List default 1`] = `
 <ul
-  className="sc-iwsKbI kPSSZP"
+  className="sc-gZMcBi iCsCvF"
 >
   <li>
     <p
@@ -1214,7 +1216,7 @@ exports[`Storyshots List default 1`] = `
 
 exports[`Storyshots List horizontal 1`] = `
 <ul
-  className="sc-iwsKbI kPSSZP"
+  className="sc-gZMcBi iCsCvF"
 >
   <li>
     <p
@@ -1242,7 +1244,7 @@ exports[`Storyshots List horizontal 1`] = `
 
 exports[`Storyshots List with props 1`] = `
 <ul
-  className="sc-iwsKbI kPSSZP"
+  className="sc-gZMcBi iCsCvF"
 >
   <li>
     <p
@@ -1274,16 +1276,16 @@ exports[`Storyshots Select basic 1`] = `
   display="flex"
 >
   <select
-    className="sc-gZMcBi giNnHm"
+    className="sc-gqjmRU hnZXkc"
   >
     <option
-      className="sc-gqjmRU hnZXkc"
+      className="sc-VigVT fIhGog"
       value="hello"
     >
       hello
     </option>
     <option
-      className="sc-gqjmRU hnZXkc"
+      className="sc-VigVT fIhGog"
       value="world"
     >
       world
@@ -1294,16 +1296,16 @@ exports[`Storyshots Select basic 1`] = `
 
 exports[`Storyshots Select black 1`] = `
 <select
-  className="sc-gZMcBi byEirG"
+  className="sc-gqjmRU jLLGQu"
 >
   <option
-    className="sc-gqjmRU hnZXkc"
+    className="sc-VigVT fIhGog"
     value="hello"
   >
     hello
   </option>
   <option
-    className="sc-gqjmRU hnZXkc"
+    className="sc-VigVT fIhGog"
     value="world"
   >
     world
@@ -1315,7 +1317,7 @@ exports[`Storyshots Spacer 10rem 1`] = `
 Array [
   "Content",
   <div
-    className="sc-VigVT bEfoEB"
+    className="sc-jTzLTM fQrzLz"
     height="10rem"
   />,
   "Content",
@@ -1326,7 +1328,7 @@ exports[`Storyshots Spacer 25% 1`] = `
 Array [
   "Content",
   <div
-    className="sc-VigVT hCPNvU"
+    className="sc-jTzLTM LTjsE"
     height="25%"
   />,
   "Content",
@@ -1337,7 +1339,7 @@ exports[`Storyshots Spacer 50vh 1`] = `
 Array [
   "Content",
   <div
-    className="sc-VigVT hKqbXK"
+    className="sc-jTzLTM eJeNwB"
     height="50vh"
   />,
   "Content",
@@ -1348,7 +1350,7 @@ exports[`Storyshots Spacer 100px 1`] = `
 Array [
   "Content",
   <div
-    className="sc-VigVT fYDstg"
+    className="sc-jTzLTM kUOdtD"
     height="100px"
   />,
   "Content",
@@ -1359,7 +1361,7 @@ exports[`Storyshots Spacer adaptive 1`] = `
 Array [
   "Content",
   <div
-    className="sc-VigVT bvsqxS"
+    className="sc-jTzLTM esROeK"
     height={
       Array [
         "100px",
@@ -1376,7 +1378,7 @@ exports[`Storyshots Spacer default 1`] = `
 Array [
   "Content",
   <div
-    className="sc-VigVT gjLtFL"
+    className="sc-jTzLTM cpNlkv"
   />,
   "Content",
 ]
@@ -1386,11 +1388,11 @@ exports[`Storyshots Spacer variants 1`] = `
 Array [
   "Big",
   <div
-    className="sc-VigVT sLNLe"
+    className="sc-jTzLTM iOYUhi"
   />,
   "Small",
   <div
-    className="sc-VigVT jaiojY"
+    className="sc-jTzLTM iKjaXX"
   />,
   "Content",
 ]
@@ -1401,10 +1403,10 @@ exports[`Storyshots Tabs constructor 1`] = `
   className="sc-bdVaJa dBWXII"
 >
   <div
-    className="sc-fjdhpX fsVhBr"
+    className="sc-jzJRlG XEsbO"
   >
     <div
-      className="sc-htpNat jgNNCZ"
+      className="sc-htpNat dYvtaT"
       role="tabnav"
     >
       <button
@@ -1457,14 +1459,14 @@ exports[`Storyshots Tabs constructor 1`] = `
       </button>
     </div>
     <div
-      className="sc-htpNat eKoCuq"
+      className="sc-htpNat khVXnu"
       role="tabs"
     >
       <div
-        className="sc-jTzLTM ZdqHv"
+        className="sc-fjdhpX cIaEQc"
       >
         <div
-          className="sc-htpNat fCgLVN"
+          className="sc-htpNat fcjVhU"
           display="flex"
         >
           <p
@@ -1476,10 +1478,10 @@ exports[`Storyshots Tabs constructor 1`] = `
         </div>
       </div>
       <div
-        className="sc-jTzLTM izYhGY"
+        className="sc-fjdhpX djZNwv"
       >
         <div
-          className="sc-htpNat gmnqRV"
+          className="sc-htpNat gexiXs"
           display="flex"
         >
           <p
@@ -1491,10 +1493,10 @@ exports[`Storyshots Tabs constructor 1`] = `
         </div>
       </div>
       <div
-        className="sc-jTzLTM izYhGY"
+        className="sc-fjdhpX djZNwv"
       >
         <div
-          className="sc-htpNat gmnqRV"
+          className="sc-htpNat gexiXs"
           display="flex"
         >
           <p
@@ -1506,10 +1508,10 @@ exports[`Storyshots Tabs constructor 1`] = `
         </div>
       </div>
       <div
-        className="sc-jTzLTM izYhGY"
+        className="sc-fjdhpX djZNwv"
       >
         <div
-          className="sc-htpNat gmnqRV"
+          className="sc-htpNat gexiXs"
           display="flex"
         >
           <p
@@ -1521,10 +1523,10 @@ exports[`Storyshots Tabs constructor 1`] = `
         </div>
       </div>
       <div
-        className="sc-jTzLTM izYhGY"
+        className="sc-fjdhpX djZNwv"
       >
         <div
-          className="sc-htpNat gmnqRV"
+          className="sc-htpNat gexiXs"
           display="flex"
         >
           <p
@@ -1536,10 +1538,10 @@ exports[`Storyshots Tabs constructor 1`] = `
         </div>
       </div>
       <div
-        className="sc-jTzLTM izYhGY"
+        className="sc-fjdhpX djZNwv"
       >
         <div
-          className="sc-htpNat gmnqRV"
+          className="sc-htpNat gexiXs"
           display="flex"
         >
           <p
@@ -1551,10 +1553,10 @@ exports[`Storyshots Tabs constructor 1`] = `
         </div>
       </div>
       <div
-        className="sc-jTzLTM izYhGY"
+        className="sc-fjdhpX djZNwv"
       >
         <div
-          className="sc-htpNat gmnqRV"
+          className="sc-htpNat gexiXs"
           display="flex"
         >
           <p
@@ -1566,10 +1568,10 @@ exports[`Storyshots Tabs constructor 1`] = `
         </div>
       </div>
       <div
-        className="sc-jTzLTM izYhGY"
+        className="sc-fjdhpX djZNwv"
       >
         <div
-          className="sc-htpNat gmnqRV"
+          className="sc-htpNat gexiXs"
           display="flex"
         >
           <p

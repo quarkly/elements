@@ -1,11 +1,13 @@
-import styled from 'styled-components';
-import { includeWith, themed, variant } from '../styled';
+import elementary from '@quarkly/elementary';
 
-export default styled('div')(
-  {
-    boxSizing: 'border-box',
+export const rules = ['backgroundColor', 'width', 'height', 'display', 'opacity']; // TODO брать из элементари
+
+const Box = elementary.div({
+  name: 'Box',
+  variant: 'boxes',
+  effects: {
+    hover: ':hover',
   },
-  themed('Box'),
-  variant('boxes'),
-  ...includeWith('box'),
-);
+});
+
+export default Box;
