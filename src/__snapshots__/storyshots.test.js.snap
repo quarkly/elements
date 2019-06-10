@@ -1155,7 +1155,7 @@ exports[`Storyshots Input basic 1`] = `
   display="flex"
 >
   <input
-    className="sc-dnqmqq iDoEii"
+    className="sc-dnqmqq hpqtPO"
     onChange={[Function]}
   />
 </section>
@@ -1170,14 +1170,14 @@ exports[`Storyshots Input focus 1`] = `
 
 exports[`Storyshots Input white 1`] = `
 <input
-  className="sc-dnqmqq iDoEii"
+  className="sc-dnqmqq hpqtPO"
   onChange={[Function]}
 />
 `;
 
 exports[`Storyshots Link default 1`] = `
 <a
-  className="sc-iwsKbI cTpSRt"
+  className="sc-iwsKbI ifGjNu"
   href="https://quarkly.space/"
 >
   Quarkly
@@ -1201,7 +1201,7 @@ exports[`Storyshots Link hover 1`] = `
 
 exports[`Storyshots Link with props 1`] = `
 <a
-  className="sc-iwsKbI kjpHWO"
+  className="sc-iwsKbI OWucB"
   color="#007bff"
   fontFamily=""
   fontSize=""
@@ -1222,7 +1222,7 @@ exports[`Storyshots Link with props 1`] = `
 
 exports[`Storyshots Link with text 1`] = `
 <a
-  className="sc-iwsKbI kLzvHa"
+  className="sc-iwsKbI ddMxgx"
   color="#007bff"
   href="https://quarkly.space/"
 >
@@ -1237,7 +1237,7 @@ exports[`Storyshots Link with text 1`] = `
 
 exports[`Storyshots List default 1`] = `
 <ul
-  className="sc-gZMcBi iCsCvF"
+  className="sc-gZMcBi jStuHW"
 >
   <li>
     <p
@@ -1265,7 +1265,7 @@ exports[`Storyshots List default 1`] = `
 
 exports[`Storyshots List horizontal 1`] = `
 <ul
-  className="sc-gZMcBi iCsCvF"
+  className="sc-gZMcBi hVvYRo"
 >
   <li>
     <p
@@ -1293,7 +1293,14 @@ exports[`Storyshots List horizontal 1`] = `
 
 exports[`Storyshots List with props 1`] = `
 <ul
-  className="sc-gZMcBi iCsCvF"
+  className="sc-gZMcBi dXeAzY"
+  display="block"
+  height="300px"
+  opacity=""
+  order=""
+  overflow="visible"
+  size=""
+  width="300px"
 >
   <li>
     <p
