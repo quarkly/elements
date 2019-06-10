@@ -1161,6 +1161,13 @@ exports[`Storyshots Input basic 1`] = `
 </section>
 `;
 
+exports[`Storyshots Input focus 1`] = `
+<input
+  className="sc-dnqmqq hnexPV"
+  onChange={[Function]}
+/>
+`;
+
 exports[`Storyshots Input white 1`] = `
 <input
   className="sc-dnqmqq iDoEii"
@@ -1174,6 +1181,21 @@ exports[`Storyshots Link default 1`] = `
   href="https://quarkly.space/"
 >
   Quarkly
+</a>
+`;
+
+exports[`Storyshots Link hover 1`] = `
+<a
+  className="sc-iwsKbI fWUkxV"
+  color="#007bff"
+  href="https://quarkly.space/"
+>
+  <p
+    className="sc-bwzfXH gRNkxV"
+    color="#007bff"
+  >
+    Quarkly
+  </p>
 </a>
 `;
 
