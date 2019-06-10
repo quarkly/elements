@@ -54,18 +54,45 @@ exports[`Storyshots Box with props 1`] = `
 </div>
 `;
 
+exports[`Storyshots Button active 1`] = `
+<button
+  className="active sc-bxivhb bkBLdT"
+  onClick={[Function]}
+>
+  Active
+</button>
+`;
+
 exports[`Storyshots Button default 1`] = `
 <button
-  className="sc-bxivhb gdQTqn"
+  className="sc-bxivhb bKiFQF"
   onClick={[Function]}
 >
   Default
 </button>
 `;
 
+exports[`Storyshots Button hover & active 1`] = `
+<button
+  className="active sc-bxivhb fdlXDQ"
+  onClick={[Function]}
+>
+  Active
+</button>
+`;
+
+exports[`Storyshots Button hover 1`] = `
+<button
+  className="active sc-bxivhb jQuNGk"
+  onClick={[Function]}
+>
+  Active
+</button>
+`;
+
 exports[`Storyshots Button outline 1`] = `
 <button
-  className="sc-bxivhb kFBbxZ"
+  className="sc-bxivhb bhFibJ"
   onClick={[Function]}
 >
   Outline
@@ -78,7 +105,7 @@ exports[`Storyshots Button with props 1`] = `
   display="flex"
 >
   <button
-    className="sc-bxivhb lkDRrR"
+    className="sc-bxivhb ectmIC"
     display="block"
     height=""
     onClick={[Function]}
@@ -121,7 +148,7 @@ exports[`Storyshots Card with content horizontal 1`] = `
       The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.
     </p>
     <button
-      className="sc-bxivhb gdQTqn"
+      className="sc-bxivhb bKiFQF"
       onClick={[Function]}
     >
       Read more
@@ -152,7 +179,7 @@ exports[`Storyshots Card with content vertical 1`] = `
       The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.
     </p>
     <button
-      className="sc-bxivhb gdQTqn"
+      className="sc-bxivhb bKiFQF"
       onClick={[Function]}
     >
       Read more
@@ -190,7 +217,7 @@ exports[`Storyshots Card with props 1`] = `
       The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.
     </p>
     <button
-      className="sc-bxivhb gdQTqn"
+      className="sc-bxivhb bKiFQF"
       onClick={[Function]}
     >
       Read more
@@ -793,19 +820,19 @@ exports[`Storyshots Flex with card 1`] = `
       className="sc-EHOje hlyEaN"
     >
       <button
-        className="sc-bxivhb gdQTqn"
+        className="sc-bxivhb bKiFQF"
         onClick={[Function]}
       >
         First
       </button>
       <button
-        className="sc-bxivhb gdQTqn"
+        className="sc-bxivhb bKiFQF"
         onClick={[Function]}
       >
         Second
       </button>
       <button
-        className="sc-bxivhb gdQTqn"
+        className="sc-bxivhb bKiFQF"
         onClick={[Function]}
       >
         Third
@@ -922,7 +949,7 @@ exports[`Storyshots Grid with cards 1`] = `
         className="sc-gzVnrw gAVlbY"
       >
         <button
-          className="sc-bxivhb edWFac"
+          className="sc-bxivhb ipKMLS"
           onClick={[Function]}
         >
           First
@@ -954,7 +981,7 @@ exports[`Storyshots Grid with cards 1`] = `
         className="sc-gzVnrw gAVlbY"
       >
         <button
-          className="sc-bxivhb eFpHUu"
+          className="sc-bxivhb fWdZBF"
           onClick={[Function]}
         >
           First
@@ -986,7 +1013,7 @@ exports[`Storyshots Grid with cards 1`] = `
         className="sc-gzVnrw gAVlbY"
       >
         <button
-          className="sc-bxivhb fzJskH"
+          className="sc-bxivhb hpYQLB"
           onClick={[Function]}
         >
           First
@@ -1410,49 +1437,49 @@ exports[`Storyshots Tabs constructor 1`] = `
       role="tabnav"
     >
       <button
-        className="active sc-bxivhb eAyupM"
+        className="active sc-bxivhb duDUOR"
         onClick={[Function]}
       >
         Основное
       </button>
       <button
-        className="sc-bxivhb eAyupM"
+        className="sc-bxivhb duDUOR"
         onClick={[Function]}
       >
         Лэйаут
       </button>
       <button
-        className="sc-bxivhb eAyupM"
+        className="sc-bxivhb duDUOR"
         onClick={[Function]}
       >
         Отступы
       </button>
       <button
-        className="sc-bxivhb eAyupM"
+        className="sc-bxivhb duDUOR"
         onClick={[Function]}
       >
         Flex
       </button>
       <button
-        className="sc-bxivhb eAyupM"
+        className="sc-bxivhb duDUOR"
         onClick={[Function]}
       >
         Grid
       </button>
       <button
-        className="sc-bxivhb eAyupM"
+        className="sc-bxivhb duDUOR"
         onClick={[Function]}
       >
         Фон
       </button>
       <button
-        className="sc-bxivhb eAyupM"
+        className="sc-bxivhb duDUOR"
         onClick={[Function]}
       >
         Разное
       </button>
       <button
-        className="sc-bxivhb eAyupM"
+        className="sc-bxivhb duDUOR"
         onClick={[Function]}
       >
         Позиция
@@ -1702,13 +1729,13 @@ exports[`Storyshots Text with props 1`] = `
 exports[`Storyshots Theme with di 1`] = `
 Array [
   <button
-    className="sc-bxivhb hKmByd"
+    className="sc-bxivhb fdMKYt"
     onClick={[Function]}
   >
     default
   </button>,
   <button
-    className="sc-bxivhb hKmByd"
+    className="sc-bxivhb fdMKYt"
     onClick={[Function]}
   >
     primary
@@ -1719,7 +1746,7 @@ Array [
 exports[`Storyshots Tooltip default 1`] = `
 <div>
   <button
-    className="sc-bxivhb gdQTqn"
+    className="sc-bxivhb bKiFQF"
     onClick={[Function]}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
@@ -1738,7 +1765,7 @@ exports[`Storyshots Tooltip empty 1`] = `
 exports[`Storyshots Tooltip hidden 1`] = `
 <div>
   <button
-    className="sc-bxivhb gdQTqn"
+    className="sc-bxivhb bKiFQF"
     onClick={[Function]}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
@@ -1751,7 +1778,7 @@ exports[`Storyshots Tooltip hidden 1`] = `
 exports[`Storyshots Tooltip top 1`] = `
 <div>
   <button
-    className="sc-bxivhb gdQTqn"
+    className="sc-bxivhb bKiFQF"
     onClick={[Function]}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
