@@ -1,12 +1,13 @@
-import styled from 'styled-components';
-import { includeWith, themed, variant } from '../styled';
+import elementary from '@quarkly/elementary';
 
-const Link = styled('a')(
-  themed('Link'),
-  variant('links'),
-  ...includeWith('defaults'),
-  ...includeWith('text'),
-  ...includeWith('hovered'),
-);
+const Link = elementary.a({
+  name: 'Link',
+  variant: 'links',
+  effects: {
+    hover: ':hover',
+    focus: ':focus',
+    active: ':active',
+  },
+});
 
 export default Link;
