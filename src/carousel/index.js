@@ -3,7 +3,7 @@ import Slider from 'react-slick';
 import { Provider } from '../quark';
 import Box from '../box';
 
-export default class Carousel extends React.Component {
+class Carousel extends React.Component {
   render() {
     const { children } = this.props;
     return (
@@ -32,3 +32,7 @@ export default class Carousel extends React.Component {
     );
   }
 }
+
+Carousel.propTypes = Box.propTypes;
+
+export default Carousel;
