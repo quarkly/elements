@@ -282,7 +282,7 @@ exports[`Storyshots Carousel default 1`] = `
           >
             <div>
               <img
-                className="sc-bZQynM MrWCD"
+                className="sc-bZQynM dzafiz"
                 height="400px"
                 src="https://www.jpl.nasa.gov/images/cassini/20160408/PIA11141-16.jpg"
                 style={
@@ -310,7 +310,7 @@ exports[`Storyshots Carousel default 1`] = `
           >
             <div>
               <img
-                className="sc-bZQynM MrWCD"
+                className="sc-bZQynM dzafiz"
                 height="400px"
                 src="https://www.jpl.nasa.gov/images/mars/20160421/PIA00407-16.jpg"
                 style={
@@ -338,7 +338,7 @@ exports[`Storyshots Carousel default 1`] = `
           >
             <div>
               <img
-                className="sc-bZQynM MrWCD"
+                className="sc-bZQynM dzafiz"
                 height="400px"
                 src="https://photojournal.jpl.nasa.gov/jpeg/PIA18182.jpg"
                 style={
@@ -366,7 +366,7 @@ exports[`Storyshots Carousel default 1`] = `
           >
             <div>
               <img
-                className="sc-bZQynM MrWCD"
+                className="sc-bZQynM dzafiz"
                 height="400px"
                 src="https://www.jpl.nasa.gov/images/cassini/20160408/PIA11141-16.jpg"
                 style={
@@ -393,7 +393,7 @@ exports[`Storyshots Carousel default 1`] = `
           >
             <div>
               <img
-                className="sc-bZQynM MrWCD"
+                className="sc-bZQynM dzafiz"
                 height="400px"
                 src="https://www.jpl.nasa.gov/images/mars/20160421/PIA00407-16.jpg"
                 style={
@@ -420,7 +420,7 @@ exports[`Storyshots Carousel default 1`] = `
           >
             <div>
               <img
-                className="sc-bZQynM MrWCD"
+                className="sc-bZQynM dzafiz"
                 height="400px"
                 src="https://photojournal.jpl.nasa.gov/jpeg/PIA18182.jpg"
                 style={
@@ -447,7 +447,7 @@ exports[`Storyshots Carousel default 1`] = `
           >
             <div>
               <img
-                className="sc-bZQynM MrWCD"
+                className="sc-bZQynM dzafiz"
                 height="400px"
                 src="https://www.jpl.nasa.gov/images/cassini/20160408/PIA11141-16.jpg"
                 style={
@@ -565,7 +565,7 @@ exports[`Storyshots Carousel with props 1`] = `
           >
             <div>
               <img
-                className="sc-bZQynM MrWCD"
+                className="sc-bZQynM dzafiz"
                 height="400px"
                 src="https://www.jpl.nasa.gov/images/cassini/20160408/PIA11141-16.jpg"
                 style={
@@ -593,7 +593,7 @@ exports[`Storyshots Carousel with props 1`] = `
           >
             <div>
               <img
-                className="sc-bZQynM MrWCD"
+                className="sc-bZQynM dzafiz"
                 height="400px"
                 src="https://www.jpl.nasa.gov/images/mars/20160421/PIA00407-16.jpg"
                 style={
@@ -621,7 +621,7 @@ exports[`Storyshots Carousel with props 1`] = `
           >
             <div>
               <img
-                className="sc-bZQynM MrWCD"
+                className="sc-bZQynM dzafiz"
                 height="400px"
                 src="https://photojournal.jpl.nasa.gov/jpeg/PIA18182.jpg"
                 style={
@@ -649,7 +649,7 @@ exports[`Storyshots Carousel with props 1`] = `
           >
             <div>
               <img
-                className="sc-bZQynM MrWCD"
+                className="sc-bZQynM dzafiz"
                 height="400px"
                 src="https://www.jpl.nasa.gov/images/cassini/20160408/PIA11141-16.jpg"
                 style={
@@ -676,7 +676,7 @@ exports[`Storyshots Carousel with props 1`] = `
           >
             <div>
               <img
-                className="sc-bZQynM MrWCD"
+                className="sc-bZQynM dzafiz"
                 height="400px"
                 src="https://www.jpl.nasa.gov/images/mars/20160421/PIA00407-16.jpg"
                 style={
@@ -703,7 +703,7 @@ exports[`Storyshots Carousel with props 1`] = `
           >
             <div>
               <img
-                className="sc-bZQynM MrWCD"
+                className="sc-bZQynM dzafiz"
                 height="400px"
                 src="https://photojournal.jpl.nasa.gov/jpeg/PIA18182.jpg"
                 style={
@@ -730,7 +730,7 @@ exports[`Storyshots Carousel with props 1`] = `
           >
             <div>
               <img
-                className="sc-bZQynM MrWCD"
+                className="sc-bZQynM dzafiz"
                 height="400px"
                 src="https://www.jpl.nasa.gov/images/cassini/20160408/PIA11141-16.jpg"
                 style={
@@ -1029,27 +1029,27 @@ exports[`Storyshots Grid with image 1`] = `
   className="sc-gzVnrw hvEIZh"
 >
   <img
-    className="sc-bZQynM bQVwYU"
+    className="sc-bZQynM ZXgWx"
     src="https://www.jpl.nasa.gov/images/mars/20160421/PIA00407-16.jpg"
   />
   <img
-    className="sc-bZQynM bQVwYU"
+    className="sc-bZQynM ZXgWx"
     src="https://photojournal.jpl.nasa.gov/jpeg/PIA18182.jpg"
   />
   <img
-    className="sc-bZQynM bQVwYU"
+    className="sc-bZQynM ZXgWx"
     src="https://www.jpl.nasa.gov/images/cassini/20160408/PIA11141-16.jpg"
   />
   <img
-    className="sc-bZQynM bQVwYU"
+    className="sc-bZQynM ZXgWx"
     src="https://cdn.mos.cms.futurecdn.net/DfcnU8Z2yeyrYLmsRCKtDH.jpg"
   />
   <img
-    className="sc-bZQynM bQVwYU"
+    className="sc-bZQynM ZXgWx"
     src="https://solarsystem.nasa.gov/system/downloadable_items/1193_pluto_natural_color_20150714_detail.jpg"
   />
   <img
-    className="sc-bZQynM bQVwYU"
+    className="sc-bZQynM ZXgWx"
     src="https://solarsystem.nasa.gov/system/resources/detail_files/771_PIA16853.jpg"
   />
 </div>
@@ -1116,7 +1116,7 @@ Array [
 
 exports[`Storyshots Image adaptive 1`] = `
 <img
-  className="sc-bZQynM htKFFG"
+  className="sc-bZQynM gTAvUb"
   height="400px"
   src="https://picsum.photos/500"
   width="500px"
@@ -1125,21 +1125,21 @@ exports[`Storyshots Image adaptive 1`] = `
 
 exports[`Storyshots Image fluid 1`] = `
 <img
-  className="sc-bZQynM cwdfuR"
+  className="sc-bZQynM hTVwBa"
   src="https://picsum.photos/1800"
 />
 `;
 
 exports[`Storyshots Image thumb 1`] = `
 <img
-  className="sc-bZQynM itTeq"
+  className="sc-bZQynM dbEwVO"
   src="https://picsum.photos/500"
 />
 `;
 
 exports[`Storyshots Image with props 1`] = `
 <img
-  className="sc-bZQynM jCWoZG"
+  className="sc-bZQynM bgWBmw"
   display="block"
   height="500px"
   opacity=""
@@ -1179,7 +1179,7 @@ exports[`Storyshots Link default 1`] = `
 
 exports[`Storyshots Link with props 1`] = `
 <a
-  className="sc-iwsKbI iEIcXY"
+  className="sc-iwsKbI kjpHWO"
   color="#007bff"
   fontFamily=""
   fontSize=""
@@ -1711,7 +1711,7 @@ Array [
 
 exports[`Storyshots Text with props 1`] = `
 <p
-  className="sc-bwzfXH dzFepw"
+  className="sc-bwzfXH cpmgUS"
   color="black"
   fontFamily=""
   fontSize=""
