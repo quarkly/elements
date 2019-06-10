@@ -14,6 +14,27 @@ stories.add('default', () => (
     <Button>{text('Label', 'Default')}</Button>
   </Theme>
 ));
+stories.add('active', () => (
+  <Theme>
+    <Button className="active" bgc="black" activeBgc="red">
+      {text('Label', 'Active')}
+    </Button>
+  </Theme>
+));
+stories.add('hover', () => (
+  <Theme>
+    <Button className="active" bgc="black" hoverBgc="red">
+      {text('Label', 'Active')}
+    </Button>
+  </Theme>
+));
+stories.add('hover & active', () => (
+  <Theme>
+    <Button className="active" activeBgc="yellow" hoverBgc="red">
+      {text('Label', 'Active')}
+    </Button>
+  </Theme>
+));
 stories.add('outline', () => (
   <Theme>
     <Button variant="outline">{text('Label', 'Outline')}</Button>

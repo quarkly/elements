@@ -7,8 +7,8 @@ const BaseButton = elementary.button(
     name: 'Button',
     variant: 'buttons',
     effects: {
-      hover: ':hover',
       active: '.active',
+      hover: ':hover',
     },
     styles: [
       'border',
@@ -22,6 +22,7 @@ const BaseButton = elementary.button(
       'borderRadius',
       'buttonStyle',
       'background',
+      'backgroundColor',
       'backgroundImage',
       'backgroundPosition',
       'backgroundRepeat',
@@ -50,9 +51,7 @@ const qStateDefault = {
 };
 const Button = React.forwardRef((props, ref) => {
   const qState = props.qState || qStateDefault;
-  return (
-    <BaseButton as="button" onClick={qState.btnClick.bind(null, props)} {...props} ref={ref} />
-  );
+  return <BaseButton onClick={qState.btnClick.bind(null, props)} {...props} ref={ref} />;
 });
 
-export default asQuark(Button);
+export default { ...asQuark(Button), propTypes: BaseButton.propTypes };
