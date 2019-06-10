@@ -1,6 +1,11 @@
-import styled from 'styled-components';
-import { themed, variant, includeWith } from '../styled';
+import elementary from '@quarkly/elementary';
 
-const Spacer = styled('div')(themed('Spacer'), variant('spacers'), ...includeWith('defaults'));
+const Spacer = elementary.div({
+  name: 'Spacer',
+  variant: 'spacers',
+  effects: {
+    hover: ':hover',
+  },
+});
 
 export default Spacer;

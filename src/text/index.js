@@ -1,15 +1,11 @@
-import styled from 'styled-components';
-import { includeWith, themed, variant } from '../styled';
+import elementary from '@quarkly/elementary';
 
-const Text = styled('div')(
-  themed('Text'),
-  variant('texts'),
-  ...includeWith('defaults'),
-  ...includeWith('text'),
-);
-
-Text.defaultProps = {
-  as: 'p',
-};
+const Text = elementary.p({
+  name: 'Text',
+  variant: 'texts',
+  effects: {
+    hover: ':hover',
+  },
+});
 
 export default Text;
