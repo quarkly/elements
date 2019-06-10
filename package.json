@@ -71,6 +71,7 @@
     "test"
   ],
   "dependencies": {
+    "@quarkly/elementary": "^1.0.0",
     "classnames": "^2.2.6",
     "lodash": "latest",
     "qslot": "0.0.5",
