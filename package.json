@@ -3,7 +3,7 @@
   "description": "quarkly atomic elements",
   "author": "Eddort",
   "user": "Eddort",
-  "version": "0.1.7",
+  "version": "0.2.0",
   "scripts": {
     "storybook": "start-storybook -p 9001 -c .storybook",
     "build": "npm run clean && npm run build:cjs && npm run build:esm",
