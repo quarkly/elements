@@ -83,8 +83,6 @@ export const flex = ['flexWrap', 'flexDirection', 'alignItems', 'justifyContent'
 
 export const text = ['fontFamily', 'fontWeight', 'textAlign', 'lineHeight', 'letterSpacing'];
 
-export const hr = ['bgColor', 'width', 'height', 'display', 'opacity'];
-
 export const arrow = ['arrowColor'];
 
 export const icon = ['fontSize', 'color'];
