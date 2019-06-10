@@ -104,11 +104,11 @@ exports[`Storyshots Card with content horizontal 1`] = `
   className="sc-ifAKCX hlsfWv"
 >
   <div
-    className="sc-EHOje imbWnI"
+    className="sc-EHOje JJZeW"
     width="100%"
   />
   <div
-    className="sc-EHOje krwelt"
+    className="sc-EHOje hVIkx"
   >
     <p
       className="sc-bwzfXH IvFAP"
@@ -135,11 +135,11 @@ exports[`Storyshots Card with content vertical 1`] = `
   className="sc-ifAKCX jjkobi"
 >
   <div
-    className="sc-EHOje enDnAu"
+    className="sc-EHOje icUxXM"
     width="100%"
   />
   <div
-    className="sc-EHOje eGmfCu"
+    className="sc-EHOje dfEJSC"
   >
     <p
       className="sc-bwzfXH IvFAP"
@@ -173,11 +173,11 @@ exports[`Storyshots Card with props 1`] = `
   width=""
 >
   <div
-    className="sc-EHOje enDnAu"
+    className="sc-EHOje icUxXM"
     width="100%"
   />
   <div
-    className="sc-EHOje eGmfCu"
+    className="sc-EHOje dfEJSC"
   >
     <p
       className="sc-bwzfXH IvFAP"
@@ -764,7 +764,7 @@ exports[`Storyshots Carousel with props 1`] = `
 
 exports[`Storyshots Flex default 1`] = `
 <div
-  className="sc-EHOje ZgWUm"
+  className="sc-EHOje cBQBNH"
 />
 `;
 
@@ -773,11 +773,11 @@ exports[`Storyshots Flex with card 1`] = `
   className="sc-ifAKCX jjkobi"
 >
   <div
-    className="sc-EHOje enDnAu"
+    className="sc-EHOje icUxXM"
     width="100%"
   />
   <div
-    className="sc-EHOje eGmfCu"
+    className="sc-EHOje dfEJSC"
   >
     <p
       className="sc-bwzfXH IvFAP"
@@ -790,7 +790,7 @@ exports[`Storyshots Flex with card 1`] = `
       The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.
     </p>
     <div
-      className="sc-EHOje ZgWUm"
+      className="sc-EHOje cBQBNH"
     >
       <button
         className="sc-bxivhb jSsEvS"
@@ -817,7 +817,7 @@ exports[`Storyshots Flex with card 1`] = `
 
 exports[`Storyshots Flex with props 1`] = `
 <div
-  className="sc-EHOje cRvjEa"
+  className="sc-EHOje dfpEoV"
   display="flex"
   height="300px"
   opacity=""
