@@ -2,8 +2,6 @@ import React from 'react';
 import Slider from 'react-slick';
 import { Provider } from '../quark';
 import Box from '../box';
-// import styled from 'styled-components';
-// import { includeWith, themed, variant } from '../styled';
 
 export default class Carousel extends React.Component {
   render() {

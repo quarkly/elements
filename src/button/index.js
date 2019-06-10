@@ -1,9 +1,38 @@
 import React from 'react';
-import styled from 'styled-components';
-import { includeWith, themed, variant, withEffect } from '../styled';
+import elementary from '@quarkly/elementary';
 import { asQuark } from '../quark';
 
-const BaseButton = styled('div')(
+const BaseButton = elementary.button(
+  {
+    name: 'Button',
+    variant: 'buttons',
+    effects: {
+      hover: ':hover',
+      active: '.active',
+    },
+    rules: [
+      'border',
+      'borderTop',
+      'borderRight',
+      'borderBottom',
+      'borderLeft',
+      'borders',
+      'borderWidth',
+      'borderColor',
+      'borderRadius',
+      'buttonStyle',
+      'background',
+      'backgroundImage',
+      'backgroundPosition',
+      'backgroundRepeat',
+      'backgroundSize',
+      'order',
+      'alignSelf',
+      'justifySelf',
+      'opacity',
+      'overflow',
+    ],
+  },
   {
     appearance: 'button',
     cursor: 'pointer',
@@ -14,12 +43,6 @@ const BaseButton = styled('div')(
     textRendering: 'auto',
     boxSizing: 'border-box',
   },
-  themed('Button'),
-  variant('buttons'),
-  ...includeWith('defaults'),
-  ...includeWith('button'),
-  withEffect(':hover', 'hover', () => true),
-  withEffect('.active', 'active', props => props.className && props.className.includes('active')),
 );
 
 const qStateDefault = {

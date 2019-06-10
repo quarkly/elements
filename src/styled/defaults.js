@@ -46,29 +46,6 @@ export const card = [
   'borderRadius',
 ];
 
-export const button = [
-  'border',
-  'borderTop',
-  'borderRight',
-  'borderBottom',
-  'borderLeft',
-  'borders',
-  'borderWidth',
-  'borderColor',
-  'borderRadius',
-  'buttonStyle',
-  'background',
-  'backgroundImage',
-  'backgroundPosition',
-  'backgroundRepeat',
-  'backgroundSize',
-  'order',
-  'alignSelf',
-  'justifySelf',
-  'opacity',
-  'overflow',
-];
-
 export const image = [
   'background',
   'backgroundImage',
