@@ -378,7 +378,7 @@ stories.add('with props', () => (
         'static',
         'Position',
       )}
-      zIndex={text('zIndex', '', 'Position')}
+      zIndex={number('zIndex', 1, 'Position')}
       top={text('top', '', 'Position')}
       right={text('right', '', 'Position')}
       bottom={text('bottom', '', 'Position')}
