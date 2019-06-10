@@ -18,7 +18,7 @@ exports[`Storyshots Block with props 1`] = `
   width="300px"
 >
   <p
-    className="sc-bwzfXH eGaMJv"
+    className="sc-bwzfXH caMcFG"
     color="black"
   >
     Text
@@ -46,7 +46,7 @@ exports[`Storyshots Box with props 1`] = `
   width="100%"
 >
   <p
-    className="sc-bwzfXH eGaMJv"
+    className="sc-bwzfXH caMcFG"
     color="black"
   >
     Text
@@ -138,12 +138,12 @@ exports[`Storyshots Card with content horizontal 1`] = `
     className="sc-EHOje hEyNQv"
   >
     <p
-      className="sc-bwzfXH IvFAP"
+      className="sc-bwzfXH kOvGIu"
     >
       The Moon
     </p>
     <p
-      className="sc-bwzfXH cfCdyf"
+      className="sc-bwzfXH fOvtoS"
     >
       The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.
     </p>
@@ -169,12 +169,12 @@ exports[`Storyshots Card with content vertical 1`] = `
     className="sc-EHOje dpDIZF"
   >
     <p
-      className="sc-bwzfXH IvFAP"
+      className="sc-bwzfXH kOvGIu"
     >
       The Moon
     </p>
     <p
-      className="sc-bwzfXH cfCdyf"
+      className="sc-bwzfXH fOvtoS"
     >
       The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.
     </p>
@@ -207,12 +207,12 @@ exports[`Storyshots Card with props 1`] = `
     className="sc-EHOje dpDIZF"
   >
     <p
-      className="sc-bwzfXH IvFAP"
+      className="sc-bwzfXH kOvGIu"
     >
       The Moon
     </p>
     <p
-      className="sc-bwzfXH cfCdyf"
+      className="sc-bwzfXH fOvtoS"
     >
       The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.
     </p>
@@ -807,12 +807,12 @@ exports[`Storyshots Flex with card 1`] = `
     className="sc-EHOje dpDIZF"
   >
     <p
-      className="sc-bwzfXH IvFAP"
+      className="sc-bwzfXH kOvGIu"
     >
       The Moon
     </p>
     <p
-      className="sc-bwzfXH cfCdyf"
+      className="sc-bwzfXH fOvtoS"
     >
       The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.
     </p>
@@ -854,7 +854,7 @@ exports[`Storyshots Flex with props 1`] = `
   width="300px"
 >
   <p
-    className="sc-bwzfXH eGaMJv"
+    className="sc-bwzfXH caMcFG"
     color="black"
   >
     Text
@@ -876,7 +876,7 @@ exports[`Storyshots Grid with boxes 1`] = `
     className="sc-htpNat cXiSzu"
   >
     <p
-      className="sc-bwzfXH ckhCRh"
+      className="sc-bwzfXH cJFWNS"
     >
       Although we will never watch two suns rise and fall from the perspective of our own planet, like Luke Skywalker on Tatooine in the iconic scene from Star Wars: A New Hope, theres a newly discovered planet where aliens might do so.
     </p>
@@ -936,12 +936,12 @@ exports[`Storyshots Grid with cards 1`] = `
       className="sc-gzVnrw eKOzCP"
     >
       <p
-        className="sc-bwzfXH IvFAP"
+        className="sc-bwzfXH kOvGIu"
       >
         The Moon
       </p>
       <p
-        className="sc-bwzfXH cfCdyf"
+        className="sc-bwzfXH fOvtoS"
       >
         The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.
       </p>
@@ -968,12 +968,12 @@ exports[`Storyshots Grid with cards 1`] = `
       className="sc-gzVnrw eKOzCP"
     >
       <p
-        className="sc-bwzfXH IvFAP"
+        className="sc-bwzfXH kOvGIu"
       >
         The Moon
       </p>
       <p
-        className="sc-bwzfXH cfCdyf"
+        className="sc-bwzfXH fOvtoS"
       >
         The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.
       </p>
@@ -1000,12 +1000,12 @@ exports[`Storyshots Grid with cards 1`] = `
       className="sc-gzVnrw eKOzCP"
     >
       <p
-        className="sc-bwzfXH IvFAP"
+        className="sc-bwzfXH kOvGIu"
       >
         The Moon
       </p>
       <p
-        className="sc-bwzfXH cfCdyf"
+        className="sc-bwzfXH fOvtoS"
       >
         The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.
       </p>
@@ -1067,7 +1067,7 @@ exports[`Storyshots Grid with props 1`] = `
   width="300px"
 >
   <p
-    className="sc-bwzfXH eGaMJv"
+    className="sc-bwzfXH caMcFG"
     color="black"
   >
     Text
@@ -1191,7 +1191,7 @@ exports[`Storyshots Link hover 1`] = `
   href="https://quarkly.space/"
 >
   <p
-    className="sc-bwzfXH gRNkxV"
+    className="sc-bwzfXH kSKDOa"
     color="#007bff"
   >
     Quarkly
@@ -1227,7 +1227,7 @@ exports[`Storyshots Link with text 1`] = `
   href="https://quarkly.space/"
 >
   <p
-    className="sc-bwzfXH gRNkxV"
+    className="sc-bwzfXH kHGyoZ"
     color="#007bff"
   >
     Quarkly
@@ -1241,21 +1241,21 @@ exports[`Storyshots List default 1`] = `
 >
   <li>
     <p
-      className="sc-bwzfXH cokOUe"
+      className="sc-bwzfXH ehXotu"
     >
       Item 1
     </p>
   </li>
   <li>
     <p
-      className="sc-bwzfXH cokOUe"
+      className="sc-bwzfXH ehXotu"
     >
       Item 2
     </p>
   </li>
   <li>
     <p
-      className="sc-bwzfXH cokOUe"
+      className="sc-bwzfXH ehXotu"
     >
       Item 3
     </p>
@@ -1269,21 +1269,21 @@ exports[`Storyshots List horizontal 1`] = `
 >
   <li>
     <p
-      className="sc-bwzfXH cokOUe"
+      className="sc-bwzfXH ehXotu"
     >
       Item 1
     </p>
   </li>
   <li>
     <p
-      className="sc-bwzfXH cokOUe"
+      className="sc-bwzfXH ehXotu"
     >
       Item 2
     </p>
   </li>
   <li>
     <p
-      className="sc-bwzfXH cokOUe"
+      className="sc-bwzfXH ehXotu"
     >
       Item 3
     </p>
@@ -1304,21 +1304,21 @@ exports[`Storyshots List with props 1`] = `
 >
   <li>
     <p
-      className="sc-bwzfXH cokOUe"
+      className="sc-bwzfXH ehXotu"
     >
       Item 1
     </p>
   </li>
   <li>
     <p
-      className="sc-bwzfXH cokOUe"
+      className="sc-bwzfXH ehXotu"
     >
       Item 2
     </p>
   </li>
   <li>
     <p
-      className="sc-bwzfXH cokOUe"
+      className="sc-bwzfXH ehXotu"
     >
       Item 3
     </p>
@@ -1332,16 +1332,16 @@ exports[`Storyshots Select basic 1`] = `
   display="flex"
 >
   <select
-    className="sc-gqjmRU hnZXkc"
+    className="sc-gqjmRU hOOseh"
   >
     <option
-      className="sc-VigVT fIhGog"
+      className="sc-VigVT HBQdU"
       value="hello"
     >
       hello
     </option>
     <option
-      className="sc-VigVT fIhGog"
+      className="sc-VigVT HBQdU"
       value="world"
     >
       world
@@ -1352,16 +1352,16 @@ exports[`Storyshots Select basic 1`] = `
 
 exports[`Storyshots Select black 1`] = `
 <select
-  className="sc-gqjmRU jLLGQu"
+  className="sc-gqjmRU jLtHSi"
 >
   <option
-    className="sc-VigVT fIhGog"
+    className="sc-VigVT HBQdU"
     value="hello"
   >
     hello
   </option>
   <option
-    className="sc-VigVT fIhGog"
+    className="sc-VigVT HBQdU"
     value="world"
   >
     world
@@ -1373,7 +1373,7 @@ exports[`Storyshots Spacer 10rem 1`] = `
 Array [
   "Content",
   <div
-    className="sc-jTzLTM fQrzLz"
+    className="sc-jTzLTM bHFnvq"
     height="10rem"
   />,
   "Content",
@@ -1384,7 +1384,7 @@ exports[`Storyshots Spacer 25% 1`] = `
 Array [
   "Content",
   <div
-    className="sc-jTzLTM LTjsE"
+    className="sc-jTzLTM jcUNRf"
     height="25%"
   />,
   "Content",
@@ -1395,7 +1395,7 @@ exports[`Storyshots Spacer 50vh 1`] = `
 Array [
   "Content",
   <div
-    className="sc-jTzLTM eJeNwB"
+    className="sc-jTzLTM cnyKEz"
     height="50vh"
   />,
   "Content",
@@ -1406,7 +1406,7 @@ exports[`Storyshots Spacer 100px 1`] = `
 Array [
   "Content",
   <div
-    className="sc-jTzLTM kUOdtD"
+    className="sc-jTzLTM jnqaSB"
     height="100px"
   />,
   "Content",
@@ -1417,7 +1417,7 @@ exports[`Storyshots Spacer adaptive 1`] = `
 Array [
   "Content",
   <div
-    className="sc-jTzLTM esROeK"
+    className="sc-jTzLTM dBwoSr"
     height={
       Array [
         "100px",
@@ -1434,7 +1434,7 @@ exports[`Storyshots Spacer default 1`] = `
 Array [
   "Content",
   <div
-    className="sc-jTzLTM cpNlkv"
+    className="sc-jTzLTM eagGfI"
   />,
   "Content",
 ]
@@ -1444,11 +1444,11 @@ exports[`Storyshots Spacer variants 1`] = `
 Array [
   "Big",
   <div
-    className="sc-jTzLTM iOYUhi"
+    className="sc-jTzLTM bdfLtX"
   />,
   "Small",
   <div
-    className="sc-jTzLTM iKjaXX"
+    className="sc-jTzLTM bbXhyw"
   />,
   "Content",
 ]
@@ -1526,7 +1526,7 @@ exports[`Storyshots Tabs constructor 1`] = `
           display="flex"
         >
           <p
-            className="sc-bwzfXH fHfGto"
+            className="sc-bwzfXH cDwzMq"
             color="white"
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -1541,7 +1541,7 @@ exports[`Storyshots Tabs constructor 1`] = `
           display="flex"
         >
           <p
-            className="sc-bwzfXH EuPJX"
+            className="sc-bwzfXH bxDdnw"
             color="white"
           >
             Содержимое категории Лэйаут
@@ -1556,7 +1556,7 @@ exports[`Storyshots Tabs constructor 1`] = `
           display="flex"
         >
           <p
-            className="sc-bwzfXH EuPJX"
+            className="sc-bwzfXH bxDdnw"
             color="white"
           >
             Содержимое категории Отступы
@@ -1571,7 +1571,7 @@ exports[`Storyshots Tabs constructor 1`] = `
           display="flex"
         >
           <p
-            className="sc-bwzfXH EuPJX"
+            className="sc-bwzfXH bxDdnw"
             color="white"
           >
             Содержимое категории Flex
@@ -1586,7 +1586,7 @@ exports[`Storyshots Tabs constructor 1`] = `
           display="flex"
         >
           <p
-            className="sc-bwzfXH EuPJX"
+            className="sc-bwzfXH bxDdnw"
             color="white"
           >
             Содержимое категории Grid
@@ -1601,7 +1601,7 @@ exports[`Storyshots Tabs constructor 1`] = `
           display="flex"
         >
           <p
-            className="sc-bwzfXH EuPJX"
+            className="sc-bwzfXH bxDdnw"
             color="white"
           >
             Содержимое категории Фон
@@ -1616,7 +1616,7 @@ exports[`Storyshots Tabs constructor 1`] = `
           display="flex"
         >
           <p
-            className="sc-bwzfXH EuPJX"
+            className="sc-bwzfXH bxDdnw"
             color="white"
           >
             Содержимое категории Разное
@@ -1631,7 +1631,7 @@ exports[`Storyshots Tabs constructor 1`] = `
           display="flex"
         >
           <p
-            className="sc-bwzfXH EuPJX"
+            className="sc-bwzfXH bxDdnw"
             color="white"
           >
             Содержимое категории Позиция
@@ -1645,7 +1645,7 @@ exports[`Storyshots Tabs constructor 1`] = `
 
 exports[`Storyshots Text adaptive 1`] = `
 <p
-  className="sc-bwzfXH dwaOiO"
+  className="sc-bwzfXH jVFDmL"
   color={
     Array [
       "black",
@@ -1667,7 +1667,7 @@ exports[`Storyshots Text adaptive 1`] = `
 
 exports[`Storyshots Text default 1`] = `
 <p
-  className="sc-bwzfXH cfCdyf"
+  className="sc-bwzfXH fOvtoS"
 >
   Base text
 </p>
@@ -1676,62 +1676,62 @@ exports[`Storyshots Text default 1`] = `
 exports[`Storyshots Text variants 1`] = `
 Array [
   <p
-    className="sc-bwzfXH ccDxDc"
+    className="sc-bwzfXH eKTWLy"
   >
     Display1
   </p>,
   <p
-    className="sc-bwzfXH iXiRaq"
+    className="sc-bwzfXH cfxHhN"
   >
     Display2
   </p>,
   <p
-    className="sc-bwzfXH jINxTD"
+    className="sc-bwzfXH lkMRUb"
   >
     Display3
   </p>,
   <p
-    className="sc-bwzfXH kquLJc"
+    className="sc-bwzfXH grOIhZ"
   >
     Display4
   </p>,
   <p
-    className="sc-bwzfXH cfbxbm"
+    className="sc-bwzfXH deLvZU"
   >
     Heading1
   </p>,
   <p
-    className="sc-bwzfXH ckhCRh"
+    className="sc-bwzfXH cJFWNS"
   >
     Heading2
   </p>,
   <p
-    className="sc-bwzfXH fNFKJa"
+    className="sc-bwzfXH iPluDJ"
   >
     Heading3
   </p>,
   <p
-    className="sc-bwzfXH kGhikM"
+    className="sc-bwzfXH eVbWut"
   >
     Heading4
   </p>,
   <p
-    className="sc-bwzfXH eqbYrj"
+    className="sc-bwzfXH bVIBfr"
   >
     Heading5
   </p>,
   <p
-    className="sc-bwzfXH fcJQjl"
+    className="sc-bwzfXH ffpVlG"
   >
     Heading6
   </p>,
   <p
-    className="sc-bwzfXH ekzwKU"
+    className="sc-bwzfXH eMwRcN"
   >
     Lead paragraph
   </p>,
   <p
-    className="sc-bwzfXH cfCdyf"
+    className="sc-bwzfXH fOvtoS"
   >
     Base text
   </p>,
@@ -1740,7 +1740,7 @@ Array [
 
 exports[`Storyshots Text with props 1`] = `
 <p
-  className="sc-bwzfXH cpmgUS"
+  className="sc-bwzfXH csnebH"
   color="black"
   fontFamily=""
   fontSize=""
