@@ -2,13 +2,13 @@
 
 exports[`Storyshots Block default 1`] = `
 <section
-  className="sc-bdVaJa kNDmrE"
+  className="sc-bdVaJa jfLXUy"
 />
 `;
 
 exports[`Storyshots Block with props 1`] = `
 <section
-  className="sc-bdVaJa hPWQTg"
+  className="sc-bdVaJa hJArmY"
   display="block"
   height="300px"
   opacity=""
@@ -74,7 +74,7 @@ exports[`Storyshots Button outline 1`] = `
 
 exports[`Storyshots Button with props 1`] = `
 <section
-  className="sc-bdVaJa iuUqrI"
+  className="sc-bdVaJa bBZzzW"
   display="flex"
 >
   <button
@@ -1124,7 +1124,7 @@ exports[`Storyshots Image with props 1`] = `
 
 exports[`Storyshots Input basic 1`] = `
 <section
-  className="sc-bdVaJa hAPwRN"
+  className="sc-bdVaJa kIzjwD"
   display="flex"
 >
   <input
@@ -1272,7 +1272,7 @@ exports[`Storyshots List with props 1`] = `
 
 exports[`Storyshots Select basic 1`] = `
 <section
-  className="sc-bdVaJa hAPwRN"
+  className="sc-bdVaJa kIzjwD"
   display="flex"
 >
   <select
@@ -1400,7 +1400,7 @@ Array [
 
 exports[`Storyshots Tabs constructor 1`] = `
 <section
-  className="sc-bdVaJa dBWXII"
+  className="sc-bdVaJa kdxHJG"
 >
   <div
     className="sc-jzJRlG XEsbO"
