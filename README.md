@@ -2,10 +2,19 @@
 
 Elements - atomic react UI components based on [Elementary](https://github.com/quarkly/elementary).
 
+[![Build Status][badge]][travis]
+[![Coverage][coverage-badge]][coverage]
 [![Version][version-badge]][npm]
+![MIT License][license]
 
+[badge]: https://flat.badgen.net/travis/quarkly/elements/master
+[travis]: https://travis-ci.com/quarkly/elements
+[coverage-badge]: https://flat.badgen.net/codecov/c/github/quarkly/elements
+[coverage]: https://codecov.io/github/quarkly/elements
 [version-badge]: https://flat.badgen.net/npm/v/@quarkly/elements
 [npm]: https://npmjs.com/package/@quarkly/elements
+[license]: https://flat.badgen.net/badge/license/MIT/blue
+
 # Installation and Usage
 
 ```sh
