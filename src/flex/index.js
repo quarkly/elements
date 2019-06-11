@@ -1,4 +1,16 @@
-import styled from 'styled-components';
-import { includeWith } from '../styled';
+import elementary from '@quarkly/elementary';
 
-export default styled('div')({ display: 'flex' }, ...includeWith('box'));
+const Flex = elementary.div(
+  {
+    name: 'Flex',
+    variant: 'flexs',
+    effects: {
+      hover: ':hover',
+    },
+  },
+  {
+    display: 'flex',
+  },
+);
+
+export default Flex;

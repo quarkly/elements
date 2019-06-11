@@ -25,6 +25,16 @@ stories.add('with text', () => (
   </Theme>
 ));
 
+stories.add('hover', () => (
+  <Theme>
+    <Link href="https://quarkly.space/" color="#007bff" hoverColor="red">
+      <Text variant="h1" color="#007bff" hoverColor="red">
+        {text('Value', 'Quarkly', 'Data')}
+      </Text>
+    </Link>
+  </Theme>
+));
+
 stories.add('with props', () => (
   <Theme>
     <Link
@@ -165,7 +175,7 @@ stories.add('with props', () => (
         'static',
         'Position',
       )}
-      zIndex={text('zIndex', '', 'Position')}
+      zIndex={number('zIndex', 1, 'Position')}
       top={text('top', '', 'Position')}
       right={text('right', '', 'Position')}
       bottom={text('bottom', '', 'Position')}

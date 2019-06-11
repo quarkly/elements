@@ -11,7 +11,7 @@ stories.addDecorator(withKnobs);
 
 stories.add('default', () => (
   <Theme>
-    <Box />
+    <Box bgc="blue" height="200px" width="300px" />
   </Theme>
 ));
 
@@ -268,7 +268,7 @@ stories.add('with props', () => (
         'static',
         'Position',
       )}
-      zIndex={text('zIndex', '', 'Position')}
+      zIndex={number('zIndex', 1, 'Position')}
       top={text('top', '', 'Position')}
       right={text('right', '', 'Position')}
       bottom={text('bottom', '', 'Position')}

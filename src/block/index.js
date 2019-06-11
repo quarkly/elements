@@ -1,11 +1,16 @@
-import styled from 'styled-components';
-import { includeWith, themed, variant } from '../styled';
+import elementary from '@quarkly/elementary';
 
-export default styled('section')(
+const Block = elementary.section(
+  {
+    name: 'Block',
+    variant: 'blocks',
+    effects: {
+      hover: ':hover',
+    },
+  },
   {
     boxSizing: 'border-box',
   },
-  themed('Block'),
-  variant('blocks'),
-  ...includeWith('box'),
 );
+
+export default Block;

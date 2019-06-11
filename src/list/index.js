@@ -1,28 +1,29 @@
 import React from 'react';
-import styled from 'styled-components';
-import { includeWith, themed, variant } from '../styled';
+import elementary from '@quarkly/elementary';
 
 const ENAME = 'LIST';
 const uid = name => `${ENAME}${name}`;
 
-const Ul = styled('ul')(
-  {
-    boxSizing: 'border-box',
+const List = elementary.ul({
+  name: 'List',
+  variant: 'lists',
+  effects: {
+    hover: ':hover',
+    focus: ':focus',
+    active: ':active',
   },
-  themed('List'),
-  variant('lists'),
-  ...includeWith('defaults'),
-  ...includeWith('text'),
-);
+});
 
-const List = ({ children }) => {
+const Ul = ({ children, ...other }) => {
   return (
-    <Ul>
+    <List {...other}>
       {React.Children.map(children, (child, i) => {
         return <li key={uid(i)}>{child}</li>;
       })}
-    </Ul>
+    </List>
   );
 };
 
-export default List;
+Ul.propTypes = List.propTypes;
+
+export default Ul;

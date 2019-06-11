@@ -30,7 +30,7 @@ stories.add('empty', () => (
 stories.add('hidden', () => (
   <Theme>
     <div>
-      <Tooltip place="bottom" color="red" arrowColor="blue" bg="blue" title="hello from popover">
+      <Tooltip place="bottom" color="red" arrowColor="blue" bgc="blue" title="hello from popover">
         <Button m={'200px'}>Click me</Button>
       </Tooltip>
     </div>

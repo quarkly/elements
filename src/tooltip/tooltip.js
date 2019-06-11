@@ -1,5 +1,5 @@
-import styled, { css } from 'styled-components';
-import { includeWith, themed, variant } from '../styled';
+import { css } from 'styled-components';
+import elementary from '@quarkly/elementary';
 
 const tooltipTop = props =>
   props.placement === 'top' &&
@@ -34,19 +34,23 @@ const hide = props =>
         display: block;
       `;
 
-export default styled.div`
-  background: #222;
-  color: white;
-  width: 150px;
-  border-radius: 2px;
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
-  padding: 5px;
-  ${includeWith('defaults')}
-  ${themed('Tooltip')}
-  ${variant('tooltips')}
-  ${tooltipTop}
-  ${tooltipBottom}
-  ${tooltipRight}
-  ${tooltipLeft}
-  ${hide}
-`;
+const Tooltip = elementary.div(
+  {
+    name: 'Tooltip',
+    variant: 'tooltips',
+  },
+  {
+    color: 'white',
+    width: '150px',
+    'border-radius': '2px',
+    'box-shadow': '0 0 2px rgba(0, 0, 0, 0.5)',
+    padding: '5px',
+  },
+  tooltipTop,
+  tooltipRight,
+  tooltipBottom,
+  tooltipLeft,
+  hide,
+);
+
+export default Tooltip;

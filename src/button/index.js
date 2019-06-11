@@ -1,9 +1,39 @@
 import React from 'react';
-import styled from 'styled-components';
-import { includeWith, themed, variant, withEffect } from '../styled';
+import elementary from '@quarkly/elementary';
 import { asQuark } from '../quark';
 
-const BaseButton = styled('div')(
+const BaseButton = elementary.button(
+  {
+    name: 'Button',
+    variant: 'buttons',
+    effects: {
+      active: '.active',
+      hover: ':hover',
+    },
+    styles: [
+      'border',
+      'borderTop',
+      'borderRight',
+      'borderBottom',
+      'borderLeft',
+      'borders',
+      'borderWidth',
+      'borderColor',
+      'borderRadius',
+      'buttonStyle',
+      'background',
+      'backgroundColor',
+      'backgroundImage',
+      'backgroundPosition',
+      'backgroundRepeat',
+      'backgroundSize',
+      'order',
+      'alignSelf',
+      'justifySelf',
+      'opacity',
+      'overflow',
+    ],
+  },
   {
     appearance: 'button',
     cursor: 'pointer',
@@ -14,12 +44,6 @@ const BaseButton = styled('div')(
     textRendering: 'auto',
     boxSizing: 'border-box',
   },
-  themed('Button'),
-  variant('buttons'),
-  ...includeWith('defaults'),
-  ...includeWith('button'),
-  withEffect(':hover', 'hover', () => true),
-  withEffect('.active', 'active', props => props.className && props.className.includes('active')),
 );
 
 const qStateDefault = {
@@ -27,9 +51,7 @@ const qStateDefault = {
 };
 const Button = React.forwardRef((props, ref) => {
   const qState = props.qState || qStateDefault;
-  return (
-    <BaseButton as="button" onClick={qState.btnClick.bind(null, props)} {...props} ref={ref} />
-  );
+  return <BaseButton onClick={qState.btnClick.bind(null, props)} {...props} ref={ref} />;
 });
 
-export default asQuark(Button);
+export default { ...asQuark(Button), propTypes: BaseButton.propTypes };

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Manager, Reference, Popper } from 'react-popper';
 import Arrow from './arrow';
-import Tooltip from './tooltip';
+import Tool from './tooltip';
 
 const getChildProps = ({ ref, ctx }) => ({
   onMouseEnter: event => {
@@ -15,7 +15,7 @@ const getChildProps = ({ ref, ctx }) => ({
   ref,
 });
 
-export default class Elem extends Component {
+class Tooltip extends Component {
   state = {
     hidden: true,
   };
@@ -31,7 +31,7 @@ export default class Elem extends Component {
   };
   render() {
     const { props } = this;
-    const { children, place = 'right', arrowColor, ...otherProps } = props;
+    const { children, place = 'right', ...otherProps } = props;
     return children ? (
       <Manager>
         <Reference>
@@ -40,7 +40,7 @@ export default class Elem extends Component {
         {!this.state.hidden && (
           <Popper placement={place}>
             {({ ref, style, placement, arrowProps }) => (
-              <Tooltip
+              <Tool
                 {...otherProps}
                 placement={placement}
                 ref={ref}
@@ -48,13 +48,13 @@ export default class Elem extends Component {
                 data-placement={placement}>
                 {props.title}
                 <Arrow
-                  arrowColor={arrowColor || otherProps.bg}
+                  color={otherProps.bg || otherProps.bgc}
                   placement={placement}
                   ref={arrowProps.ref}
                   style={arrowProps.style}
                   data-placement={placement}
                 />
-              </Tooltip>
+              </Tool>
             )}
           </Popper>
         )}
@@ -64,3 +64,7 @@ export default class Elem extends Component {
     );
   }
 }
+
+Tooltip.propTypes = Tool.propTypes;
+
+export default Tooltip;

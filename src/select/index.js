@@ -1,4 +1,12 @@
-import styled from 'styled-components';
-import { includeWith, themed, variant } from '../styled';
+import elementary from '@quarkly/elementary';
 
-export default styled('select')(themed('Select'), variant('selects'), ...includeWith('defaults'));
+const Select = elementary.select({
+  name: 'Select',
+  variant: 'selects',
+  effects: {
+    hover: ':hover',
+    focus: ':focus',
+  },
+});
+
+export default Select;

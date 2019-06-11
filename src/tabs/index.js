@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
+import elementary from '@quarkly/elementary';
 import cn from 'classnames';
-import { includeWith, themed, variant } from '../styled';
 
 const ENAME = 'tabs';
 
@@ -32,14 +32,13 @@ const findTabsNav = children => {
   return findByRole(children, TABNAV);
 };
 
-const Styled = styled('div')(
-  {
-    boxSizing: 'border-box',
+const Styled = elementary.div({
+  name: 'Tabs',
+  variant: 'tabs',
+  effects: {
+    hover: ':hover',
   },
-  themed('Tabs'),
-  variant('tabs'),
-  ...includeWith('defaults'),
-);
+});
 
 export default class TabClass extends Component {
   constructor(props, context) {

@@ -1,13 +1,27 @@
-# Quarkly elements
+# WIP:Elements UI
 
-### 1. Elements
-Элементы спецификации конструктора
-Каждый элемент является отдельной точкой входа в конфиге webpack.
-В папке каждого элемента лежить его код, тесты и файл q-props.js.
+Elements - atomic react UI components based on [Elementary](https://github.com/quarkly/elementary).
+
+[![Version][version-badge]][npm]
+
+[version-badge]: https://flat.badgen.net/npm/v/@quarkly/elements
+[npm]: https://npmjs.com/package/@quarkly/elements
+# Installation and Usage
+
+```sh
+npm i @quarkly/elements
+```
 
 
-### 2. El-props
-Создает представление каждого элемента из файла q-props.js.
+```jsx
+import React from 'react';
+import ReactDom from 'react-dom';
+import { Box, Text } from '@quarkly/elements';
 
-### 3. Client
-Скрипт для react hydrate на стороне опубликованного сайта.
+ReactDom.render(
+  <Box width={[1, 1 / 2, 1 / 4]} bgc={['red', 'green', 'blue']} height="300px">
+    <Text fz={2}>Hello from Elements</Text>
+  </Box>,
+  document.getElementById('root'),
+);
+```

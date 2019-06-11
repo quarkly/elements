@@ -1,6 +1,9 @@
-import styled from 'styled-components';
-import { themed, variant, includeWith } from '../styled';
+import elementary from '@quarkly/elementary';
 
-const Hr = styled('div')(themed('Hr'), variant('hrs'), ...includeWith('hr'));
+const Hr = elementary.div({
+  name: 'Hr',
+  styles: ['backgroundColor', 'width', 'height', 'display', 'opacity'],
+  variant: 'hrs',
+});
 
 export default Hr;

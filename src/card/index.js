@@ -1,9 +1,6 @@
-import styled from 'styled-components';
-import { includeWith, themed, variant } from '../styled';
+import elementary from '@quarkly/elementary';
 
-export default styled('div')(
-  themed('Card'),
-  variant('cards'),
-  ...includeWith('box'),
-  ...includeWith('card'),
-);
+export default elementary.div({
+  name: 'Card',
+  variant: 'cards',
+});
