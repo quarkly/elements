@@ -8,7 +8,7 @@ exports[`Storyshots Block default 1`] = `
 
 exports[`Storyshots Block with props 1`] = `
 <section
-  className="sc-bdVaJa hJArmY"
+  className="sc-bdVaJa hSTbwd"
   display="block"
   height="300px"
   opacity=""
@@ -36,7 +36,7 @@ exports[`Storyshots Box default 1`] = `
 
 exports[`Storyshots Box with props 1`] = `
 <div
-  className="sc-htpNat iXRSeO"
+  className="sc-htpNat cNBKdU"
   display="block"
   height="100vh"
   opacity=""
@@ -844,7 +844,7 @@ exports[`Storyshots Flex with card 1`] = `
 
 exports[`Storyshots Flex with props 1`] = `
 <div
-  className="sc-EHOje bqziVw"
+  className="sc-EHOje cQNSpl"
   display="flex"
   height="300px"
   opacity=""
@@ -1057,7 +1057,7 @@ exports[`Storyshots Grid with image 1`] = `
 
 exports[`Storyshots Grid with props 1`] = `
 <div
-  className="sc-gzVnrw bZzKdV"
+  className="sc-gzVnrw cAWItM"
   display="flex"
   height="300px"
   opacity=""
@@ -1293,7 +1293,7 @@ exports[`Storyshots List horizontal 1`] = `
 
 exports[`Storyshots List with props 1`] = `
 <ul
-  className="sc-gZMcBi dXeAzY"
+  className="sc-gZMcBi kgpnIA"
   display="block"
   height="300px"
   opacity=""
