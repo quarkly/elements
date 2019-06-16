@@ -122,7 +122,6 @@ ReactDom.render(
 - [opacity](###opacity)
 - [boxShadow](###boxShadow)
 - [overflow](###overflow)
-- [borders](###borders)
 
 #### Position
 
@@ -630,21 +629,6 @@ It is a shorthand property sets all the left border properties in one declaratio
 | --------------- | :---------------: |
 | string or array | medium none color |
 
-### `borderRadius`
-
-This CSS property defines the radius of the element's corners. This property can have from one to four values.
-
-**Syntax**: there are four different syntaxes you can use with this property:
-
-1. the one-value syntax (the value applies to all four corners, which are rounded equally),
-2. the two-value syntax (first value applies to top-left and bottom-right corners, and the second value applies to top-right and bottom-left corners),
-3. the three-value syntax (first value applies to top-left corner, second value applies to top-right and bottom-left corners, and third value applies to bottom-right corner),
-4. the four-value syntax (first value applies to top-left corner, second value applies to top-right corner, third value applies to bottom-right corner, and fourth value applies to bottom-left corner).
-
-| Type            | Default |
-| --------------- | :-----: |
-| string or array |    0    |
-
 ### `borderColor`
 
 This CSS property sets the color of an element's four borders. This property can have from one to four values.
@@ -660,6 +644,21 @@ This CSS property sets the color of an element's four borders. This property can
 | ----------------------------------------------------- | :-----: |
 | oneOf(transparent, initial, inherit), string or array |  none   |
 
+### `borderRadius`
+
+This CSS property defines the radius of the element's corners. This property can have from one to four values.
+
+**Syntax**: there are four different syntaxes you can use with this property:
+
+1. the one-value syntax (the value applies to all four corners, which are rounded equally),
+2. the two-value syntax (first value applies to top-left and bottom-right corners, and the second value applies to top-right and bottom-left corners),
+3. the three-value syntax (first value applies to top-left corner, second value applies to top-right and bottom-left corners, and third value applies to bottom-right corner),
+4. the four-value syntax (first value applies to top-left corner, second value applies to top-right corner, third value applies to bottom-right corner, and fourth value applies to bottom-left corner).
+
+| Type            | Default |
+| --------------- | :-----: |
+| string or array |    0    |
+
 ### `opacity`
 
 This CSS property sets the opacity level for an element.
@@ -672,7 +671,7 @@ This CSS property sets the opacity level for an element.
 
 This CSS property attaches one or more shadows to an element. To attach more than one shadow to an element, add a comma-separated list of shadows.
 
-**Syntax**: boxShadow=("h-offset v-offset blur spread color")
+**Syntax**: boxShadow="h-offset v-offset blur spread color"
 
 | Type            | Default |
 | --------------- | :-----: |
@@ -700,9 +699,9 @@ This CSS property affects the vertical position of a positioned element. This pr
 
 **Behaviour**
 
-1. If position=("absolute") or position=("fixed") - the top property sets the top edge of an element to a unit above/below the top edge of its nearest positioned ancestor,
-2. If position=("relative") - the top property makes the element's top edge to move above/below its normal position.
-3. If position=("sticky") - the top property behaves like its position is relative when the element is inside the viewport, and like its position is fixed when it is outside.
+1. If position="absolute" or position="fixed" - the top property sets the top edge of an element to a unit above/below the top edge of its nearest positioned ancestor,
+2. If position="relative" - the top property makes the element's top edge to move above/below its normal position.
+3. If position="sticky" - the top property behaves like its position is relative when the element is inside the viewport, and like its position is fixed when it is outside.
 
 | Type            | Default |
 | --------------- | :-----: |
@@ -714,9 +713,9 @@ This CSS property affects the horizontal position of a positioned element. This 
 
 **Behaviour**
 
-1. If position=("absolute") or position=("fixed") - the right property sets the right edge of an element to a unit to the right of the right edge of its nearest positioned ancestor,
-2. If position=("relative") - the right property sets the right edge of an element to a unit to the left/right of its normal position,
-3. If position=("sticky") - the right property behaves like its position is relative when the element is inside the viewport, and like its position is fixed when it is outside.
+1. If position="absolute" or position="fixed" - the right property sets the right edge of an element to a unit to the right of the right edge of its nearest positioned ancestor,
+2. If position="relative" - the right property sets the right edge of an element to a unit to the left/right of its normal position,
+3. If position="sticky" - the right property behaves like its position is relative when the element is inside the viewport, and like its position is fixed when it is outside.
 
 | Type            | Default |
 | --------------- | :-----: |
@@ -728,9 +727,9 @@ This CSS property affects the vertical position of a positioned element. This pr
 
 **Behaviour**
 
-1. If position=("absolute") or position=("fixed") - the bottom property sets the bottom edge of an element to a unit above/below the bottom edge of its nearest positioned ancestor,
-2. If position=("relative") - the bottom property makes the element's bottom edge to move above/below its normal position.
-3. If position=("sticky") - the bottom property behaves like its position is relative when the element is inside the viewport, and like its position is fixed when it is outside.
+1. If position="absolute" or position="fixed" - the bottom property sets the bottom edge of an element to a unit above/below the bottom edge of its nearest positioned ancestor,
+2. If position="relative" - the bottom property makes the element's bottom edge to move above/below its normal position.
+3. If position="sticky" - the bottom property behaves like its position is relative when the element is inside the viewport, and like its position is fixed when it is outside.
 
 | Type            | Default |
 | --------------- | :-----: |
@@ -742,9 +741,9 @@ This CSS property affects the horizontal position of a positioned element. This 
 
 **Behaviour**
 
-1. If position=("absolute") or position=("fixed") - the left property sets the left edge of an element to a unit to the left of the left edge of its nearest positioned ancestor,
-2. If position=("relative") - the left property sets the left edge of an element to a unit to the left/right of its normal position,
-3. If position=("sticky") - the left property behaves like its position is relative when the element is inside the viewport, and like its position is fixed when it is outside.
+1. If position="absolute" or position="fixed" - the left property sets the left edge of an element to a unit to the left of the left edge of its nearest positioned ancestor,
+2. If position="relative" - the left property sets the left edge of an element to a unit to the left/right of its normal position,
+3. If position="sticky" - the left property behaves like its position is relative when the element is inside the viewport, and like its position is fixed when it is outside.
 
 | Type            | Default |
 | --------------- | :-----: |
@@ -752,7 +751,7 @@ This CSS property affects the horizontal position of a positioned element. This 
 
 ### `zIndex`
 
-This CSS property specifies the stack order of an element. Works on positioned elements (position: absolute, position: relative, position: fixed, or position: sticky).
+This CSS property specifies the stack order of an element. Works on positioned elements (position="absolute", position="relative", position="fixed", or position="sticky").
 
 | Type                                           | Default |
 | ---------------------------------------------- | :-----: |

@@ -1,28 +1,54 @@
-# Button  
-Buttons are interactive elements used to get an action. They may contain text, icons, or both. Buttons can be a part of a composite element, e. g. form or card.
+# Button
+
+Buttons are interactive elements used to get an action. They usually contain text, but may contain icons, or both. Buttons can be a part of a composite element, e. g. form or card.
+
+<img alt="button " src="src/button.png" width="400px">
+
+// Image 800x600 with border and white bg
 
 ## Usage
+
 ```jsx
 import React from 'react';
 import ReactDom from 'react-dom';
-import { Button } from '@quarkly/elements';
+import { Button, Text } from '@quarkly/elements';
 
 ReactDom.render(
-    <Button variant="outline">Submit</Button>
+    <Button variant="outline">
+      <Text variant="base">
+        Submit
+      </Text>
+    </Button>
   document.getElementById('root'),
 );
 ```
 
 ## Props
 
-### Universal props
-- children
-   - text
-   - icon
-- id
-  
 ### Style props
-- [variant](####variant)
+
+#### Base
+
+- variant
+
+#### Layout
+
+- display
+- height
+- minHeight
+- maxHeight
+- width
+- minWidth
+- maxWidth
+- size
+
+#### Typography
+
+- fontSize
+- color
+
+#### Spaces
+
 - p
 - pt
 - pr
@@ -37,42 +63,51 @@ ReactDom.render(
 - ml
 - mx
 - my
-- bg
-- display
-- height
-   - minHeight
-   - maxHeight
-- width
-   - minWidth
-   - maxWidth
-- size
-- alignSelf
+
+#### Flex
+
+- alignItems
+- alignContent
+- justifyItems
+- justifyContent
+- flexWrap
+- flexBasis
+- flexDirection
+- flex
+- order
+
+#### Grid
+
 - justifySelf
-- border - Рамка у кнопки. Свитчер.
-   - borderSize
-   - borderTop
-   - borderRight
-   - borderBottom
-   - borderLeft
-   - borderSize - Размер рамки. Принимает цифру.
-   - borderRadius - Радиус скругления углов. Принимает цифру.
-   - borderColor - Цвет рамки. Принимает строку.
+- alignSelf
+
+#### Background
+
+- bg
+- background
+- backgroundImage
+- backgroundSize
+- backgroundPosition
+- backgroundRepeat
+
+#### Misc
+
+- border
+- borderTop
+- borderRight
+- borderBottom
+- borderLeft
+- borderColor
+- borderRadius
 - opacity
 - boxShadow
+- overflow
+
+#### Position
+
 - position
-   - top
-   - right
-   - bottom
-   - left
+- top
+- right
+- bottom
+- left
 - zIndex
-
-### Functional props
-- href
-   - targetBlank
-
-## Reference
-#### Variant
-The variation of the element that is defined in the theme
-| Type   | Default |
-| ------ | :-----: |
-| string |  none   |
