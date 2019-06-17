@@ -58,9 +58,9 @@ export default class TabClass extends Component {
     if (newProps === oldProps) return;
     const [tabNav] = findTabsNav(newProps.children);
     if (!tabNav.props || !tabNav.props.children) return;
-    const childLen = tabNav.props.children.length;
+    const childLen = tabNav.props.children.length - 1;
     if (childLen > this.state.activeTabIndex) {
-      this.this.setState({
+      this.setState({
         activeTabIndex: 0,
       });
     }
@@ -72,7 +72,6 @@ export default class TabClass extends Component {
     if (!tabs || !tabNav) {
       return null;
     }
-
     return (
       <Styled {...this.props}>
         {React.cloneElement(tabNav, {
