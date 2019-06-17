@@ -1643,6 +1643,111 @@ exports[`Storyshots Tabs constructor 1`] = `
 </section>
 `;
 
+exports[`Storyshots Tabs constructor lazy 1`] = `
+<section
+  className="sc-bdVaJa kdxHJG"
+>
+  <div
+    className="sc-jzJRlG XSGJE"
+  >
+    <div
+      className="sc-htpNat dYvtaT"
+      role="tabnav"
+    >
+      <button
+        className="active sc-bxivhb duDUOR"
+        onClick={[Function]}
+      >
+        Основное
+      </button>
+      <button
+        className="sc-bxivhb duDUOR"
+        onClick={[Function]}
+      >
+        Лэйаут
+      </button>
+      <button
+        className="sc-bxivhb duDUOR"
+        onClick={[Function]}
+      >
+        Отступы
+      </button>
+      <button
+        className="sc-bxivhb duDUOR"
+        onClick={[Function]}
+      >
+        Flex
+      </button>
+      <button
+        className="sc-bxivhb duDUOR"
+        onClick={[Function]}
+      >
+        Grid
+      </button>
+      <button
+        className="sc-bxivhb duDUOR"
+        onClick={[Function]}
+      >
+        Фон
+      </button>
+      <button
+        className="sc-bxivhb duDUOR"
+        onClick={[Function]}
+      >
+        Разное
+      </button>
+      <button
+        className="sc-bxivhb duDUOR"
+        onClick={[Function]}
+      >
+        Позиция
+      </button>
+    </div>
+    <div
+      className="sc-htpNat khVXnu"
+      role="tabs"
+    >
+      <div
+        className="sc-fjdhpX cIaEQc"
+      >
+        <div
+          className="sc-htpNat fcjVhU"
+          display="flex"
+        >
+          <p
+            className="sc-bwzfXH cDwzMq"
+            color="white"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+      </div>
+      <div
+        className="sc-fjdhpX djZNwv"
+      />
+      <div
+        className="sc-fjdhpX djZNwv"
+      />
+      <div
+        className="sc-fjdhpX djZNwv"
+      />
+      <div
+        className="sc-fjdhpX djZNwv"
+      />
+      <div
+        className="sc-fjdhpX djZNwv"
+      />
+      <div
+        className="sc-fjdhpX djZNwv"
+      />
+      <div
+        className="sc-fjdhpX djZNwv"
+      />
+    </div>
+  </div>
+</section>
+`;
+
 exports[`Storyshots Text adaptive 1`] = `
 <p
   className="sc-bwzfXH jVFDmL"
