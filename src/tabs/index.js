@@ -59,7 +59,7 @@ export default class TabClass extends Component {
     const [tabNav] = findTabsNav(newProps.children);
     if (!tabNav.props || !tabNav.props.children) return;
     const childLen = tabNav.props.children.length - 1;
-    if (childLen > this.state.activeTabIndex) {
+    if (this.state.activeTabIndex > childLen) {
       this.setState({
         activeTabIndex: 0,
       });
