@@ -2,7 +2,7 @@
 
 Blocks are logical units of content on pages. It is a tag `section` with height=("100vh"). Blocks are composite elements. They can containing other elements.
 
-<img alt="block" src="src/block.png" width="400px">
+<img alt="block" src="src/block.png" width="800px">
 
 ## Usage
 

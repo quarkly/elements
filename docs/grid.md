@@ -2,7 +2,7 @@
 
 Grids are simple containers for different tasks, e.g. to create the necessary arrangement of child elements. It is a tag `div` with display="grid" property. Grids are composite elements. They can containing other elements.
 
-<img alt="grid" src="src/grid.png" width="400px">
+<img alt="grid" src="src/grid.png" width="800px">
 
 ## Usage
 

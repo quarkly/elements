@@ -2,7 +2,7 @@
 
 Boxes are simple containers for different tasks, e.g. to control width, margin, padding, and background-color. It is a tag `div`. Boxes are composite elements. They can containing other elements.
 
-<img alt="box" src="src/box.png" width="400px">
+<img alt="box" src="src/box.png" width="800px">
 
 ## Usage
 

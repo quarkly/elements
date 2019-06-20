@@ -2,7 +2,7 @@
 
 Images
 
-<img alt="image" src="src/image.png" width="400px">
+<img alt="image" src="src/image.png" width="800px">
 
 ## Usage
 

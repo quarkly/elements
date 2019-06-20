@@ -2,7 +2,7 @@
 
 The Text element is a wrapper that will apply typography styles to the text inside. Basically, it is a tag `p`.
 
-<img alt="text" src="src/text.png" width="400px">
+<img alt="text" src="src/text.png" width="800px">
 
 ## Usage
 

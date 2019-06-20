@@ -2,7 +2,7 @@
 
 Flexes are simple containers for different tasks, e.g. to create the necessary arrangement of child elements. It is a tag `div` with display="flex" property. Flexes are composite elements. They can containing other elements.
 
-<img alt="flex" src="src/flex.png" width="400px">
+<img alt="flex" src="src/flex.png" width="800px">
 
 ## Usage
 

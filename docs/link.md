@@ -2,7 +2,7 @@
 
 Links defines a hyperlink, which is used to link from one page to another. It is a tag `a`. They also can links from one place on the page to another.
 
-<img alt="link" src="src/link.png" width="400px">
+<img alt="link" src="src/link.png" width="800px">
 
 ## Usage
 

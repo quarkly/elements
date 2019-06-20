@@ -2,7 +2,7 @@
 
 It is a element for cycling through other elements with animation effect. All child elements will be slides of the carousel.
 
-<img alt="carousel" src="src/carousel.png" width="400px">
+<img alt="carousel" src="src/carousel.png" width="800px">
 
 ## Usage
 

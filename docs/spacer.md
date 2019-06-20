@@ -2,7 +2,7 @@
 
 Spacers are used to adding extra space around elements. It is just transparent `div` tag.
 
-<img alt="spacer" src="src/spacer.png" width="400px">
+<img alt="spacer" src="src/spacer.png" width="800px">
 
 ## Usage
 

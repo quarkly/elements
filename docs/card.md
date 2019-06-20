@@ -2,7 +2,7 @@
 
 Usually cards display a few info about products, services or persons and actions, e.g. "view details", "contact". Cards are composite elements. They can containing text, button, image, etc.
 
-<img alt="card" src="src/card.png" width="320">
+<img alt="card" src="src/card.png" width="800px">
 
 ## Usage
 

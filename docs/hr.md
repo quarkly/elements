@@ -2,7 +2,7 @@
 
 Hrs are using to define a thematic break in the content.
 
-<img alt="hr" src="src/hr.png" width="400px">
+<img alt="hr" src="src/hr.png" width="800px">
 
 ## Usage
 

@@ -2,7 +2,7 @@
 
 Lists defines an unordered list. They use for group similar entities. It is a tag `ul`. All child elements will be wrapped in a `li` tag.
 
-<img alt="list" src="src/list.png" width="400px">
+<img alt="list" src="src/list.png" width="800px">
 
 ## Usage
 
