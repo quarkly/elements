@@ -1,6 +1,6 @@
 # Spacer
 
-Spacers are used to adding extra space around elements. It is just transparent `div` tag.
+Spacers are used to adding extra space around elements. They are rendered (on the page) as transparent `div` tag.
 
 <img alt="spacer" src="src/spacer.png" width="800px">
 

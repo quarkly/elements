@@ -1,6 +1,6 @@
 # Button
 
-Buttons are interactive elements used to get an action. They usually contain text, but may contain icons, or both. Buttons can be a part of a composite element, e. g. form or card.
+Buttons are interactive elements used to get a desired action. They usually contain text, but may as well contain an icon, or both. A button can be a part of a composite element, e. g. a form or card.
 
 <img alt="button " src="src/button.png" width="800px">
 

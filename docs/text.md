@@ -1,6 +1,6 @@
 # Text
 
-The Text element is a wrapper that will apply typography styles to the text inside. Basically, it is a tag `p`.
+The Text element is a wrapper that applies typography styles to the text inside it. Basically, it is rendered (on the page) as `p` tag.
 
 <img alt="text" src="src/text.png" width="800px">
 

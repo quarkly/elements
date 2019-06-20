@@ -1,6 +1,6 @@
 # Flex
 
-Flexes are simple containers for different tasks, e.g. to create the necessary arrangement of child elements. It is a tag `div` with display="flex" property. Flexes are composite elements. They can containing other elements.
+Flexes are simple containers for different tasks, e.g. to create the necessary arrangement of child elements. They are rendered (on the page) as the `div` tag with display="flex" property. Flexes are composite elements. They can contain other elements.
 
 <img alt="flex" src="src/flex.png" width="800px">
 

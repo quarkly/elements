@@ -1,6 +1,6 @@
 # Block
 
-Blocks are logical units of content on pages. It is a tag `section` with height=("100vh"). Blocks are composite elements. They can containing other elements.
+Blocks are logical units that arrange content on pages. They are rendered (on the page) as the `section` tag with the height=("100vh"). Blocks are composite elements. They can contain other elements.
 
 <img alt="block" src="src/block.png" width="800px">
 
