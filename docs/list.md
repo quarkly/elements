@@ -1,6 +1,6 @@
 # List
 
-Lists defines an unordered list. They use for group similar entities. It is a tag `ul`. All child elements will be wrapped in a `li` tag.
+A list defines an unordered list. It is used to group similar items. A list rendered (on the page) as the `ul` tag. All child elements will be wrapped in the `li` tag.
 
 <img alt="list" src="src/list.png" width="800px">
 

@@ -1,6 +1,6 @@
 # Hr
 
-Hrs are using to define a thematic break in the content.
+Hrs are used to define a thematic break in content. They are rendered (on the page) as the `div` tag with border property.
 
 <img alt="hr" src="src/hr.png" width="800px">
 

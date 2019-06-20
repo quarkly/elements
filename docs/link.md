@@ -1,6 +1,6 @@
 # Link
 
-Links defines a hyperlink, which is used to link from one page to another. It is a tag `a`. They also can links from one place on the page to another.
+A link defines a hyperlink that links to either another part of the page or to another page altogether. A link rendered (on the page) as the `a` tag. It also can links from one place on the page to another.
 
 <img alt="link" src="src/link.png" width="800px">
 

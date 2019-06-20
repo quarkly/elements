@@ -1,6 +1,6 @@
 # Carousel
 
-It is a element for cycling through other elements with animation effect. All child elements will be slides of the carousel.
+It is a element for cycling through elements with animation effects. All child elements will are the slides of the carousel.
 
 <img alt="carousel" src="src/carousel.png" width="800px">
 

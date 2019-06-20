@@ -1,6 +1,6 @@
 # Image
 
-Images
+It is just image. It is rendered (on the page) as the `img` tag with border property.
 
 <img alt="image" src="src/image.png" width="800px">
 
