@@ -11,7 +11,7 @@ const Hr = elementary.div({
     'width',
     'minWidth',
     'maxWidth',
-    'bg',
+    'background',
     'opacity',
   ],
   variant: 'hrs',

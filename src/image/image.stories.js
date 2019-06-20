@@ -12,7 +12,7 @@ stories.add('adaptive', () => (
   <Theme>
     <Image
       src={text('src', 'https://picsum.photos/500', 'Core')}
-      p={array('p', [5, 10, 55], 'Core')}
+      p={array('padding', [5, 10, 55], 'Core')}
       bg={['red', 'blue', 'yellow']}
       height="400px"
       width="500px"
@@ -33,22 +33,22 @@ stories.add('thumb', () => (
 stories.add('with props', () => (
   <Theme>
     <Image
-      p={text('p', '20px', 'Core')}
+      p={text('padding', '20px', 'Core')}
       paddingTop={text('paddingTop', '', 'Core')}
       paddingRight={text('paddingRight', '', 'Core')}
       paddingBottom={text('paddingBottom', '', 'Core')}
       paddingLeft={text('paddingLeft', '', 'Core')}
-      px={text('px', '', 'Core')}
-      py={text('py', '', 'Core')}
-      m={text('m', '20px', 'Core')}
+      px={text('paddingX', '', 'Core')}
+      py={text('paddingY', '', 'Core')}
+      m={text('margin', '20px', 'Core')}
       marginTop={text('marginTop', '', 'Core')}
       marginRight={text('marginRight', '', 'Core')}
       marginBottom={text('marginBottom', '', 'Core')}
       marginLeft={text('marginLeft', '', 'Core')}
-      mx={text('mx', '', 'Core')}
-      my={text('my', '', 'Core')}
+      mx={text('marginX', '', 'Core')}
+      my={text('marginY', '', 'Core')}
       src={text('src', 'https://picsum.photos/500', 'Core')}
-      bg={array('bg', ['red', 'blue', 'yellow'], 'red', 'Core')}
+      bg={array('background', ['red', 'blue', 'yellow'], 'red', 'Core')}
       display={select(
         'display',
         {
