@@ -1,36 +1,22 @@
-# Card
+# Box
 
-Usually, cards display a brief info about products, services or persons and actions, e.g. "view details", "contact". Cards are composite elements. They can contain text, button, image, etc.
+Boxes are simple containers for different tasks, e.g. to control width, margin, padding, and background-color. They are rendered (on the page) as the `div` tag. Boxes are composite elements. They can contain other elements.
 
-<img alt="card" src="src/card.png" width="800px">
+<img alt="box" src="src/box.png" width="800px">
 
 ## Usage
 
 ```jsx
 import React from 'react';
 import ReactDom from 'react-dom';
-import { Card, Flex, Text, Button } from '@quarkly/elements';
+import { Box, Text } from '@quarkly/elements';
 
 ReactDom.render(
-  <Card variant="vertical">
-    <Flex
-      minHeight="200px"
-      backgroundSize="cover"
-      width="100%"
-      backgroundPosition="center center"
-      backgroundImage="url(https://images.unsplash.com/photo-1477005264461-b0e201668d92?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)"
-    />
-    <Flex flexDirection="column" p="20px" pb="32px" alignItems="flex-start">
-      <Text variant="h3" m="0">
-        The Moon
-      </Text>
-      <Text variant="base">
-        The Moon is an astronomical body that orbits planet Earth and is Earths only permanent
-        natural satellite.
-      </Text>
-      <Button>Read more</Button>
-    </Flex>
-  </Card>,
+  <Box width="1/2" bg="royalblue" p=1>
+    <Text variant="h1" m="0" textAlign="center" color="white">
+      Box
+    </Text>
+  </Box>
   document.getElementById('root'),
 );
 ```

@@ -1,58 +1,111 @@
-# Элемент button  
-Используется как самостоятельный элемент, и в составе сложных элементов.
+# Button
 
-**universal props**
-- children
-   - text
-   - icon
-- id
-  
-**style props**
+Buttons are interactive elements used to get a desired action. They usually contain text, but may as well contain an icon, or both. A button can be a part of a composite element, e. g. a form or card.
+
+<img alt="button " src="src/button.png" width="800px">
+
+## Usage
+
+```jsx
+import React from 'react';
+import ReactDom from 'react-dom';
+import { Button, Text } from '@quarkly/elements';
+
+ReactDom.render(
+    <Button variant="outline">
+      <Text variant="base">
+        Submit
+      </Text>
+    </Button>
+  document.getElementById('root'),
+);
+```
+
+## Props
+
+### Style props
+
+#### Base
+
 - variant
-- p
-- pt
-- pr
-- pb
-- pl
-- px
-- py
-- m
-- mt
-- mr
-- mb
-- ml
-- mx
-- my
-- bg
-- display
-- height
-   - minHeight
-   - maxHeight
-- width
-   - minWidth
-   - maxWidth
+
+#### Layout
+
+- display / d
+- height / h
+- minHeight / mih
+- maxHeight / mah
+- width / w
+- minWidth / miw
+- maxWidth / maw
 - size
-- alignSelf
-- justifySelf
-- border - Рамка у кнопки. Свитчер.
-   - borderSize
-   - borderTop
-   - borderRight
-   - borderBottom
-   - borderLeft
-   - borderSize - Размер рамки. Принимает цифру.
-   - borderRadius - Радиус скругления углов. Принимает цифру.
-   - borderColor - Цвет рамки. Принимает строку.
-- opacity
-- boxShadow
-- position
-   - top
-   - right
-   - bottom
-   - left
-- zIndex
 
-**personal props**
-- href
-   - targetBlank
+#### Typography
 
+- fontSize / fz
+- color / c
+
+#### Spaces
+
+- padding / p
+- paddingTop / pt
+- paddingRight / pr
+- paddingBottom / pb
+- paddingLeft / pl
+- paddingX / px
+- paddingY / py
+- margin / m
+- marginTop / mt
+- marginRight / mr
+- marginBottom / mb
+- marginLeft / ml
+- marginX / mx
+- marginY / my
+
+#### Flex
+
+- alignItems / ai
+- alignContent / ac
+- justifyItems / ji
+- justifyContent / jc
+- flexWrap / fxw
+- flexBasis / fxb
+- flexDirection / fxd
+- flex / fx
+- order / ord
+
+#### Grid
+
+- justifySelf / js
+- alignSelf / as
+
+#### Background
+
+- background / bg
+- backgroundColor / bgc
+- backgroundImage / bgi
+- backgroundSize / bgsz
+- backgroundPosition / bgp
+- backgroundRepeat / bgr
+
+#### Misc
+
+- border / bd
+- borderTop / bdt
+- borderRight / bdr
+- borderBottom / bdb
+- borderLeft / bdl
+- borderColor / bdc
+- borderRadius / bdrs
+- opacity / op
+- boxShadow / bxsh
+- overflow / ov
+
+#### Position
+
+- position / pos
+- top / t
+- right / r
+- bottom / b
+- left / l
+- zIndex / z

@@ -40,21 +40,21 @@ stories.add('with props', () => (
         'vertical',
         'Core',
       )}
-      p={text('p', '20px', 'Core')}
+      p={text('padding', '20px', 'Core')}
       paddingTop={text('paddingTop', '', 'Core')}
       paddingRight={text('paddingRight', '', 'Core')}
       paddingBottom={text('paddingBottom', '', 'Core')}
       paddingLeft={text('paddingLeft', '', 'Core')}
-      px={text('px', '', 'Core')}
-      py={text('py', '', 'Core')}
-      m={text('m', '20px', 'Core')}
+      px={text('paddingX', '', 'Core')}
+      py={text('paddingY', '', 'Core')}
+      m={text('margin', '20px', 'Core')}
       marginTop={text('marginTop', '', 'Core')}
       marginRight={text('marginRight', '', 'Core')}
       marginBottom={text('marginBottom', '', 'Core')}
       marginLeft={text('marginLeft', '', 'Core')}
-      mx={text('mx', '', 'Core')}
-      my={text('my', '', 'Core')}
-      bg={color('bg', 'lightslategrey', 'Core')}
+      mx={text('marginX', '', 'Core')}
+      my={text('marginY', '', 'Core')}
+      bg={color('background', 'lightslategrey', 'Core')}
       display={select(
         'display',
         {
@@ -200,7 +200,7 @@ stories.add('with props', () => (
       gridTemplateRows={text('gridTemplateRows', '', 'Grid')}
       gridTemplateColumns={text('gridTemplateColumns', '', 'Grid')}
       gridTemplateAreas={text('gridTemplateAreas', '', 'Grid')}
-      background={text('background', '', 'Background')}
+      background={text('backgroundColor', '', 'Background')}
       backgroundImage={text('backgroundImage', 'url()', 'Background')}
       backgroundSize={select(
         'backgroundSize',
@@ -210,7 +210,7 @@ stories.add('with props', () => (
           contain: 'contain',
         },
         'auto',
-        'Background',
+        'backgroundColor',
       )}
       backgroundPosition={select(
         'backgroundPosition',
@@ -227,7 +227,7 @@ stories.add('with props', () => (
           inherit: 'inherit',
         },
         'center center',
-        'Background',
+        'backgroundColor',
       )}
       backgroundRepeat={select(
         'backgroundRepeat',
@@ -241,7 +241,7 @@ stories.add('with props', () => (
           inherit: 'inherit',
         },
         'no-repeat',
-        'Background',
+        'backgroundColor',
       )}
       border={text('border', '', 'Misc')}
       borderTop={text('borderTop', '', 'Misc')}

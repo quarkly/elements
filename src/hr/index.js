@@ -2,7 +2,18 @@ import elementary from '@quarkly/elementary';
 
 const Hr = elementary.div({
   name: 'Hr',
-  styles: ['backgroundColor', 'width', 'height', 'display', 'opacity'],
+  styles: [
+    'variant',
+    'display',
+    'height',
+    'minHeight',
+    'maxHeight',
+    'width',
+    'minWidth',
+    'maxWidth',
+    'background',
+    'opacity',
+  ],
   variant: 'hrs',
 });
 

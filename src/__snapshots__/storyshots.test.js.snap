@@ -8,7 +8,7 @@ exports[`Storyshots Block default 1`] = `
 
 exports[`Storyshots Block with props 1`] = `
 <section
-  className="sc-bdVaJa hSTbwd"
+  className="sc-bdVaJa jVKEVv"
   display="block"
   height="300px"
   opacity=""
@@ -28,7 +28,7 @@ exports[`Storyshots Block with props 1`] = `
 
 exports[`Storyshots Box default 1`] = `
 <div
-  className="sc-htpNat bdCMgu"
+  className="sc-htpNat dwuLZg"
   height="200px"
   width="300px"
 />
@@ -36,7 +36,7 @@ exports[`Storyshots Box default 1`] = `
 
 exports[`Storyshots Box with props 1`] = `
 <div
-  className="sc-htpNat cNBKdU"
+  className="sc-htpNat cYYdmx"
   display="block"
   height="100vh"
   opacity=""
@@ -105,7 +105,7 @@ exports[`Storyshots Button with props 1`] = `
   display="flex"
 >
   <button
-    className="sc-bxivhb ectmIC"
+    className="sc-bxivhb gcmetu"
     display="block"
     height=""
     onClick={[Function]}
@@ -131,11 +131,11 @@ exports[`Storyshots Card with content horizontal 1`] = `
   className="sc-ifAKCX hlsfWv"
 >
   <div
-    className="sc-EHOje jYxVEs"
+    className="sc-EHOje dgSiwi"
     width="100%"
   />
   <div
-    className="sc-EHOje hEyNQv"
+    className="sc-EHOje hYuijH"
   >
     <p
       className="sc-bwzfXH kOvGIu"
@@ -162,7 +162,7 @@ exports[`Storyshots Card with content vertical 1`] = `
   className="sc-ifAKCX jjkobi"
 >
   <div
-    className="sc-EHOje ekmUJX"
+    className="sc-EHOje ivbtGQ"
     width="100%"
   />
   <div
@@ -190,7 +190,7 @@ exports[`Storyshots Card with content vertical 1`] = `
 
 exports[`Storyshots Card with props 1`] = `
 <div
-  className="sc-ifAKCX iggTzY"
+  className="sc-ifAKCX etTIAT"
   display="block"
   height=""
   opacity=""
@@ -200,7 +200,7 @@ exports[`Storyshots Card with props 1`] = `
   width=""
 >
   <div
-    className="sc-EHOje ekmUJX"
+    className="sc-EHOje ivbtGQ"
     width="100%"
   />
   <div
@@ -800,7 +800,7 @@ exports[`Storyshots Flex with card 1`] = `
   className="sc-ifAKCX jjkobi"
 >
   <div
-    className="sc-EHOje ekmUJX"
+    className="sc-EHOje ivbtGQ"
     width="100%"
   />
   <div
@@ -820,13 +820,13 @@ exports[`Storyshots Flex with card 1`] = `
       className="sc-EHOje hlyEaN"
     >
       <button
-        className="sc-bxivhb bKiFQF"
+        className="sc-bxivhb fRhXNK"
         onClick={[Function]}
       >
         First
       </button>
       <button
-        className="sc-bxivhb bKiFQF"
+        className="sc-bxivhb fRhXNK"
         onClick={[Function]}
       >
         Second
@@ -844,7 +844,7 @@ exports[`Storyshots Flex with card 1`] = `
 
 exports[`Storyshots Flex with props 1`] = `
 <div
-  className="sc-EHOje cQNSpl"
+  className="sc-EHOje cIELkj"
   display="flex"
   height="300px"
   opacity=""
@@ -929,7 +929,7 @@ exports[`Storyshots Grid with cards 1`] = `
     className="sc-ifAKCX jjkobi"
   >
     <div
-      className="sc-gzVnrw iKJXTp"
+      className="sc-gzVnrw gnNdxO"
       width="100%"
     />
     <div
@@ -949,7 +949,7 @@ exports[`Storyshots Grid with cards 1`] = `
         className="sc-gzVnrw gAVlbY"
       >
         <button
-          className="sc-bxivhb ipKMLS"
+          className="sc-bxivhb jZqUoY"
           onClick={[Function]}
         >
           First
@@ -961,7 +961,7 @@ exports[`Storyshots Grid with cards 1`] = `
     className="sc-ifAKCX jjkobi"
   >
     <div
-      className="sc-gzVnrw iKJXTp"
+      className="sc-gzVnrw gnNdxO"
       width="100%"
     />
     <div
@@ -981,7 +981,7 @@ exports[`Storyshots Grid with cards 1`] = `
         className="sc-gzVnrw gAVlbY"
       >
         <button
-          className="sc-bxivhb fWdZBF"
+          className="sc-bxivhb fyTDRn"
           onClick={[Function]}
         >
           First
@@ -993,7 +993,7 @@ exports[`Storyshots Grid with cards 1`] = `
     className="sc-ifAKCX jjkobi"
   >
     <div
-      className="sc-gzVnrw iKJXTp"
+      className="sc-gzVnrw gnNdxO"
       width="100%"
     />
     <div
@@ -1013,7 +1013,7 @@ exports[`Storyshots Grid with cards 1`] = `
         className="sc-gzVnrw gAVlbY"
       >
         <button
-          className="sc-bxivhb hpYQLB"
+          className="sc-bxivhb dFMZyr"
           onClick={[Function]}
         >
           First
@@ -1057,7 +1057,7 @@ exports[`Storyshots Grid with image 1`] = `
 
 exports[`Storyshots Grid with props 1`] = `
 <div
-  className="sc-gzVnrw cAWItM"
+  className="sc-gzVnrw hJUeNp"
   display="flex"
   height="300px"
   opacity=""
@@ -1103,7 +1103,7 @@ exports[`Storyshots Hr with props 1`] = `
 Array [
   "Content",
   <div
-    className="sc-htoDjs dfYexN"
+    className="sc-htoDjs bRpQfr"
     display="block"
     height="1px"
     opacity=""
@@ -1116,7 +1116,7 @@ Array [
 
 exports[`Storyshots Image adaptive 1`] = `
 <img
-  className="sc-bZQynM gTAvUb"
+  className="sc-bZQynM iuPrFX"
   height="400px"
   src="https://picsum.photos/500"
   width="500px"
@@ -1139,7 +1139,7 @@ exports[`Storyshots Image thumb 1`] = `
 
 exports[`Storyshots Image with props 1`] = `
 <img
-  className="sc-bZQynM bgWBmw"
+  className="sc-bZQynM jBKCzl"
   display="block"
   height="500px"
   opacity=""
@@ -1201,7 +1201,7 @@ exports[`Storyshots Link hover 1`] = `
 
 exports[`Storyshots Link with props 1`] = `
 <a
-  className="sc-iwsKbI OWucB"
+  className="sc-iwsKbI fHcApb"
   color="#007bff"
   fontFamily=""
   fontSize=""
@@ -1293,7 +1293,7 @@ exports[`Storyshots List horizontal 1`] = `
 
 exports[`Storyshots List with props 1`] = `
 <ul
-  className="sc-gZMcBi kgpnIA"
+  className="sc-gZMcBi bvSUlR"
   display="block"
   height="300px"
   opacity=""
@@ -1466,49 +1466,49 @@ exports[`Storyshots Tabs constructor 1`] = `
       role="tabnav"
     >
       <button
-        className="active sc-bxivhb duDUOR"
+        className="active sc-bxivhb jWZeyE"
         onClick={[Function]}
       >
         Основное
       </button>
       <button
-        className="sc-bxivhb duDUOR"
+        className="sc-bxivhb jWZeyE"
         onClick={[Function]}
       >
         Лэйаут
       </button>
       <button
-        className="sc-bxivhb duDUOR"
+        className="sc-bxivhb jWZeyE"
         onClick={[Function]}
       >
         Отступы
       </button>
       <button
-        className="sc-bxivhb duDUOR"
+        className="sc-bxivhb jWZeyE"
         onClick={[Function]}
       >
         Flex
       </button>
       <button
-        className="sc-bxivhb duDUOR"
+        className="sc-bxivhb jWZeyE"
         onClick={[Function]}
       >
         Grid
       </button>
       <button
-        className="sc-bxivhb duDUOR"
+        className="sc-bxivhb jWZeyE"
         onClick={[Function]}
       >
         Фон
       </button>
       <button
-        className="sc-bxivhb duDUOR"
+        className="sc-bxivhb jWZeyE"
         onClick={[Function]}
       >
         Разное
       </button>
       <button
-        className="sc-bxivhb duDUOR"
+        className="sc-bxivhb jWZeyE"
         onClick={[Function]}
       >
         Позиция
@@ -1655,49 +1655,49 @@ exports[`Storyshots Tabs constructor lazy 1`] = `
       role="tabnav"
     >
       <button
-        className="active sc-bxivhb duDUOR"
+        className="active sc-bxivhb jWZeyE"
         onClick={[Function]}
       >
         Основное
       </button>
       <button
-        className="sc-bxivhb duDUOR"
+        className="sc-bxivhb jWZeyE"
         onClick={[Function]}
       >
         Лэйаут
       </button>
       <button
-        className="sc-bxivhb duDUOR"
+        className="sc-bxivhb jWZeyE"
         onClick={[Function]}
       >
         Отступы
       </button>
       <button
-        className="sc-bxivhb duDUOR"
+        className="sc-bxivhb jWZeyE"
         onClick={[Function]}
       >
         Flex
       </button>
       <button
-        className="sc-bxivhb duDUOR"
+        className="sc-bxivhb jWZeyE"
         onClick={[Function]}
       >
         Grid
       </button>
       <button
-        className="sc-bxivhb duDUOR"
+        className="sc-bxivhb jWZeyE"
         onClick={[Function]}
       >
         Фон
       </button>
       <button
-        className="sc-bxivhb duDUOR"
+        className="sc-bxivhb jWZeyE"
         onClick={[Function]}
       >
         Разное
       </button>
       <button
-        className="sc-bxivhb duDUOR"
+        className="sc-bxivhb jWZeyE"
         onClick={[Function]}
       >
         Позиция
@@ -1760,35 +1760,35 @@ exports[`Storyshots Tabs tabidex reset 1`] = `
       role="tabnav"
     >
       <button
-        className="active sc-bxivhb duDUOR"
+        className="active sc-bxivhb jWZeyE"
         onClick={[Function]}
       >
         Лэйаут 
         0
       </button>
       <button
-        className="sc-bxivhb duDUOR"
+        className="sc-bxivhb jWZeyE"
         onClick={[Function]}
       >
         Лэйаут 
         1
       </button>
       <button
-        className="sc-bxivhb duDUOR"
+        className="sc-bxivhb jWZeyE"
         onClick={[Function]}
       >
         Лэйаут 
         2
       </button>
       <button
-        className="sc-bxivhb duDUOR"
+        className="sc-bxivhb jWZeyE"
         onClick={[Function]}
       >
         Лэйаут 
         3
       </button>
       <button
-        className="sc-bxivhb duDUOR"
+        className="sc-bxivhb jWZeyE"
         onClick={[Function]}
       >
         Лэйаут 
@@ -1931,7 +1931,7 @@ Array [
 
 exports[`Storyshots Text with props 1`] = `
 <p
-  className="sc-bwzfXH csnebH"
+  className="sc-bwzfXH jSkcNO"
   color="black"
   fontFamily=""
   fontSize=""
@@ -1985,7 +1985,7 @@ exports[`Storyshots Tooltip empty 1`] = `
 exports[`Storyshots Tooltip hidden 1`] = `
 <div>
   <button
-    className="sc-bxivhb bKiFQF"
+    className="sc-bxivhb kjyZZG"
     onClick={[Function]}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
@@ -1998,7 +1998,7 @@ exports[`Storyshots Tooltip hidden 1`] = `
 exports[`Storyshots Tooltip top 1`] = `
 <div>
   <button
-    className="sc-bxivhb bKiFQF"
+    className="sc-bxivhb kjyZZG"
     onClick={[Function]}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}

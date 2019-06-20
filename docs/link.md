@@ -1,20 +1,22 @@
-# Spacer
+# Link
 
-Spacers are used to adding extra space around elements. They are rendered (on the page) as transparent `div` tag.
+A link defines a hyperlink that links to either another part of the page or to another page altogether. A link rendered (on the page) as the `a` tag. It also can links from one place on the page to another.
 
-<img alt="spacer" src="src/spacer.png" width="800px">
+<img alt="link" src="src/link.png" width="800px">
 
 ## Usage
 
 ```jsx
 import React from 'react';
 import ReactDom from 'react-dom';
-import { Spacer, Text } from '@quarkly/elements';
+import { Link, Text } from '@quarkly/elements';
 
 ReactDom.render(
-  <Text variant="base">Content</Text>
-  <Spacer/>
-  <Text variant="base">Content</Text>
+  <Link href="https://quarkly.space/">
+    <Text variant="base" color="#007bff" hoverColor="#0056b3">
+      Quarkly
+    </Text>
+  </Link>
   document.getElementById('root'),
 );
 ```
@@ -26,6 +28,10 @@ ReactDom.render(
 #### Base
 
 - variant
+- href
+- name
+- target
+- title
 
 #### Layout
 
@@ -40,20 +46,25 @@ ReactDom.render(
 
 #### Spaces
 
-- p
-- pt
-- pr
-- pb
-- pl
-- px
-- py
-- m
-- mt
-- mr
-- mb
-- ml
-- mx
-- my
+- padding / p
+- paddingTop / pt
+- paddingRight / pr
+- paddingBottom / pb
+- paddingLeft / pl
+- paddingX / px
+- paddingY / py
+- margin / m
+- marginTop / mt
+- marginRight / mr
+- marginBottom / mb
+- marginLeft / ml
+- marginX / mx
+- marginY / my
+
+#### Typography
+
+- fontSize / fz
+- color / c
 
 #### Flex
 
@@ -67,8 +78,8 @@ ReactDom.render(
 
 #### Background
 
-- bg
 - background / bg
+- backgroundColor / bgc
 - backgroundImage / bgi
 - backgroundSize / bgsz
 - backgroundPosition / bgp

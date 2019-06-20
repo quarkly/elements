@@ -130,7 +130,11 @@ class TabNavTestBox extends React.Component {
           <Tabs>
             <Box role="tabnav" variant="tabnav">
               {interate(this.state.controls, i => (
-                <Button variant="tab" activeColor="white" activeBorderBottom="2px solid white">
+                <Button
+                  key={i}
+                  variant="tab"
+                  activeColor="white"
+                  activeBorderBottom="2px solid white">
                   Лэйаут {i}
                 </Button>
               ))}

@@ -82,21 +82,21 @@ stories
           'vertical',
           'Layout',
         )}
-        p={text('p', '', 'Core')}
+        p={text('padding', '', 'Core')}
         paddingTop={text('paddingTop', '', 'Core')}
         paddingRight={text('paddingRight', '', 'Core')}
         paddingBottom={text('paddingBottom', '', 'Core')}
         paddingLeft={text('paddingLeft', '', 'Core')}
-        px={text('px', '', 'Core')}
-        py={text('py', '', 'Core')}
-        m={text('m', '', 'Core')}
+        px={text('paddingX', '', 'Core')}
+        py={text('paddingY', '', 'Core')}
+        m={text('margin', '', 'Core')}
         marginTop={text('marginTop', '', 'Core')}
         marginRight={text('marginRight', '', 'Core')}
         marginBottom={text('marginBottom', '', 'Core')}
         marginLeft={text('marginLeft', '', 'Core')}
-        mx={text('mx', '', 'Core')}
-        my={text('my', '', 'Core')}
-        bg={color('bg', '', 'Core')}
+        mx={text('marginX', '', 'Core')}
+        my={text('marginY', '', 'Core')}
+        bg={color('background', '', 'Core')}
         display={select(
           'display',
           {
@@ -242,7 +242,7 @@ stories
         gridTemplateRows={text('gridTemplateRows', '', 'Grid')}
         gridTemplateColumns={text('gridTemplateColumns', '', 'Grid')}
         gridTemplateAreas={text('gridTemplateAreas', '', 'Grid')}
-        background={text('background', '', 'Background')}
+        background={text('backgroundColor', '', 'Background')}
         backgroundImage={text('backgroundImage', 'url()', 'Background')}
         backgroundSize={select(
           'backgroundSize',
@@ -252,7 +252,7 @@ stories
             contain: 'contain',
           },
           'auto',
-          'Background',
+          'backgroundColor',
         )}
         backgroundPosition={select(
           'backgroundPosition',
@@ -269,7 +269,7 @@ stories
             inherit: 'inherit',
           },
           'center center',
-          'Background',
+          'backgroundColor',
         )}
         backgroundRepeat={select(
           'backgroundRepeat',
@@ -283,7 +283,7 @@ stories
             inherit: 'inherit',
           },
           'no-repeat',
-          'Background',
+          'backgroundColor',
         )}
         border={text('border', '', 'Misc')}
         borderTop={text('borderTop', '', 'Misc')}
