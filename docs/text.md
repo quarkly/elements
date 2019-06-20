@@ -4,8 +4,6 @@ The Text element is a wrapper that will apply typography styles to the text insi
 
 <img alt="text" src="src/text.png" width="400px">
 
-// Image 800x600
-
 ## Usage
 
 ```jsx
@@ -31,79 +29,80 @@ ReactDom.render(
 
 #### Layout
 
-- display
-- height
-- minHeight
-- maxHeight
-- width
-- minWidth
-- maxWidth
+- display / d
+- height / h
+- minHeight / mih
+- maxHeight / mah
+- width / w
+- minWidth / miw
+- maxWidth / maw
 - size
 
 #### Spaces
 
-- padding
-- paddingTop
-- paddingRight
-- paddingBottom
-- paddingLeft
-- paddingX
-- paddingY
-- margin
-- marginTop
-- marginRight
-- marginBottom
-- marginLeft
-- marginX
-- marginY
+- padding / p
+- paddingTop / pt
+- paddingRight / pr
+- paddingBottom / pb
+- paddingLeft / pl
+- paddingX / px
+- paddingY / py
+- margin / m
+- marginTop / mt
+- marginRight / mr
+- marginBottom / mb
+- marginLeft / ml
+- marginX / mx
+- marginY / my
 
 #### Typography
 
-- fontSize
-- color
-- fontFamily
-- fontWeight
-- textAlign
-- lineHeight
-- letterSpacing
+- fontSize / fz
+- color / c
+- fontFamily / ff
+- fontWeight / fw
+- textAlign / ta
+- lineHeight / lh
+- fontStyle / fs
+- letterSpacing / lts
 
 #### Flex
 
-- flex
-- order
+- flex / fx
+- order / ord
 
 #### Grid
 
-- justifySelf
-- alignSelf
+- justifySelf / js
+- alignSelf / as
 
 #### Background
 
-- background
-- backgroundColor
-- backgroundImage
-- backgroundSize
-- backgroundPosition
-- backgroundRepeat
+- background / bg
+- backgroundColor / bgc
+- backgroundImage / bgi
+- backgroundSize / bgsz
+- backgroundPosition / bgp
+- backgroundRepeat / bgr
 
 #### Misc
 
-- border
-- borderTop
-- borderRight
-- borderBottom
-- borderLeft
-- borderColor
-- borderRadius
-- opacity
-- boxShadow
-- overflow
+- border / bd
+- borderTop / bdt
+- borderRight / bdr
+- borderBottom / bdb
+- borderLeft / bdl
+- borderColor / bdc
+- borderRadius / bdrs
+- opacity / op
+- boxShadow / bxsh
+- overflow / ov
 
 #### Position
 
-- position
-- top
-- right
-- bottom
-- left
-- zIndex
+- position / pos
+- top / t
+- right / r
+- bottom / b
+- left / l
+- zIndex / z

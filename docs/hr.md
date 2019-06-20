@@ -4,8 +4,6 @@ Hrs are using to define a thematic break in the content.
 
 <img alt="hr" src="src/hr.png" width="400px">
 
-// Image 800x600 with border and white bg
-
 ## Usage
 
 ```jsx
@@ -35,18 +33,18 @@ ReactDom.render(
 
 #### Layout
 
-- display
-- height
-- minHeight
-- maxHeight
-- width
-- minWidth
-- maxWidth
+- display / d
+- height / h
+- minHeight / mih
+- maxHeight / mah
+- width / w
+- minWidth / miw
+- maxWidth / maw
 
 #### Background
 
-- background
+- background / bg
 
 #### Misc
 
-- opacity
+- opacity / op
