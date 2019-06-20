@@ -45,7 +45,7 @@ ReactDom.render(
 
 #### Background
 
-- bg
+- background
 
 #### Misc
 

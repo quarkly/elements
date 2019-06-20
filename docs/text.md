@@ -42,20 +42,20 @@ ReactDom.render(
 
 #### Spaces
 
-- p
-- pt
-- pr
-- pb
-- pl
-- px
-- py
-- m
-- mt
-- mr
-- mb
-- ml
-- mx
-- my
+- padding
+- paddingTop
+- paddingRight
+- paddingBottom
+- paddingLeft
+- paddingX
+- paddingY
+- margin
+- marginTop
+- marginRight
+- marginBottom
+- marginLeft
+- marginX
+- marginY
 
 #### Typography
 
@@ -79,8 +79,8 @@ ReactDom.render(
 
 #### Background
 
-- bg
 - background
+- backgroundColor
 - backgroundImage
 - backgroundSize
 - backgroundPosition
