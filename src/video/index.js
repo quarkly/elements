@@ -10,9 +10,9 @@ const VideoWrap = elementary.div({
 });
 
 const NewVideo = ({ src, mute, showControls, showInfo, loop, autoPlay, ...other }) => {
-  const parseUrl = new URL(src);
+  const parseUrl = src ? new URL(src) : '';
   const videoHost = parseUrl.hostname;
-  let TypeOfVideo;
+  let typeOfVideo;
   let videoId;
   let muteOption;
   let autoPlayOption;
@@ -29,7 +29,7 @@ const NewVideo = ({ src, mute, showControls, showInfo, loop, autoPlay, ...other 
   // YOUTUBE showInfo - добавляем к URL-строке &showinfo=1 (0 или 1*)
   // YOUTUBE mute - добавляем к URL-строке &mute=1 (0* или 1)
 
-  // VIMEO ссылки на видео могут быть разные https://developer.vimeo.com/api/oembed/videos
+  // TODO: VIMEO ссылки на видео могут быть разные https://developer.vimeo.com/api/oembed/videos
   // VIMEO autoplay - добавляем к URL-строке &autoplay=1 (0* или 1)
   // VIMEO showControls - добавляем к URL-строке &controls=1 (0 или 1* или 2)
   // VIMEO loop - добавляем к URL-строке &loop=1 (0* или 1)
@@ -38,12 +38,12 @@ const NewVideo = ({ src, mute, showControls, showInfo, loop, autoPlay, ...other 
 
   if (videoHost === 'www.youtube.com' || videoHost === 'youtube.com' || videoHost === 'youtu.be') {
     videoId = parseUrl.searchParams.get('v');
-    TypeOfVideo = 'youtube';
+    typeOfVideo = 'youtube';
   } else if (videoHost === 'vimeo.com') {
     videoId = parseUrl.pathname;
-    TypeOfVideo = 'vimeo';
+    typeOfVideo = 'vimeo';
   } else {
-    TypeOfVideo = 'unknown';
+    typeOfVideo = 'unknown';
   }
 
   // autoplay
@@ -68,27 +68,27 @@ const NewVideo = ({ src, mute, showControls, showInfo, loop, autoPlay, ...other 
   }
 
   // showInfo vimeo
-  if (showInfo && TypeOfVideo === 'vimeo') {
+  if (showInfo && typeOfVideo === 'vimeo') {
     showInfoOptionVimeo = '&title=1&byline=1';
   } else {
     showInfoOptionVimeo = '&title=0&byline=0';
   }
 
   // showInfo youtube
-  if (showInfo && TypeOfVideo === 'youtube') {
+  if (showInfo && typeOfVideo === 'youtube') {
     showInfoOptionYoutube = '&showinfo=1';
   } else {
     showInfoOptionYoutube = '&showinfo=0';
   }
 
-  showInfoOption = TypeOfVideo === 'youtube' ? showInfoOptionYoutube : showInfoOptionVimeo;
+  showInfoOption = typeOfVideo === 'youtube' ? showInfoOptionYoutube : showInfoOptionVimeo;
 
   // MUTE
-  if (mute && TypeOfVideo === 'youtube') {
+  if (mute && typeOfVideo === 'youtube') {
     muteOption = '&mute=1';
-  } else if (mute && TypeOfVideo === 'vimeo') {
+  } else if (mute && typeOfVideo === 'vimeo') {
     muteOption = '&muted=1';
-  } else if (mute === false && TypeOfVideo === 'vimeo') {
+  } else if (mute === false && typeOfVideo === 'vimeo') {
     muteOption = '&muted=0';
   } else {
     muteOption = '&mute=0';
@@ -97,31 +97,28 @@ const NewVideo = ({ src, mute, showControls, showInfo, loop, autoPlay, ...other 
 
   return (
     <VideoWrap {...other}>
-      <Video videoId={videoId} TypeOfVideo={TypeOfVideo} extraOptions={extraOptions} />
+      <Video videoId={videoId} typeOfVideo={typeOfVideo} extraOptions={extraOptions} />
     </VideoWrap>
   );
 };
 
-const Video = ({ videoId, extraOptions, TypeOfVideo }) => {
-  let embedVideo;
+const Video = ({ videoId, extraOptions, typeOfVideo }) => {
+  const getVideoUrlByType = type => {
+    if (type === 'youtube') {
+      return `https://www.youtube.com/embed/${videoId}?rel=0${extraOptions}`;
+    } else if (type === 'vimeo') {
+      return `https://player.vimeo.com/video${videoId}?portrait=0&responsive=1${extraOptions}`;
+    } else {
+      return `https://www.youtube.com/embed/eE8Awccr-Ew?rel=0${extraOptions}`;
+    }
+  };
 
-  const defaultVideo = `https://www.youtube.com/embed/eE8Awccr-Ew?rel=0${extraOptions}`;
-  const youtubeVideo = `https://www.youtube.com/embed/${videoId}?rel=0${extraOptions}`;
-  const vimeoVideo = `https://player.vimeo.com/video${videoId}?portrait=0&responsive=1${extraOptions}`;
-
-  if (TypeOfVideo === 'youtube') {
-    embedVideo = youtubeVideo;
-  } else if (TypeOfVideo === 'vimeo') {
-    embedVideo = vimeoVideo;
-  } else {
-    embedVideo = defaultVideo;
-  }
   return (
     <iframe
       title="video"
       width="100%"
       height="100%"
-      src={embedVideo}
+      src={getVideoUrlByType(typeOfVideo)}
       frameBorder="0"
       allowFullScreen
       allow="autoplay; fullscreen"
