@@ -19,6 +19,8 @@ const NewVideo = ({ src, mute, showControls, showInfo, loop, autoPlay, ...other 
   let showControlsOption;
   let loopOption;
   let showInfoOption;
+  let showInfoOptionYoutube;
+  let showInfoOptionVimeo;
   let extraOptions;
 
   // YOUTUBE autoplay - добавляем к URL-строке &autoplay=1 (0* или 1)
@@ -65,19 +67,21 @@ const NewVideo = ({ src, mute, showControls, showInfo, loop, autoPlay, ...other 
     loopOption = '&loop=0';
   }
 
-  // showInfo youtube
-  if (showInfo && TypeOfVideo === 'youtube') {
-    showInfoOption = '&showinfo=1';
-  } else {
-    showInfoOption = '';
-  }
-
   // showInfo vimeo
   if (showInfo && TypeOfVideo === 'vimeo') {
-    showInfoOption = '&title=0&byline=0';
+    showInfoOptionVimeo = '&title=1&byline=1';
   } else {
-    showInfoOption = '';
+    showInfoOptionVimeo = '&title=0&byline=0';
   }
+
+  // showInfo youtube
+  if (showInfo && TypeOfVideo === 'youtube') {
+    showInfoOptionYoutube = '&showinfo=1';
+  } else {
+    showInfoOptionYoutube = '&showinfo=0';
+  }
+
+  showInfoOption = TypeOfVideo === 'youtube' ? showInfoOptionYoutube : showInfoOptionVimeo;
 
   // MUTE
   if (mute && TypeOfVideo === 'youtube') {
