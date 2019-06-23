@@ -1,7 +1,7 @@
 import elementary from '@quarkly/elementary';
 import React from 'react';
 
-const VideoWrap = elementary.div({
+const Iframe = elementary.iframe({
   name: 'Video',
   variant: 'videos',
   effects: {
@@ -96,13 +96,11 @@ const NewVideo = ({ src, mute, showControls, showInfo, loop, autoPlay, ...other 
   extraOptions = muteOption + autoPlayOption + showControlsOption + loopOption + showInfoOption;
 
   return (
-    <VideoWrap {...other}>
-      <Video videoId={videoId} typeOfVideo={typeOfVideo} extraOptions={extraOptions} />
-    </VideoWrap>
+    <Video videoId={videoId} typeOfVideo={typeOfVideo} extraOptions={extraOptions} {...other} />
   );
 };
 
-const Video = ({ videoId, extraOptions, typeOfVideo }) => {
+const Video = ({ videoId, extraOptions, typeOfVideo, ...other }) => {
   const getVideoUrlByType = type => {
     if (type === 'youtube') {
       return `https://www.youtube.com/embed/${videoId}?rel=0${extraOptions}`;
@@ -114,10 +112,9 @@ const Video = ({ videoId, extraOptions, typeOfVideo }) => {
   };
 
   return (
-    <iframe
+    <Iframe
+      {...other}
       title="video"
-      width="100%"
-      height="100%"
       src={getVideoUrlByType(typeOfVideo)}
       frameBorder="0"
       allowFullScreen
