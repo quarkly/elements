@@ -9,5 +9,5 @@ const stories = storiesOf('Video', module);
 stories.addDecorator(withKnobs);
 
 stories.add('default', () => (
-  <Video src="https://www.youtube.com/watch?v=c6t3bW7kx6E" size="800px" />
+  <Video src="https://www.youtube.com/watch?v=c6t3bW7kx6E" width="100%" height="auto" />
 ));

@@ -1,6 +1,5 @@
 import elementary from '@quarkly/elementary';
 import React from 'react';
-const videoLink = 'https://www.youtube.com/watch?v=c6t3bW7kx6E';
 
 const VideoWrap = elementary.div({
   name: 'Video',
@@ -10,18 +9,21 @@ const VideoWrap = elementary.div({
   },
 });
 
-const NewVideo = ({ src, ...other }) => {
+const NewVideo = ({ src, mute, showControls, showInfo, loop, autoplay, ...other }) => {
   const parseUrl = new URL(src);
   const videoHost = parseUrl.hostname;
   let TypeOfVideo;
-  let youtubeVideoId;
-  let vimeoVideoId;
-
+  let videoId;
+  // YOUTUBE autoplay - добавляем к URL-строке &autoplay=1 (0* или 1)
+  // YOUTUBE showControls - добавляем к URL-строке &controls=1 (0 или 1* или 2)
+  // YOUTUBE loop - добавляем к URL-строке &loop=1 (0* или 1)
+  // YOUTUBE showInfo - добавляем к URL-строке &showinfo=1 (0 или 1*)
+  // YOUTUBE mute - добавляем к URL-строке &mute=1 (0* или 1)
   if (videoHost === 'www.youtube.com' || videoHost === 'youtube.com' || videoHost === 'youtu.be') {
-    youtubeVideoId = parseUrl.searchParams.get('v');
+    videoId = parseUrl.searchParams.get('v');
     TypeOfVideo = 'youtube';
   } else if (videoHost === 'vimeo.com') {
-    vimeoVideoId = parseUrl.pathname;
+    videoId = parseUrl.pathname;
     TypeOfVideo = 'vimeoVideoId';
   } else {
     TypeOfVideo = 'unknown';
@@ -29,52 +31,35 @@ const NewVideo = ({ src, ...other }) => {
 
   return (
     <VideoWrap {...other}>
-      <Video
-        youtubeVideoId={youtubeVideoId}
-        vimeoVideoId={vimeoVideoId}
-        TypeOfVideo={TypeOfVideo}
-      />
+      <Video videoId={videoId} TypeOfVideo={TypeOfVideo} />
     </VideoWrap>
   );
 };
 
-const Video = ({ youtubeVideoId, vimeoVideoId, TypeOfVideo }) => {
-  const youtubeVideo = (
+const Video = ({ videoId, TypeOfVideo }) => {
+  let embedVideo;
+
+  const defaultVideo = 'https://www.youtube.com/embed/eE8Awccr-Ew';
+  const youtubeVideo = `https://www.youtube.com/embed/${videoId}?rel=0`;
+  const vimeoVideo = `https://player.vimeo.com/video/${videoId}?byline=0&portrait=0`;
+
+  if (TypeOfVideo === 'youtube') {
+    embedVideo = youtubeVideo;
+  } else if (TypeOfVideo === 'vimeo') {
+    embedVideo = vimeoVideo;
+  } else {
+    embedVideo = defaultVideo;
+  }
+  return (
     <iframe
-      title="youtube video"
-      width="560"
-      height="315"
-      src={`https://www.youtube.com/embed/${youtubeVideoId}`}
+      title="video"
+      width="100%"
+      height="auto"
+      src={embedVideo}
       frameBorder="0"
-      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
     />
   );
-  const vimeoVideo = (
-    <iframe
-      title="vimeo video"
-      src={`https://player.vimeo.com/video/${vimeoVideoId}?byline=0&portrait=0`}
-      width="640"
-      height="360"
-      frameBorder="0"
-      allow="autoplay; fullscreen"
-      allowFullScreen
-    />
-  );
-  const defaultVideo = (
-    <iframe
-      title="youtube video"
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/eE8Awccr-Ew"
-      frameBorder="0"
-      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-      allowFullScreen
-    />
-  );
-  const embedVideo =
-    TypeOfVideo == 'youtube' ? youtubeVideo : TypeOfVideo == 'vimeo' ? vimeoVideo : defaultVideo;
-  return <VideoWrap>{embedVideo}</VideoWrap>;
 };
 
 export default NewVideo;
