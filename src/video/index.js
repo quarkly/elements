@@ -1,3 +1,4 @@
+/* eslint-disable react/require-default-props */
 import elementary from '@quarkly/elementary';
 import React from 'react';
 import PropTypes from 'prop-types';
@@ -19,10 +20,8 @@ const Video = ({ src, mute, showControls, showInfo, loop, autoPlay, ...other }) 
   let autoPlayOption;
   let showControlsOption;
   let loopOption;
-  let showInfoOption;
   let showInfoOptionYoutube;
   let showInfoOptionVimeo;
-  let extraOptions;
 
   // YOUTUBE autoplay - добавляем к URL-строке &autoplay=1 (0* или 1)
   // YOUTUBE showControls - добавляем к URL-строке &controls=1 (0 или 1* или 2)
@@ -82,7 +81,7 @@ const Video = ({ src, mute, showControls, showInfo, loop, autoPlay, ...other }) 
     showInfoOptionYoutube = '&showinfo=0';
   }
 
-  showInfoOption = typeOfVideo === 'youtube' ? showInfoOptionYoutube : showInfoOptionVimeo;
+  const showInfoOption = typeOfVideo === 'youtube' ? showInfoOptionYoutube : showInfoOptionVimeo;
 
   // MUTE
   if (mute && typeOfVideo === 'youtube') {
@@ -94,7 +93,8 @@ const Video = ({ src, mute, showControls, showInfo, loop, autoPlay, ...other }) 
   } else {
     muteOption = '&mute=0';
   }
-  extraOptions = muteOption + autoPlayOption + showControlsOption + loopOption + showInfoOption;
+  const extraOptions =
+    muteOption + autoPlayOption + showControlsOption + loopOption + showInfoOption;
 
   return (
     <VideoWrap videoId={videoId} typeOfVideo={typeOfVideo} extraOptions={extraOptions} {...other} />
@@ -106,9 +106,8 @@ const getVideoUrlByType = (type, videoId, extraOptions) => {
     return `https://www.youtube.com/embed/${videoId}?rel=0${extraOptions}`;
   } else if (type === 'vimeo') {
     return `https://player.vimeo.com/video${videoId}?portrait=0&responsive=1${extraOptions}`;
-  } else {
-    return `https://www.youtube.com/embed/eE8Awccr-Ew?rel=0${extraOptions}`;
   }
+  return `https://www.youtube.com/embed/eE8Awccr-Ew?rel=0${extraOptions}`;
 };
 
 const VideoWrap = ({ videoId, extraOptions, typeOfVideo, ...other }) => {
