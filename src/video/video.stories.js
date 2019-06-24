@@ -12,11 +12,11 @@ stories.add('default', () => (
   <Theme>
     <Video
       src={text('src', 'https://www.youtube.com/watch?v=c6t3bW7kx6E', 'Core')}
-      mute={boolean('mute', '0', 'Core')}
-      showControls={boolean('showControls', '1', 'Core')}
-      showInfo={boolean('showInfo', '1', 'Core')}
-      loop={boolean('loop', '0', 'Core')}
-      autoPlay={boolean('autoPlay', '0', 'Core')}
+      mute={boolean('mute', false, 'Core')}
+      showControls={boolean('showControls', true, 'Core')}
+      showInfo={boolean('showInfo', true, 'Core')}
+      loop={boolean('loop', false, 'Core')}
+      autoPlay={boolean('autoPlay', false, 'Core')}
       p={text('p', '', 'Spacing')}
       paddingTop={text('paddingTop', '', 'Spacing')}
       paddingRight={text('paddingRight', '', 'Spacing')}
