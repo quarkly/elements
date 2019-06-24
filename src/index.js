@@ -17,5 +17,6 @@ export { default as Input } from './input';
 export { default as Tooltip } from './tooltip';
 export { default as Select } from './select';
 export { default as Option } from './option';
+export { default as Video } from './video';
 
 export * from './quark';
