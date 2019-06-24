@@ -1,5 +1,6 @@
 import elementary from '@quarkly/elementary';
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const Iframe = elementary.iframe({
   name: 'Video',
@@ -9,7 +10,7 @@ const Iframe = elementary.iframe({
   },
 });
 
-const NewVideo = ({ src, mute, showControls, showInfo, loop, autoPlay, ...other }) => {
+const Video = ({ src, mute, showControls, showInfo, loop, autoPlay, ...other }) => {
   const parseUrl = src ? new URL(src) : '';
   const videoHost = parseUrl.hostname;
   let typeOfVideo;
@@ -96,26 +97,26 @@ const NewVideo = ({ src, mute, showControls, showInfo, loop, autoPlay, ...other 
   extraOptions = muteOption + autoPlayOption + showControlsOption + loopOption + showInfoOption;
 
   return (
-    <Video videoId={videoId} typeOfVideo={typeOfVideo} extraOptions={extraOptions} {...other} />
+    <VideoWrap videoId={videoId} typeOfVideo={typeOfVideo} extraOptions={extraOptions} {...other} />
   );
 };
 
-const Video = ({ videoId, extraOptions, typeOfVideo, ...other }) => {
-  const getVideoUrlByType = type => {
-    if (type === 'youtube') {
-      return `https://www.youtube.com/embed/${videoId}?rel=0${extraOptions}`;
-    } else if (type === 'vimeo') {
-      return `https://player.vimeo.com/video${videoId}?portrait=0&responsive=1${extraOptions}`;
-    } else {
-      return `https://www.youtube.com/embed/eE8Awccr-Ew?rel=0${extraOptions}`;
-    }
-  };
+const getVideoUrlByType = (type, videoId, extraOptions) => {
+  if (type === 'youtube') {
+    return `https://www.youtube.com/embed/${videoId}?rel=0${extraOptions}`;
+  } else if (type === 'vimeo') {
+    return `https://player.vimeo.com/video${videoId}?portrait=0&responsive=1${extraOptions}`;
+  } else {
+    return `https://www.youtube.com/embed/eE8Awccr-Ew?rel=0${extraOptions}`;
+  }
+};
 
+const VideoWrap = ({ videoId, extraOptions, typeOfVideo, ...other }) => {
   return (
     <Iframe
       {...other}
       title="video"
-      src={getVideoUrlByType(typeOfVideo)}
+      src={getVideoUrlByType(typeOfVideo, videoId, extraOptions)}
       frameBorder="0"
       allowFullScreen
       allow="autoplay; fullscreen"
@@ -123,4 +124,14 @@ const Video = ({ videoId, extraOptions, typeOfVideo, ...other }) => {
   );
 };
 
-export default NewVideo;
+Video.propTypes = {
+  ...Iframe.propTypes,
+  src: PropTypes.string,
+  mute: PropTypes.bool,
+  showControls: PropTypes.bool,
+  showInfo: PropTypes.bool,
+  loop: PropTypes.bool,
+  autoPlay: PropTypes.bool,
+};
+
+export default Video;
