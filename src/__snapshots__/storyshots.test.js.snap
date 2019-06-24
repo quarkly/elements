@@ -2007,3 +2007,21 @@ exports[`Storyshots Tooltip top 1`] = `
   </button>
 </div>
 `;
+
+exports[`Storyshots Video default 1`] = `
+<iframe
+  allow="autoplay; fullscreen"
+  allowFullScreen={true}
+  className="sc-chPdSV bZmehb"
+  display="block"
+  frameBorder="0"
+  height="100vh"
+  opacity=""
+  order=""
+  overflow="visible"
+  size=""
+  src="https://www.youtube.com/embed/c6t3bW7kx6E?rel=0&mute=0&autoplay=0&controls=1&loop=0&showinfo=1"
+  title="video"
+  width="100%"
+/>
+`;
