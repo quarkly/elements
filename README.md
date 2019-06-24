@@ -23,11 +23,13 @@ Elements — atomic react UI components based on [Elementary](https://github.com
 ## Get started
 
 ### Installation
+
 ```sh
 npm i @quarkly/elements
 ```
 
 ### Usage
+
 ```jsx
 import React from 'react';
 import ReactDom from 'react-dom';
@@ -42,6 +44,7 @@ ReactDom.render(
 ```
 
 ## Components
+
 - [x] [Block](docs/block.md)
 - [x] [Box](docs/box.md)
 - [x] [Button](docs/button.md)
@@ -51,16 +54,13 @@ ReactDom.render(
 - [x] [Grid](docs/grid.md)
 - [x] [Hr](docs/hr.md)
 - [x] [Image](docs/image.md)
-- [x] [Input](docs/input.md)
 - [x] [Link](docs/link.md)
 - [x] [List](docs/list.md)
-- [x] [Select](docs/select.md)
 - [x] [Spacer](docs/spacer.md)
-- [x] [Tabs](docs/tabs.md)
 - [x] [Text](docs/text.md)
-- [x] [Theme](docs/theme.md)
 
 Soon
+
 - [ ] Video
 - [ ] Icon
 - [ ] Map

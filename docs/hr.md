@@ -1,10 +1,8 @@
 # Hr
 
-Hrs are using to define a thematic break in the content.
+Hrs are used to define a thematic break in content. They are rendered (on the page) as the `div` tag with border property.
 
-<img alt="hr" src="src/hr.png" width="400px">
-
-// Image 800x600 with border and white bg
+<img alt="hr" src="src/hr.png" width="800px">
 
 ## Usage
 
@@ -35,18 +33,18 @@ ReactDom.render(
 
 #### Layout
 
-- display
-- height
-- minHeight
-- maxHeight
-- width
-- minWidth
-- maxWidth
+- display / d
+- height / h
+- minHeight / mih
+- maxHeight / mah
+- width / w
+- minWidth / miw
+- maxWidth / maw
 
 #### Background
 
-- bg
+- background / bg
 
 #### Misc
 
-- opacity
+- opacity / op

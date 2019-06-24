@@ -1,10 +1,8 @@
 # Carousel
 
-It is a element for cycling through other elements with animation effect. All child elements will be slides of the carousel.
+It is a element for cycling through elements with animation effects. All child elements will are the slides of the carousel.
 
-<img alt="carousel" src="src/carousel.png" width="400px">
-
-// Image 800x600
+<img alt="carousel" src="src/carousel.png" width="800px">
 
 ## Usage
 
@@ -45,13 +43,13 @@ ReactDom.render(
 
 #### Layout
 
-- display
-- height
-- minHeight
-- maxHeight
-- width
-- minWidth
-- maxWidth
+- display / d
+- height / h
+- minHeight / mih
+- maxHeight / mah
+- width / w
+- minWidth / miw
+- maxWidth / maw
 - size
 
 #### Spaces
@@ -73,41 +71,41 @@ ReactDom.render(
 
 #### Flex
 
-- flex
-- order
+- flex / fx
+- order / ord
 
 #### Grid
 
-- justifySelf
-- alignSelf
+- justifySelf / js
+- alignSelf / as
 
 #### Background
 
 - bg
-- background
-- backgroundImage
-- backgroundSize
-- backgroundPosition
-- backgroundRepeat
+- background / bg
+- backgroundImage / bgi
+- backgroundSize / bgsz
+- backgroundPosition / bgp
+- backgroundRepeat / bgr
 
 #### Misc
 
-- border
-- borderTop
-- borderRight
-- borderBottom
-- borderLeft
-- borderColor
-- borderRadius
-- opacity
-- boxShadow
-- overflow
+- border / bd
+- borderTop / bdt
+- borderRight / bdr
+- borderBottom / bdb
+- borderLeft / bdl
+- borderColor / bdc
+- borderRadius / bdrs
+- opacity / op
+- boxShadow / bxsh
+- overflow / ov
 
 #### Position
 
-- position
-- top
-- right
-- bottom
-- left
-- zIndex
+- position / pos
+- top / t
+- right / r
+- bottom / b
+- left / l
+- zIndex / z

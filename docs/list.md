@@ -1,10 +1,8 @@
 # List
 
-Lists defines an unordered list. They use for group similar entities. It is a tag `ul`. All child elements will be wrapped in a `li` tag.
+A list defines an unordered list. It is used to group similar items. A list rendered (on the page) as the `ul` tag. All child elements will be wrapped in the `li` tag.
 
-<img alt="list" src="src/list.png" width="400px">
-
-// Image 800x600
+<img alt="list" src="src/list.png" width="800px">
 
 ## Usage
 
@@ -39,53 +37,53 @@ ReactDom.render(
 
 #### Layout
 
-- display
-- height
-- minHeight
-- maxHeight
-- width
-- minWidth
-- maxWidth
+- display / d
+- height / h
+- minHeight / mih
+- maxHeight / mah
+- width / w
+- minWidth / miw
+- maxWidth / maw
 - size
 
 #### Spaces
 
-- p
-- pt
-- pr
-- pb
-- pl
-- px
-- py
-- m
-- mt
-- mr
-- mb
-- ml
-- mx
-- my
+- padding / p
+- paddingTop / pt
+- paddingRight / pr
+- paddingBottom / pb
+- paddingLeft / pl
+- paddingX / px
+- paddingY / py
+- margin / m
+- marginTop / mt
+- marginRight / mr
+- marginBottom / mb
+- marginLeft / ml
+- marginX / mx
+- marginY / my
 
 #### Typography
 
-- fontSize
-- color
+- fontSize / fz
+- color / c
 
 #### Flex
 
-- alignItems
-- alignContent
-- justifyItems
-- justifyContent
-- flexWrap
-- flexBasis
-- flexDirection
-- flex
-- order
+- alignItems / ai
+- alignContent / ac
+- justifyItems / ji
+- justifyContent / jc
+- flexWrap / fxw
+- flexBasis / fxb
+- flexDirection / fxd
+- flex / fx
+- order / ord
 
 #### Grid
 
-- justifySelf
-- alignSelf
+- justifySelf / js
+- alignSelf / as
 - gridGap
 - gridColumnGap
 - gridRowGap
@@ -101,31 +99,31 @@ ReactDom.render(
 
 #### Background
 
-- bg
-- background
-- backgroundImage
-- backgroundSize
-- backgroundPosition
-- backgroundRepeat
+- background / bg
+- backgroundColor / bgc
+- backgroundImage / bgi
+- backgroundSize / bgsz
+- backgroundPosition / bgp
+- backgroundRepeat / bgr
 
 #### Misc
 
-- border
-- borderTop
-- borderRight
-- borderBottom
-- borderLeft
-- borderColor
-- borderRadius
-- opacity
-- boxShadow
-- overflow
+- border / bd
+- borderTop / bdt
+- borderRight / bdr
+- borderBottom / bdb
+- borderLeft / bdl
+- borderColor / bdc
+- borderRadius / bdrs
+- opacity / op
+- boxShadow / bxsh
+- overflow / ov
 
 #### Position
 
-- position
-- top
-- right
-- bottom
-- left
-- zIndex
+- position / pos
+- top / t
+- right / r
+- bottom / b
+- left / l
+- zIndex / z

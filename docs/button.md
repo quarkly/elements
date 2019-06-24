@@ -1,10 +1,8 @@
 # Button
 
-Buttons are interactive elements used to get an action. They usually contain text, but may contain icons, or both. Buttons can be a part of a composite element, e. g. form or card.
+Buttons are interactive elements used to get a desired action. They usually contain text, but may as well contain an icon, or both. A button can be a part of a composite element, e. g. a form or card.
 
-<img alt="button " src="src/button.png" width="400px">
-
-// Image 800x600 with border and white bg
+<img alt="button " src="src/button.png" width="800px">
 
 ## Usage
 
@@ -33,81 +31,81 @@ ReactDom.render(
 
 #### Layout
 
-- display
-- height
-- minHeight
-- maxHeight
-- width
-- minWidth
-- maxWidth
+- display / d
+- height / h
+- minHeight / mih
+- maxHeight / mah
+- width / w
+- minWidth / miw
+- maxWidth / maw
 - size
 
 #### Typography
 
-- fontSize
-- color
+- fontSize / fz
+- color / c
 
 #### Spaces
 
-- p
-- pt
-- pr
-- pb
-- pl
-- px
-- py
-- m
-- mt
-- mr
-- mb
-- ml
-- mx
-- my
+- padding / p
+- paddingTop / pt
+- paddingRight / pr
+- paddingBottom / pb
+- paddingLeft / pl
+- paddingX / px
+- paddingY / py
+- margin / m
+- marginTop / mt
+- marginRight / mr
+- marginBottom / mb
+- marginLeft / ml
+- marginX / mx
+- marginY / my
 
 #### Flex
 
-- alignItems
-- alignContent
-- justifyItems
-- justifyContent
-- flexWrap
-- flexBasis
-- flexDirection
-- flex
-- order
+- alignItems / ai
+- alignContent / ac
+- justifyItems / ji
+- justifyContent / jc
+- flexWrap / fxw
+- flexBasis / fxb
+- flexDirection / fxd
+- flex / fx
+- order / ord
 
 #### Grid
 
-- justifySelf
-- alignSelf
+- justifySelf / js
+- alignSelf / as
 
 #### Background
 
-- bg
-- background
-- backgroundImage
-- backgroundSize
-- backgroundPosition
-- backgroundRepeat
+- background / bg
+- backgroundColor / bgc
+- backgroundImage / bgi
+- backgroundSize / bgsz
+- backgroundPosition / bgp
+- backgroundRepeat / bgr
 
 #### Misc
 
-- border
-- borderTop
-- borderRight
-- borderBottom
-- borderLeft
-- borderColor
-- borderRadius
-- opacity
-- boxShadow
-- overflow
+- border / bd
+- borderTop / bdt
+- borderRight / bdr
+- borderBottom / bdb
+- borderLeft / bdl
+- borderColor / bdc
+- borderRadius / bdrs
+- opacity / op
+- boxShadow / bxsh
+- overflow / ov
 
 #### Position
 
-- position
-- top
-- right
-- bottom
-- left
-- zIndex
+- position / pos
+- top / t
+- right / r
+- bottom / b
+- left / l
+- zIndex / z
