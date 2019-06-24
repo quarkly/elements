@@ -3,7 +3,7 @@
   "description": "atomic react UI components",
   "author": "Eddort",
   "user": "Eddort",
-  "version": "0.3.9",
+  "version": "0.4.0",
   "scripts": {
     "storybook": "start-storybook -p 9001 -c .storybook",
     "build": "npm run clean && npm run build:cjs && npm run build:esm",
@@ -60,14 +60,17 @@
   },
   "keywords": [
     "react",
-    "quarkly"
+    "quarkly",
+    "styled-components",
+    "atomic-components",
+    "quarkly/elementary"
   ],
   "license": "MIT",
   "pre-push": [
     "test"
   ],
   "dependencies": {
-    "@quarkly/elementary": "^1.0.4",
+    "@quarkly/elementary": "^1.0.5",
     "classnames": "^2.2.6",
     "lodash": "latest",
     "react": "^16.8.1",
