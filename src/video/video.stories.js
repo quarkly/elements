@@ -10,6 +10,12 @@ stories.addDecorator(withKnobs);
 
 stories.add('default', () => (
   <Theme>
+    <Video />
+  </Theme>
+));
+
+stories.add('with props', () => (
+  <Theme>
     <Video
       src={text('src', 'https://www.youtube.com/watch?v=c6t3bW7kx6E', 'Core')}
       mute={boolean('mute', false, 'Core')}
