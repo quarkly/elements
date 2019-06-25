@@ -228,279 +228,231 @@ exports[`Storyshots Card with props 1`] = `
 
 exports[`Storyshots Carousel default 1`] = `
 <div
-  className="sc-htpNat dIELUv"
+  className="slick-slider sc-bZQynM cazFfH slick-initialized"
+  dir="ltr"
 >
   <div
-    className="sc-htpNat dladRg"
-    height="400px"
+    className="slick-list"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={null}
+    onMouseMove={null}
+    onMouseUp={[Function]}
+    onTouchCancel={null}
+    onTouchEnd={[Function]}
+    onTouchMove={null}
+    onTouchStart={[Function]}
+    style={Object {}}
   >
     <div
-      className="slick-slider slick-initialized"
-      dir="ltr"
+      className="slick-track"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "WebkitTransform": "translate3d(0px, 0px, 0px)",
+          "WebkitTransition": "",
+          "msTransform": "translateX(0px)",
+          "opacity": 1,
+          "transform": "translate3d(0px, 0px, 0px)",
+          "transition": "",
+        }
+      }
     >
       <div
-        className="slick-list"
+        aria-hidden={true}
+        className="slick-slide slick-cloned"
+        data-index={-1}
         onClick={[Function]}
-        onKeyDown={[Function]}
-        onMouseDown={[Function]}
-        onMouseLeave={null}
-        onMouseMove={null}
-        onMouseUp={[Function]}
-        onTouchCancel={null}
-        onTouchEnd={[Function]}
-        onTouchMove={null}
-        onTouchStart={[Function]}
-        style={Object {}}
-      >
-        <div
-          className="slick-track"
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-          onMouseOver={[Function]}
-          style={
-            Object {
-              "WebkitTransform": "translate3d(0px, 0px, 0px)",
-              "WebkitTransition": "",
-              "msTransform": "translateX(0px)",
-              "opacity": 1,
-              "transform": "translate3d(0px, 0px, 0px)",
-              "transition": "",
-            }
-          }
-        >
-          <div
-            aria-hidden={true}
-            className="slick-slide slick-cloned"
-            data-index={-1}
-            onClick={[Function]}
-            style={
-              Object {
-                "width": 0,
-              }
-            }
-            tabIndex="-1"
-          >
-            <div>
-              <img
-                className="sc-bZQynM dzafiz"
-                height="400px"
-                src="https://www.jpl.nasa.gov/images/cassini/20160408/PIA11141-16.jpg"
-                style={
-                  Object {
-                    "display": "inline-block",
-                    "width": "100%",
-                  }
-                }
-                tabIndex={-1}
-              />
-            </div>
-          </div>
-          <div
-            aria-hidden={false}
-            className="slick-slide slick-active slick-current"
-            data-index={0}
-            onClick={[Function]}
-            style={
-              Object {
-                "outline": "none",
-                "width": 0,
-              }
-            }
-            tabIndex="-1"
-          >
-            <div>
-              <img
-                className="sc-bZQynM dzafiz"
-                height="400px"
-                src="https://www.jpl.nasa.gov/images/mars/20160421/PIA00407-16.jpg"
-                style={
-                  Object {
-                    "display": "inline-block",
-                    "width": "100%",
-                  }
-                }
-                tabIndex={-1}
-              />
-            </div>
-          </div>
-          <div
-            aria-hidden={true}
-            className="slick-slide"
-            data-index={1}
-            onClick={[Function]}
-            style={
-              Object {
-                "outline": "none",
-                "width": 0,
-              }
-            }
-            tabIndex="-1"
-          >
-            <div>
-              <img
-                className="sc-bZQynM dzafiz"
-                height="400px"
-                src="https://photojournal.jpl.nasa.gov/jpeg/PIA18182.jpg"
-                style={
-                  Object {
-                    "display": "inline-block",
-                    "width": "100%",
-                  }
-                }
-                tabIndex={-1}
-              />
-            </div>
-          </div>
-          <div
-            aria-hidden={true}
-            className="slick-slide"
-            data-index={2}
-            onClick={[Function]}
-            style={
-              Object {
-                "outline": "none",
-                "width": 0,
-              }
-            }
-            tabIndex="-1"
-          >
-            <div>
-              <img
-                className="sc-bZQynM dzafiz"
-                height="400px"
-                src="https://www.jpl.nasa.gov/images/cassini/20160408/PIA11141-16.jpg"
-                style={
-                  Object {
-                    "display": "inline-block",
-                    "width": "100%",
-                  }
-                }
-                tabIndex={-1}
-              />
-            </div>
-          </div>
-          <div
-            aria-hidden={true}
-            className="slick-slide slick-cloned"
-            data-index={3}
-            onClick={[Function]}
-            style={
-              Object {
-                "width": 0,
-              }
-            }
-            tabIndex="-1"
-          >
-            <div>
-              <img
-                className="sc-bZQynM dzafiz"
-                height="400px"
-                src="https://www.jpl.nasa.gov/images/mars/20160421/PIA00407-16.jpg"
-                style={
-                  Object {
-                    "display": "inline-block",
-                    "width": "100%",
-                  }
-                }
-                tabIndex={-1}
-              />
-            </div>
-          </div>
-          <div
-            aria-hidden={true}
-            className="slick-slide slick-cloned"
-            data-index={4}
-            onClick={[Function]}
-            style={
-              Object {
-                "width": 0,
-              }
-            }
-            tabIndex="-1"
-          >
-            <div>
-              <img
-                className="sc-bZQynM dzafiz"
-                height="400px"
-                src="https://photojournal.jpl.nasa.gov/jpeg/PIA18182.jpg"
-                style={
-                  Object {
-                    "display": "inline-block",
-                    "width": "100%",
-                  }
-                }
-                tabIndex={-1}
-              />
-            </div>
-          </div>
-          <div
-            aria-hidden={true}
-            className="slick-slide slick-cloned"
-            data-index={5}
-            onClick={[Function]}
-            style={
-              Object {
-                "width": 0,
-              }
-            }
-            tabIndex="-1"
-          >
-            <div>
-              <img
-                className="sc-bZQynM dzafiz"
-                height="400px"
-                src="https://www.jpl.nasa.gov/images/cassini/20160408/PIA11141-16.jpg"
-                style={
-                  Object {
-                    "display": "inline-block",
-                    "width": "100%",
-                  }
-                }
-                tabIndex={-1}
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-      <ul
-        className="slick-dots"
-        onMouseEnter={null}
-        onMouseLeave={null}
-        onMouseOver={null}
         style={
           Object {
-            "display": "block",
+            "width": 0,
           }
         }
+        tabIndex="-1"
       >
-        <li
-          className="slick-active"
-        >
-          <button
-            onClick={[Function]}
-          >
-            1
-          </button>
-        </li>
-        <li
-          className=""
-        >
-          <button
-            onClick={[Function]}
-          >
-            2
-          </button>
-        </li>
-        <li
-          className=""
-        >
-          <button
-            onClick={[Function]}
-          >
-            3
-          </button>
-        </li>
-      </ul>
+        <div>
+          <img
+            className="sc-gzVnrw eaFRsf"
+            height="400px"
+            src="https://www.jpl.nasa.gov/images/cassini/20160408/PIA11141-16.jpg"
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "100%",
+              }
+            }
+            tabIndex={-1}
+          />
+        </div>
+      </div>
+      <div
+        aria-hidden={false}
+        className="slick-slide slick-active slick-current"
+        data-index={0}
+        onClick={[Function]}
+        style={
+          Object {
+            "outline": "none",
+            "width": 0,
+          }
+        }
+        tabIndex="-1"
+      >
+        <div>
+          <img
+            className="sc-gzVnrw eaFRsf"
+            height="400px"
+            src="https://www.jpl.nasa.gov/images/mars/20160421/PIA00407-16.jpg"
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "100%",
+              }
+            }
+            tabIndex={-1}
+          />
+        </div>
+      </div>
+      <div
+        aria-hidden={true}
+        className="slick-slide"
+        data-index={1}
+        onClick={[Function]}
+        style={
+          Object {
+            "outline": "none",
+            "width": 0,
+          }
+        }
+        tabIndex="-1"
+      >
+        <div>
+          <img
+            className="sc-gzVnrw eaFRsf"
+            height="400px"
+            src="https://photojournal.jpl.nasa.gov/jpeg/PIA18182.jpg"
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "100%",
+              }
+            }
+            tabIndex={-1}
+          />
+        </div>
+      </div>
+      <div
+        aria-hidden={true}
+        className="slick-slide"
+        data-index={2}
+        onClick={[Function]}
+        style={
+          Object {
+            "outline": "none",
+            "width": 0,
+          }
+        }
+        tabIndex="-1"
+      >
+        <div>
+          <img
+            className="sc-gzVnrw eaFRsf"
+            height="400px"
+            src="https://www.jpl.nasa.gov/images/cassini/20160408/PIA11141-16.jpg"
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "100%",
+              }
+            }
+            tabIndex={-1}
+          />
+        </div>
+      </div>
+      <div
+        aria-hidden={true}
+        className="slick-slide slick-cloned"
+        data-index={3}
+        onClick={[Function]}
+        style={
+          Object {
+            "width": 0,
+          }
+        }
+        tabIndex="-1"
+      >
+        <div>
+          <img
+            className="sc-gzVnrw eaFRsf"
+            height="400px"
+            src="https://www.jpl.nasa.gov/images/mars/20160421/PIA00407-16.jpg"
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "100%",
+              }
+            }
+            tabIndex={-1}
+          />
+        </div>
+      </div>
+      <div
+        aria-hidden={true}
+        className="slick-slide slick-cloned"
+        data-index={4}
+        onClick={[Function]}
+        style={
+          Object {
+            "width": 0,
+          }
+        }
+        tabIndex="-1"
+      >
+        <div>
+          <img
+            className="sc-gzVnrw eaFRsf"
+            height="400px"
+            src="https://photojournal.jpl.nasa.gov/jpeg/PIA18182.jpg"
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "100%",
+              }
+            }
+            tabIndex={-1}
+          />
+        </div>
+      </div>
+      <div
+        aria-hidden={true}
+        className="slick-slide slick-cloned"
+        data-index={5}
+        onClick={[Function]}
+        style={
+          Object {
+            "width": 0,
+          }
+        }
+        tabIndex="-1"
+      >
+        <div>
+          <img
+            className="sc-gzVnrw eaFRsf"
+            height="400px"
+            src="https://www.jpl.nasa.gov/images/cassini/20160408/PIA11141-16.jpg"
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "100%",
+              }
+            }
+            tabIndex={-1}
+          />
+        </div>
+      </div>
     </div>
   </div>
 </div>
@@ -508,282 +460,231 @@ exports[`Storyshots Carousel default 1`] = `
 
 exports[`Storyshots Carousel with props 1`] = `
 <div
-  className="sc-htpNat dIELUv"
+  className="slick-slider sc-bZQynM gmhXNJ slick-initialized"
+  dir="ltr"
 >
   <div
-    className="sc-htpNat itsFI"
-    display="block"
-    height=""
-    size=""
-    width=""
+    className="slick-list"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={null}
+    onMouseMove={null}
+    onMouseUp={[Function]}
+    onTouchCancel={null}
+    onTouchEnd={[Function]}
+    onTouchMove={null}
+    onTouchStart={[Function]}
+    style={Object {}}
   >
     <div
-      className="slick-slider slick-initialized"
-      dir="ltr"
+      className="slick-track"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "WebkitTransform": "translate3d(0px, 0px, 0px)",
+          "WebkitTransition": "",
+          "msTransform": "translateX(0px)",
+          "opacity": 1,
+          "transform": "translate3d(0px, 0px, 0px)",
+          "transition": "",
+        }
+      }
     >
       <div
-        className="slick-list"
+        aria-hidden={true}
+        className="slick-slide slick-cloned"
+        data-index={-1}
         onClick={[Function]}
-        onKeyDown={[Function]}
-        onMouseDown={[Function]}
-        onMouseLeave={null}
-        onMouseMove={null}
-        onMouseUp={[Function]}
-        onTouchCancel={null}
-        onTouchEnd={[Function]}
-        onTouchMove={null}
-        onTouchStart={[Function]}
-        style={Object {}}
-      >
-        <div
-          className="slick-track"
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-          onMouseOver={[Function]}
-          style={
-            Object {
-              "WebkitTransform": "translate3d(0px, 0px, 0px)",
-              "WebkitTransition": "",
-              "msTransform": "translateX(0px)",
-              "opacity": 1,
-              "transform": "translate3d(0px, 0px, 0px)",
-              "transition": "",
-            }
-          }
-        >
-          <div
-            aria-hidden={true}
-            className="slick-slide slick-cloned"
-            data-index={-1}
-            onClick={[Function]}
-            style={
-              Object {
-                "width": 0,
-              }
-            }
-            tabIndex="-1"
-          >
-            <div>
-              <img
-                className="sc-bZQynM dzafiz"
-                height="400px"
-                src="https://www.jpl.nasa.gov/images/cassini/20160408/PIA11141-16.jpg"
-                style={
-                  Object {
-                    "display": "inline-block",
-                    "width": "100%",
-                  }
-                }
-                tabIndex={-1}
-              />
-            </div>
-          </div>
-          <div
-            aria-hidden={false}
-            className="slick-slide slick-active slick-current"
-            data-index={0}
-            onClick={[Function]}
-            style={
-              Object {
-                "outline": "none",
-                "width": 0,
-              }
-            }
-            tabIndex="-1"
-          >
-            <div>
-              <img
-                className="sc-bZQynM dzafiz"
-                height="400px"
-                src="https://www.jpl.nasa.gov/images/mars/20160421/PIA00407-16.jpg"
-                style={
-                  Object {
-                    "display": "inline-block",
-                    "width": "100%",
-                  }
-                }
-                tabIndex={-1}
-              />
-            </div>
-          </div>
-          <div
-            aria-hidden={true}
-            className="slick-slide"
-            data-index={1}
-            onClick={[Function]}
-            style={
-              Object {
-                "outline": "none",
-                "width": 0,
-              }
-            }
-            tabIndex="-1"
-          >
-            <div>
-              <img
-                className="sc-bZQynM dzafiz"
-                height="400px"
-                src="https://photojournal.jpl.nasa.gov/jpeg/PIA18182.jpg"
-                style={
-                  Object {
-                    "display": "inline-block",
-                    "width": "100%",
-                  }
-                }
-                tabIndex={-1}
-              />
-            </div>
-          </div>
-          <div
-            aria-hidden={true}
-            className="slick-slide"
-            data-index={2}
-            onClick={[Function]}
-            style={
-              Object {
-                "outline": "none",
-                "width": 0,
-              }
-            }
-            tabIndex="-1"
-          >
-            <div>
-              <img
-                className="sc-bZQynM dzafiz"
-                height="400px"
-                src="https://www.jpl.nasa.gov/images/cassini/20160408/PIA11141-16.jpg"
-                style={
-                  Object {
-                    "display": "inline-block",
-                    "width": "100%",
-                  }
-                }
-                tabIndex={-1}
-              />
-            </div>
-          </div>
-          <div
-            aria-hidden={true}
-            className="slick-slide slick-cloned"
-            data-index={3}
-            onClick={[Function]}
-            style={
-              Object {
-                "width": 0,
-              }
-            }
-            tabIndex="-1"
-          >
-            <div>
-              <img
-                className="sc-bZQynM dzafiz"
-                height="400px"
-                src="https://www.jpl.nasa.gov/images/mars/20160421/PIA00407-16.jpg"
-                style={
-                  Object {
-                    "display": "inline-block",
-                    "width": "100%",
-                  }
-                }
-                tabIndex={-1}
-              />
-            </div>
-          </div>
-          <div
-            aria-hidden={true}
-            className="slick-slide slick-cloned"
-            data-index={4}
-            onClick={[Function]}
-            style={
-              Object {
-                "width": 0,
-              }
-            }
-            tabIndex="-1"
-          >
-            <div>
-              <img
-                className="sc-bZQynM dzafiz"
-                height="400px"
-                src="https://photojournal.jpl.nasa.gov/jpeg/PIA18182.jpg"
-                style={
-                  Object {
-                    "display": "inline-block",
-                    "width": "100%",
-                  }
-                }
-                tabIndex={-1}
-              />
-            </div>
-          </div>
-          <div
-            aria-hidden={true}
-            className="slick-slide slick-cloned"
-            data-index={5}
-            onClick={[Function]}
-            style={
-              Object {
-                "width": 0,
-              }
-            }
-            tabIndex="-1"
-          >
-            <div>
-              <img
-                className="sc-bZQynM dzafiz"
-                height="400px"
-                src="https://www.jpl.nasa.gov/images/cassini/20160408/PIA11141-16.jpg"
-                style={
-                  Object {
-                    "display": "inline-block",
-                    "width": "100%",
-                  }
-                }
-                tabIndex={-1}
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-      <ul
-        className="slick-dots"
-        onMouseEnter={null}
-        onMouseLeave={null}
-        onMouseOver={null}
         style={
           Object {
-            "display": "block",
+            "width": 0,
           }
         }
+        tabIndex="-1"
       >
-        <li
-          className="slick-active"
-        >
-          <button
-            onClick={[Function]}
-          >
-            1
-          </button>
-        </li>
-        <li
-          className=""
-        >
-          <button
-            onClick={[Function]}
-          >
-            2
-          </button>
-        </li>
-        <li
-          className=""
-        >
-          <button
-            onClick={[Function]}
-          >
-            3
-          </button>
-        </li>
-      </ul>
+        <div>
+          <img
+            className="sc-gzVnrw eaFRsf"
+            height="400px"
+            src="https://www.jpl.nasa.gov/images/cassini/20160408/PIA11141-16.jpg"
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "100%",
+              }
+            }
+            tabIndex={-1}
+          />
+        </div>
+      </div>
+      <div
+        aria-hidden={false}
+        className="slick-slide slick-active slick-current"
+        data-index={0}
+        onClick={[Function]}
+        style={
+          Object {
+            "outline": "none",
+            "width": 0,
+          }
+        }
+        tabIndex="-1"
+      >
+        <div>
+          <img
+            className="sc-gzVnrw eaFRsf"
+            height="400px"
+            src="https://www.jpl.nasa.gov/images/mars/20160421/PIA00407-16.jpg"
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "100%",
+              }
+            }
+            tabIndex={-1}
+          />
+        </div>
+      </div>
+      <div
+        aria-hidden={true}
+        className="slick-slide"
+        data-index={1}
+        onClick={[Function]}
+        style={
+          Object {
+            "outline": "none",
+            "width": 0,
+          }
+        }
+        tabIndex="-1"
+      >
+        <div>
+          <img
+            className="sc-gzVnrw eaFRsf"
+            height="400px"
+            src="https://photojournal.jpl.nasa.gov/jpeg/PIA18182.jpg"
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "100%",
+              }
+            }
+            tabIndex={-1}
+          />
+        </div>
+      </div>
+      <div
+        aria-hidden={true}
+        className="slick-slide"
+        data-index={2}
+        onClick={[Function]}
+        style={
+          Object {
+            "outline": "none",
+            "width": 0,
+          }
+        }
+        tabIndex="-1"
+      >
+        <div>
+          <img
+            className="sc-gzVnrw eaFRsf"
+            height="400px"
+            src="https://www.jpl.nasa.gov/images/cassini/20160408/PIA11141-16.jpg"
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "100%",
+              }
+            }
+            tabIndex={-1}
+          />
+        </div>
+      </div>
+      <div
+        aria-hidden={true}
+        className="slick-slide slick-cloned"
+        data-index={3}
+        onClick={[Function]}
+        style={
+          Object {
+            "width": 0,
+          }
+        }
+        tabIndex="-1"
+      >
+        <div>
+          <img
+            className="sc-gzVnrw eaFRsf"
+            height="400px"
+            src="https://www.jpl.nasa.gov/images/mars/20160421/PIA00407-16.jpg"
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "100%",
+              }
+            }
+            tabIndex={-1}
+          />
+        </div>
+      </div>
+      <div
+        aria-hidden={true}
+        className="slick-slide slick-cloned"
+        data-index={4}
+        onClick={[Function]}
+        style={
+          Object {
+            "width": 0,
+          }
+        }
+        tabIndex="-1"
+      >
+        <div>
+          <img
+            className="sc-gzVnrw eaFRsf"
+            height="400px"
+            src="https://photojournal.jpl.nasa.gov/jpeg/PIA18182.jpg"
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "100%",
+              }
+            }
+            tabIndex={-1}
+          />
+        </div>
+      </div>
+      <div
+        aria-hidden={true}
+        className="slick-slide slick-cloned"
+        data-index={5}
+        onClick={[Function]}
+        style={
+          Object {
+            "width": 0,
+          }
+        }
+        tabIndex="-1"
+      >
+        <div>
+          <img
+            className="sc-gzVnrw eaFRsf"
+            height="400px"
+            src="https://www.jpl.nasa.gov/images/cassini/20160408/PIA11141-16.jpg"
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "100%",
+              }
+            }
+            tabIndex={-1}
+          />
+        </div>
+      </div>
     </div>
   </div>
 </div>
@@ -864,13 +765,13 @@ exports[`Storyshots Flex with props 1`] = `
 
 exports[`Storyshots Grid default 1`] = `
 <div
-  className="sc-gzVnrw gAVlbY"
+  className="sc-htoDjs hzdOJA"
 />
 `;
 
 exports[`Storyshots Grid with boxes 1`] = `
 <div
-  className="sc-gzVnrw dEiRdx"
+  className="sc-htoDjs ElPGh"
 >
   <div
     className="sc-htpNat cXiSzu"
@@ -891,7 +792,7 @@ exports[`Storyshots Grid with boxes 1`] = `
     className="sc-htpNat bxcYBK"
   />
   <div
-    className="sc-gzVnrw voFzd"
+    className="sc-htoDjs djAivm"
   >
     <div
       className="sc-htpNat bxcYBK"
@@ -923,17 +824,17 @@ exports[`Storyshots Grid with boxes 1`] = `
 
 exports[`Storyshots Grid with cards 1`] = `
 <div
-  className="sc-gzVnrw eijqeY"
+  className="sc-htoDjs gFwTNa"
 >
   <div
     className="sc-ifAKCX jjkobi"
   >
     <div
-      className="sc-gzVnrw gnNdxO"
+      className="sc-htoDjs fJWSMm"
       width="100%"
     />
     <div
-      className="sc-gzVnrw eKOzCP"
+      className="sc-htoDjs bforIO"
     >
       <p
         className="sc-bwzfXH kOvGIu"
@@ -946,7 +847,7 @@ exports[`Storyshots Grid with cards 1`] = `
         The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.
       </p>
       <div
-        className="sc-gzVnrw gAVlbY"
+        className="sc-htoDjs hzdOJA"
       >
         <button
           className="sc-bxivhb jZqUoY"
@@ -961,11 +862,11 @@ exports[`Storyshots Grid with cards 1`] = `
     className="sc-ifAKCX jjkobi"
   >
     <div
-      className="sc-gzVnrw gnNdxO"
+      className="sc-htoDjs fJWSMm"
       width="100%"
     />
     <div
-      className="sc-gzVnrw eKOzCP"
+      className="sc-htoDjs bforIO"
     >
       <p
         className="sc-bwzfXH kOvGIu"
@@ -978,7 +879,7 @@ exports[`Storyshots Grid with cards 1`] = `
         The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.
       </p>
       <div
-        className="sc-gzVnrw gAVlbY"
+        className="sc-htoDjs hzdOJA"
       >
         <button
           className="sc-bxivhb fyTDRn"
@@ -993,11 +894,11 @@ exports[`Storyshots Grid with cards 1`] = `
     className="sc-ifAKCX jjkobi"
   >
     <div
-      className="sc-gzVnrw gnNdxO"
+      className="sc-htoDjs fJWSMm"
       width="100%"
     />
     <div
-      className="sc-gzVnrw eKOzCP"
+      className="sc-htoDjs bforIO"
     >
       <p
         className="sc-bwzfXH kOvGIu"
@@ -1010,7 +911,7 @@ exports[`Storyshots Grid with cards 1`] = `
         The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.
       </p>
       <div
-        className="sc-gzVnrw gAVlbY"
+        className="sc-htoDjs hzdOJA"
       >
         <button
           className="sc-bxivhb dFMZyr"
@@ -1026,30 +927,30 @@ exports[`Storyshots Grid with cards 1`] = `
 
 exports[`Storyshots Grid with image 1`] = `
 <div
-  className="sc-gzVnrw hvEIZh"
+  className="sc-htoDjs fdULtj"
 >
   <img
-    className="sc-bZQynM ZXgWx"
+    className="sc-gzVnrw iEenTd"
     src="https://www.jpl.nasa.gov/images/mars/20160421/PIA00407-16.jpg"
   />
   <img
-    className="sc-bZQynM ZXgWx"
+    className="sc-gzVnrw iEenTd"
     src="https://photojournal.jpl.nasa.gov/jpeg/PIA18182.jpg"
   />
   <img
-    className="sc-bZQynM ZXgWx"
+    className="sc-gzVnrw iEenTd"
     src="https://www.jpl.nasa.gov/images/cassini/20160408/PIA11141-16.jpg"
   />
   <img
-    className="sc-bZQynM ZXgWx"
+    className="sc-gzVnrw iEenTd"
     src="https://cdn.mos.cms.futurecdn.net/DfcnU8Z2yeyrYLmsRCKtDH.jpg"
   />
   <img
-    className="sc-bZQynM ZXgWx"
+    className="sc-gzVnrw iEenTd"
     src="https://solarsystem.nasa.gov/system/downloadable_items/1193_pluto_natural_color_20150714_detail.jpg"
   />
   <img
-    className="sc-bZQynM ZXgWx"
+    className="sc-gzVnrw iEenTd"
     src="https://solarsystem.nasa.gov/system/resources/detail_files/771_PIA16853.jpg"
   />
 </div>
@@ -1057,7 +958,7 @@ exports[`Storyshots Grid with image 1`] = `
 
 exports[`Storyshots Grid with props 1`] = `
 <div
-  className="sc-gzVnrw hJUeNp"
+  className="sc-htoDjs kGqEox"
   display="flex"
   height="300px"
   opacity=""
@@ -1079,7 +980,7 @@ exports[`Storyshots Hr default 1`] = `
 Array [
   "Content",
   <div
-    className="sc-htoDjs jKTAkO"
+    className="sc-dnqmqq DkZsq"
   />,
   "Content",
 ]
@@ -1089,11 +990,11 @@ exports[`Storyshots Hr variants 1`] = `
 Array [
   "Big",
   <div
-    className="sc-htoDjs cFbkbi"
+    className="sc-dnqmqq FkElV"
   />,
   "Small",
   <div
-    className="sc-htoDjs cbkHAy"
+    className="sc-dnqmqq ckFhtD"
   />,
   "Content",
 ]
@@ -1103,7 +1004,7 @@ exports[`Storyshots Hr with props 1`] = `
 Array [
   "Content",
   <div
-    className="sc-htoDjs bRpQfr"
+    className="sc-dnqmqq bNpbRz"
     display="block"
     height="1px"
     opacity=""
@@ -1116,7 +1017,7 @@ Array [
 
 exports[`Storyshots Image adaptive 1`] = `
 <img
-  className="sc-bZQynM iuPrFX"
+  className="sc-gzVnrw ONLTZ"
   height="400px"
   src="https://picsum.photos/500"
   width="500px"
@@ -1125,21 +1026,21 @@ exports[`Storyshots Image adaptive 1`] = `
 
 exports[`Storyshots Image fluid 1`] = `
 <img
-  className="sc-bZQynM hTVwBa"
+  className="sc-gzVnrw dnQfVK"
   src="https://picsum.photos/1800"
 />
 `;
 
 exports[`Storyshots Image thumb 1`] = `
 <img
-  className="sc-bZQynM dbEwVO"
+  className="sc-gzVnrw xBcVE"
   src="https://picsum.photos/500"
 />
 `;
 
 exports[`Storyshots Image with props 1`] = `
 <img
-  className="sc-bZQynM jBKCzl"
+  className="sc-gzVnrw cQVxuj"
   display="block"
   height="500px"
   opacity=""
@@ -1155,7 +1056,7 @@ exports[`Storyshots Input basic 1`] = `
   display="flex"
 >
   <input
-    className="sc-dnqmqq hpqtPO"
+    className="sc-iwsKbI dVSgwU"
     onChange={[Function]}
   />
 </section>
@@ -1163,21 +1064,21 @@ exports[`Storyshots Input basic 1`] = `
 
 exports[`Storyshots Input focus 1`] = `
 <input
-  className="sc-dnqmqq hnexPV"
+  className="sc-iwsKbI fmnnjJ"
   onChange={[Function]}
 />
 `;
 
 exports[`Storyshots Input white 1`] = `
 <input
-  className="sc-dnqmqq hpqtPO"
+  className="sc-iwsKbI dVSgwU"
   onChange={[Function]}
 />
 `;
 
 exports[`Storyshots Link default 1`] = `
 <a
-  className="sc-iwsKbI ifGjNu"
+  className="sc-gZMcBi eVLekc"
   href="https://quarkly.space/"
 >
   Quarkly
@@ -1186,7 +1087,7 @@ exports[`Storyshots Link default 1`] = `
 
 exports[`Storyshots Link hover 1`] = `
 <a
-  className="sc-iwsKbI fWUkxV"
+  className="sc-gZMcBi iFRbuX"
   color="#007bff"
   href="https://quarkly.space/"
 >
@@ -1201,7 +1102,7 @@ exports[`Storyshots Link hover 1`] = `
 
 exports[`Storyshots Link with props 1`] = `
 <a
-  className="sc-iwsKbI fHcApb"
+  className="sc-gZMcBi hfEvaR"
   color="#007bff"
   fontFamily=""
   fontSize=""
@@ -1222,7 +1123,7 @@ exports[`Storyshots Link with props 1`] = `
 
 exports[`Storyshots Link with text 1`] = `
 <a
-  className="sc-iwsKbI ddMxgx"
+  className="sc-gZMcBi deuFXF"
   color="#007bff"
   href="https://quarkly.space/"
 >
@@ -1237,7 +1138,7 @@ exports[`Storyshots Link with text 1`] = `
 
 exports[`Storyshots List default 1`] = `
 <ul
-  className="sc-gZMcBi jStuHW"
+  className="sc-gqjmRU kfCriG"
 >
   <li>
     <p
@@ -1265,7 +1166,7 @@ exports[`Storyshots List default 1`] = `
 
 exports[`Storyshots List horizontal 1`] = `
 <ul
-  className="sc-gZMcBi hVvYRo"
+  className="sc-gqjmRU cgxabN"
 >
   <li>
     <p
@@ -1293,7 +1194,7 @@ exports[`Storyshots List horizontal 1`] = `
 
 exports[`Storyshots List with props 1`] = `
 <ul
-  className="sc-gZMcBi bvSUlR"
+  className="sc-gqjmRU dKEWac"
   display="block"
   height="300px"
   opacity=""
@@ -1332,16 +1233,16 @@ exports[`Storyshots Select basic 1`] = `
   display="flex"
 >
   <select
-    className="sc-gqjmRU hOOseh"
+    className="sc-VigVT cmdjLx"
   >
     <option
-      className="sc-VigVT HBQdU"
+      className="sc-jTzLTM jGxTRr"
       value="hello"
     >
       hello
     </option>
     <option
-      className="sc-VigVT HBQdU"
+      className="sc-jTzLTM jGxTRr"
       value="world"
     >
       world
@@ -1352,16 +1253,16 @@ exports[`Storyshots Select basic 1`] = `
 
 exports[`Storyshots Select black 1`] = `
 <select
-  className="sc-gqjmRU jLtHSi"
+  className="sc-VigVT jRlawh"
 >
   <option
-    className="sc-VigVT HBQdU"
+    className="sc-jTzLTM jGxTRr"
     value="hello"
   >
     hello
   </option>
   <option
-    className="sc-VigVT HBQdU"
+    className="sc-jTzLTM jGxTRr"
     value="world"
   >
     world
@@ -1373,7 +1274,7 @@ exports[`Storyshots Spacer 10rem 1`] = `
 Array [
   "Content",
   <div
-    className="sc-jTzLTM bHFnvq"
+    className="sc-fjdhpX hpVcgD"
     height="10rem"
   />,
   "Content",
@@ -1384,7 +1285,7 @@ exports[`Storyshots Spacer 25% 1`] = `
 Array [
   "Content",
   <div
-    className="sc-jTzLTM jcUNRf"
+    className="sc-fjdhpX enmdJE"
     height="25%"
   />,
   "Content",
@@ -1395,7 +1296,7 @@ exports[`Storyshots Spacer 50vh 1`] = `
 Array [
   "Content",
   <div
-    className="sc-jTzLTM cnyKEz"
+    className="sc-fjdhpX fSuqFE"
     height="50vh"
   />,
   "Content",
@@ -1406,7 +1307,7 @@ exports[`Storyshots Spacer 100px 1`] = `
 Array [
   "Content",
   <div
-    className="sc-jTzLTM jnqaSB"
+    className="sc-fjdhpX fDBKha"
     height="100px"
   />,
   "Content",
@@ -1417,7 +1318,7 @@ exports[`Storyshots Spacer adaptive 1`] = `
 Array [
   "Content",
   <div
-    className="sc-jTzLTM dBwoSr"
+    className="sc-fjdhpX broPBK"
     height={
       Array [
         "100px",
@@ -1434,7 +1335,7 @@ exports[`Storyshots Spacer default 1`] = `
 Array [
   "Content",
   <div
-    className="sc-jTzLTM eagGfI"
+    className="sc-fjdhpX jZVawo"
   />,
   "Content",
 ]
@@ -1444,11 +1345,11 @@ exports[`Storyshots Spacer variants 1`] = `
 Array [
   "Big",
   <div
-    className="sc-jTzLTM bdfLtX"
+    className="sc-fjdhpX hKthgk"
   />,
   "Small",
   <div
-    className="sc-jTzLTM bbXhyw"
+    className="sc-fjdhpX dezXkN"
   />,
   "Content",
 ]
@@ -1459,7 +1360,7 @@ exports[`Storyshots Tabs constructor 1`] = `
   className="sc-bdVaJa kdxHJG"
 >
   <div
-    className="sc-jzJRlG XSGJE"
+    className="sc-cSHVUG kPrLGY"
   >
     <div
       className="sc-htpNat dYvtaT"
@@ -1519,7 +1420,7 @@ exports[`Storyshots Tabs constructor 1`] = `
       role="tabs"
     >
       <div
-        className="sc-fjdhpX cIaEQc"
+        className="sc-jzJRlG ioCwbZ"
       >
         <div
           className="sc-htpNat fcjVhU"
@@ -1534,7 +1435,7 @@ exports[`Storyshots Tabs constructor 1`] = `
         </div>
       </div>
       <div
-        className="sc-fjdhpX djZNwv"
+        className="sc-jzJRlG dbOHBu"
       >
         <div
           className="sc-htpNat gexiXs"
@@ -1549,7 +1450,7 @@ exports[`Storyshots Tabs constructor 1`] = `
         </div>
       </div>
       <div
-        className="sc-fjdhpX djZNwv"
+        className="sc-jzJRlG dbOHBu"
       >
         <div
           className="sc-htpNat gexiXs"
@@ -1564,7 +1465,7 @@ exports[`Storyshots Tabs constructor 1`] = `
         </div>
       </div>
       <div
-        className="sc-fjdhpX djZNwv"
+        className="sc-jzJRlG dbOHBu"
       >
         <div
           className="sc-htpNat gexiXs"
@@ -1579,7 +1480,7 @@ exports[`Storyshots Tabs constructor 1`] = `
         </div>
       </div>
       <div
-        className="sc-fjdhpX djZNwv"
+        className="sc-jzJRlG dbOHBu"
       >
         <div
           className="sc-htpNat gexiXs"
@@ -1594,7 +1495,7 @@ exports[`Storyshots Tabs constructor 1`] = `
         </div>
       </div>
       <div
-        className="sc-fjdhpX djZNwv"
+        className="sc-jzJRlG dbOHBu"
       >
         <div
           className="sc-htpNat gexiXs"
@@ -1609,7 +1510,7 @@ exports[`Storyshots Tabs constructor 1`] = `
         </div>
       </div>
       <div
-        className="sc-fjdhpX djZNwv"
+        className="sc-jzJRlG dbOHBu"
       >
         <div
           className="sc-htpNat gexiXs"
@@ -1624,7 +1525,7 @@ exports[`Storyshots Tabs constructor 1`] = `
         </div>
       </div>
       <div
-        className="sc-fjdhpX djZNwv"
+        className="sc-jzJRlG dbOHBu"
       >
         <div
           className="sc-htpNat gexiXs"
@@ -1648,7 +1549,7 @@ exports[`Storyshots Tabs constructor lazy 1`] = `
   className="sc-bdVaJa kdxHJG"
 >
   <div
-    className="sc-jzJRlG XSGJE"
+    className="sc-cSHVUG kPrLGY"
   >
     <div
       className="sc-htpNat dYvtaT"
@@ -1708,7 +1609,7 @@ exports[`Storyshots Tabs constructor lazy 1`] = `
       role="tabs"
     >
       <div
-        className="sc-fjdhpX cIaEQc"
+        className="sc-jzJRlG ioCwbZ"
       >
         <div
           className="sc-htpNat fcjVhU"
@@ -1723,25 +1624,25 @@ exports[`Storyshots Tabs constructor lazy 1`] = `
         </div>
       </div>
       <div
-        className="sc-fjdhpX djZNwv"
+        className="sc-jzJRlG dbOHBu"
       />
       <div
-        className="sc-fjdhpX djZNwv"
+        className="sc-jzJRlG dbOHBu"
       />
       <div
-        className="sc-fjdhpX djZNwv"
+        className="sc-jzJRlG dbOHBu"
       />
       <div
-        className="sc-fjdhpX djZNwv"
+        className="sc-jzJRlG dbOHBu"
       />
       <div
-        className="sc-fjdhpX djZNwv"
+        className="sc-jzJRlG dbOHBu"
       />
       <div
-        className="sc-fjdhpX djZNwv"
+        className="sc-jzJRlG dbOHBu"
       />
       <div
-        className="sc-fjdhpX djZNwv"
+        className="sc-jzJRlG dbOHBu"
       />
     </div>
   </div>
@@ -1753,7 +1654,7 @@ exports[`Storyshots Tabs tabidex reset 1`] = `
   className="sc-bdVaJa kdxHJG"
 >
   <div
-    className="sc-jzJRlG XSGJE"
+    className="sc-cSHVUG kPrLGY"
   >
     <div
       className="sc-htpNat dYvtaT"
@@ -1800,7 +1701,7 @@ exports[`Storyshots Tabs tabidex reset 1`] = `
       role="tabs"
     >
       <div
-        className="sc-fjdhpX cIaEQc"
+        className="sc-jzJRlG ioCwbZ"
       >
         <div
           className="sc-htpNat fcjVhU"
@@ -1815,7 +1716,7 @@ exports[`Storyshots Tabs tabidex reset 1`] = `
         </div>
       </div>
       <div
-        className="sc-fjdhpX djZNwv"
+        className="sc-jzJRlG dbOHBu"
       >
         <div
           className="sc-htpNat gexiXs"
@@ -2012,16 +1913,20 @@ exports[`Storyshots Video default 1`] = `
 <iframe
   allow="autoplay; fullscreen"
   allowFullScreen={true}
-  className="sc-chPdSV bZmehb"
-  display="block"
+  className="sc-kgoBCf hIGCsf"
   frameBorder="0"
-  height="100vh"
-  opacity=""
-  order=""
-  overflow="visible"
-  size=""
+  src="https://www.youtube.com/embed/JNFX32Hz_N0?rel=0&mute=0&autoplay=0&controls=0&loop=0&title=0&byline=0"
+  title="video"
+/>
+`;
+
+exports[`Storyshots Video with props 1`] = `
+<iframe
+  allow="autoplay; fullscreen"
+  allowFullScreen={true}
+  className="sc-kgoBCf eTszPN"
+  frameBorder="0"
   src="https://www.youtube.com/embed/c6t3bW7kx6E?rel=0&mute=0&autoplay=0&controls=1&loop=0&showinfo=1"
   title="video"
-  width="100%"
 />
 `;
