@@ -1,6 +1,8 @@
+import React from 'react';
 import elementary from '@quarkly/elementary';
+import { getOmitProps, normalizeProps } from '../utils';
 
-const Block = elementary.section(
+const ElBlock = elementary.section(
   {
     name: 'Block',
     styles: [
@@ -77,10 +79,15 @@ const Block = elementary.section(
     effects: {
       hover: ':hover',
     },
+    omit: getOmitProps(),
   },
   {
     boxSizing: 'border-box',
   },
 );
 
-export default Block;
+const Block = React.forwardRef((props, ref) => {
+  return <ElBlock ref={ref} {...normalizeProps(props)} />;
+});
+
+export default { ...Block, propTypes: ElBlock.propTypes };

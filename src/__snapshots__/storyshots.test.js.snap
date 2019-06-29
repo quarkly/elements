@@ -1,5 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots Block as div 1`] = `
+<div
+  className="sc-bdVaJa jbSUUe"
+/>
+`;
+
 exports[`Storyshots Block default 1`] = `
 <section
   className="sc-bdVaJa jfLXUy"

@@ -15,6 +15,12 @@ stories.add('default', () => (
   </Theme>
 ));
 
+stories.add('as div', () => (
+  <Theme>
+    <Block as="div" bgc="red" />
+  </Theme>
+));
+
 stories.add('with props', () => (
   <Theme>
     <Block
