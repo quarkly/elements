@@ -12,6 +12,12 @@ exports[`Storyshots Block default 1`] = `
 />
 `;
 
+exports[`Storyshots Block normalize 1`] = `
+<section
+  className="sc-bdVaJa bNUkPn"
+/>
+`;
+
 exports[`Storyshots Block with props 1`] = `
 <section
   borderStyle="solid"

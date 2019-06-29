@@ -6,15 +6,15 @@ const normalizeMap = {
   },
 };
 
-export const applynormalizer = (key, value, props) => {
-  if (!normalizeMap[key]) return;
-  if (normalizeMap[key](value)) return;
-  delete props[key];
+export const applynormalizer = (key, value) => {
+  if (!normalizeMap[key]) return value;
+  if (normalizeMap[key](value)) return value;
+  return null;
 };
 
 export default props => {
   return Object.keys(props).reduce((acc, key) => {
-    applynormalizer(key, props[key], props);
+    acc[key] = applynormalizer(key, props[key]);
     return acc;
-  }, props);
+  }, {});
 };

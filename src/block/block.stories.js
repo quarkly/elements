@@ -21,6 +21,12 @@ stories.add('as div', () => (
   </Theme>
 ));
 
+stories.add('normalize', () => (
+  <Theme>
+    <Block bgc="red" as />
+  </Theme>
+));
+
 stories.add('with props', () => (
   <Theme>
     <Block
