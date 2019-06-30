@@ -54,15 +54,24 @@ export default class TabClass extends Component {
       activeTabIndex: tabIndex,
     });
   }
-
+  componentWillReceiveProps(newProps, oldProps) {
+    if (newProps === oldProps) return;
+    const [tabNav] = findTabsNav(newProps.children);
+    if (!tabNav.props || !tabNav.props.children) return;
+    const childLen = tabNav.props.children.length - 1;
+    if (this.state.activeTabIndex > childLen) {
+      this.setState({
+        activeTabIndex: 0,
+      });
+    }
+  }
   render() {
-    const { children } = this.props;
+    const { children, lazy } = this.props;
     const [tabs] = findTabs(children);
     const [tabNav] = findTabsNav(children);
     if (!tabs || !tabNav) {
       return null;
     }
-
     return (
       <Styled {...this.props}>
         {React.cloneElement(tabNav, {
@@ -80,9 +89,11 @@ export default class TabClass extends Component {
         {React.cloneElement(tabs, {
           children: React.Children.map(tabs.props.children, (tab, i) => (
             <TabContainer isActive={i === this.state.activeTabIndex} key={uid(i)}>
-              {React.cloneElement(tab, {
-                children: tab.props.children,
-              })}
+              {!lazy || i === this.state.activeTabIndex
+                ? React.cloneElement(tab, {
+                    children: tab.props.children,
+                  })
+                : null}
             </TabContainer>
           )),
         })}

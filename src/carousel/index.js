@@ -1,38 +1,38 @@
 import React from 'react';
 import Slider from 'react-slick';
+import elementary from '@quarkly/elementary';
 import { Provider } from '../quark';
-import Box from '../box';
 
-class Carousel extends React.Component {
+class CarouselBase extends React.PureComponent {
   render() {
-    const { children } = this.props;
+    const { children, className } = this.props;
     return (
-      <Box>
-        <Provider
-          value={{
-            btnClick: prop => {
-              if (!prop || !prop.controls) {
-                return;
-              }
-              if (prop.controls === 'left') {
-                this.slider.slickPrev();
-              }
-              if (prop.controls === 'right') {
-                this.slider.slickNext();
-              }
-            },
-          }}>
-          <Box {...this.props}>
-            <Slider ref={slider => (this.slider = slider)} arrows={false} {...this.props}>
-              {children}
-            </Slider>
-          </Box>
-        </Provider>
-      </Box>
+      <Provider
+        value={{
+          btnClick: prop => {
+            if (!prop || !prop.controls) {
+              return;
+            }
+            if (prop.controls === 'left') {
+              this.slider.slickPrev();
+            }
+            if (prop.controls === 'right') {
+              this.slider.slickNext();
+            }
+          },
+        }}>
+        <Slider ref={slider => (this.slider = slider)} arrows={false} className={className}>
+          {children}
+        </Slider>
+      </Provider>
     );
   }
 }
 
-Carousel.propTypes = Box.propTypes;
+const Carousel = elementary(CarouselBase)({
+  effects: { hover: ':hover' },
+  name: 'Carousel',
+  variant: 'carousels',
+});
 
 export default Carousel;

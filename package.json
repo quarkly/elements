@@ -3,13 +3,13 @@
   "description": "atomic react UI components",
   "author": "Eddort",
   "user": "Eddort",
-  "version": "0.3.2",
+  "version": "0.4.5",
   "scripts": {
     "storybook": "start-storybook -p 9001 -c .storybook",
     "build": "npm run clean && npm run build:cjs && npm run build:esm",
     "clean": "rm -rf build && mkdir build",
-    "build:cjs": "NODE_ENV=cjs babel src --out-dir build/cjs --ignore '**/*.test.js'",
-    "build:esm": "NODE_ENV=esm babel src --out-dir build/esm --ignore '**/*.test.js'",
+    "build:cjs": "NODE_ENV=cjs babel src --out-dir build/cjs --ignore src/**/*.stories.js,src/**/*.test.js,src/storyModules ",
+    "build:esm": "NODE_ENV=esm babel src --out-dir build/esm --ignore src/**/*.stories.js,src/**/*.test.js,src/storyModules ",
     "test": "jest",
     "test:coverage": "jest --coverage",
     "test:watch": "jest --watch",
@@ -60,14 +60,25 @@
   },
   "keywords": [
     "react",
-    "quarkly"
+    "quarkly",
+    "styled-components",
+    "atomic-components",
+    "quarkly/elementary"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quarkly/elements"
+  },
+  "bugs": {
+    "url": "https://github.com/quarkly/elements/issues"
+  },
+  "homepage": "https://github.com/quarkly/elements#readme",
   "pre-push": [
     "test"
   ],
   "dependencies": {
-    "@quarkly/elementary": "^1.0.3",
+    "@quarkly/elementary": "^1.0.8",
     "classnames": "^2.2.6",
     "lodash": "latest",
     "react": "^16.8.1",

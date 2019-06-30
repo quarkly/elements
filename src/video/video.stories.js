@@ -1,50 +1,43 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { withKnobs, number, text, color, select } from '@storybook/addon-knobs';
-import Block from './index';
-import Text from '../text';
+import { withKnobs, number, text, select, color, boolean } from '@storybook/addon-knobs';
+import Video from './index';
 import Theme from '../theme';
 
-const stories = storiesOf('Block', module);
+const stories = storiesOf('Video', module);
 
 stories.addDecorator(withKnobs);
 
 stories.add('default', () => (
   <Theme>
-    <Block />
-  </Theme>
-));
-
-stories.add('as div', () => (
-  <Theme>
-    <Block as="div" bgc="red" />
-  </Theme>
-));
-
-stories.add('normalize', () => (
-  <Theme>
-    <Block bgc="red" as />
+    <Video />
   </Theme>
 ));
 
 stories.add('with props', () => (
   <Theme>
-    <Block
-      p={text('padding', '20px', 'Core')}
-      paddingTop={text('paddingTop', '', 'Core')}
-      paddingRight={text('paddingRight', '', 'Core')}
-      paddingBottom={text('paddingBottom', '', 'Core')}
-      paddingLeft={text('paddingLeft', '', 'Core')}
-      px={text('paddingX', '', 'Core')}
-      py={text('paddingY', '', 'Core')}
-      m={text('margin', '20px', 'Core')}
-      marginTop={text('marginTop', '', 'Core')}
-      marginRight={text('marginRight', '', 'Core')}
-      marginBottom={text('marginBottom', '', 'Core')}
-      marginLeft={text('marginLeft', '', 'Core')}
-      mx={text('marginX', '', 'Core')}
-      my={text('marginY', '', 'Core')}
-      bg={color('background', 'lightslategrey', 'Core')}
+    <Video
+      src={text('src', 'https://www.youtube.com/watch?v=c6t3bW7kx6E', 'Core')}
+      mute={boolean('mute', false, 'Core')}
+      showControls={boolean('showControls', true, 'Core')}
+      showInfo={boolean('showInfo', true, 'Core')}
+      loop={boolean('loop', false, 'Core')}
+      autoPlay={boolean('autoPlay', false, 'Core')}
+      p={text('p', '', 'Spacing')}
+      paddingTop={text('paddingTop', '', 'Spacing')}
+      paddingRight={text('paddingRight', '', 'Spacing')}
+      paddingBottom={text('paddingBottom', '', 'Spacing')}
+      paddingLeft={text('paddingLeft', '', 'Spacing')}
+      px={text('px', '', 'Spacing')}
+      py={text('py', '', 'Spacing')}
+      m={text('m', '', 'Spacing')}
+      marginTop={text('marginTop', '', 'Spacing')}
+      marginRight={text('marginRight', '', 'Spacing')}
+      marginBottom={text('marginBottom', '', 'Spacing')}
+      marginLeft={text('marginLeft', '', 'Spacing')}
+      mx={text('mx', '', 'Spacing')}
+      my={text('my', '', 'Spacing')}
+      bg={color('bg', '', 'Background')}
       display={select(
         'display',
         {
@@ -59,10 +52,10 @@ stories.add('with props', () => (
         'Layout',
       )}
       size={text('size', '', 'Layout')}
-      width={text('width', '300px', 'Layout')}
+      width={text('width', '100%', 'Layout')}
       minWidth={text('minWidth', '', 'Layout')}
       maxWidth={text('maxWidth', '', 'Layout')}
-      height={text('height', '300px', 'Layout')}
+      height={text('height', '100vh', 'Layout')}
       minHeight={text('minHeight', '', 'Layout')}
       maxHeight={text('maxHeight', '', 'Layout')}
       alignItems={select(
@@ -190,7 +183,7 @@ stories.add('with props', () => (
       gridTemplateRows={text('gridTemplateRows', '', 'Grid')}
       gridTemplateColumns={text('gridTemplateColumns', '', 'Grid')}
       gridTemplateAreas={text('gridTemplateAreas', '', 'Grid')}
-      background={text('backgroundColor', '', 'Background')}
+      background={text('background', '', 'Background')}
       backgroundImage={text('backgroundImage', 'url()', 'Background')}
       backgroundSize={select(
         'backgroundSize',
@@ -200,7 +193,7 @@ stories.add('with props', () => (
           contain: 'contain',
         },
         'auto',
-        'backgroundColor',
+        'Background',
       )}
       backgroundPosition={select(
         'backgroundPosition',
@@ -217,7 +210,7 @@ stories.add('with props', () => (
           inherit: 'inherit',
         },
         'center center',
-        'backgroundColor',
+        'Background',
       )}
       backgroundRepeat={select(
         'backgroundRepeat',
@@ -231,7 +224,7 @@ stories.add('with props', () => (
           inherit: 'inherit',
         },
         'no-repeat',
-        'backgroundColor',
+        'Background',
       )}
       border={text('border', '', 'Misc')}
       borderTop={text('borderTop', '', 'Misc')}
@@ -284,10 +277,7 @@ stories.add('with props', () => (
       top={text('top', '', 'Position')}
       right={text('right', '', 'Position')}
       bottom={text('bottom', '', 'Position')}
-      left={text('left', '', 'Position')}>
-      <Text variant="h2" color="black">
-        Text
-      </Text>
-    </Block>
+      left={text('left', '', 'Position')}
+    />
   </Theme>
 ));

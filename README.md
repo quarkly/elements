@@ -1,6 +1,6 @@
 <br>
 <a href="https://github.com/quarkly/elements">
-  <img alt="elements" src="docs/src/q-elements.png" width="200px">
+  <img alt="elements" src="https://github.com/quarkly/elements/raw/master/docs/src/q-elements.png" width="200px">
 </a>
 
 # WIP:Elements UI
@@ -45,23 +45,22 @@ ReactDom.render(
 
 ## Components
 
-- [x] [Block](docs/block.md)
-- [x] [Box](docs/box.md)
-- [x] [Button](docs/button.md)
-- [x] [Card](docs/card.md)
-- [x] [Carousel](docs/carousel.md)
-- [x] [Flex](docs/flex.md)
-- [x] [Grid](docs/grid.md)
-- [x] [Hr](docs/hr.md)
-- [x] [Image](docs/image.md)
-- [x] [Link](docs/link.md)
-- [x] [List](docs/list.md)
-- [x] [Spacer](docs/spacer.md)
-- [x] [Text](docs/text.md)
-- [x] [Video](docs/video.md)
+- [x] [Block](https://github.com/quarkly/elements/blob/master/docs/block.md)
+- [x] [Box](https://github.com/quarkly/elements/blob/master/docs/box.md)
+- [x] [Button](https://github.com/quarkly/elements/blob/master/docs/button.md)
+- [x] [Card](https://github.com/quarkly/elements/blob/master/docs/card.md)
+- [x] [Carousel](https://github.com/quarkly/elements/blob/master/docs/carousel.md)
+- [x] [Flex](https://github.com/quarkly/elements/blob/master/docs/flex.md)
+- [x] [Grid](https://github.com/quarkly/elements/blob/master/docs/grid.md)
+- [x] [Hr](https://github.com/quarkly/elements/blob/master/docs/hr.md)
+- [x] [Image](https://github.com/quarkly/elements/blob/master/docs/image.md)
+- [x] [Link](https://github.com/quarkly/elements/blob/master/docs/link.md)
+- [x] [List](https://github.com/quarkly/elements/blob/master/docs/list.md)
+- [x] [Spacer](https://github.com/quarkly/elements/blob/master/docs/spacer.md)
+- [x] [Text](https://github.com/quarkly/elements/blob/master/docs/text.md)
+- [x] [Video](https://github.com/quarkly/elements/blob/master/docs/video.md)
 
 Soon
-
 
 - [ ] Icon
 - [ ] Map
