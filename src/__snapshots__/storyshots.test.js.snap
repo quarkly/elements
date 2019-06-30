@@ -24,12 +24,12 @@ exports[`Storyshots Block with props 1`] = `
   borderWidth=""
   className="sc-bdVaJa jVKEVv"
 >
-  <p
-    className="sc-bwzfXH caMcFG"
+  <div
+    className="sc-bwzfXH elMtmH"
     variant="h2"
   >
     Text
-  </p>
+  </div>
 </section>
 `;
 
@@ -45,12 +45,12 @@ exports[`Storyshots Box with props 1`] = `
   borderWidth=""
   className="sc-htpNat cYYdmx"
 >
-  <p
-    className="sc-bwzfXH caMcFG"
+  <div
+    className="sc-bwzfXH elMtmH"
     variant="h2"
   >
     Text
-  </p>
+  </div>
 </div>
 `;
 
@@ -137,18 +137,18 @@ exports[`Storyshots Card with content horizontal 1`] = `
   <div
     className="sc-EHOje hYuijH"
   >
-    <p
-      className="sc-bwzfXH kOvGIu"
+    <div
+      className="sc-bwzfXH dczVQI"
       variant="h3"
     >
       The Moon
-    </p>
-    <p
-      className="sc-bwzfXH fOvtoS"
+    </div>
+    <div
+      className="sc-bwzfXH gTGxR"
       variant="base"
     >
       The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.
-    </p>
+    </div>
     <button
       className="sc-bxivhb bKiFQF"
       onClick={[Function]}
@@ -473,18 +473,18 @@ exports[`Storyshots Card with content vertical 1`] = `
   <div
     className="sc-EHOje dpDIZF"
   >
-    <p
-      className="sc-bwzfXH kOvGIu"
+    <div
+      className="sc-bwzfXH dczVQI"
       variant="h3"
     >
       The Moon
-    </p>
-    <p
-      className="sc-bwzfXH fOvtoS"
+    </div>
+    <div
+      className="sc-bwzfXH gTGxR"
       variant="base"
     >
       The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.
-    </p>
+    </div>
     <button
       className="sc-bxivhb bKiFQF"
       onClick={[Function]}
@@ -811,18 +811,18 @@ exports[`Storyshots Card with props 1`] = `
   <div
     className="sc-EHOje dpDIZF"
   >
-    <p
-      className="sc-bwzfXH kOvGIu"
+    <div
+      className="sc-bwzfXH dczVQI"
       variant="h3"
     >
       The Moon
-    </p>
-    <p
-      className="sc-bwzfXH fOvtoS"
+    </div>
+    <div
+      className="sc-bwzfXH gTGxR"
       variant="base"
     >
       The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.
-    </p>
+    </div>
     <button
       className="sc-bxivhb bKiFQF"
       onClick={[Function]}
@@ -1617,18 +1617,18 @@ exports[`Storyshots Flex with card 1`] = `
   <div
     className="sc-EHOje dpDIZF"
   >
-    <p
-      className="sc-bwzfXH kOvGIu"
+    <div
+      className="sc-bwzfXH dczVQI"
       variant="h3"
     >
       The Moon
-    </p>
-    <p
-      className="sc-bwzfXH fOvtoS"
+    </div>
+    <div
+      className="sc-bwzfXH gTGxR"
       variant="base"
     >
       The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.
-    </p>
+    </div>
     <div
       className="sc-EHOje hlyEaN"
     >
@@ -1661,12 +1661,12 @@ exports[`Storyshots Flex with props 1`] = `
   borderWidth=""
   className="sc-EHOje cIELkj"
 >
-  <p
-    className="sc-bwzfXH caMcFG"
+  <div
+    className="sc-bwzfXH elMtmH"
     variant="h2"
   >
     Text
-  </p>
+  </div>
 </div>
 `;
 
@@ -1683,12 +1683,12 @@ exports[`Storyshots Grid with boxes 1`] = `
   <div
     className="sc-htpNat cXiSzu"
   >
-    <p
-      className="sc-bwzfXH cJFWNS"
+    <div
+      className="sc-bwzfXH gBwAuI"
       variant="h2"
     >
       Although we will never watch two suns rise and fall from the perspective of our own planet, like Luke Skywalker on Tatooine in the iconic scene from Star Wars: A New Hope, theres a newly discovered planet where aliens might do so.
-    </p>
+    </div>
   </div>
   <div
     className="sc-htpNat doUMgF"
@@ -1744,18 +1744,18 @@ exports[`Storyshots Grid with cards 1`] = `
     <div
       className="sc-htoDjs bforIO"
     >
-      <p
-        className="sc-bwzfXH kOvGIu"
+      <div
+        className="sc-bwzfXH dczVQI"
         variant="h3"
       >
         The Moon
-      </p>
-      <p
-        className="sc-bwzfXH fOvtoS"
+      </div>
+      <div
+        className="sc-bwzfXH gTGxR"
         variant="base"
       >
         The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.
-      </p>
+      </div>
       <div
         className="sc-htoDjs hzdOJA"
       >
@@ -1778,18 +1778,18 @@ exports[`Storyshots Grid with cards 1`] = `
     <div
       className="sc-htoDjs bforIO"
     >
-      <p
-        className="sc-bwzfXH kOvGIu"
+      <div
+        className="sc-bwzfXH dczVQI"
         variant="h3"
       >
         The Moon
-      </p>
-      <p
-        className="sc-bwzfXH fOvtoS"
+      </div>
+      <div
+        className="sc-bwzfXH gTGxR"
         variant="base"
       >
         The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.
-      </p>
+      </div>
       <div
         className="sc-htoDjs hzdOJA"
       >
@@ -1812,18 +1812,18 @@ exports[`Storyshots Grid with cards 1`] = `
     <div
       className="sc-htoDjs bforIO"
     >
-      <p
-        className="sc-bwzfXH kOvGIu"
+      <div
+        className="sc-bwzfXH dczVQI"
         variant="h3"
       >
         The Moon
-      </p>
-      <p
-        className="sc-bwzfXH fOvtoS"
+      </div>
+      <div
+        className="sc-bwzfXH gTGxR"
         variant="base"
       >
         The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.
-      </p>
+      </div>
       <div
         className="sc-htoDjs hzdOJA"
       >
@@ -1876,12 +1876,12 @@ exports[`Storyshots Grid with props 1`] = `
   borderWidth=""
   className="sc-htoDjs kGqEox"
 >
-  <p
-    className="sc-bwzfXH caMcFG"
+  <div
+    className="sc-bwzfXH elMtmH"
     variant="h2"
   >
     Text
-  </p>
+  </div>
 </div>
 `;
 
@@ -1994,13 +1994,13 @@ exports[`Storyshots Link hover 1`] = `
   hoverColor="red"
   href="https://quarkly.space/"
 >
-  <p
-    className="sc-bwzfXH kSKDOa"
+  <div
+    className="sc-bwzfXH gBqyqP"
     hoverColor="red"
     variant="h1"
   >
     Quarkly
-  </p>
+  </div>
 </a>
 `;
 
@@ -2022,13 +2022,13 @@ exports[`Storyshots Link with text 1`] = `
   className="sc-gZMcBi deuFXF"
   href="https://quarkly.space/"
 >
-  <p
-    className="sc-bwzfXH kHGyoZ"
+  <div
+    className="sc-bwzfXH vcLOw"
     hoverColor="#0056b3"
     variant="h1"
   >
     Quarkly
-  </p>
+  </div>
 </a>
 `;
 
@@ -2037,25 +2037,25 @@ exports[`Storyshots List default 1`] = `
   className="sc-gqjmRU kfCriG"
 >
   <li>
-    <p
-      className="sc-bwzfXH ehXotu"
+    <div
+      className="sc-bwzfXH dNnGMK"
     >
       Item 1
-    </p>
+    </div>
   </li>
   <li>
-    <p
-      className="sc-bwzfXH ehXotu"
+    <div
+      className="sc-bwzfXH dNnGMK"
     >
       Item 2
-    </p>
+    </div>
   </li>
   <li>
-    <p
-      className="sc-bwzfXH ehXotu"
+    <div
+      className="sc-bwzfXH dNnGMK"
     >
       Item 3
-    </p>
+    </div>
   </li>
 </ul>
 `;
@@ -2066,25 +2066,25 @@ exports[`Storyshots List horizontal 1`] = `
   variant="horizontal"
 >
   <li>
-    <p
-      className="sc-bwzfXH ehXotu"
+    <div
+      className="sc-bwzfXH dNnGMK"
     >
       Item 1
-    </p>
+    </div>
   </li>
   <li>
-    <p
-      className="sc-bwzfXH ehXotu"
+    <div
+      className="sc-bwzfXH dNnGMK"
     >
       Item 2
-    </p>
+    </div>
   </li>
   <li>
-    <p
-      className="sc-bwzfXH ehXotu"
+    <div
+      className="sc-bwzfXH dNnGMK"
     >
       Item 3
-    </p>
+    </div>
   </li>
 </ul>
 `;
@@ -2097,25 +2097,25 @@ exports[`Storyshots List with props 1`] = `
   variant="vertical"
 >
   <li>
-    <p
-      className="sc-bwzfXH ehXotu"
+    <div
+      className="sc-bwzfXH dNnGMK"
     >
       Item 1
-    </p>
+    </div>
   </li>
   <li>
-    <p
-      className="sc-bwzfXH ehXotu"
+    <div
+      className="sc-bwzfXH dNnGMK"
     >
       Item 2
-    </p>
+    </div>
   </li>
   <li>
-    <p
-      className="sc-bwzfXH ehXotu"
+    <div
+      className="sc-bwzfXH dNnGMK"
     >
       Item 3
-    </p>
+    </div>
   </li>
 </ul>
 `;
@@ -4782,12 +4782,12 @@ exports[`Storyshots Tabs constructor 1`] = `
         <div
           className="sc-htpNat fcjVhU"
         >
-          <p
-            className="sc-bwzfXH cDwzMq"
+          <div
+            className="sc-bwzfXH fZJBGQ"
             variant="h1"
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
+          </div>
         </div>
       </div>
       <div
@@ -4796,12 +4796,12 @@ exports[`Storyshots Tabs constructor 1`] = `
         <div
           className="sc-htpNat gexiXs"
         >
-          <p
-            className="sc-bwzfXH bxDdnw"
+          <div
+            className="sc-bwzfXH cwatfv"
             variant="base"
           >
             Содержимое категории Лэйаут
-          </p>
+          </div>
         </div>
       </div>
       <div
@@ -4810,12 +4810,12 @@ exports[`Storyshots Tabs constructor 1`] = `
         <div
           className="sc-htpNat gexiXs"
         >
-          <p
-            className="sc-bwzfXH bxDdnw"
+          <div
+            className="sc-bwzfXH cwatfv"
             variant="base"
           >
             Содержимое категории Отступы
-          </p>
+          </div>
         </div>
       </div>
       <div
@@ -4824,12 +4824,12 @@ exports[`Storyshots Tabs constructor 1`] = `
         <div
           className="sc-htpNat gexiXs"
         >
-          <p
-            className="sc-bwzfXH bxDdnw"
+          <div
+            className="sc-bwzfXH cwatfv"
             variant="base"
           >
             Содержимое категории Flex
-          </p>
+          </div>
         </div>
       </div>
       <div
@@ -4838,12 +4838,12 @@ exports[`Storyshots Tabs constructor 1`] = `
         <div
           className="sc-htpNat gexiXs"
         >
-          <p
-            className="sc-bwzfXH bxDdnw"
+          <div
+            className="sc-bwzfXH cwatfv"
             variant="base"
           >
             Содержимое категории Grid
-          </p>
+          </div>
         </div>
       </div>
       <div
@@ -4852,12 +4852,12 @@ exports[`Storyshots Tabs constructor 1`] = `
         <div
           className="sc-htpNat gexiXs"
         >
-          <p
-            className="sc-bwzfXH bxDdnw"
+          <div
+            className="sc-bwzfXH cwatfv"
             variant="base"
           >
             Содержимое категории Фон
-          </p>
+          </div>
         </div>
       </div>
       <div
@@ -4866,12 +4866,12 @@ exports[`Storyshots Tabs constructor 1`] = `
         <div
           className="sc-htpNat gexiXs"
         >
-          <p
-            className="sc-bwzfXH bxDdnw"
+          <div
+            className="sc-bwzfXH cwatfv"
             variant="base"
           >
             Содержимое категории Разное
-          </p>
+          </div>
         </div>
       </div>
       <div
@@ -4880,12 +4880,12 @@ exports[`Storyshots Tabs constructor 1`] = `
         <div
           className="sc-htpNat gexiXs"
         >
-          <p
-            className="sc-bwzfXH bxDdnw"
+          <div
+            className="sc-bwzfXH cwatfv"
             variant="base"
           >
             Содержимое категории Позиция
-          </p>
+          </div>
         </div>
       </div>
     </div>
@@ -7438,12 +7438,12 @@ exports[`Storyshots Tabs constructor lazy 1`] = `
         <div
           className="sc-htpNat fcjVhU"
         >
-          <p
-            className="sc-bwzfXH cDwzMq"
+          <div
+            className="sc-bwzfXH fZJBGQ"
             variant="h1"
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
+          </div>
         </div>
       </div>
       <div
@@ -9076,12 +9076,12 @@ exports[`Storyshots Tabs tabidex reset 1`] = `
         <div
           className="sc-htpNat fcjVhU"
         >
-          <p
-            className="sc-bwzfXH cDwzMq"
+          <div
+            className="sc-bwzfXH fZJBGQ"
             variant="h1"
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
+          </div>
         </div>
       </div>
       <div
@@ -9090,12 +9090,12 @@ exports[`Storyshots Tabs tabidex reset 1`] = `
         <div
           className="sc-htpNat gexiXs"
         >
-          <p
-            className="sc-bwzfXH bxDdnw"
+          <div
+            className="sc-bwzfXH cwatfv"
             variant="base"
           >
             Содержимое категории Лэйаут
-          </p>
+          </div>
         </div>
       </div>
     </div>
@@ -9104,107 +9104,107 @@ exports[`Storyshots Tabs tabidex reset 1`] = `
 `;
 
 exports[`Storyshots Text adaptive 1`] = `
-<p
-  className="sc-bwzfXH jVFDmL"
+<div
+  className="sc-bwzfXH hOmubc"
   variant="display1"
 >
   Display1
-</p>
+</div>
 `;
 
 exports[`Storyshots Text default 1`] = `
-<p
-  className="sc-bwzfXH fOvtoS"
+<div
+  className="sc-bwzfXH gTGxR"
   variant="base"
 >
   Base text
-</p>
+</div>
 `;
 
 exports[`Storyshots Text variants 1`] = `
 Array [
-  <p
-    className="sc-bwzfXH eKTWLy"
+  <div
+    className="sc-bwzfXH bIIBat"
     variant="display1"
   >
     Display1
-  </p>,
-  <p
-    className="sc-bwzfXH cfxHhN"
+  </div>,
+  <div
+    className="sc-bwzfXH hbJKWd"
     variant="display2"
   >
     Display2
-  </p>,
-  <p
-    className="sc-bwzfXH lkMRUb"
+  </div>,
+  <div
+    className="sc-bwzfXH cTLNWm"
     variant="display3"
   >
     Display3
-  </p>,
-  <p
-    className="sc-bwzfXH grOIhZ"
+  </div>,
+  <div
+    className="sc-bwzfXH eVGyHZ"
     variant="display4"
   >
     Display4
-  </p>,
-  <p
-    className="sc-bwzfXH deLvZU"
+  </div>,
+  <div
+    className="sc-bwzfXH hldESZ"
     variant="h1"
   >
     Heading1
-  </p>,
-  <p
-    className="sc-bwzfXH cJFWNS"
+  </div>,
+  <div
+    className="sc-bwzfXH gBwAuI"
     variant="h2"
   >
     Heading2
-  </p>,
-  <p
-    className="sc-bwzfXH iPluDJ"
+  </div>,
+  <div
+    className="sc-bwzfXH YsSEX"
     variant="h3"
   >
     Heading3
-  </p>,
-  <p
-    className="sc-bwzfXH eVbWut"
+  </div>,
+  <div
+    className="sc-bwzfXH hksyJG"
     variant="h4"
   >
     Heading4
-  </p>,
-  <p
-    className="sc-bwzfXH bVIBfr"
+  </div>,
+  <div
+    className="sc-bwzfXH ejuorq"
     variant="h5"
   >
     Heading5
-  </p>,
-  <p
-    className="sc-bwzfXH ffpVlG"
+  </div>,
+  <div
+    className="sc-bwzfXH huhXbT"
     variant="h6"
   >
     Heading6
-  </p>,
-  <p
-    className="sc-bwzfXH eMwRcN"
+  </div>,
+  <div
+    className="sc-bwzfXH hEtTQB"
     variant="lead"
   >
     Lead paragraph
-  </p>,
-  <p
-    className="sc-bwzfXH fOvtoS"
+  </div>,
+  <div
+    className="sc-bwzfXH gTGxR"
     variant="base"
   >
     Base text
-  </p>,
+  </div>,
 ]
 `;
 
 exports[`Storyshots Text with props 1`] = `
-<p
-  className="sc-bwzfXH jSkcNO"
+<div
+  className="sc-bwzfXH ljqWkM"
   variant="base"
 >
   Some text...
-</p>
+</div>
 `;
 
 exports[`Storyshots Theme with di 1`] = `
