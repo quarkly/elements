@@ -58,10 +58,10 @@ ReactDom.render(
 - [x] [List](https://github.com/quarkly/elements/blob/master/docs/list.md)
 - [x] [Spacer](https://github.com/quarkly/elements/blob/master/docs/spacer.md)
 - [x] [Text](https://github.com/quarkly/elements/blob/master/docs/text.md)
+- [x] [Video](https://github.com/quarkly/elements/blob/master/docs/video.md)
 
 Soon
 
-- [ ] Video
 - [ ] Icon
 - [ ] Map
 - [ ] Drawer
