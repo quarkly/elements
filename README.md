@@ -58,10 +58,11 @@ ReactDom.render(
 - [x] [List](docs/list.md)
 - [x] [Spacer](docs/spacer.md)
 - [x] [Text](docs/text.md)
+- [x] [Video](docs/video.md)
 
 Soon
 
-- [ ] Video
+
 - [ ] Icon
 - [ ] Map
 - [ ] Drawer
