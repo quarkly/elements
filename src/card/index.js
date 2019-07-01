@@ -1,6 +1,8 @@
+import React from 'react';
 import elementary from '@quarkly/elementary';
+import { getOmitProps, normalizeProps } from '../utils';
 
-export default elementary.div({
+const ElCard = elementary.div({
   name: 'Card',
   styles: [
     'variant',
@@ -73,5 +75,12 @@ export default elementary.div({
     'left',
     'zIndex',
   ],
+  omit: getOmitProps(),
   variant: 'cards',
 });
+
+const Card = React.forwardRef((props, ref) => {
+  return <ElCard ref={ref} {...normalizeProps(props)} />;
+});
+
+export default { ...Card, propTypes: ElCard.propTypes };
