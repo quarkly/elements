@@ -1,6 +1,7 @@
 /* eslint-disable react/no-did-mount-set-state */
 import React, { Component } from 'react';
 import elementary from '@quarkly/elementary';
+import { getOmitProps } from '../utils';
 
 const BaseInput = elementary.input({
   name: 'Input',
@@ -10,6 +11,7 @@ const BaseInput = elementary.input({
     focus: ':focus',
     active: ':active',
   },
+  omit: getOmitProps(),
 });
 
 class Input extends Component {

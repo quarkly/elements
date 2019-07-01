@@ -1,4 +1,5 @@
 import elementary from '@quarkly/elementary';
+import { getOmitProps } from '../utils';
 
 const Image = elementary.img({
   name: 'Image',
@@ -57,6 +58,7 @@ const Image = elementary.img({
   effects: {
     hover: ':hover',
   },
+  omit: getOmitProps(),
 });
 
 export default Image;

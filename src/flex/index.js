@@ -1,4 +1,5 @@
 import elementary from '@quarkly/elementary';
+import { getOmitProps } from '../utils';
 
 const Flex = elementary.div(
   {
@@ -77,6 +78,7 @@ const Flex = elementary.div(
     effects: {
       hover: ':hover',
     },
+    omit: getOmitProps(),
   },
   {
     display: 'flex',

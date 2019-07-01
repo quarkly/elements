@@ -1,4 +1,5 @@
 import elementary from '@quarkly/elementary';
+import { getOmitProps } from '../utils';
 
 const Option = elementary.option({
   name: 'Option',
@@ -6,6 +7,7 @@ const Option = elementary.option({
   effects: {
     hover: ':hover',
   },
+  omit: getOmitProps(),
 });
 
 export default Option;

@@ -1,4 +1,5 @@
 import elementary from '@quarkly/elementary';
+import { getOmitProps } from '../utils';
 
 const Select = elementary.select({
   name: 'Select',
@@ -7,6 +8,7 @@ const Select = elementary.select({
     hover: ':hover',
     focus: ':focus',
   },
+  omit: getOmitProps(),
 });
 
 export default Select;

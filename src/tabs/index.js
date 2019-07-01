@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import elementary from '@quarkly/elementary';
 import cn from 'classnames';
+import { getOmitProps } from '../utils';
 
 const ENAME = 'tabs';
 
@@ -38,6 +39,7 @@ const Styled = elementary.div({
   effects: {
     hover: ':hover',
   },
+  omit: getOmitProps(),
 });
 
 export default class TabClass extends Component {

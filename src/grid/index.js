@@ -1,4 +1,5 @@
 import elementary from '@quarkly/elementary';
+import { getOmitProps } from '../utils';
 
 const Grid = elementary.div(
   {
@@ -77,6 +78,7 @@ const Grid = elementary.div(
     effects: {
       hover: ':hover',
     },
+    omit: getOmitProps(),
   },
   {
     display: 'grid',

@@ -1,4 +1,5 @@
 import elementary from '@quarkly/elementary';
+import { getOmitProps } from '../utils';
 
 const Hr = elementary.div({
   name: 'Hr',
@@ -15,6 +16,7 @@ const Hr = elementary.div({
     'opacity',
   ],
   variant: 'hrs',
+  omit: getOmitProps(),
 });
 
 export default Hr;

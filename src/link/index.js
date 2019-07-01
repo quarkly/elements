@@ -1,4 +1,5 @@
 import elementary from '@quarkly/elementary';
+import { getOmitProps } from '../utils';
 
 const Link = elementary.a({
   name: 'Link',
@@ -65,6 +66,7 @@ const Link = elementary.a({
     focus: ':focus',
     active: ':active',
   },
+  omit: getOmitProps(),
 });
 
 export default Link;

@@ -1,4 +1,5 @@
 import elementary from '@quarkly/elementary';
+import { getOmitProps } from '../utils';
 
 const Spacer = elementary.div({
   name: 'Spacer',
@@ -57,6 +58,7 @@ const Spacer = elementary.div({
   effects: {
     hover: ':hover',
   },
+  omit: getOmitProps(),
 });
 
 export default Spacer;

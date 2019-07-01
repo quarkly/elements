@@ -1,5 +1,6 @@
 import React from 'react';
 import elementary from '@quarkly/elementary';
+import { getOmitProps } from '../utils';
 
 const ENAME = 'LIST';
 const uid = name => `${ENAME}${name}`;
@@ -83,6 +84,7 @@ const List = elementary.ul({
     focus: ':focus',
     active: ':active',
   },
+  omit: getOmitProps(),
 });
 
 const Ul = ({ children, ...other }) => {
