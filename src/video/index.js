@@ -2,6 +2,7 @@
 import React from 'react';
 import elementary from '@quarkly/elementary';
 import PropTypes from 'prop-types';
+import { getOmitProps } from '../utils';
 
 class VideoBase extends React.PureComponent {
   render() {
@@ -123,6 +124,7 @@ const Video = elementary(VideoBase)(
     effects: {
       hover: ':hover',
     },
+    omit: getOmitProps(),
   },
   { display: 'block' },
 );
