@@ -1,5 +1,6 @@
 import { css } from 'styled-components';
 import elementary from '@quarkly/elementary';
+import { getOmitProps } from '../utils';
 
 const tooltipTop = props =>
   props.placement === 'top' &&
@@ -38,6 +39,8 @@ const Tooltip = elementary.div(
   {
     name: 'Tooltip',
     variant: 'tooltips',
+    normalize: true,
+    omit: getOmitProps(),
   },
   {
     color: 'white',

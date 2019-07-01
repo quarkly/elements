@@ -125,6 +125,7 @@ const Video = elementary(VideoBase)(
       hover: ':hover',
     },
     omit: getOmitProps(),
+    normalize: true,
   },
   { display: 'block' },
 );

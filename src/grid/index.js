@@ -79,6 +79,7 @@ const Grid = elementary.div(
       hover: ':hover',
     },
     omit: getOmitProps(),
+    normalize: true,
   },
   {
     display: 'grid',

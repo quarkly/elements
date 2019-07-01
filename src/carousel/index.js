@@ -35,6 +35,7 @@ const Carousel = elementary(CarouselBase)({
   name: 'Carousel',
   variant: 'carousels',
   omit: getOmitProps(),
+  normalize: true,
 });
 
 export default Carousel;

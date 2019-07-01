@@ -59,6 +59,7 @@ const Spacer = elementary.div({
     hover: ':hover',
   },
   omit: getOmitProps(),
+  normalize: true,
 });
 
 export default Spacer;

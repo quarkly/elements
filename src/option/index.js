@@ -8,6 +8,7 @@ const Option = elementary.option({
     hover: ':hover',
   },
   omit: getOmitProps(),
+  normalize: true,
 });
 
 export default Option;

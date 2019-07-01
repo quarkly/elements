@@ -78,4 +78,5 @@ export default elementary.div({
     hover: ':hover',
   },
   omit: getOmitProps(),
+  normalize: true,
 });

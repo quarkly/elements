@@ -59,6 +59,7 @@ const Image = elementary.img({
     hover: ':hover',
   },
   omit: getOmitProps(),
+  normalize: true,
 });
 
 export default Image;

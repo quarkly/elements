@@ -12,6 +12,7 @@ const BaseInput = elementary.input({
     active: ':active',
   },
   omit: getOmitProps(),
+  normalize: true,
 });
 
 class Input extends Component {

@@ -79,6 +79,7 @@ const Flex = elementary.div(
       hover: ':hover',
     },
     omit: getOmitProps(),
+    normalize: true,
   },
   {
     display: 'flex',

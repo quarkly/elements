@@ -85,6 +85,7 @@ const List = elementary.ul({
     active: ':active',
   },
   omit: getOmitProps(),
+  normalize: true,
 });
 
 const Ul = ({ children, ...other }) => {

@@ -1,7 +1,7 @@
 import React from 'react';
 import elementary from '@quarkly/elementary';
 import { asQuark } from '../quark';
-import { getOmitProps, normalizeProps } from '../utils';
+import { getOmitProps } from '../utils';
 
 const BaseButton = elementary.button(
   {
@@ -12,6 +12,7 @@ const BaseButton = elementary.button(
       hover: ':hover',
     },
     omit: getOmitProps(),
+    normalize: true,
     styles: [
       'variant',
       'display',
@@ -88,8 +89,7 @@ const BaseButton = elementary.button(
 const qStateDefault = {
   btnClick: () => {},
 };
-const Button = React.forwardRef((propsDefault, ref) => {
-  const props = normalizeProps(propsDefault);
+const Button = React.forwardRef((props, ref) => {
   const qState = props.qState || qStateDefault;
   return <BaseButton onClick={qState.btnClick.bind(null, props)} {...props} ref={ref} />;
 });

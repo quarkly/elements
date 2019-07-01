@@ -40,6 +40,7 @@ const Styled = elementary.div({
     hover: ':hover',
   },
   omit: getOmitProps(),
+  normalize: true,
 });
 
 export default class TabClass extends Component {

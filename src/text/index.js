@@ -1,8 +1,7 @@
-import React from 'react';
 import elementary from '@quarkly/elementary';
-import { getOmitProps, normalizeProps } from '../utils';
+import { getOmitProps } from '../utils';
 
-const ElText = elementary.div(
+export default elementary.div(
   {
     name: 'Text',
     styles: [
@@ -68,6 +67,7 @@ const ElText = elementary.div(
       hover: ':hover',
     },
     omit: getOmitProps(),
+    normalize: true,
   },
   {
     marginBlockStart: '1em',
@@ -76,9 +76,3 @@ const ElText = elementary.div(
     marginInlineEnd: '0px',
   },
 );
-
-const Text = React.forwardRef((props, ref) => {
-  return <ElText ref={ref} {...normalizeProps(props)} />;
-});
-
-export default { ...Text, propTypes: ElText.propTypes };

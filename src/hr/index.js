@@ -17,6 +17,7 @@ const Hr = elementary.div({
   ],
   variant: 'hrs',
   omit: getOmitProps(),
+  normalize: true,
 });
 
 export default Hr;

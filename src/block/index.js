@@ -79,6 +79,7 @@ export default elementary.section(
       hover: ':hover',
     },
     omit: getOmitProps(),
+    normalize: true,
   },
   {
     boxSizing: 'border-box',

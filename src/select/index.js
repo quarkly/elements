@@ -9,6 +9,7 @@ const Select = elementary.select({
     focus: ':focus',
   },
   omit: getOmitProps(),
+  normalize: true,
 });
 
 export default Select;

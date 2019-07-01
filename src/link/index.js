@@ -67,6 +67,7 @@ const Link = elementary.a({
     active: ':active',
   },
   omit: getOmitProps(),
+  normalize: true,
 });
 
 export default Link;
