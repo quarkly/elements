@@ -1,8 +1,7 @@
-import React from 'react';
 import elementary from '@quarkly/elementary';
-import { getOmitProps, normalizeProps } from '../utils';
+import { getOmitProps } from '../utils';
 
-const ElBox = elementary.div({
+export default elementary.div({
   name: 'Box',
   styles: [
     'variant',
@@ -80,9 +79,3 @@ const ElBox = elementary.div({
   },
   omit: getOmitProps(),
 });
-
-const Box = React.forwardRef((props, ref) => {
-  return <ElBox ref={ref} {...normalizeProps(props)} />;
-});
-
-export default { ...Box, propTypes: ElBox.propTypes };
