@@ -14,6 +14,11 @@ stories.add('default', () => (
     <Button>{text('Label', 'Default')}</Button>
   </Theme>
 ));
+stories.add('clear qstate', () => (
+  <Theme>
+    <Button qstate={{ test: 123 }}>{text('Label', 'Default')}</Button>
+  </Theme>
+));
 stories.add('active', () => (
   <Theme>
     <Button className="active" bgc="black" activeBgc="red">

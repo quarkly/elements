@@ -64,6 +64,15 @@ exports[`Storyshots Button active 1`] = `
 </button>
 `;
 
+exports[`Storyshots Button clear qstate 1`] = `
+<button
+  className="sc-bxivhb bKiFQF"
+  onClick={[Function]}
+>
+  Default
+</button>
+`;
+
 exports[`Storyshots Button default 1`] = `
 <button
   className="sc-bxivhb bKiFQF"

@@ -3,7 +3,15 @@ import elementary from '@quarkly/elementary';
 import { asQuark } from '../quark';
 import { getOmitProps } from '../utils';
 
-const BaseButton = elementary.button(
+const qStateDefault = {
+  btnClick: () => {},
+};
+const Button = React.forwardRef((props, ref) => {
+  const qState = props.qState || qStateDefault;
+  return <button onClick={qState.btnClick.bind(null, props)} {...props} ref={ref} />;
+});
+
+const BaseButton = elementary(Button)(
   {
     name: 'Button',
     variant: 'buttons',
@@ -86,12 +94,4 @@ const BaseButton = elementary.button(
   },
 );
 
-const qStateDefault = {
-  btnClick: () => {},
-};
-const Button = React.forwardRef((props, ref) => {
-  const qState = props.qState || qStateDefault;
-  return <BaseButton onClick={qState.btnClick.bind(null, props)} {...props} ref={ref} />;
-});
-
-export default { ...asQuark(Button), propTypes: BaseButton.propTypes };
+export default { ...asQuark(BaseButton), propTypes: BaseButton.propTypes };
