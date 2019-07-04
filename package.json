@@ -78,7 +78,7 @@
     "test"
   ],
   "dependencies": {
-    "@quarkly/elementary": "^1.1.1",
+    "@quarkly/elementary": "^1.1.2",
     "classnames": "^2.2.6",
     "lodash": "latest",
     "react": "^16.8.1",
