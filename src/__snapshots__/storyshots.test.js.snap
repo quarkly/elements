@@ -2,19 +2,19 @@
 
 exports[`Storyshots Block as div 1`] = `
 <div
-  className="sc-bdVaJa bNUkPn"
+  className="sc-bdVaJa ejEFbS"
 />
 `;
 
 exports[`Storyshots Block default 1`] = `
 <section
-  className="sc-bdVaJa jfLXUy"
+  className="sc-bdVaJa gEdrZw"
 />
 `;
 
 exports[`Storyshots Block normalize 1`] = `
 <section
-  className="sc-bdVaJa bNUkPn"
+  className="sc-bdVaJa ejEFbS"
 />
 `;
 
@@ -22,10 +22,10 @@ exports[`Storyshots Block with props 1`] = `
 <section
   borderStyle="solid"
   borderWidth=""
-  className="sc-bdVaJa jVKEVv"
+  className="sc-bdVaJa fGUbsk"
 >
   <div
-    className="sc-bwzfXH elMtmH"
+    className="sc-bwzfXH gcojKo"
     variant="h2"
   >
     Text
@@ -46,7 +46,7 @@ exports[`Storyshots Box with props 1`] = `
   className="sc-htpNat cYYdmx"
 >
   <div
-    className="sc-bwzfXH elMtmH"
+    className="sc-bwzfXH gcojKo"
     variant="h2"
   >
     Text
@@ -57,7 +57,7 @@ exports[`Storyshots Box with props 1`] = `
 exports[`Storyshots Button active 1`] = `
 <button
   activeBgc="red"
-  className="active sc-bxivhb bkBLdT"
+  className="active sc-bxivhb igltSk"
   onClick={[Function]}
 >
   Active
@@ -66,7 +66,7 @@ exports[`Storyshots Button active 1`] = `
 
 exports[`Storyshots Button clear qstate 1`] = `
 <button
-  className="sc-bxivhb bKiFQF"
+  className="sc-bxivhb dOaygD"
   onClick={[Function]}
 >
   Default
@@ -75,7 +75,7 @@ exports[`Storyshots Button clear qstate 1`] = `
 
 exports[`Storyshots Button default 1`] = `
 <button
-  className="sc-bxivhb bKiFQF"
+  className="sc-bxivhb dOaygD"
   onClick={[Function]}
 >
   Default
@@ -85,7 +85,7 @@ exports[`Storyshots Button default 1`] = `
 exports[`Storyshots Button hover & active 1`] = `
 <button
   activeBgc="yellow"
-  className="active sc-bxivhb fdlXDQ"
+  className="active sc-bxivhb imcAbX"
   hoverBgc="red"
   onClick={[Function]}
 >
@@ -95,7 +95,7 @@ exports[`Storyshots Button hover & active 1`] = `
 
 exports[`Storyshots Button hover 1`] = `
 <button
-  className="active sc-bxivhb jQuNGk"
+  className="active sc-bxivhb dNgzEs"
   hoverBgc="red"
   onClick={[Function]}
 >
@@ -105,7 +105,7 @@ exports[`Storyshots Button hover 1`] = `
 
 exports[`Storyshots Button outline 1`] = `
 <button
-  className="sc-bxivhb bhFibJ"
+  className="sc-bxivhb hUdnGw"
   onClick={[Function]}
   variant="outline"
 >
@@ -115,12 +115,12 @@ exports[`Storyshots Button outline 1`] = `
 
 exports[`Storyshots Button with props 1`] = `
 <section
-  className="sc-bdVaJa bBZzzW"
+  className="sc-bdVaJa ebjowD"
 >
   <button
     borderStyle="solid"
     borderWidth=""
-    className="sc-bxivhb gcmetu"
+    className="sc-bxivhb hPhWOc"
     hoverBg=""
     onClick={[Function]}
   >
@@ -141,25 +141,25 @@ exports[`Storyshots Card with content horizontal 1`] = `
   variant="horizontal"
 >
   <div
-    className="sc-EHOje dgSiwi"
+    className="sc-EHOje bfwsAq"
   />
   <div
-    className="sc-EHOje hYuijH"
+    className="sc-EHOje ffiYpl"
   >
     <div
-      className="sc-bwzfXH dczVQI"
+      className="sc-bwzfXH eJvjVP"
       variant="h3"
     >
       The Moon
     </div>
     <div
-      className="sc-bwzfXH gTGxR"
+      className="sc-bwzfXH ijuDnW"
       variant="base"
     >
       The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.
     </div>
     <button
-      className="sc-bxivhb bKiFQF"
+      className="sc-bxivhb dOaygD"
       onClick={[Function]}
       qState={
         Object {
@@ -477,25 +477,25 @@ exports[`Storyshots Card with content vertical 1`] = `
   variant="vertical"
 >
   <div
-    className="sc-EHOje ivbtGQ"
+    className="sc-EHOje kzDouI"
   />
   <div
-    className="sc-EHOje dpDIZF"
+    className="sc-EHOje kdLcbG"
   >
     <div
-      className="sc-bwzfXH dczVQI"
+      className="sc-bwzfXH eJvjVP"
       variant="h3"
     >
       The Moon
     </div>
     <div
-      className="sc-bwzfXH gTGxR"
+      className="sc-bwzfXH ijuDnW"
       variant="base"
     >
       The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.
     </div>
     <button
-      className="sc-bxivhb bKiFQF"
+      className="sc-bxivhb dOaygD"
       onClick={[Function]}
       qState={
         Object {
@@ -815,25 +815,25 @@ exports[`Storyshots Card with props 1`] = `
   variant="vertical"
 >
   <div
-    className="sc-EHOje ivbtGQ"
+    className="sc-EHOje kzDouI"
   />
   <div
-    className="sc-EHOje dpDIZF"
+    className="sc-EHOje kdLcbG"
   >
     <div
-      className="sc-bwzfXH dczVQI"
+      className="sc-bwzfXH eJvjVP"
       variant="h3"
     >
       The Moon
     </div>
     <div
-      className="sc-bwzfXH gTGxR"
+      className="sc-bwzfXH ijuDnW"
       variant="base"
     >
       The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.
     </div>
     <button
-      className="sc-bxivhb bKiFQF"
+      className="sc-bxivhb dOaygD"
       onClick={[Function]}
       qState={
         Object {
@@ -1611,7 +1611,7 @@ exports[`Storyshots Carousel with props 1`] = `
 
 exports[`Storyshots Flex default 1`] = `
 <div
-  className="sc-EHOje hlyEaN"
+  className="sc-EHOje jPmaDC"
 />
 `;
 
@@ -1621,40 +1621,40 @@ exports[`Storyshots Flex with card 1`] = `
   variant="vertical"
 >
   <div
-    className="sc-EHOje ivbtGQ"
+    className="sc-EHOje kzDouI"
   />
   <div
-    className="sc-EHOje dpDIZF"
+    className="sc-EHOje kdLcbG"
   >
     <div
-      className="sc-bwzfXH dczVQI"
+      className="sc-bwzfXH eJvjVP"
       variant="h3"
     >
       The Moon
     </div>
     <div
-      className="sc-bwzfXH gTGxR"
+      className="sc-bwzfXH ijuDnW"
       variant="base"
     >
       The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.
     </div>
     <div
-      className="sc-EHOje hlyEaN"
+      className="sc-EHOje jPmaDC"
     >
       <button
-        className="sc-bxivhb fRhXNK"
+        className="sc-bxivhb XsZrb"
         onClick={[Function]}
       >
         First
       </button>
       <button
-        className="sc-bxivhb fRhXNK"
+        className="sc-bxivhb XsZrb"
         onClick={[Function]}
       >
         Second
       </button>
       <button
-        className="sc-bxivhb bKiFQF"
+        className="sc-bxivhb dOaygD"
         onClick={[Function]}
       >
         Third
@@ -1668,10 +1668,10 @@ exports[`Storyshots Flex with props 1`] = `
 <div
   borderStyle="solid"
   borderWidth=""
-  className="sc-EHOje cIELkj"
+  className="sc-EHOje ifdpAJ"
 >
   <div
-    className="sc-bwzfXH elMtmH"
+    className="sc-bwzfXH gcojKo"
     variant="h2"
   >
     Text
@@ -1681,19 +1681,19 @@ exports[`Storyshots Flex with props 1`] = `
 
 exports[`Storyshots Grid default 1`] = `
 <div
-  className="sc-htoDjs hzdOJA"
+  className="sc-htoDjs hPtXyv"
 />
 `;
 
 exports[`Storyshots Grid with boxes 1`] = `
 <div
-  className="sc-htoDjs ElPGh"
+  className="sc-htoDjs iHFkZp"
 >
   <div
     className="sc-htpNat cXiSzu"
   >
     <div
-      className="sc-bwzfXH gBwAuI"
+      className="sc-bwzfXH eiUBtJ"
       variant="h2"
     >
       Although we will never watch two suns rise and fall from the perspective of our own planet, like Luke Skywalker on Tatooine in the iconic scene from Star Wars: A New Hope, theres a newly discovered planet where aliens might do so.
@@ -1709,7 +1709,7 @@ exports[`Storyshots Grid with boxes 1`] = `
     className="sc-htpNat bxcYBK"
   />
   <div
-    className="sc-htoDjs djAivm"
+    className="sc-htoDjs jXlkXp"
   >
     <div
       className="sc-htpNat bxcYBK"
@@ -1741,35 +1741,35 @@ exports[`Storyshots Grid with boxes 1`] = `
 
 exports[`Storyshots Grid with cards 1`] = `
 <div
-  className="sc-htoDjs gFwTNa"
+  className="sc-htoDjs ljeNGO"
 >
   <div
     className="sc-ifAKCX jjkobi"
     variant="vertical"
   >
     <div
-      className="sc-htoDjs fJWSMm"
+      className="sc-htoDjs eAFbbF"
     />
     <div
-      className="sc-htoDjs bforIO"
+      className="sc-htoDjs ldrNXR"
     >
       <div
-        className="sc-bwzfXH dczVQI"
+        className="sc-bwzfXH eJvjVP"
         variant="h3"
       >
         The Moon
       </div>
       <div
-        className="sc-bwzfXH gTGxR"
+        className="sc-bwzfXH ijuDnW"
         variant="base"
       >
         The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.
       </div>
       <div
-        className="sc-htoDjs hzdOJA"
+        className="sc-htoDjs hPtXyv"
       >
         <button
-          className="sc-bxivhb jZqUoY"
+          className="sc-bxivhb ixiJVw"
           onClick={[Function]}
         >
           First
@@ -1782,28 +1782,28 @@ exports[`Storyshots Grid with cards 1`] = `
     variant="vertical"
   >
     <div
-      className="sc-htoDjs fJWSMm"
+      className="sc-htoDjs eAFbbF"
     />
     <div
-      className="sc-htoDjs bforIO"
+      className="sc-htoDjs ldrNXR"
     >
       <div
-        className="sc-bwzfXH dczVQI"
+        className="sc-bwzfXH eJvjVP"
         variant="h3"
       >
         The Moon
       </div>
       <div
-        className="sc-bwzfXH gTGxR"
+        className="sc-bwzfXH ijuDnW"
         variant="base"
       >
         The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.
       </div>
       <div
-        className="sc-htoDjs hzdOJA"
+        className="sc-htoDjs hPtXyv"
       >
         <button
-          className="sc-bxivhb fyTDRn"
+          className="sc-bxivhb gDCcSk"
           onClick={[Function]}
         >
           First
@@ -1816,28 +1816,28 @@ exports[`Storyshots Grid with cards 1`] = `
     variant="vertical"
   >
     <div
-      className="sc-htoDjs fJWSMm"
+      className="sc-htoDjs eAFbbF"
     />
     <div
-      className="sc-htoDjs bforIO"
+      className="sc-htoDjs ldrNXR"
     >
       <div
-        className="sc-bwzfXH dczVQI"
+        className="sc-bwzfXH eJvjVP"
         variant="h3"
       >
         The Moon
       </div>
       <div
-        className="sc-bwzfXH gTGxR"
+        className="sc-bwzfXH ijuDnW"
         variant="base"
       >
         The Moon is an astronomical body that orbits planet Earth and is Earths only permanent natural satellite.
       </div>
       <div
-        className="sc-htoDjs hzdOJA"
+        className="sc-htoDjs hPtXyv"
       >
         <button
-          className="sc-bxivhb dFMZyr"
+          className="sc-bxivhb oFVNT"
           onClick={[Function]}
         >
           First
@@ -1850,7 +1850,7 @@ exports[`Storyshots Grid with cards 1`] = `
 
 exports[`Storyshots Grid with image 1`] = `
 <div
-  className="sc-htoDjs fdULtj"
+  className="sc-htoDjs kiucJa"
 >
   <img
     className="sc-gzVnrw iEenTd"
@@ -1883,10 +1883,10 @@ exports[`Storyshots Grid with props 1`] = `
 <div
   borderStyle="solid"
   borderWidth=""
-  className="sc-htoDjs kGqEox"
+  className="sc-htoDjs rtaEN"
 >
   <div
-    className="sc-bwzfXH elMtmH"
+    className="sc-bwzfXH gcojKo"
     variant="h2"
   >
     Text
@@ -1964,7 +1964,7 @@ exports[`Storyshots Image with props 1`] = `
 
 exports[`Storyshots Input basic 1`] = `
 <section
-  className="sc-bdVaJa kIzjwD"
+  className="sc-bdVaJa bGTXws"
 >
   <input
     className="sc-iwsKbI dVSgwU"
@@ -2004,7 +2004,7 @@ exports[`Storyshots Link hover 1`] = `
   href="https://quarkly.space/"
 >
   <div
-    className="sc-bwzfXH gBqyqP"
+    className="sc-bwzfXH fMPvde"
     hoverColor="red"
     variant="h1"
   >
@@ -2032,7 +2032,7 @@ exports[`Storyshots Link with text 1`] = `
   href="https://quarkly.space/"
 >
   <div
-    className="sc-bwzfXH vcLOw"
+    className="sc-bwzfXH gQbYAr"
     hoverColor="#0056b3"
     variant="h1"
   >
@@ -2047,21 +2047,21 @@ exports[`Storyshots List default 1`] = `
 >
   <li>
     <div
-      className="sc-bwzfXH dNnGMK"
+      className="sc-bwzfXH ebWHbC"
     >
       Item 1
     </div>
   </li>
   <li>
     <div
-      className="sc-bwzfXH dNnGMK"
+      className="sc-bwzfXH ebWHbC"
     >
       Item 2
     </div>
   </li>
   <li>
     <div
-      className="sc-bwzfXH dNnGMK"
+      className="sc-bwzfXH ebWHbC"
     >
       Item 3
     </div>
@@ -2076,21 +2076,21 @@ exports[`Storyshots List horizontal 1`] = `
 >
   <li>
     <div
-      className="sc-bwzfXH dNnGMK"
+      className="sc-bwzfXH ebWHbC"
     >
       Item 1
     </div>
   </li>
   <li>
     <div
-      className="sc-bwzfXH dNnGMK"
+      className="sc-bwzfXH ebWHbC"
     >
       Item 2
     </div>
   </li>
   <li>
     <div
-      className="sc-bwzfXH dNnGMK"
+      className="sc-bwzfXH ebWHbC"
     >
       Item 3
     </div>
@@ -2107,21 +2107,21 @@ exports[`Storyshots List with props 1`] = `
 >
   <li>
     <div
-      className="sc-bwzfXH dNnGMK"
+      className="sc-bwzfXH ebWHbC"
     >
       Item 1
     </div>
   </li>
   <li>
     <div
-      className="sc-bwzfXH dNnGMK"
+      className="sc-bwzfXH ebWHbC"
     >
       Item 2
     </div>
   </li>
   <li>
     <div
-      className="sc-bwzfXH dNnGMK"
+      className="sc-bwzfXH ebWHbC"
     >
       Item 3
     </div>
@@ -2131,7 +2131,7 @@ exports[`Storyshots List with props 1`] = `
 
 exports[`Storyshots Select basic 1`] = `
 <section
-  className="sc-bdVaJa kIzjwD"
+  className="sc-bdVaJa bGTXws"
 >
   <select
     className="sc-VigVT cmdjLx"
@@ -2249,7 +2249,7 @@ Array [
 
 exports[`Storyshots Tabs constructor 1`] = `
 <section
-  className="sc-bdVaJa kdxHJG"
+  className="sc-bdVaJa cvpMXs"
 >
   <div
     className="sc-cSHVUG kPrLGY"
@@ -2264,7 +2264,7 @@ exports[`Storyshots Tabs constructor 1`] = `
         active={true}
         activeBorderBottom="2px solid white"
         activeColor="white"
-        className="active sc-bxivhb jWZeyE"
+        className="active sc-bxivhb crCmud"
         htmlActive="active"
         onClick={[Function]}
         qState={
@@ -2579,7 +2579,7 @@ exports[`Storyshots Tabs constructor 1`] = `
         active={false}
         activeBorderBottom="2px solid white"
         activeColor="white"
-        className="sc-bxivhb jWZeyE"
+        className="sc-bxivhb crCmud"
         htmlActive="active"
         onClick={[Function]}
         qState={
@@ -2894,7 +2894,7 @@ exports[`Storyshots Tabs constructor 1`] = `
         active={false}
         activeBorderBottom="2px solid white"
         activeColor="white"
-        className="sc-bxivhb jWZeyE"
+        className="sc-bxivhb crCmud"
         htmlActive="active"
         onClick={[Function]}
         qState={
@@ -3209,7 +3209,7 @@ exports[`Storyshots Tabs constructor 1`] = `
         active={false}
         activeBorderBottom="2px solid white"
         activeColor="white"
-        className="sc-bxivhb jWZeyE"
+        className="sc-bxivhb crCmud"
         htmlActive="active"
         onClick={[Function]}
         qState={
@@ -3524,7 +3524,7 @@ exports[`Storyshots Tabs constructor 1`] = `
         active={false}
         activeBorderBottom="2px solid white"
         activeColor="white"
-        className="sc-bxivhb jWZeyE"
+        className="sc-bxivhb crCmud"
         htmlActive="active"
         onClick={[Function]}
         qState={
@@ -3839,7 +3839,7 @@ exports[`Storyshots Tabs constructor 1`] = `
         active={false}
         activeBorderBottom="2px solid white"
         activeColor="white"
-        className="sc-bxivhb jWZeyE"
+        className="sc-bxivhb crCmud"
         htmlActive="active"
         onClick={[Function]}
         qState={
@@ -4154,7 +4154,7 @@ exports[`Storyshots Tabs constructor 1`] = `
         active={false}
         activeBorderBottom="2px solid white"
         activeColor="white"
-        className="sc-bxivhb jWZeyE"
+        className="sc-bxivhb crCmud"
         htmlActive="active"
         onClick={[Function]}
         qState={
@@ -4469,7 +4469,7 @@ exports[`Storyshots Tabs constructor 1`] = `
         active={false}
         activeBorderBottom="2px solid white"
         activeColor="white"
-        className="sc-bxivhb jWZeyE"
+        className="sc-bxivhb crCmud"
         htmlActive="active"
         onClick={[Function]}
         qState={
@@ -4792,7 +4792,7 @@ exports[`Storyshots Tabs constructor 1`] = `
           className="sc-htpNat fcjVhU"
         >
           <div
-            className="sc-bwzfXH fZJBGQ"
+            className="sc-bwzfXH jTTCxr"
             variant="h1"
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -4806,7 +4806,7 @@ exports[`Storyshots Tabs constructor 1`] = `
           className="sc-htpNat gexiXs"
         >
           <div
-            className="sc-bwzfXH cwatfv"
+            className="sc-bwzfXH gvspUc"
             variant="base"
           >
             Содержимое категории Лэйаут
@@ -4820,7 +4820,7 @@ exports[`Storyshots Tabs constructor 1`] = `
           className="sc-htpNat gexiXs"
         >
           <div
-            className="sc-bwzfXH cwatfv"
+            className="sc-bwzfXH gvspUc"
             variant="base"
           >
             Содержимое категории Отступы
@@ -4834,7 +4834,7 @@ exports[`Storyshots Tabs constructor 1`] = `
           className="sc-htpNat gexiXs"
         >
           <div
-            className="sc-bwzfXH cwatfv"
+            className="sc-bwzfXH gvspUc"
             variant="base"
           >
             Содержимое категории Flex
@@ -4848,7 +4848,7 @@ exports[`Storyshots Tabs constructor 1`] = `
           className="sc-htpNat gexiXs"
         >
           <div
-            className="sc-bwzfXH cwatfv"
+            className="sc-bwzfXH gvspUc"
             variant="base"
           >
             Содержимое категории Grid
@@ -4862,7 +4862,7 @@ exports[`Storyshots Tabs constructor 1`] = `
           className="sc-htpNat gexiXs"
         >
           <div
-            className="sc-bwzfXH cwatfv"
+            className="sc-bwzfXH gvspUc"
             variant="base"
           >
             Содержимое категории Фон
@@ -4876,7 +4876,7 @@ exports[`Storyshots Tabs constructor 1`] = `
           className="sc-htpNat gexiXs"
         >
           <div
-            className="sc-bwzfXH cwatfv"
+            className="sc-bwzfXH gvspUc"
             variant="base"
           >
             Содержимое категории Разное
@@ -4890,7 +4890,7 @@ exports[`Storyshots Tabs constructor 1`] = `
           className="sc-htpNat gexiXs"
         >
           <div
-            className="sc-bwzfXH cwatfv"
+            className="sc-bwzfXH gvspUc"
             variant="base"
           >
             Содержимое категории Позиция
@@ -4904,7 +4904,7 @@ exports[`Storyshots Tabs constructor 1`] = `
 
 exports[`Storyshots Tabs constructor lazy 1`] = `
 <section
-  className="sc-bdVaJa kdxHJG"
+  className="sc-bdVaJa cvpMXs"
 >
   <div
     className="sc-cSHVUG kPrLGY"
@@ -4920,7 +4920,7 @@ exports[`Storyshots Tabs constructor lazy 1`] = `
         active={true}
         activeBorderBottom="2px solid white"
         activeColor="white"
-        className="active sc-bxivhb jWZeyE"
+        className="active sc-bxivhb crCmud"
         htmlActive="active"
         onClick={[Function]}
         qState={
@@ -5235,7 +5235,7 @@ exports[`Storyshots Tabs constructor lazy 1`] = `
         active={false}
         activeBorderBottom="2px solid white"
         activeColor="white"
-        className="sc-bxivhb jWZeyE"
+        className="sc-bxivhb crCmud"
         htmlActive="active"
         onClick={[Function]}
         qState={
@@ -5550,7 +5550,7 @@ exports[`Storyshots Tabs constructor lazy 1`] = `
         active={false}
         activeBorderBottom="2px solid white"
         activeColor="white"
-        className="sc-bxivhb jWZeyE"
+        className="sc-bxivhb crCmud"
         htmlActive="active"
         onClick={[Function]}
         qState={
@@ -5865,7 +5865,7 @@ exports[`Storyshots Tabs constructor lazy 1`] = `
         active={false}
         activeBorderBottom="2px solid white"
         activeColor="white"
-        className="sc-bxivhb jWZeyE"
+        className="sc-bxivhb crCmud"
         htmlActive="active"
         onClick={[Function]}
         qState={
@@ -6180,7 +6180,7 @@ exports[`Storyshots Tabs constructor lazy 1`] = `
         active={false}
         activeBorderBottom="2px solid white"
         activeColor="white"
-        className="sc-bxivhb jWZeyE"
+        className="sc-bxivhb crCmud"
         htmlActive="active"
         onClick={[Function]}
         qState={
@@ -6495,7 +6495,7 @@ exports[`Storyshots Tabs constructor lazy 1`] = `
         active={false}
         activeBorderBottom="2px solid white"
         activeColor="white"
-        className="sc-bxivhb jWZeyE"
+        className="sc-bxivhb crCmud"
         htmlActive="active"
         onClick={[Function]}
         qState={
@@ -6810,7 +6810,7 @@ exports[`Storyshots Tabs constructor lazy 1`] = `
         active={false}
         activeBorderBottom="2px solid white"
         activeColor="white"
-        className="sc-bxivhb jWZeyE"
+        className="sc-bxivhb crCmud"
         htmlActive="active"
         onClick={[Function]}
         qState={
@@ -7125,7 +7125,7 @@ exports[`Storyshots Tabs constructor lazy 1`] = `
         active={false}
         activeBorderBottom="2px solid white"
         activeColor="white"
-        className="sc-bxivhb jWZeyE"
+        className="sc-bxivhb crCmud"
         htmlActive="active"
         onClick={[Function]}
         qState={
@@ -7448,7 +7448,7 @@ exports[`Storyshots Tabs constructor lazy 1`] = `
           className="sc-htpNat fcjVhU"
         >
           <div
-            className="sc-bwzfXH fZJBGQ"
+            className="sc-bwzfXH jTTCxr"
             variant="h1"
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -7483,7 +7483,7 @@ exports[`Storyshots Tabs constructor lazy 1`] = `
 
 exports[`Storyshots Tabs tabidex reset 1`] = `
 <section
-  className="sc-bdVaJa kdxHJG"
+  className="sc-bdVaJa cvpMXs"
 >
   <div
     className="sc-cSHVUG kPrLGY"
@@ -7498,7 +7498,7 @@ exports[`Storyshots Tabs tabidex reset 1`] = `
         active={true}
         activeBorderBottom="2px solid white"
         activeColor="white"
-        className="active sc-bxivhb jWZeyE"
+        className="active sc-bxivhb crCmud"
         htmlActive="active"
         onClick={[Function]}
         qState={
@@ -7814,7 +7814,7 @@ exports[`Storyshots Tabs tabidex reset 1`] = `
         active={false}
         activeBorderBottom="2px solid white"
         activeColor="white"
-        className="sc-bxivhb jWZeyE"
+        className="sc-bxivhb crCmud"
         htmlActive="active"
         onClick={[Function]}
         qState={
@@ -8130,7 +8130,7 @@ exports[`Storyshots Tabs tabidex reset 1`] = `
         active={false}
         activeBorderBottom="2px solid white"
         activeColor="white"
-        className="sc-bxivhb jWZeyE"
+        className="sc-bxivhb crCmud"
         htmlActive="active"
         onClick={[Function]}
         qState={
@@ -8446,7 +8446,7 @@ exports[`Storyshots Tabs tabidex reset 1`] = `
         active={false}
         activeBorderBottom="2px solid white"
         activeColor="white"
-        className="sc-bxivhb jWZeyE"
+        className="sc-bxivhb crCmud"
         htmlActive="active"
         onClick={[Function]}
         qState={
@@ -8762,7 +8762,7 @@ exports[`Storyshots Tabs tabidex reset 1`] = `
         active={false}
         activeBorderBottom="2px solid white"
         activeColor="white"
-        className="sc-bxivhb jWZeyE"
+        className="sc-bxivhb crCmud"
         htmlActive="active"
         onClick={[Function]}
         qState={
@@ -9086,7 +9086,7 @@ exports[`Storyshots Tabs tabidex reset 1`] = `
           className="sc-htpNat fcjVhU"
         >
           <div
-            className="sc-bwzfXH fZJBGQ"
+            className="sc-bwzfXH jTTCxr"
             variant="h1"
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -9100,7 +9100,7 @@ exports[`Storyshots Tabs tabidex reset 1`] = `
           className="sc-htpNat gexiXs"
         >
           <div
-            className="sc-bwzfXH cwatfv"
+            className="sc-bwzfXH gvspUc"
             variant="base"
           >
             Содержимое категории Лэйаут
@@ -9114,7 +9114,7 @@ exports[`Storyshots Tabs tabidex reset 1`] = `
 
 exports[`Storyshots Text adaptive 1`] = `
 <div
-  className="sc-bwzfXH hOmubc"
+  className="sc-bwzfXH hdenqX"
   variant="display1"
 >
   Display1
@@ -9123,7 +9123,7 @@ exports[`Storyshots Text adaptive 1`] = `
 
 exports[`Storyshots Text default 1`] = `
 <div
-  className="sc-bwzfXH gTGxR"
+  className="sc-bwzfXH ijuDnW"
   variant="base"
 >
   Base text
@@ -9133,73 +9133,73 @@ exports[`Storyshots Text default 1`] = `
 exports[`Storyshots Text variants 1`] = `
 Array [
   <div
-    className="sc-bwzfXH bIIBat"
+    className="sc-bwzfXH bHwBCK"
     variant="display1"
   >
     Display1
   </div>,
   <div
-    className="sc-bwzfXH hbJKWd"
+    className="sc-bwzfXH gsGjfX"
     variant="display2"
   >
     Display2
   </div>,
   <div
-    className="sc-bwzfXH cTLNWm"
+    className="sc-bwzfXH kkYfRV"
     variant="display3"
   >
     Display3
   </div>,
   <div
-    className="sc-bwzfXH eVGyHZ"
+    className="sc-bwzfXH lmyRcl"
     variant="display4"
   >
     Display4
   </div>,
   <div
-    className="sc-bwzfXH hldESZ"
+    className="sc-bwzfXH gnemMO"
     variant="h1"
   >
     Heading1
   </div>,
   <div
-    className="sc-bwzfXH gBwAuI"
+    className="sc-bwzfXH eiUBtJ"
     variant="h2"
   >
     Heading2
   </div>,
   <div
-    className="sc-bwzfXH YsSEX"
+    className="sc-bwzfXH CSIhS"
     variant="h3"
   >
     Heading3
   </div>,
   <div
-    className="sc-bwzfXH hksyJG"
+    className="sc-bwzfXH bTirdy"
     variant="h4"
   >
     Heading4
   </div>,
   <div
-    className="sc-bwzfXH ejuorq"
+    className="sc-bwzfXH hxvdJ"
     variant="h5"
   >
     Heading5
   </div>,
   <div
-    className="sc-bwzfXH huhXbT"
+    className="sc-bwzfXH dqYUCC"
     variant="h6"
   >
     Heading6
   </div>,
   <div
-    className="sc-bwzfXH hEtTQB"
+    className="sc-bwzfXH kdZlzs"
     variant="lead"
   >
     Lead paragraph
   </div>,
   <div
-    className="sc-bwzfXH gTGxR"
+    className="sc-bwzfXH ijuDnW"
     variant="base"
   >
     Base text
@@ -9209,7 +9209,7 @@ Array [
 
 exports[`Storyshots Text with props 1`] = `
 <div
-  className="sc-bwzfXH ljqWkM"
+  className="sc-bwzfXH dAOORB"
   variant="base"
 >
   Some text...
@@ -9219,7 +9219,7 @@ exports[`Storyshots Text with props 1`] = `
 exports[`Storyshots Theme with di 1`] = `
 Array [
   <button
-    className="sc-bxivhb fdMKYt"
+    className="sc-bxivhb mwmId"
     onClick={[Function]}
     qState={
       Object {
@@ -9237,7 +9237,7 @@ Array [
     default
   </button>,
   <button
-    className="sc-bxivhb fdMKYt"
+    className="sc-bxivhb mwmId"
     onClick={[Function]}
     qState={
       Object {
@@ -9261,7 +9261,7 @@ Array [
 exports[`Storyshots Tooltip default 1`] = `
 <div>
   <button
-    className="sc-bxivhb bKiFQF"
+    className="sc-bxivhb dOaygD"
     onClick={[Function]}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
@@ -9280,7 +9280,7 @@ exports[`Storyshots Tooltip empty 1`] = `
 exports[`Storyshots Tooltip hidden 1`] = `
 <div>
   <button
-    className="sc-bxivhb kjyZZG"
+    className="sc-bxivhb jXQDVZ"
     onClick={[Function]}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
@@ -9293,7 +9293,7 @@ exports[`Storyshots Tooltip hidden 1`] = `
 exports[`Storyshots Tooltip top 1`] = `
 <div>
   <button
-    className="sc-bxivhb kjyZZG"
+    className="sc-bxivhb jXQDVZ"
     onClick={[Function]}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
@@ -9307,7 +9307,7 @@ exports[`Storyshots Video default 1`] = `
 <iframe
   allow="autoplay; fullscreen"
   allowFullScreen={true}
-  className="sc-kgoBCf hIGCsf"
+  className="sc-kgoBCf kcapYD"
   frameBorder="0"
   src="https://www.youtube.com/embed/JNFX32Hz_N0?rel=0&mute=0&autoplay=0&controls=0&loop=0&title=0&byline=0"
   title="video"
@@ -9318,7 +9318,7 @@ exports[`Storyshots Video with props 1`] = `
 <iframe
   allow="autoplay; fullscreen"
   allowFullScreen={true}
-  className="sc-kgoBCf eTszPN"
+  className="sc-kgoBCf ihrelF"
   frameBorder="0"
   src="https://www.youtube.com/embed/c6t3bW7kx6E?rel=0&mute=0&autoplay=0&controls=1&loop=0&showinfo=1"
   title="video"
