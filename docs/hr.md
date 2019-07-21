@@ -33,18 +33,18 @@ ReactDom.render(
 
 #### Layout
 
-- display / d
-- height / h
-- minHeight / mih
-- maxHeight / mah
-- width / w
-- minWidth / miw
-- maxWidth / maw
+- [display / d](https://github.com/quarkly/elementary/blob/master/docs/props.md#display)
+- [height / h](https://github.com/quarkly/elementary/blob/master/docs/props.md#height)
+- [minHeight / mih](https://github.com/quarkly/elementary/blob/master/docs/props.md#minheight)
+- [mixHeight / mah](https://github.com/quarkly/elementary/blob/master/docs/props.md#maxheight)
+- [width / w](https://github.com/quarkly/elementary/blob/master/docs/props.md#width)
+- [minWidth / miw](https://github.com/quarkly/elementary/blob/master/docs/props.md#minwidth)
+- [maxWidth / maw](https://github.com/quarkly/elementary/blob/master/docs/props.md#maxwidth)
 
 #### Background
 
-- background / bg
+- [background / bg](https://github.com/quarkly/elementary/blob/master/docs/props.md#background-1)
 
 #### Misc
 
-- opacity / op
+- [opacity / op](https://github.com/quarkly/elementary/blob/master/docs/props.md#opacity)
