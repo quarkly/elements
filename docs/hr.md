@@ -41,6 +41,23 @@ ReactDom.render(
 - [minWidth / miw](https://github.com/quarkly/elementary/blob/master/docs/props.md#minwidth)
 - [maxWidth / maw](https://github.com/quarkly/elementary/blob/master/docs/props.md#maxwidth)
 
+#### Spaces
+
+- [padding / p](https://github.com/quarkly/elementary/blob/master/docs/props.md#p)
+- [paddingTop / pt](https://github.com/quarkly/elementary/blob/master/docs/props.md#pt)
+- [paddingRight / pr](https://github.com/quarkly/elementary/blob/master/docs/props.md#pr)
+- [paddingBottom / pb](https://github.com/quarkly/elementary/blob/master/docs/props.md#pb)
+- [paddingLeft / pl](https://github.com/quarkly/elementary/blob/master/docs/props.md#pl)
+- [paddingX / px](https://github.com/quarkly/elementary/blob/master/docs/props.md#px)
+- [paddingY / py](https://github.com/quarkly/elementary/blob/master/docs/props.md#py)
+- [margin / m](https://github.com/quarkly/elementary/blob/master/docs/props.md#m)
+- [marginTop / mt](https://github.com/quarkly/elementary/blob/master/docs/props.md#mt)
+- [marginRight / mr](https://github.com/quarkly/elementary/blob/master/docs/props.md#mr)
+- [marginBottom / mb](https://github.com/quarkly/elementary/blob/master/docs/props.md#mb)
+- [marginLeft / ml](https://github.com/quarkly/elementary/blob/master/docs/props.md#ml)
+- [marginX / mx](https://github.com/quarkly/elementary/blob/master/docs/props.md#mx)
+- [marginY / my](https://github.com/quarkly/elementary/blob/master/docs/props.md#my)
+
 #### Background
 
 - [background / bg](https://github.com/quarkly/elementary/blob/master/docs/props.md#background-1)

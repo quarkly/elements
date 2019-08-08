@@ -29,6 +29,20 @@ stories
     <Theme>
       Content
       <Hr
+        p={text('padding', '', 'Core')}
+        paddingTop={text('paddingTop', '', 'Core')}
+        paddingRight={text('paddingRight', '', 'Core')}
+        paddingBottom={text('paddingBottom', '', 'Core')}
+        paddingLeft={text('paddingLeft', '', 'Core')}
+        px={text('paddingX', '', 'Core')}
+        py={text('paddingY', '', 'Core')}
+        m={text('margin', '', 'Core')}
+        marginTop={text('marginTop', '', 'Core')}
+        marginRight={text('marginRight', '', 'Core')}
+        marginBottom={text('marginBottom', '', 'Core')}
+        marginLeft={text('marginLeft', '', 'Core')}
+        mx={text('marginX', '', 'Core')}
+        my={text('marginY', '', 'Core')}
         width={text('width', '100px')}
         height={text('height', '1px')}
         bg={color('color', 'lightslategrey')}
