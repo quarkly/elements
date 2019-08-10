@@ -79,6 +79,7 @@ export default class TabClass extends Component {
       <Styled {...this.props}>
         {React.cloneElement(tabNav, {
           children: React.Children.map(tabNav.props.children, (child, i) => {
+            if (!child) return;
             return React.cloneElement(child, {
               key: uid(i),
               onClick: () => this.handleTabClick(i),
@@ -90,15 +91,18 @@ export default class TabClass extends Component {
           }),
         })}
         {React.cloneElement(tabs, {
-          children: React.Children.map(tabs.props.children, (tab, i) => (
-            <TabContainer isActive={i === this.state.activeTabIndex} key={uid(i)}>
-              {!lazy || i === this.state.activeTabIndex
-                ? React.cloneElement(tab, {
-                    children: tab.props.children,
-                  })
-                : null}
-            </TabContainer>
-          )),
+          children: React.Children.map(tabs.props.children, (tab, i) => {
+            if (!tab) return;
+            return (
+              <TabContainer isActive={i === this.state.activeTabIndex} key={uid(i)}>
+                {!lazy || i === this.state.activeTabIndex
+                  ? React.cloneElement(tab, {
+                      children: tab.props.children,
+                    })
+                  : null}
+              </TabContainer>
+            );
+          }),
         })}
       </Styled>
     );
