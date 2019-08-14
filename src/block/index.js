@@ -80,6 +80,8 @@ export default elementary.section(
     },
     omit: getOmitProps(),
     normalize: true,
+    mixins: true,
+    aliases: true,
   },
   {
     boxSizing: 'border-box',

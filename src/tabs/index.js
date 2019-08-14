@@ -41,6 +41,8 @@ const Styled = elementary.div({
   },
   omit: getOmitProps(),
   normalize: true,
+  mixins: true,
+  aliases: true,
 });
 
 export default class TabClass extends Component {

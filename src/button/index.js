@@ -81,6 +81,8 @@ const BaseButton = elementary(Button)(
       'left',
       'zIndex',
     ],
+    mixins: true,
+    aliases: true,
   },
   {
     appearance: 'button',

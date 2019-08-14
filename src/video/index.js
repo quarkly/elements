@@ -126,6 +126,8 @@ const Video = elementary(VideoBase)(
     },
     omit: getOmitProps(),
     normalize: true,
+    mixins: true,
+    aliases: true,
   },
   { display: 'block' },
 );

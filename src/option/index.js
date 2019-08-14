@@ -9,6 +9,8 @@ const Option = elementary.option({
   },
   omit: getOmitProps(),
   normalize: true,
+  mixins: true,
+  aliases: true,
 });
 
 export default Option;

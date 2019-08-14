@@ -79,4 +79,6 @@ export default elementary.div({
   },
   omit: getOmitProps(),
   normalize: true,
+  mixins: true,
+  aliases: true,
 });

@@ -10,6 +10,8 @@ const Select = elementary.select({
   },
   omit: getOmitProps(),
   normalize: true,
+  mixins: true,
+  aliases: true,
 });
 
 export default Select;

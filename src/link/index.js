@@ -68,6 +68,8 @@ const Link = elementary.a({
   },
   omit: getOmitProps(),
   normalize: true,
+  mixins: true,
+  aliases: true,
 });
 
 export default Link;

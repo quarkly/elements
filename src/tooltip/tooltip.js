@@ -41,6 +41,8 @@ const Tooltip = elementary.div(
     variant: 'tooltips',
     normalize: true,
     omit: getOmitProps(),
+    mixins: true,
+    aliases: true,
   },
   {
     color: 'white',

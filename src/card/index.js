@@ -77,4 +77,6 @@ export default elementary.div({
   omit: getOmitProps(),
   normalize: true,
   variant: 'cards',
+  mixins: true,
+  aliases: true,
 });

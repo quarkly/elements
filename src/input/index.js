@@ -13,6 +13,8 @@ const BaseInput = elementary.input({
   },
   omit: getOmitProps(),
   normalize: true,
+  mixins: true,
+  aliases: true,
 });
 
 class Input extends Component {
