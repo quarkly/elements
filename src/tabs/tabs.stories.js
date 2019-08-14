@@ -91,41 +91,6 @@ const MyTabs = props => (
   </Tabs>
 );
 
-stories.add('with null', () => (
-  <Block bg="#252526">
-    <Theme name="constructor">
-      <Tabs>
-        <Box role="tabnav" variant="tabnav">
-          {null}
-          <Button variant="tab" activeColor="white" activeBorderBottom="2px solid white">
-            Основное
-          </Button>
-          <Button variant="tab" activeColor="white" activeBorderBottom="2px solid white">
-            Лэйаут
-          </Button>
-        </Box>
-        <Box role="tabs" variant="tabcontent">
-          <Box display="flex" flexDirection="column" justifyContent="center">
-            <Text color="white" variant="h1">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-              mollit anim id est laborum.
-            </Text>
-          </Box>
-          <Box display="flex" justifyContent="center">
-            <Text color="white" variant="base">
-              Содержимое категории Лэйаут
-            </Text>
-          </Box>
-        </Box>
-      </Tabs>
-    </Theme>
-  </Block>
-));
-
 stories.add('constructor', () => (
   <Block bg="#252526">
     <Theme name="constructor">

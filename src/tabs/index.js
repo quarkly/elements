@@ -75,43 +75,30 @@ export default class TabClass extends Component {
     if (!tabs || !tabNav) {
       return null;
     }
-    let validIdNav = -1;
-    let validIdTab = -1;
     return (
       <Styled {...this.props}>
         {React.cloneElement(tabNav, {
-          children: React.Children.map(tabNav.props.children, child => {
-            if (!child) return;
-            validIdNav += 1;
+          children: React.Children.map(tabNav.props.children, (child, i) => {
             return React.cloneElement(child, {
-              key: uid(validIdNav),
-              onClick: () => this.handleTabClick(validIdNav),
-              active: validIdNav === this.state.activeTabIndex,
+              key: uid(i),
+              onClick: () => this.handleTabClick(i),
+              active: i === this.state.activeTabIndex,
               HtmlActive: 'active',
               htmlActive: 'active',
-              className: cn(
-                { active: validIdNav === this.state.activeTabIndex },
-                child.props.className,
-              ),
+              className: cn({ active: i === this.state.activeTabIndex }, child.props.className),
             });
           }),
         })}
         {React.cloneElement(tabs, {
-          children: React.Children.map(tabs.props.children, tab => {
-            if (!tab) return;
-            validIdTab += 1;
-            return (
-              <TabContainer
-                isActive={validIdTab === this.state.activeTabIndex}
-                key={uid(validIdTab)}>
-                {!lazy || validIdTab === this.state.activeTabIndex
-                  ? React.cloneElement(tab, {
-                      children: tab.props.children,
-                    })
-                  : null}
-              </TabContainer>
-            );
-          }),
+          children: React.Children.map(tabs.props.children, (tab, i) => (
+            <TabContainer isActive={i === this.state.activeTabIndex} key={uid(i)}>
+              {!lazy || i === this.state.activeTabIndex
+                ? React.cloneElement(tab, {
+                    children: tab.props.children,
+                  })
+                : null}
+            </TabContainer>
+          )),
         })}
       </Styled>
     );
