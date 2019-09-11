@@ -43,6 +43,7 @@ const Tooltip = elementary.div(
     omit: getOmitProps(),
     mixins: true,
     aliases: true,
+    propTypes: true,
   },
   {
     color: 'white',

@@ -62,6 +62,7 @@ const Spacer = elementary.div({
   normalize: true,
   mixins: true,
   aliases: true,
+  propTypes: true,
 });
 
 export default Spacer;

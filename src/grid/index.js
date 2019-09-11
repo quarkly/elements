@@ -82,6 +82,7 @@ const Grid = elementary.div(
     normalize: true,
     mixins: true,
     aliases: true,
+    propTypes: true,
   },
   {
     display: 'grid',

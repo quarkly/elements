@@ -82,6 +82,7 @@ const Flex = elementary.div(
     normalize: true,
     mixins: true,
     aliases: true,
+    propTypes: true,
   },
   {
     display: 'flex',

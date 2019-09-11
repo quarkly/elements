@@ -62,6 +62,7 @@ const Image = elementary.img({
   normalize: true,
   mixins: true,
   aliases: true,
+  propTypes: true,
 });
 
 export default Image;

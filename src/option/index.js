@@ -11,6 +11,7 @@ const Option = elementary.option({
   normalize: true,
   mixins: true,
   aliases: true,
+  propTypes: true,
 });
 
 export default Option;

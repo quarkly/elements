@@ -88,6 +88,7 @@ const List = elementary.ul({
   normalize: true,
   mixins: true,
   aliases: true,
+  propTypes: true,
 });
 
 const Ul = ({ children, ...other }) => {

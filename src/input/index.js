@@ -15,6 +15,7 @@ const BaseInput = elementary.input({
   normalize: true,
   mixins: true,
   aliases: true,
+  propTypes: true,
 });
 
 class Input extends Component {

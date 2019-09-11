@@ -82,6 +82,7 @@ export default elementary.section(
     normalize: true,
     mixins: true,
     aliases: true,
+    propTypes: true,
   },
   {
     boxSizing: 'border-box',

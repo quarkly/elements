@@ -34,6 +34,7 @@ const Hr = elementary.div({
   normalize: true,
   mixins: true,
   aliases: true,
+  propTypes: true,
 });
 
 export default Hr;

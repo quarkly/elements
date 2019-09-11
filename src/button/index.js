@@ -83,6 +83,7 @@ const BaseButton = elementary(Button)(
     ],
     mixins: true,
     aliases: true,
+    propTypes: true,
   },
   {
     appearance: 'button',

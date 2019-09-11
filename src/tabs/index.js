@@ -43,6 +43,7 @@ const Styled = elementary.div({
   normalize: true,
   mixins: true,
   aliases: true,
+  propTypes: true,
 });
 
 export default class TabClass extends Component {

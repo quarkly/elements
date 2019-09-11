@@ -12,6 +12,7 @@ const Select = elementary.select({
   normalize: true,
   mixins: true,
   aliases: true,
+  propTypes: true,
 });
 
 export default Select;

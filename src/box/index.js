@@ -81,4 +81,5 @@ export default elementary.div({
   normalize: true,
   mixins: true,
   aliases: true,
+  propTypes: true,
 });

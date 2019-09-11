@@ -79,4 +79,5 @@ export default elementary.div({
   variant: 'cards',
   mixins: true,
   aliases: true,
+  propTypes: true,
 });

@@ -70,6 +70,7 @@ const Link = elementary.a({
   normalize: true,
   mixins: true,
   aliases: true,
+  propTypes: true,
 });
 
 export default Link;

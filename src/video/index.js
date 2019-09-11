@@ -128,6 +128,7 @@ const Video = elementary(VideoBase)(
     normalize: true,
     mixins: true,
     aliases: true,
+    propTypes: true,
   },
   { display: 'block' },
 );
